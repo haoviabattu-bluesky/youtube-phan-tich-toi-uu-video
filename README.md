@@ -27,9 +27,15 @@ Vòng phản hồi (analytics) cho pipeline sản xuất video YouTube faceless 
    ```
 2. **GPMLogin** đã cài, đang chạy, và có sẵn 9 profile theo bảng lane trong `CLAUDE.md`.
    Không có GPM thì dùng `tools\open_studio_profile.py` (Chrome profile riêng, đăng nhập tay).
-3. **Dự án anh em `h2dev`** phải có mặt: `tools\sol_packaging_review.py` import
-   `E:\CLAUDE\YOUTUBE\h2dev\pipeline\sol_client.py` (đường dẫn hardcode — sửa hằng `PIPELINE`
-   nếu máy 2 để h2dev ở ổ/thư mục khác).
+3. **Dự án anh em `h2dev`** phải có mặt: `tools\sol_packaging_review.py` cần
+   `h2dev\pipeline\sol_client.py`. Đường dẫn **tự dò** (hàm `_find_pipeline`), thử theo thứ tự:
+   biến môi trường `H2DEV_PIPELINE` → `<thư mục cha>\h2dev\pipeline` →
+   `<thư mục cha>\YOUTUBE\h2dev\pipeline` → lùi thêm một cấp nữa.
+   Nên chạy được cả khi h2dev nằm ở `E:\CLAUDE\YOUTUBE\h2dev` (máy 1) lẫn `E:\CLAUDE\h2dev` (máy 2).
+   Nếu để chỗ khác hẳn thì đặt biến môi trường:
+   ```
+   setx H2DEV_PIPELINE "D:\duong\dan\h2dev\pipeline"
+   ```
 4. **Google Sheet** `1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU` — ghi qua MCP `gsheets`
    (cấu hình MCP nằm ở `~/.claude`, không nằm trong repo này).
 
@@ -39,3 +45,14 @@ Vòng phản hồi (analytics) cho pipeline sản xuất video YouTube faceless 
   của Chrome làm profile copy sang máy khác mất sạch cookie, nên chép cũng vô ích **và** đó là
   dữ liệu đăng nhập không được đẩy lên git. Máy 2 đăng nhập lại từ đầu.
 - Mọi file credential / `.env`.
+
+## Kiểm tra nhanh trên máy mới
+
+```
+py -3.13 tools\scan_channels.py
+```
+
+Lệnh này chạm vào đúng 3 thứ dễ hỏng nhất: Python + thư viện, GPMLogin (`127.0.0.1:9495`),
+và trạng thái đăng nhập của 9 profile. Chạy trôi + ghi ra `scan_channels.json` có channel id
+là máy đã sẵn sàng. Profile nào báo chưa đăng nhập thì mở
+`py -3.13 tools\open_studio_profile.py` rồi đăng nhập tay một lần.

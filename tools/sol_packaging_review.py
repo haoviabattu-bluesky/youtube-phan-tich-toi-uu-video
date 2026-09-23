@@ -20,7 +20,34 @@ import os, sys, argparse, datetime, urllib.request
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PIPELINE = r"E:\CLAUDE\YOUTUBE\h2dev\pipeline"
+
+def _find_pipeline():
+    """Tim h2dev/pipeline (noi chua sol_client.py).
+
+    Moi may de h2dev mot cho khac nhau (may 1: E:/CLAUDE/YOUTUBE/h2dev,
+    may 2: E:/CLAUDE/h2dev) -> khong duoc ghi cung duong dan.
+    Thu tu uu tien: bien moi truong H2DEV_PIPELINE > cac vi tri quen thuoc quanh ROOT.
+    """
+    env = os.environ.get("H2DEV_PIPELINE")
+    cands = [env] if env else []
+    up1 = os.path.dirname(ROOT)          # .../YOUTUBE hoac .../CLAUDE
+    up2 = os.path.dirname(up1)
+    for base in (up1, up2):
+        cands.append(os.path.join(base, "h2dev", "pipeline"))
+        cands.append(os.path.join(base, "YOUTUBE", "h2dev", "pipeline"))
+    for c in cands:
+        if c and os.path.isfile(os.path.join(c, "sol_client.py")):
+            return c
+    tried = "\n  ".join(c for c in cands if c)
+    raise SystemExit(
+        "Khong tim thay h2dev\\pipeline\\sol_client.py.\n"
+        "Da thu:\n  " + tried + "\n"
+        "Cach sua: dat bien moi truong tro dung thu muc pipeline, vi du\n"
+        "  set H2DEV_PIPELINE=E:\\CLAUDE\\h2dev\\pipeline"
+    )
+
+
+PIPELINE = _find_pipeline()
 sys.path.insert(0, PIPELINE)
 import sol_client  # noqa: E402
 
