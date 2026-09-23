@@ -1,0 +1,16 @@
+# Chrome/GPM profile — KHONG BAO GIO day len git
+# (93MB cookie/session; App-Bound Encryption lam no vo dung tren may khac)
+studio_profile/
+*/User Data/
+*.pma
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credential
+*.key.json
+credentials/
+.env
