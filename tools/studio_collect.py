@@ -88,6 +88,11 @@ def gpm_find(mail):
 def gpm_start(pid):
     j = requests.get(f"{GPM}/profiles/start/{pid}", timeout=180).json()
     d = j.get("data")
+    if j.get("message") == "ProfileUsingByOther":
+        # BAT BUOC (anh chot 2026-09-25): profile dang duoc dung o noi khac (vd anh dang mo
+        # tay xem Studio). TUYET DOI KHONG kill/dong no de chiem lai -> DUNG LAI, khong chay.
+        raise RuntimeError("PROFILE_BUSY: profile dang duoc dung o noi khac (co the anh dang mo tay) "
+                            "-> KHONG chay tool nay luc profile dang mo. Doi anh dong roi chay lai.")
     if not j.get("success") or d == BANNER or not isinstance(d, dict):
         raise RuntimeError(f"GPM start fail: {j.get('message') or d}")
     ws = d.get("websocket_debugging_url") or ""

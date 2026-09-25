@@ -17,14 +17,17 @@ from playwright.sync_api import sync_playwright
 GPM = "http://127.0.0.1:9495/api/v1"
 BANNER = "GPMLogin Global API"
 
-# lane_id -> mail (nguon: sheet GMAIL + h2dev/profiles/profiles/*.json)
+# tab_sheet (ten TAB that trong Google Sheet, cap nhat 2026-09-25) -> mail = ten profile GPM
+# (nguon: sheet GMAIL doc lai 2026-09-25 + list_sheets). Lane D (irogatatarukioku, mail
+# AmmarHilham@gmail.com) anh chot BO, KHONG theo doi nua -> khong con trong danh sach nay.
 LANES = [
-    ("toshi-densetsu-jp", "haoviabattu@gmail.com"),
-    ("satori-jp-obaa", "LopezzapataHilla@gmail.com"),
-    ("irogatatarukioku", "AmmarHilham@gmail.com"),
-    ("kenko-chiebukuro", "normaneileenpm218@gmail.com"),
-    ("teinengo-real", "VirgiliTraino95@gmail.com"),
-    ("teinengo-tanoshimi", "cobbytheona159@gmail.com"),
+    ("A-shinya_shiryoshitsu", "haoviabattu@gmail.com"),
+    ("Satori-Lopezzapa68", "LopezzapataHilla@gmail.com"),
+    ("E-70dai-kenko", "normaneileenpm218@gmail.com"),
+    ("F-teinengo-real", "VirgiliTraino95@gmail.com"),
+    ("G-teinengo-tanoshimi", "cobbytheona159@gmail.com"),
+    ("K-yakkyoku-sukatto", "rosellagreysonbk920@gmail.com"),
+    ("L-shakai-no-naze", "SyedualiBajwa92@gmail.com"),
     ("kokoro-kazoku", "FuentesMitsy202@gmail.com"),
     ("sengoku-uragawa", "AldenorRodrigues626@gmail.com"),
     ("teinengo-fuufu", "MinyardJuan231@gmail.com"),
@@ -55,6 +58,10 @@ def match(profiles, mail):
 def start(pid):
     j = requests.get(f"{GPM}/profiles/start/{pid}", timeout=180).json()
     d = j.get("data")
+    if j.get("message") == "ProfileUsingByOther":
+        # BAT BUOC (anh chot 2026-09-25): profile nay dang duoc dung o noi khac (co the anh
+        # dang mo tay xem Studio). TUYET DOI KHONG kill/dong no de chiem lai -> bo qua, dung lai.
+        raise RuntimeError("PROFILE_BUSY: dang duoc dung o noi khac (co the anh dang mo tay) -> BO QUA, khong dong/kill")
     if not j.get("success") or d == BANNER or not isinstance(d, dict):
         raise RuntimeError(j.get("message") or str(d))
     ws = d.get("websocket_debugging_url") or ""

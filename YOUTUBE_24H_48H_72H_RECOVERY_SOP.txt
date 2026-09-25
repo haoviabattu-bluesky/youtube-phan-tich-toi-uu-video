@@ -1,0 +1,851 @@
+# SOP CỨU VIDEO SAU KHI ĐĂNG — PHÂN TÍCH 24H / 48H / 72H VÀ RECOVERY PACKAGING
+## Dùng cho Claude Code / agent tự đọc YouTube Studio, chẩn đoán video đang sống hay đã stall, và quyết định khi nào cần thay Title / Thumbnail / Description
+
+# 0. MỤC TIÊU
+
+SOP này dùng để trả lời:
+
+> Sau khi video đã đăng 24h / 48h / 72h, video đang được YouTube phân phối tốt, đang giảm, hay gần như đã chết?
+> Nếu chết hoặc stall thì nên sửa cái gì, theo thứ tự nào, và đo lại ra sao?
+
+Nguyên tắc cốt lõi:
+
+```text
+KHÔNG được dùng chỉ số LIFETIME để đánh giá sức khỏe HIỆN TẠI.
+```
+
+Phải tách thành 2 lớp:
+
+```text
+LIFETIME_DIAGNOSIS
++
+CURRENT_HEALTH_24_48_72H
+```
+
+Trong đó:
+- Lifetime = biết video đã từng được YouTube test như thế nào.
+- 24/48/72h gần nhất = biết video hiện còn được phân phối hay đã chết.
+
+# 1. VÌ SAO LIFETIME CTR KHÔNG ĐỦ
+
+Ví dụ:
+
+```text
+Lifetime:
+Impressions = 701
+CTR = 2.6%
+Recommendation = 93.2%
+Suggested = 73.1%
+```
+
+Nhưng 48h gần nhất:
+
+```text
+Impressions = 4
+CTR = 0%
+```
+
+Kết luận quan trọng hơn:
+
+```text
+YouTube gần như đã dừng phân phối video.
+```
+
+Do đó phải luôn có:
+
+```text
+HISTORICAL PERFORMANCE
+vs
+CURRENT DISTRIBUTION HEALTH
+```
+
+# 2. DỮ LIỆU BẮT BUỘC PHẢI THU
+
+## A. LIFETIME
+
+```text
+lifetime_impressions
+lifetime_ctr
+lifetime_views
+lifetime_unique_viewers
+lifetime_recommendation_pct
+lifetime_browse_pct
+lifetime_suggested_pct
+lifetime_search_pct
+lifetime_avd
+lifetime_apv
+```
+
+## B. CURRENT WINDOW
+
+```text
+impressions_last_24h
+ctr_last_24h
+views_last_24h
+
+impressions_previous_24h
+ctr_previous_24h
+views_previous_24h
+
+impressions_last_48h
+ctr_last_48h
+views_last_48h
+
+impressions_last_72h
+ctr_last_72h
+views_last_72h
+```
+
+Nếu lấy được thêm:
+
+```text
+browse_last_24h
+suggested_last_24h
+search_last_24h
+
+browse_last_48h
+suggested_last_48h
+search_last_48h
+```
+
+# 3. TÍNH ĐỘ THAY ĐỔI PHÂN PHỐI
+
+```text
+distribution_change_pct =
+(current_24h - previous_24h) / previous_24h * 100
+```
+
+Ví dụ:
+
+```text
+previous_24h = 450
+current_24h = 20
+
+change = -95.6%
+```
+
+→ `DISTRIBUTION_COLLAPSED`
+
+# 4. CÁC TRẠNG THÁI DISTRIBUTION
+
+```text
+NOT_TESTED
+EARLY_TEST
+EXPANDING
+STABLE
+DECLINING
+SHARP_DROP
+STALLED
+NEAR_DEAD
+RECOVERING
+```
+
+## NOT_TESTED
+- Lifetime impressions < 100
+- Recommendation thấp
+
+Không được kết luận thumbnail fail.
+
+## EARLY_TEST
+- Khoảng 100–300 impressions
+- Recommendation bắt đầu xuất hiện
+
+## EXPANDING
+- Current 24h >= previous 24h hoặc giảm nhẹ
+- Browse/Suggested vẫn tăng
+
+## STABLE
+- Current 24h gần previous 24h
+
+## DECLINING
+- Current 24h giảm khoảng 30–70%
+
+## SHARP_DROP
+- Current 24h giảm >70%
+
+## STALLED
+- Video từng có >=300 impressions
+- Nhưng 24–48h gần nhất gần như không tăng thêm
+
+## NEAR_DEAD
+- Video từng được test
+- Last 48h impressions <= 10–20
+
+## RECOVERING
+- Sau thay packaging, impressions tăng lại
+- CTR mới tốt hơn
+
+# 5. GATE 24H
+
+Lấy:
+
+```text
+impressions_0_24h
+ctr_0_24h
+browse_0_24h
+suggested_0_24h
+search_0_24h
+views_0_24h
+```
+
+### Case A
+```text
+impressions < 50
+```
+
+→ `LOW_DISTRIBUTION_EARLY`
+→ `WAIT_TO_48H`
+
+### Case B
+```text
+impressions >= 300
+CTR < 3–3.5%
+```
+
+→ `PACKAGING_WATCH`
+
+# 6. GATE 48H
+
+Bắt buộc tách:
+
+```text
+0–24h
+24–48h
+```
+
+## CASE 48H-A — CHƯA ĐƯỢC TEST
+```text
+Lifetime impressions < 100
+```
+
+Action:
+
+```text
+DISTRIBUTION_REVIEW
+TOPIC_REVIEW
+AUDIENCE_MATCH_REVIEW
+WAIT_OR_RECOVERY_PREP
+```
+
+## CASE 48H-B — WEAK TEST
+```text
+Lifetime impressions = 100–300
+```
+
+Phải xem:
+- recommendation %
+- CTR
+- current 24h vs previous 24h
+
+Nếu impressions vẫn tăng → WAIT  
+Nếu đứng → REVIEW
+
+## CASE 48H-C — ĐÃ TEST, CTR THẤP, PHÂN PHỐI CHẾT
+```text
+Lifetime impressions >= 300
+Recommendation >= 70%
+CTR < 3.5%
+Current 24h impressions rất thấp
+```
+
+→ `PACKAGING_RECOVERY`
+
+# 7. GATE 72H
+
+Nếu:
+
+```text
+historical_tested = YES
+AND
+last_48h_impressions <= 10–20
+```
+
+→
+
+```text
+RECOVERY_REQUIRED = YES
+```
+
+Không tiếp tục chờ thụ động.
+
+# 8. DISTRIBUTION_REVIEW — PHẢI LÀM GÌ
+
+Mục tiêu:
+> Xác định YouTube đã test chưa, test ở đâu, và phân phối chết khi nào.
+
+Input:
+
+```text
+lifetime_impressions
+recommendation_pct
+browse_pct
+suggested_pct
+search_pct
+current_24h_impressions
+previous_24h_impressions
+last_48h_impressions
+last_72h_impressions
+```
+
+Output bắt buộc:
+
+```text
+DISTRIBUTION_REVIEW_RESULT:
+historical_tested:
+current_status:
+dominant_source:
+current_24h:
+previous_24h:
+distribution_change_pct:
+stall_time:
+diagnosis:
+```
+
+Ví dụ:
+
+```text
+historical_tested = YES
+dominant_source = Suggested
+current_24h = 2
+previous_24h = 140
+distribution_change = -98.6%
+status = NEAR_DEAD
+```
+
+# 9. TOPIC_REVIEW — PHẢI LÀM GÌ
+
+Mục tiêu:
+> Topic có đủ rộng / đúng nhu cầu lane không?
+
+Các bước:
+
+```text
+1. Lấy topic core của video.
+2. So với video thắng cùng channel.
+3. So với 10–20 video thắng cùng niche.
+4. Gom thành topic clusters.
+5. Xác định:
+   HIGH_DEMAND
+   MEDIUM
+   LOW
+6. Kiểm tra angle hiện tại có đủ mạnh không.
+```
+
+Output:
+
+```text
+TOPIC_REVIEW_RESULT:
+topic:
+topic_cluster:
+topic_demand:
+fit_with_lane:
+similar_winning_topics:
+current_angle_strength:
+action:
+KEEP_TOPIC / REANGLE_TOPIC / AVOID_TOPIC_FUTURE
+```
+
+# 10. AUDIENCE_MATCH_REVIEW — PHẢI LÀM GÌ
+
+Mục tiêu:
+> YouTube đang đưa video tới đúng audience hay sai audience?
+
+Bắt buộc lấy:
+
+```text
+Content suggesting this video
+```
+
+Tối thiểu top 20 nguồn nếu đủ dữ liệu.
+
+Phân loại:
+
+```text
+MATCH
+PARTIAL_MATCH
+MISMATCH
+```
+
+Tính:
+
+```text
+match_ratio
+partial_ratio
+mismatch_ratio
+```
+
+Output:
+
+```text
+AUDIENCE_MATCH_REVIEW_RESULT:
+top_source_count:
+matched_sources:
+partial_sources:
+mismatched_sources:
+match_ratio:
+dominant_wrong_cluster:
+possible_reason:
+action:
+```
+
+Possible actions:
+
+```text
+ALIGN_TITLE_LANGUAGE
+ALIGN_THUMB_STYLE
+REANGLE_TOPIC
+STRENGTHEN_LANE_SIGNAL
+DO_NOT_CHANGE
+```
+
+# 11. KHI NÀO BẮT BUỘC PHÂN TÍCH CONTENT SUGGESTING THIS VIDEO
+
+Nếu:
+
+```text
+Suggested >= 40%
+```
+
+→ bắt buộc phân tích.
+
+Mỗi source phải ghi:
+
+```text
+source_video
+source_channel
+source_topic
+match_status
+```
+
+Nếu phần lớn đúng niche mà CTR vẫn thấp:
+→ packaging yếu.
+
+Nếu phần lớn sai niche:
+→ audience match đang sai.
+
+# 12. KHI NÀO THAY THUMBNAIL
+
+Nên thay khi:
+
+```text
+historical_tested = YES
+AND
+lifetime_impressions >= 300
+AND
+CTR < khoảng 3–3.5%
+AND
+current status = STALLED / NEAR_DEAD
+```
+
+Ưu tiên `THUMBNAIL_V2` nếu title không có lỗi rõ.
+
+# 13. KHI NÀO THAY TITLE
+
+Thay title khi:
+- topic đúng nhưng angle yếu
+- title quá chung
+- title không nói rõ conflict
+- title không match thumbnail
+- title đang phát tín hiệu sai audience
+- suggested neighborhood lệch
+
+# 14. DESCRIPTION DÙNG KHI NÀO
+
+Description không phải đòn bẩy click chính.
+
+Chỉ sửa khi:
+- semantic signal lệch topic
+- mô tả quá chung
+- entity/topic chính không rõ
+- metadata đang gây hiểu sai ngách
+
+Không ưu tiên description trước Title/Thumbnail.
+
+# 15. THỨ TỰ RECOVERY
+
+```text
+1. Analyze Suggested Sources
+2. Distribution Review
+3. Topic Review
+4. Audience Match Review
+5. Rewrite Title Angle nếu cần
+6. Create Thumbnail V2
+7. Chỉ sửa Description nếu semantic signal sai
+8. Apply change
+9. Mark CHANGE_TIME
+10. Đo lại 24h / 48h
+```
+
+# 16. KHÔNG ĐỔI MỌI THỨ CÙNG LÚC
+
+Ưu tiên:
+
+```text
+V1:
+Title A
+Thumbnail A
+
+V2:
+Title A
+Thumbnail B
+```
+
+Nếu vẫn yếu:
+
+```text
+V3:
+Title B
+Thumbnail B
+```
+
+Nếu buộc re-angle mạnh:
+
+```text
+MULTI_VARIABLE_RECOVERY = YES
+```
+
+# 17. SAU KHI THAY PACKAGING — RESET CỬA SỔ ĐO
+
+Bắt buộc lưu:
+
+```text
+packaging_changed_at
+packaging_version
+```
+
+Ví dụ:
+
+```text
+CHANGE_TIME = 2026-09-23 17:00
+```
+
+Sau đó đo riêng:
+
+```text
+post_change_0_24h_impressions
+post_change_0_24h_ctr
+
+post_change_24_48h_impressions
+post_change_24_48h_ctr
+```
+
+Không dùng lifetime CTR để đánh giá Version B.
+
+# 18. VÍ DỤ
+
+Trước đổi:
+
+```text
+Lifetime impressions = 701
+Lifetime CTR = 2.6%
+Last 48h impressions = 4
+```
+
+Status:
+
+```text
+TESTED_THEN_STALLED
+RECOVERY_REQUIRED
+```
+
+Sau đổi:
+
+```text
+24h after change:
+new impressions = 120
+new clicks = 8
+```
+
+Post-change CTR:
+
+```text
+8 / 120 = 6.7%
+```
+
+Đánh giá V2 bằng `6.7%`, không bằng lifetime CTR trộn lịch sử.
+
+# 19. CỘT CSV PHẢI BỔ SUNG
+
+```text
+lifetime_impressions
+lifetime_ctr
+
+impressions_last_24h
+ctr_last_24h
+views_last_24h
+
+impressions_previous_24h
+ctr_previous_24h
+
+impressions_last_48h
+ctr_last_48h
+
+impressions_last_72h
+ctr_last_72h
+
+distribution_change_pct
+current_distribution_status
+
+packaging_version
+packaging_changed_at
+title_version
+thumbnail_version
+description_version
+
+post_change_impressions_24h
+post_change_ctr_24h
+post_change_impressions_48h
+post_change_ctr_48h
+```
+
+# 20. RULE ENGINE
+
+## RULE 1 — Chưa đủ dữ liệu
+```text
+IF lifetime_impressions < 100
+THEN
+status = NOT_TESTED
+action = WAIT / TOPIC_REVIEW / AUDIENCE_MATCH_REVIEW
+```
+
+## RULE 2 — Đã test, còn sống
+```text
+IF lifetime_impressions >= 300
+AND current_24h_impressions đang ổn
+THEN
+status = ACTIVE
+action = KEEP
+```
+
+## RULE 3 — Đang giảm mạnh
+```text
+IF lifetime_impressions >= 300
+AND distribution_change_pct <= -70%
+THEN
+status = SHARP_DROP
+action = RECOVERY_REVIEW
+```
+
+## RULE 4 — Gần chết
+```text
+IF lifetime_impressions >= 300
+AND last_48h_impressions <= 20
+THEN
+status = NEAR_DEAD
+action = RECOVERY_REQUIRED
+```
+
+## RULE 5 — Packaging yếu rõ
+```text
+IF lifetime_impressions >= 300
+AND lifetime_ctr < 3.5%
+AND status in [STALLED, NEAR_DEAD]
+THEN
+action = PACKAGING_RECOVERY
+```
+
+## RULE 6 — CTR tốt nhưng distribution chết
+```text
+IF CTR >= lane median
+AND last_48h_impressions gần 0
+THEN
+TOPIC_REVIEW + AUDIENCE_MATCH_REVIEW
+```
+
+Không đổ lỗi thumbnail ngay.
+
+# 21. CURRENT_HEALTH REPORT
+
+Claude phải trả:
+
+```text
+CURRENT_HEALTH:
+last_24h_impressions:
+previous_24h_impressions:
+change_pct:
+last_48h_impressions:
+last_72h_impressions:
+current_ctr_24h:
+current_ctr_48h:
+status:
+```
+
+# 22. LIFETIME_DIAGNOSIS REPORT
+
+```text
+LIFETIME_DIAGNOSIS:
+impressions:
+ctr:
+recommendation_pct:
+browse_pct:
+suggested_pct:
+search_pct:
+historical_tested:
+historical_status:
+```
+
+# 23. RECOVERY DECISION REPORT
+
+```text
+RECOVERY_DECISION:
+required: YES/NO
+reason:
+distribution_review:
+topic_review:
+audience_match_review:
+primary_problem:
+secondary_problem:
+action:
+KEEP
+WAIT
+THUMBNAIL_V2
+TITLE_V2
+TITLE_AND_THUMBNAIL_V2
+DESCRIPTION_FIX
+TOPIC_REANGLE
+```
+
+# 24. SAU RECOVERY — RESULT REPORT
+
+```text
+RECOVERY_RESULT:
+change_time:
+version:
+
+24h_after:
+impressions:
+ctr:
+views:
+
+48h_after:
+impressions:
+ctr:
+views:
+
+vs_before:
+distribution_change:
+ctr_change:
+
+result:
+SUCCESS
+PARTIAL
+FAIL
+INSUFFICIENT_DATA
+```
+
+# 25. PROMPT GIAO VIỆC CHO CLAUDE CODE
+
+```text
+NHIỆM VỤ:
+Phân tích sức khỏe HIỆN TẠI của từng video sau khi đăng và quyết định có cần recovery hay không.
+
+BẮT BUỘC:
+
+1. Không dùng chỉ số Since published/Lifetime một mình.
+2. Với mỗi video phải lấy:
+   - Lifetime
+   - Last 24h
+   - Previous 24h
+   - Last 48h
+   - Last 72h
+3. Tính distribution_change_pct.
+4. Xác định:
+   NOT_TESTED / EARLY_TEST / EXPANDING / STABLE / DECLINING /
+   SHARP_DROP / STALLED / NEAR_DEAD / RECOVERING.
+5. Nếu video đã từng có >=300 impressions nhưng 48h gần nhất <=20 impressions:
+   → RECOVERY_REQUIRED.
+6. Nếu CTR thấp + distribution stalled:
+   → PACKAGING_RECOVERY.
+7. Nếu CTR tốt nhưng distribution chết:
+   → TOPIC_REVIEW + AUDIENCE_MATCH_REVIEW.
+8. Nếu Suggested >=40%:
+   → bắt buộc đọc Content suggesting this video.
+9. Phân loại source Suggested:
+   MATCH / PARTIAL / MISMATCH.
+10. Không đổi description trước thumbnail/title trừ khi semantic signal sai.
+11. Không dùng CTR lifetime để đánh giá packaging mới.
+12. Mọi lần thay Title/Thumbnail phải ghi:
+    packaging_changed_at
+    packaging_version
+13. Sau thay phải đo riêng:
+    0–24h
+    24–48h
+14. Không xóa/reupload chỉ vì video stall.
+15. Phải trả:
+    LIFETIME_DIAGNOSIS
+    CURRENT_HEALTH
+    DISTRIBUTION_REVIEW
+    TOPIC_REVIEW
+    AUDIENCE_MATCH_REVIEW
+    RECOVERY_DECISION
+```
+
+# 26. OUTPUT CUỐI CÙNG BẮT BUỘC
+
+```text
+VIDEO:
+CHANNEL:
+LANE:
+
+LIFETIME_DIAGNOSIS:
+...
+
+CURRENT_HEALTH:
+...
+
+DISTRIBUTION_REVIEW:
+...
+
+TOPIC_REVIEW:
+...
+
+AUDIENCE_MATCH_REVIEW:
+...
+
+RECOVERY_DECISION:
+...
+
+CHANGE_PLAN:
+...
+
+POST_CHANGE_MONITORING:
+24h:
+48h:
+```
+
+# 27. NGUYÊN TẮC CUỐI
+
+Không dùng:
+
+```text
+Lifetime CTR thấp
+→ đổi thumbnail
+```
+
+Phải dùng:
+
+```text
+HISTORY:
+Video đã từng được test chưa?
+
+CURRENT:
+24/48/72h gần nhất còn traffic không?
+
+DIAGNOSIS:
+Vấn đề là distribution / topic / audience / packaging?
+
+ACTION:
+Sửa đúng chỗ.
+
+MEASURE:
+Đo riêng sau thời điểm thay.
+```
+
+Công thức cuối:
+
+```text
+LIFETIME = LỊCH SỬ
+24/48/72H = SỨC KHỎE HIỆN TẠI
+CHANGE_TIME = ĐIỂM RESET ĐO
+POST_CHANGE = ĐÁNH GIÁ VERSION MỚI
+```

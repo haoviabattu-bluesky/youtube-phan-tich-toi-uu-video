@@ -9,7 +9,11 @@ Không có git, không có package manager, không có test suite. Dự án gồ
 - `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\YOUTUBE_POSTPUBLISH_ANALYTICS_SOP.md`
   — SOP phân tích hiệu suất video sau khi đăng (30 mục). **Đây là luật, đọc trước khi phân tích.**
 - `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\studio_collect.py`
-  — tool gom số từ YouTube Studio qua GPMLogin + Playwright CDP (xem mục Dữ liệu).
+  — tool gom số ĐẦY ĐỦ (impressions/traffic source/retention/suggesting sources…) ghi vào CSV,
+  dùng khi cần báo cáo phân tích sâu theo khung SOP.
+- `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\sheet_metrics_sync.py`
+  — tool GỌN, chỉ đồng bộ 4 chỉ số N–Q (ngày/view/CTR tổng/CTR 24h) thẳng vào sheet + rotate
+  R,S, dùng cho việc kiểm tra định kỳ mỗi 24h (xem mục "Cột chỉ số N–S").
 - `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpublish_metrics.csv`
   — sổ số liệu, mỗi dòng = 1 video × 1 mốc snapshot.
 
@@ -62,7 +66,7 @@ Ghi nối tiếp vào `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpubl
 (schema mục 22 + 6 cột SOP còn thiếu: `direct_pct`, `title`, `topic`, `thumbnail_version`,
 `title_version`, `hook_type`, `top_search_term_1`).
 
-**BỐN BẪY ĐÃ TRẢ GIÁ — đừng "dọn cho gọn" lại:**
+**CHÍN BẪY ĐÃ TRẢ GIÁ — đừng "dọn cho gọn" lại:**
 1. **Nội dung Studio nằm trong SHADOW DOM** (Polymer). `page.inner_text("body")` chỉ trả 237 ký tự
    rỗng tuếch trong khi `page.content()` là 5,4 MB → phải duyệt đệ quy `shadowRoot` (hàm `DEEP`
    trong tool). Nhìn qua rất giống "trang chưa tải xong" nên dễ đi chữa nhầm chỗ.
@@ -81,23 +85,49 @@ Ghi nối tiếp vào `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpubl
    đang đăng nhập bình thường bị báo oan là "CHƯA LOGIN".
 6. **Tên profile GPM có thể CÓ hoặc KHÔNG có đuôi `@gmail.com`** (`haoviabattu` vs
    `AmmarHilham@gmail.com`). Khớp tuyệt đối với mail đầy đủ là trượt — phải dò cả phần trước `@`.
+7. **YouTube Studio KHÔNG có preset "Last 24 hours" cho video analytics** (chỉ có "First 24
+   hours" — CỐ ĐỊNH tại lúc đăng, vô dụng với video đã cũ). Bấm dropdown khoảng thời gian trên
+   tab Reach chỉ thấy: Since published / First 24 hours / Last 7 days / Last 28/90/365 days /
+   Since uploaded (lifetime) / theo tháng / Custom. **Cách lấy đúng CTR-24h-trượt (verify thật
+   2026-09-25):** URL của tab Reach nhúng luôn khoảng thời gian dưới dạng epoch millisecond —
+   `goto` thẳng `/video/<id>/analytics/tab-reach_viewers/period-<start_ms>,<end_ms>` với
+   `start_ms = now-24h`, `end_ms = now` (tính tay bằng Python, KHÔNG cần bấm lịch/calendar UI).
+   Studio tự nhận và đổ đúng số cho khoảng đó, nhãn tự đổi thành "Custom". Việc này tổng quát
+   hoá được cho MỌI khoảng tuỳ ý (hôm qua, 48h, 7 ngày lệch...), không chỉ 24h.
+8. **`—` xuất hiện khi mẫu quá nhỏ để Studio tính %** (vd 5 impressions trong cửa sổ 24h) —
+   khác với `0,0%` khi impressions đủ lớn mà views=0. Cả hai đều là tín hiệu thật, giữ đúng quy
+   ước cũ: `—` → ô trống (chưa đủ dữ liệu), `0,0%` → ghi đúng `0,0%` (0 lượt xem thật).
+9. **KHÔNG CHẠY tool khi GPM báo `ProfileUsingByOther`** (anh chốt 2026-09-25) — nghĩa là
+   profile đang được dùng ở nơi khác (rất có thể chính anh đang mở tay xem Studio). Cả 3 tool
+   (`studio_collect.py`, `sheet_metrics_sync.py`, `scan_channels.py`) đều raise lỗi rõ ràng và
+   **DỪNG LẠI** ở tình huống này — tuyệt đối không đóng/kill profile đó để chiếm lại (khác hẳn
+   bẫy #3, vốn là profile do CHÍNH tool mở dở từ lần chạy trước rồi bỏ dở). Gặp lỗi này thì báo
+   lại cho anh, đợi anh đóng cửa sổ đó rồi chạy lại.
 
-### Bản đồ lane ↔ mail ↔ channel id (quét thật 2026-09-23, `tools\scan_channels.py`)
+### ⚠️ TAB TRONG SHEET ĐÃ ĐỔI TÊN (cập nhật 2026-09-25) — dùng bảng này, không dùng tên cũ
 
-| Lane | Mail = tên profile GPM | Channel ID | Video đã đăng |
-|---|---|---|---|
-| satori-jp-obaa | LopezzapataHilla@gmail.com | UC9huXCiBIXBfUh11D7ZsFSA | **8** |
-| irogatatarukioku | AmmarHilham@gmail.com | UCtRuxojb7218QeFBf5TBCQQ | **3** |
-| toshi-densetsu-jp | haoviabattu (không đuôi @gmail) | ? | 4 (theo sheet) — **profile GPM chưa đăng nhập** |
-| kenko-chiebukuro | normaneileenpm218@gmail.com | UCwdrP4WLHmmtYqf8QcxcFKg | 0 |
-| teinengo-real | VirgiliTraino95@gmail.com | UCIimxP275YufOXXIlu9y9Lg | 0 |
-| teinengo-tanoshimi | cobbytheona159@gmail.com | UClETn8eAXgRRKM4PkYEKzvA | 0 |
-| kokoro-kazoku | FuentesMitsy202@gmail.com | UClHVEGr-4pG0CDW_YUKJ26g | 0 |
-| sengoku-uragawa | AldenorRodrigues626@gmail.com | UCxBOdUsVT8g8WnpvJ8SdjyQ | 0 |
-| teinengo-fuufu | MinyardJuan231@gmail.com | UC6IkfxpGTksDdzG3ENYbVdg | 0 |
+| Lane | **Tab hiện tại** (tên cũ) | Mail = tên profile GPM | Channel | Video đã đăng |
+|---|---|---|---|---|
+| Satori (人生の夕暮れ) | `Satori-Lopezzapa68` (cũ: `Lopezzapa68`) | LopezzapataHilla@gmail.com | UC9huXCiBIXBfUh11D7ZsFSA | 11 |
+| A — vũ trụ (深夜の資料室) | `A-shinya_shiryoshitsu` (cũ: không tên riêng) | haoviabattu (không đuôi @gmail) | ? — **profile GPM chưa đăng nhập** | ≥2 |
+| E (健康の知恵袋) | `E-70dai-kenko` (cũ: `70dai-kenko`) | normaneileenpm218@gmail.com | UCwdrP4WLHmmtYqf8QcxcFKg (@70dai-kenko) | 1 (ep01, lịch 24/09) |
+| F (定年後のリアル) | `F-teinengo-real` (cũ: `teinengo-real`) | VirgiliTraino95@gmail.com | @teinengo-real | 0 (2 tập ghi "CẦN THAY" — mới xong packaging, chưa chắc đã đăng) |
+| G (定年後の楽しみ方) | `G-teinengo-tanoshimi` (cũ: `teinengo-tanoshimi`) | cobbytheona159@gmail.com | @teinengo-tanoshimi | 1 (ep01, lịch 25/09) |
+| K — 薬局スカッと (MỚI) | `K-yakkyoku-sukatto` | rosellagreysonbk920@gmail.com | UCEBA1RFfkXQtqgiDVLh4bcw (@yakkyoku-sukatto) | ~1-2, "CẦN ĐĂNG" |
+| L — 社会のなぜ (MỚI) | `L-shakai-no-naze` | SyedualiBajwa92@gmail.com | UCFWFKb3Yr_1SrAT0kcvwFdw (@shakai-no-naze) | 0, "CẦN ĐĂNG"/"CHỜ MÁY 2" |
+| H (心の家族学) | `kokoro-kazoku` (không đổi tên) | FuentesMitsy202@gmail.com | UClHVEGr-4pG0CDW_YUKJ26g | 0 |
+| I (戦国の裏側) | `sengoku-uragawa` (không đổi tên) | AldenorRodrigues626@gmail.com | UCxBOdUsVT8g8WnpvJ8SdjyQ | 0 |
+| J (定年後の夫婦のカタチ) | `teinengo-fuufu` (không đổi tên) | MinyardJuan231@gmail.com | UC6IkfxpGTksDdzG3ENYbVdg | 0 |
 
-Quét lại bất cứ lúc nào: `py -3.13 E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO	ools\scan_channels.py`
-(kết quả ghi `scan_channels.json`).
+⛔ **Lane D (色が語る記憶 / irogatatarukioku, mail AmmarHilham@gmail.com) — anh chốt 2026-09-25:
+BỎ, KHÔNG theo dõi nữa.** Tab của nó đã không còn trong sheet (trước có tên `irogatatarukioku`,
+giờ không thấy trong `list_sheets`); dòng mail trong tab GMAIL cũng chỉ còn mail/pass, các cột
+NGÁCH/TÊN KÊNH/... đã trống. Không cần tìm lại tab, không đưa lane này vào bất kỳ lần sync/quét
+nào nữa (đã bỏ khỏi `LANES` trong `scan_channels.py`).
+
+Nguồn: `list_sheets` + tab GMAIL đọc lại 2026-09-25. Quét lại kênh/video bất cứ lúc nào:
+`py -3.13 E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\scan_channels.py` (đã sửa `LANES` trỏ
+đúng TÊN TAB MỚI 2026-09-25, bỏ lane D).
 
 ## Quan hệ với các dự án YouTube khác cùng máy
 
@@ -115,6 +145,39 @@ Claude **KHÔNG tự đổi title/description/thumbnail trên YouTube**, không 
 để sửa. Việc của Claude là: đọc chỉ số → kết luận đạt/không đạt → **ghi yêu cầu vào Google Sheet**.
 Anh là người quyết định và thực hiện thay đổi.
 
+## Cột chỉ số N–S (anh chốt 2026-09-25) — chạy bằng `tools\sheet_metrics_sync.py`
+
+Mỗi tab lane có 6 cột chỉ số cố định vị trí N→S (đã thêm header cho toàn bộ 9 tab hôm nay,
+`Satori-Lopezzapa68` đã có sẵn từ trước):
+
+| Cột | Tên | Ý nghĩa | Nguồn |
+|---|---|---|---|
+| N | SỐ NGÀY LIST | Số ngày kể từ khi đăng (làm tròn xuống) | Overview → "since published" date |
+| O | VIEW | Tổng lượt xem (trọn đời) | Reach, khoảng "Since published" |
+| P | CTR TỔNG | CTR trọn đời (from Since published) | Reach, khoảng "Since published" |
+| Q | CTR 24H | CTR của đúng 24 giờ gần nhất tính từ lúc chạy (KHÔNG phải "Since published", KHÔNG phải "First 24 hours") | Reach, URL custom `period-<now-24h>,<now>` (xem bẫy #7 ở trên) |
+| R | VIEW CŨ | Giá trị O của **lần chạy trước** | copy tay/tool trước khi ghi đè O |
+| S | CTR 24H CŨ | Giá trị Q của **lần chạy trước** | copy tay/tool trước khi ghi đè Q |
+
+**Quy trình BẮT BUỘC mỗi lần kiểm tra (đúng thứ tự):**
+1. Đọc O, Q hiện tại của dòng → ghi (rotate) sang R, S — đây LÀ backup của lần chạy trước,
+   không phải giá trị mới.
+2. Mở video trên Studio, đọc lại N, O, P, Q **mới**.
+3. Ghi N, O, P, Q mới đè lên giá trị cũ. R, S giữ nguyên giá trị vừa rotate ở bước 1.
+4. **Mặc định KHÔNG đụng bất kỳ cột nào khác** (E, G, K, L, …) — kể cả khi phát hiện video cần
+   đổi title/thumb. Việc ghi `CẦN THAY ĐỔI` vào E/G là một bước RIÊNG, chỉ làm khi anh yêu cầu
+   rõ ràng (xem mục "Luật đánh dấu" dưới đây) — KHÔNG tự động bundle vào lần sync số liệu.
+
+Chạy: `py -3.13 E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\sheet_metrics_sync.py --tab
+Satori-Lopezzapa68 --mail LopezzapataHilla@gmail.com`. Tool tự đọc cột L (video_id) của mọi dòng
+có giá trị, tự rotate O→R/Q→S, tự ghi N–Q mới. Cờ `--only id1,id2` giới hạn 1 vài video;
+`--dry-run` chỉ in ra không ghi sheet — **dùng dry-run trước khi chạy hàng loạt trên tab mới**.
+
+⚠️ Cột L trong DỮ LIỆU (từ dòng 2) LUÔN là video_id bất kể header dòng 1 ghi gì — một số tab
+(E, F, G, K, L…) dùng ô L1/M1 của DÒNG 1 để ghi mail đăng nhập/URL kênh (không phải nhãn cột),
+khác hẳn `Satori-Lopezzapa68`/`A-shinya_shiryoshitsu` có L1="ID" tường minh. Đọc video_id theo
+**vị trí cột (index 11 = L)**, không đọc theo nhãn header.
+
 ### Luật đánh dấu (anh chốt, thay cho ngưỡng CTR mềm ở mục 6 của SOP)
 
 ```
@@ -130,6 +193,23 @@ Sau mốc đó, cứ mỗi 24h kiểm lại:
     CTR > 2,5%          → ĐỂ NGUYÊN, ngừng đánh dấu
 ```
 
+**Thêm điều kiện mới (anh nêu 2026-09-25, xử lý bằng cột N–S ở trên):** một video có thể có
+`CTR TỔNG` (cột P) trông ổn (>2,5%) nhưng **gần đây không còn ai xem** — CTR tổng cao chỉ vì
+những giờ đầu tốt, giờ đã tắt hẳn phân phối. Đây LÀ đúng lý do có cột **CTR 24H (Q)** và
+**VIEW CŨ (R)** riêng. Sau khi chạy `sheet_metrics_sync.py` để có N–Q mới + R,S (giá trị của
+lần chạy trước), áp thêm:
+
+```
+IF video ≥ 48h VÀ (O == R  [không tăng view nào kể từ lần kiểm trước]
+                    HOẶC Q rỗng/"—" [0 hoặc gần 0 impression trong 24h qua]
+                    HOẶC Q < 2,5%)
+   NGAY CẢ KHI P (CTR TỔNG) ≥ 2,5%
+→ VẪN ghi "CẦN THAY ĐỔI" (đừng chỉ nhìn P rồi kết luận "để nguyên")
+```
+
+Điều kiện `O == R` chỉ áp dụng khi R **không rỗng** (đã có ít nhất 1 lần chạy trước để so sánh
+— lần chạy ĐẦU TIÊN của một dòng thì R rỗng, bỏ qua điều kiện này, chỉ xét theo P như luật cũ).
+
 **Cách ghi — ô chỉ chứa ĐÚNG chữ `CẦN THAY ĐỔI`, không thêm gì.** Anh chốt 2026-09-23: không
 ghi kèm lý do, số liệu hay ngày giờ vào ô — ghi đè thẳng cột E và G bằng đúng 4 chữ đó. Số liệu và
 lý do để trong `youtube_postpublish_metrics.csv` + báo cáo, KHÔNG nhét vào sheet. Nội dung cũ của ô
@@ -141,9 +221,13 @@ KHÁC tiêu đề live** (tập nào đã đổi tên sau khi đăng thì sheet 
 có, không có thì khớp bằng NGÀY ĐĂNG trong cột GHI CHÚ ("ĐÃ ĐẶT LỊCH ĐĂNG VÀO 17:30 ngày dd/mm").
 Ghi xong thì **điền luôn video_id vào cột L** để lần sau khỏi đoán.
 
-Sheet: `1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU` · tab = mã lane (`Lopezzapa68`,
-`irogatatarukioku`, …) · header dòng 1: A=STT, E=TITLE-DESCREPTION, G=THUMBNAIL, J=ĐÃ ĐĂNG,
-K=GHI CHÚ, L=ID.
+Sheet: `1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU` · tab = tên đã đổi 2026-09-25, xem bảng
+"TAB TRONG SHEET ĐÃ ĐỔI TÊN" ở mục Dữ liệu (`Satori-Lopezzapa68`, `A-shinya_shiryoshitsu`,
+`E-70dai-kenko`, `F-teinengo-real`, `G-teinengo-tanoshimi`, `K-yakkyoku-sukatto`,
+`L-shakai-no-naze`, `kokoro-kazoku`, `sengoku-uragawa`, `teinengo-fuufu`) · header dòng 1:
+A=STT, E=TITLE-DESCREPTION, G=THUMBNAIL, J=ĐÃ ĐĂNG, K=GHI CHÚ, L=ID (một số tab không ghi rõ
+nhãn "ID" ở L1 nhưng dữ liệu từ dòng 2 vẫn luôn đặt video_id ở đúng cột L) · N–S = chỉ số
+(xem mục "Cột chỉ số N–S" ngay trên).
 
 ## Định dạng báo cáo
 
