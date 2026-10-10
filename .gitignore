@@ -14,3 +14,7 @@ venv/
 *.key.json
 credentials/
 .env
+
+# Comment care — state SQLite + report chua comment that (privacy)
+comment_care/state/
+reports/comment_care/

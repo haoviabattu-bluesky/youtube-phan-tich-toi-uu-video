@@ -113,8 +113,8 @@ Ghi nối tiếp vào `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpubl
 | E (健康の知恵袋) | `E-70dai-kenko` (cũ: `70dai-kenko`) | normaneileenpm218@gmail.com | UCwdrP4WLHmmtYqf8QcxcFKg (@70dai-kenko) | 1 (ep01, lịch 24/09) |
 | F (定年後のリアル) | `F-teinengo-real` (cũ: `teinengo-real`) | VirgiliTraino95@gmail.com | @teinengo-real | 0 (2 tập ghi "CẦN THAY" — mới xong packaging, chưa chắc đã đăng) |
 | G (定年後の楽しみ方) | `G-teinengo-tanoshimi` (cũ: `teinengo-tanoshimi`) | cobbytheona159@gmail.com | @teinengo-tanoshimi | 1 (ep01, lịch 25/09) |
-| K — 薬局スカッと (MỚI) | `K-yakkyoku-sukatto` | rosellagreysonbk920@gmail.com | UCEBA1RFfkXQtqgiDVLh4bcw (@yakkyoku-sukatto) | ~1-2, "CẦN ĐĂNG" |
-| L — 社会のなぜ (MỚI) | `L-shakai-no-naze` | SyedualiBajwa92@gmail.com | UCFWFKb3Yr_1SrAT0kcvwFdw (@shakai-no-naze) | 0, "CẦN ĐĂNG"/"CHỜ MÁY 2" |
+| K — 薬局スカッと (MỚI) | `K-yakkyoku-sukatto` | rosellagreysonbk920@gmail.com | **UCk8E_FHIYjY7GN_qdpSKaMw** (@yakkyoku-sukatto) — ⚠️ id cũ UCEBA1RFfkXQtqgiDVLh4bcw là kênh MẪU 千種テンカ, sửa 2026-10-05 | ~1-2, "CẦN ĐĂNG" |
+| L — 社会のなぜ (MỚI) | `L-shakai-no-naze` | SyedualiBajwa92@gmail.com | **UCjy5fWoigvtCfduJDJ3jTbg** (@shakai-no-naze) — ⚠️ id cũ UCFWFKb3Yr_1SrAT0kcvwFdw là kênh MẪU 社会のウラガワ, sửa 2026-10-05 | 0, "CẦN ĐĂNG"/"CHỜ MÁY 2" |
 | H (心の家族学) | `kokoro-kazoku` (không đổi tên) | FuentesMitsy202@gmail.com | UClHVEGr-4pG0CDW_YUKJ26g | 0 |
 | I (戦国の裏側) | `sengoku-uragawa` (không đổi tên) | AldenorRodrigues626@gmail.com | UCxBOdUsVT8g8WnpvJ8SdjyQ | 0 |
 | J (定年後の夫婦のカタチ) | `teinengo-fuufu` (không đổi tên) | MinyardJuan231@gmail.com | UC6IkfxpGTksDdzG3ENYbVdg | 0 |
@@ -235,3 +235,28 @@ Dùng nguyên khung mục 23 (per-video), 24 (bảng so sánh trong kênh) và 2
 LANE_BASELINE → PER_VIDEO_REPORT → CHANNEL_COMPARISON → SUGGESTED_NEIGHBORHOOD →
 SEARCH_FINDINGS → TOP_PATTERNS → PRIORITY_ACTIONS 1-2-3). Tiếng Việt, giữ tên field/status
 nguyên dạng tiếng Anh in hoa như SOP viết.
+
+## Module `comment_care` — chăm sóc bình luận tiếng Nhật (anh duyệt triển khai 2026-10-05)
+
+Thư mục `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\comment_care\` (README trong đó; spec
+`docs\superpowers\specs\2026-10-05-youtube-comment-care-design.md`; plan `plans\261005-0757-comment-care\`).
+Luồng: fetch comment (Data API key) → **đọc hiểu video bắt buộc** (title/description + thư mục tập của h2dev qua Sheet cột C/L, fallback
+`h2dev\FlowHandoff_local\jobs`) → classify (gemini) → Policy Engine (`policy\policy_table.yaml`, model không ghi đè được) → template | LLM
+(claude-opus-5-5) → footer → QC rule + judge (gpt-5.6-sol) → `reports\comment_care\<ngày>\<tab>\DRAFT_REVIEW.txt` để anh duyệt.
+
+Luật riêng của module (không mâu thuẫn mục "⛔ VAI TRÒ" ở trên vì **mặc định không gửi gì**):
+- Gửi reply thật chỉ khi đủ 3 kill switch (env `COMMENT_CARE_AUTO_REPLY=1` + `mode: auto_*` trong `comment_care\config\channels.yaml` +
+  cờ `--send`) **và** có token OAuth `youtube.force-ssl` của đúng Gmail kênh tại `D:\CLAUDE\credentials\youtube_oauth\<channel_id>.json`.
+  Hiện CHƯA có token nào → tool chỉ soạn nháp. Anh là người authorize; Claude không tự tạo/đổi OAuth.
+- HOSTILE luôn là template cố định 「ご意見をお寄せいただき、ありがとうございます。」, không footer, không LLM.
+- Không có context video (không map được tập) → mọi category cần LLM bị SKIP, chỉ template được phép.
+- Comment của chính kênh (câu hỏi ghim 👇) không bao giờ vào LLM. Mỗi thread bot reply tối đa 1 lần.
+- Kênh Satori `UC9huXCiBIXBfUh11D7ZsFSA` **đã bị Google đình chỉ** (phát hiện 2026-10-05) → `enabled: false`; pilot là lane F.
+
+### Lệnh "vào lane X kiểm tra và bình luận" (anh chốt 2026-10-05)
+Nghĩa là chạy trọn quy trình, không hỏi lại từng bước: (1) `cc.py run --channel X --mode draft_only` → (2) báo tiếng Việt: bảng số lượng +
+đường dẫn `DRAFT_REVIEW.txt` (có dịch Việt) + đoạn **"khán giả nói gì"** (chủ đề lặp, trải nghiệm thật, câu hỏi/phản đối phổ biến, tín hiệu nhạy
+cảm) + draft nào em nghi ngờ → (3) ~~chờ anh duyệt~~ — anh chốt 2026-10-08: KHÔNG cần duyệt, viết xong (ngắn, chữ đơn giản, thấu hiểu/cảm ơn, xin 1 like + 1 đăng ký) là đăng luôn; lane M tạm chưa làm → (4) `cc.py post-browser --channel X` qua
+profile GPM = mail kênh, gõ chậm như người, **đăng xong lane nào TẮT profile lane đó ngay** (GPM `profiles/stop/<id>` đúng profile của kênh — anh chốt 2026-10-08, để người khác dùng; tool mặc định tắt, `--keep-open` mới giữ) → (5) đối chiếu TỪNG reply bằng Data API `comments.list?parentId=` trước khi báo đã đăng, ghi
+`youtube_reply_id` → (6) báo bảng video/bình luận/reply + UNRESOLVED còn chờ. Kênh mới: tra channel_id THẬT từ video_id trong sheet (K, L từng
+sai vì CLAUDE.md ghi id kênh mẫu). Câu mơ hồ ai là thủ phạm/nạn nhân → không đăng, đề xuất câu trung lập cho anh chọn.

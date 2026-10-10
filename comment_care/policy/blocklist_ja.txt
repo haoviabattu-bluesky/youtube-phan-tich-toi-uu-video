@@ -1,0 +1,53 @@
+# Hard blocklist — mỗi dòng 1 regex (Python re, IGNORECASE không áp dụng vì tiếng Nhật). Khớp bất kỳ dòng nào → DO_NOT_SEND.
+# Dòng bắt đầu bằng # là chú thích. Đừng xoá nhóm; chỉ thêm. Spec mục I5.
+# --- xưng hô / lên lớp
+お前
+あんた
+あなたは
+あなたが
+勉強して
+理解していない
+理解されていない
+そんなことも
+常識です
+当たり前です
+間違っています
+間違いです
+# --- xác nhận fact / khẳng định mạnh về chế độ, tiền, y tế
+おっしゃる通り
+間違いありません
+必ず[^。]{0,20}(です|ます)
+絶対に
+年金は[^。]{0,30}円
+税率
+控除額
+診断
+処方
+治療法
+# --- nhận vơ trải nghiệm / identity chủ kênh
+私も[^。]{0,20}(退職|定年|歳|再雇用|年金)
+私は[0-9０-９一二三四五六七八九十]+歳
+私の(夫|妻|息子|娘|母|父)
+# --- an ủi máy móc với mất mát
+頑張ってください
+頑張って下さい
+元気を出して
+お気持ちはよく分かります
+# --- kỹ thuật / rò rỉ nội bộ
+@[A-Za-z0-9_]
+https?://
+\.com
+LINE
+登録はこちら
+CATEGORY
+CONFIDENCE
+REPLY_DECISION
+\{\s*"
+\[(REPLY|SKIP|TEMPLATE|LLM)
+# --- ký tự ngoài tiếng Nhật (chữ Việt có dấu) — QC rule japanese_only cũng bắt, đây là lưới thứ hai
+[ăâđêôơưĂÂĐÊÔƠƯàáảãạèéẻẽẹìíỉĩịòóỏõọùúủũụỳýỷỹỵ]
+# --- cười / mỉa
+(^|[^a-zA-Z])w{2,}$
+ｗ
+笑$
+はぁ

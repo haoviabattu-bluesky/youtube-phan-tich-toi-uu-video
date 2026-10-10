@@ -1,0 +1,124 @@
+# Registry kênh cho Comment Care. Nguồn: CLAUDE.md bảng lane + Sheet tab GMAIL + h2dev assets\<lane>\branding\KENH.json
+# + kiểm tra Data API 2026-10-05. KHÔNG chứa mật khẩu/token. Token OAuth (Phase 2b) nằm ở paths.youtube_oauth_dir/<channel_id>.json.
+#
+# mode: fetch_only | draft_only | shadow | auto_low | auto_full   (mặc định draft_only; gửi thật cần cả env COMMENT_CARE_AUTO_REPLY=1 + --send)
+# footer_policy: A (100%) | B (bỏ ở grief/hostile/sensitive) | C (rotate) | BC (B + rotate)  — mục M của spec, anh đổi được bất kỳ lúc nào.
+defaults:
+  language: ja
+  tone_profile: senior_polite
+  mode: draft_only
+  footer_policy: BC
+  max_replies_per_run: 20
+  daily_cap: 30
+  min_confidence_auto: 0.85
+  audience: 60〜80代の日本人（定年・年金・再雇用・家族・孤独・健康に関心のある世代）
+  owner_facts: {}          # TRỐNG: reply không được nói về tuổi/giới/nghề/trải nghiệm của chủ kênh
+
+channels:
+  - lane: F
+    channel_id: UCIimxP275YufOXXIlu9y9Lg
+    channel_name: 定年後のリアル
+    handle: "@teinengo-real"
+    sheet_tab: F-teinengo-real
+    mail: VirgiliTraino95@gmail.com
+    h2dev_profile: teinengo-real
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\teinengo-real
+    enabled: true
+    note: PILOT (anh duyệt 2026-10-05). 8 video, 24 thread, chủ kênh đã tự reply 14 lần.
+
+  - lane: G
+    channel_id: UClETn8eAXgRRKM4PkYEKzvA
+    channel_name: 定年後の楽しみ方
+    handle: "@teinengo-tanoshimi"
+    sheet_tab: G-teinengo-tanoshimi
+    mail: cobbytheona159@gmail.com
+    h2dev_profile: teinengo-tanoshimi
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\teinengo-tanoshimi
+    enabled: false
+
+  - lane: E
+    channel_id: UCwdrP4WLHmmtYqf8QcxcFKg
+    channel_name: 健康の知恵袋
+    handle: "@70dai-kenko"
+    sheet_tab: E-70dai-kenko
+    mail: normaneileenpm218@gmail.com
+    h2dev_profile: null
+    h2dev_assets_dir: null
+    enabled: false
+    note: Ngách sức khoẻ → mọi comment HEALTH risk HIGH; chỉ bật sau khi pilot F ổn.
+
+  - lane: K
+    channel_id: UCk8E_FHIYjY7GN_qdpSKaMw      # SỬA 2026-10-05: id cũ trong CLAUDE.md (UCEBA1RFfkXQtqgiDVLh4bcw = 千種テンカ) là KÊNH MẪU, không phải kênh mình
+    channel_name: 薬局スカッと帳
+    handle: "@yakkyoku-sukatto"
+    sheet_tab: K-yakkyoku-sukatto
+    mail: rosellagreysonbk920@gmail.com
+    h2dev_profile: yakkyoku-sukatto
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\yakkyoku-sukatto
+    enabled: false
+    note: Đối tượng không phải người già (dược sĩ công sở) → cần tone_profile riêng trước khi bật.
+
+  - lane: L
+    channel_id: UCjy5fWoigvtCfduJDJ3jTbg      # SỬA 2026-10-05: id cũ (UCFWFKb3Yr_1SrAT0kcvwFdw = 社会のウラガワ 3.670 sub) là KÊNH MẪU, không phải kênh mình
+    channel_name: 社会のなぜ研究室
+    handle: "@shakai-no-naze"
+    audience: 20〜50代の働く世代（会社員・主婦・学生も含む）。社会問題を漫画と実データで解説するチャンネル。
+    sheet_tab: L-shakai-no-naze
+    mail: SyedualiBajwa92@gmail.com
+    h2dev_profile: shakai_no_naze
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\shakai_no_naze
+    enabled: true
+    note: Bật 2026-10-05 theo yêu cầu anh; khán giả không phải người già → audience riêng.
+
+  - lane: J
+    channel_id: UCvLpzQtsS8gFAlthT-8YVlQ
+    channel_name: 老後の知恵袋
+    handle: "@rougo_chie60"
+    sheet_tab: Lane-J
+    mail: lethientan26061994@gmail.com
+    h2dev_profile: teinengo-fuufu
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\J-teinengo-fuufu
+    enabled: false
+
+  - lane: N
+    channel_id: UCqXxSE88mHQiZMvzCdlmk3w
+    channel_name: シニア暮らし研究所
+    handle: "@senior_kurashi60"
+    sheet_tab: Lane-N
+    mail: thienduongly7890@gmail.com
+    h2dev_profile: senior_korekara
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\N-senior_korekara
+    enabled: true
+    note: Bật 2026-10-10 theo yêu cầu anh (lệnh lane F,L,M,N,O).
+
+  - lane: M
+    channel_id: UC-03gNBRs14lZHus7TiKofA      # tra từ video_id sheet tab M-teinengo-anaba 2026-10-08
+    channel_name: 定年後の盲点【漫画】
+    handle: "@teinengo-anaba"
+    sheet_tab: M-teinengo-anaba
+    mail: haoviabattu@gmail.com
+    h2dev_profile: teinengo-anaba
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\M-teinengo-anaba
+    enabled: true
+    note: Bật 2026-10-08 theo yêu cầu anh. Mail này có 2 kênh (Lane A + M) → khi đăng phải đúng kênh M (poster verify identity).
+
+  - lane: O
+    channel_id: UCnwgkB18gTTON1YXNQvxsbg      # tra từ video tSs5M9ydTLU (tab Lane-O) 2026-10-08
+    channel_name: 人生のつづき
+    sheet_tab: Lane-O
+    mail: rosellagreysonbk920@gmail.com   # anh báo 2026-10-09 (cùng mail lane K → poster verify identity đúng kênh O)
+    h2dev_profile: kaigo-sukatto
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\O-kaigo-sukatto
+    enabled: true
+    note: 2026-10-09 bật theo yêu cầu anh (2 video có bình luận).
+
+  - lane: Satori
+    channel_id: UC9huXCiBIXBfUh11D7ZsFSA
+    channel_name: 人生の夕暮れ
+    handle: "@Lopezzapa68"
+    sheet_tab: Satori-Lopezzapa68
+    mail: LopezzapataHilla@gmail.com
+    h2dev_profile: Lopezzapa68
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\satori_jp
+    enabled: false
+    note: "⛔ 2026-10-05: trang kênh báo 'Google の利用規約に違反していたため、このアカウントを停止しました' — API trả 0 kết quả, mọi video 404."
