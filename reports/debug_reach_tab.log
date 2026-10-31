@@ -1,0 +1,39 @@
+overview: so text = 30 | co 'Oops': True
+bam 'Reach' -> True
+  +8s: n=30 co_impressions=False Oops=True
+  +16s: n=30 co_impressions=False Oops=True
+  +24s: n=30 co_impressions=False Oops=True
+  +32s: n=30 co_impressions=False Oops=True
+  +40s: n=30 co_impressions=False Oops=True
+  +48s: n=30 co_impressions=False Oops=True
+  KHONG thay. 40 text cuoi:
+      'Video analytics - YouTube Studio'
+      'Close'
+      'Video analytics'
+      'Skip navigation'
+      'Ask Studio'
+      'Create'
+      'Account'
+      'Channel content'
+      '24:48'
+      'Details'
+      'Analytics'
+      'Editor'
+      'Comments'
+      'Languages'
+      'Claims'
+      'Clips and Shorts'
+      'Settings'
+      'Send feedback'
+      'Video analytics'
+      'Advanced mode'
+      'Access groups, comparisons, filters and more customizable charts'
+      'Overview'
+      'Reach'
+      'Engagement'
+      'Audience'
+      'Revenue'
+      'Oops, something went wrong.'
+      'Retry'
+      'Oops, something went wrong.'
+      'Retry'

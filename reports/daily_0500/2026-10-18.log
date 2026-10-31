@@ -1,0 +1,23 @@
+08:03:41 ===== BAT DAU (DRY-RUN) scheduled =====
+08:03:42 --- nhom gpm VirgiliTraino95@gmail.com: ['F-teinengo-real']
+08:03:45   GPMLogin chua bat -> tu mo C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe
+08:10:13 ===== BAT DAU scheduled =====
+08:16:45 --- nhom cdp 9222: ['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+08:16:47   cong 9222 trong -> mo Chrome dung lenh cu (--user-data-dir E:\CLAUDE\YOUTUBE\HAOVIABATTU_PROFILE)
+08:17:54 ===== BAT DAU scheduled =====
+08:17:56 --- nhom cdp 9222: ['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+08:25:31 ===== BAT DAU scheduled =====
+08:25:35 --- nhom cdp 9222: ['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+08:26:58 LOI mo profile 9222: BrowserContext.new_page: Target page, context or browser has been closed
+08:27:04 --- nhom gpm normaneileenpm218@gmail.com: ['E-70dai-kenko']
+08:27:06   GPMLogin chua bat -> tu mo C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe
+08:28:31   GPM start lan 1: {'profile_id': '31669b60-ee6c-4527-bb53-cc9832ed5555', 'driver_path': 'C:\\Users\\xxx\\AppData\\Roaming\\GPMLoginGlobal\ -> stop + dong chrome cua profile roi thu lai
+08:28:42   da dong 1 tien trinh chrome cua profile 31669b60 (theo PID [19804])
+08:28:50   GPM start lan 2: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+08:29:00   da dong 0 tien trinh chrome cua profile 31669b60 (theo PID [])
+08:29:18   GPM start lan 3: {'profile_id': '31669b60-ee6c-4527-bb53-cc9832ed5555', 'driver_path': 'C:\\Users\\xxx\\AppData\\Roaming\\GPMLoginGlobal\ -> stop + dong chrome cua profile roi thu lai
+08:29:27   da dong 1 tien trinh chrome cua profile 31669b60 (theo PID [31856])
+08:29:35 LOI mo profile normaneileenpm218@gmail.com: GPM khong mo duoc profile sau 3 lan: {'profile_id': '31669b60-ee6c-4527-bb53-cc9832ed5555', 'driver_path': 'C:\\Users\\xxx\\AppData\\Roaming\\GPMLoginGlobal\
+08:29:35 --- nhom gpm VirgiliTraino95@gmail.com: ['F-teinengo-real']
+08:33:42 [F-teinengo-real] dong 2 pTmVyc6Z2W4: N=23 O=2900 P=6,1% Q=6,3% imp24h=32.0 | ok | K=567h · 2.900 view · CTR tổng 6,1% · CTR 24h 6,3% · 32 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:39:07 [F-teinengo-real] dong 3 vy7ucq5Zy64: khong doc duoc trang Reach 24h -> bo qua

@@ -1,0 +1,141 @@
+{
+ "day": "2026-10-23",
+ "generated": "2026-10-23 03:02",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 1262,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 10.06,
+     "source": {
+      "video_id": "TjN-zKjNYuQ",
+      "title": "【漫画】社員旅行で課長に「無能派遣はクビ」と宿泊をキャンセルされた俺。「会社にも戻りません」と帰った直後、俺がいないと大口商談が進まないと判明し…【恋愛マンガ動画】",
+      "channel": "君と恋するマンガ",
+      "subs": 1510,
+      "views": 18472,
+      "views_per_hour": 523.6,
+      "hours": 35.3,
+      "published": "2026-10-21T08:45:33Z",
+      "url": "https://www.youtube.com/watch?v=TjN-zKjNYuQ"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý ức chế công sở qua mâu thuẫn đối đầu trực diện giữa cấp trên (課長) và nhân viên yếu thế, tạo cảm giác thỏa mãn khi kẻ lộng quyền phải trả giá lập tức.",
+      "de_bai": "Một nhân viên trẻ (Z世代) bị Trưởng phòng gạt tên khỏi danh sách thưởng với lý do 'loại nhân sự này thay thế lúc nào cũng được', cậu lập tức xin nghỉ việc khiến cả phòng tê liệt vì mất người duy nhất nắm quy trình vận hành thực tế.",
+      "khac_nguon": "Đổi bối cảnh chuyến du lịch công ty và nhân sự phái cử thành mâu thuẫn phân chia quyền lợi dự án giữa Trưởng phòng và nhân viên Gen Z; đổi mô-típ trả thù cá nhân thành sự sụp đổ do khoảng trống quản lý tuyến đầu.",
+      "hook_3cau": "'Cậu chỉ là đồ thay thế bất kỳ lúc nào cũng được, dự án này để người khác đứng tên.' Nghe sếp nói câu đó, tôi không tranh cãi mà lập tức nộp đơn thôi việc ngay trong chiều. Chỉ [SỐ CẦN KIỂM] ngày sau, Trưởng phòng hoảng loạn gọi điện cầu xin tôi quay lại khi hợp đồng nghẽn toàn bộ.",
+      "title_jp": "「代わりはいる」と若手を切った課長、3日で部署崩壊した理由",
+      "thumbnail_jp": "代わりはいない",
+      "so_lieu_can": [
+       "Thời gian và lượt xem từ nguồn: 18.472 view trong 35.3 giờ",
+       "Chi phí và thời gian đào tạo người thay thế: [SỐ CẦN KIỂM] vạn yên và [SỐ CẦN KIỂM] tháng",
+       "Tỷ lệ dự án bị đình trệ khi mất nhân sự vận hành cốt lõi: [SỐ CẦN KIỂM]%"
+      ],
+      "cau_hoi_cuoi": "現場を知らずに「代わりはいくらでもいる」と言う上司、あなたの職場にもいますか？",
+      "rui_ro": "Dễ bị trượt thành kịch bản trả thù hả hê (スカッと) rẻ tiền nếu thiếu phân tích cơ chế quản lý quan liêu và số liệu chi phí thay thế nhân sự.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 1262,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 11.58,
+     "source": {
+      "video_id": "X_zSDJZnYhc",
+      "title": "【漫画】独身66歳、退職金2000万で夢の蕎麦屋を開いた。2年で閉店した日、常連客が言った一言",
+      "channel": "山下さんちの定年後",
+      "subs": 537,
+      "views": 25982,
+      "views_per_hour": 199.7,
+      "hours": 130.1,
+      "published": "2026-10-17T10:00:36Z",
+      "url": "https://www.youtube.com/watch?v=X_zSDJZnYhc"
+     },
+     "draft": {
+      "vi_sao_thang": "Đánh trúng nỗi sợ lớn nhất tuổi già là 'mất trắng 2000 vạn tiền hưu trí' vì ảo tưởng năng lực, kết hợp yếu tố độc thân 66 tuổi đơn độc gánh hậu quả.",
+      "de_bai": "Cựu quản lý 66 tuổi làm mất sạch 2000 vạn tiền hưu, ở tuổi gần 70 phải cắn răng đi làm bảo vệ giao thông (交通誘導) bù khoản thiếu [SỐ CẦN KIỂM] vạn/tháng, bị cấp trên bằng tuổi con mình mắng té tát vì 40 năm kinh nghiệm bàn giấy hoàn toàn vô giá trị.",
+      "khac_nguon": "Đổi trọng tâm từ 'mở quán kinh doanh thất bại' sang 'thực tế khốc liệt khi phải đi làm bảo vệ sau cú ngã mất tiền hưu', giữ nguyên số tuổi 66 và biến cố mất trắng 2000 vạn.",
+      "hook_3cau": "'2000 vạn tiền hưu tích cóp 40 năm đã bốc hơi hoàn toàn.' 'Ở tuổi 66, tôi đứng run rẩy dưới mưa cầm gậy điều khiển giao thông để kiếm từng đồng bù [SỐ CẦN KIỂM] vạn tiền sinh hoạt mỗi tháng.' ''Này ông già, cựu quản lý thì có ích gì ở đây, đứng thẳng cái lưng lên!' - tiếng gắt của đội trưởng 28 tuổi dập tắt chút tự tôn cuối cùng.'",
+      "title_jp": "退職金2000万失った66歳元部長、交通誘導バイトで怒声浴びる現実",
+      "thumbnail_jp": "退職金ゼロの警備員",
+      "so_lieu_can": [
+       "66 tuổi (lấy từ nguồn)",
+       "2000 vạn yên tiền hưu trí (lấy từ nguồn)",
+       "Số tiền thiếu hụt mỗi tháng buộc phải đi làm thêm: [SỐ CẦN KIỂM] vạn yên",
+       "Lương theo ca/giờ nghề bảo vệ giao thông: [SỐ CẦN KIỂM] yên",
+       "Số năm kinh nghiệm văn phòng bị coi là số 0: [SỐ CẦN KIỂM] năm"
+      ],
+      "cau_hoi_cuoi": "定年後のバイトで、昔の肩書を完全に捨てきれず悔しい思いをした経験はありますか？",
+      "rui_ro": "Dễ bị sa đà vào việc kể lể nguyên nhân mất tiền hưu trí (nếu không cắt ngắn đoạn này, kịch bản sẽ lệch khỏi trọng tâm trải nghiệm làm nghề bảo vệ của lane).",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 1262,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 12.79,
+     "source": {
+      "video_id": "Rw046TgQ7oE",
+      "title": "【漫画】親の介護で離職したのになぜ全財産を失うのか？高齢者への経済的虐待認定と介護者の貧困を防ぐ生存戦略",
+      "channel": "黄昏ダイアリー",
+      "subs": 1230,
+      "views": 15987,
+      "views_per_hour": 149.7,
+      "hours": 106.8,
+      "published": "2026-10-18T09:16:00Z",
+      "url": "https://www.youtube.com/watch?v=Rw046TgQ7oE"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng nỗi sợ tột cùng của người chăm sóc: dốc lòng hy sinh gánh vác nhưng lại bị quy kết tội ngược đãi kinh tế và mất trắng; Lane O khai thác cơ chế này bằng mâu thuẫn đồng nghiệp viện dưỡng lão đùn đẩy việc nhạy cảm liên quan đến tài sản của người già.",
+      "de_bai": "Hai hộ lý cùng ca trực, đồng nghiệp ngang hàng luôn miệng nói 'Đó không phải việc của em' để trốn việc giữ ví và mua đồ hộ cụ già bị lẫn, ép người hiền lành phải gánh thay; cái giá xuất hiện khi cụ già báo mất tiền và biên bản kiểm kê lộ ra 12 phút trước giờ giao ca.",
+      "khac_nguon": "Đổi bối cảnh chăm sóc cha mẹ tại nhà thành đồng nghiệp cùng ca tại viện dưỡng lão, đổi bi kịch trắng tay thành màn đối chất minh oan bằng hóa đơn mua hộ; giữ cơ chế nỗi sợ bị chụp mũ biển thủ tiền của người già khi nhận làm hộ việc nhạy cảm.",
+      "hook_3cau": "Câu 1: 'Cái đó không thuộc phạm vi phụ trách của em, lỡ mất tiền thì ai chịu?' - đồng nghiệp thản nhiên quay lưng dù cụ Suzuki đang đói lả. Câu 2: Tôi không nỡ nhìn cụ nhịn ăn nên đã nhận giữ ví và chạy đi mua cháo giúp giữa ca trực bận rộn. Câu 3: Để rồi 12 phút trước giờ tan ca, tôi chết lặng khi gia đình cụ ập đến tố cáo tôi lạm dụng kinh tế và bòn rút tiền của người già.",
+      "title_jp": "「それ担当じゃないんで」買物を丸投げした同僚の末路…レシート1枚で形勢逆転",
+      "thumbnail_jp": "それ担当外なんで",
+      "so_lieu_can": [
+       "15987 lượt xem và 106.8 giờ (số liệu video nguồn)",
+       "Khoản tiền bị cụ già báo mất là [SỐ CẦN KIỂM] yên",
+       "Thời điểm xảy ra vụ việc là 12 phút trước giờ về lúc [SỐ CẦN KIỂM] giờ",
+       "Số lần người đồng nghiệp dùng câu cửa miệng né việc trong tuần là [SỐ CẦN KIỂM] lần"
+      ],
+      "cau_hoi_cuoi": "職場で「担当じゃない」と言って面倒な利用者の対応を押し付ける人、あなたの周りにもいませんか？",
+      "rui_ro": "Chủ đề liên quan đến tiền bạc và nghi vấn kinh tế dễ bị trượt sang hướng điều tra tội phạm nếu không neo chặt vào chi tiết nhỏ nhặt của ca trực viện dưỡng lão.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 1262,
+   "jobs": []
+  }
+ }
+}

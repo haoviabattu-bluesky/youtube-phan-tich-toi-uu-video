@@ -1,0 +1,26 @@
+{
+ "_ghi_chu": "viral_hunt — tim video nguon dang no cho lane L/N/O/M. Anh chot 2026-10-18: chay 03:00 moi ngay (Task Scheduler ViralHunt0300), 2 de/lane, bao cao HTML sang Syncthing (FlowHandoff_local/results) de may 1 / h2dev doc.",
+ "max_days": 7,
+ "pages": 12,
+ "threads": 12,
+ "max_subs": 10000,
+ "min_views_A": 100000,
+ "min_views_B": 50000,
+ "min_views_C": 30000,
+ "per_lane": 2,
+ "quota_budget": 6000,
+ "lanes": [
+  "L",
+  "N",
+  "O",
+  "M"
+ ],
+ "paths": {
+  "results_dir": "E:\\CLAUDE\\YOUTUBE\\FlowHandoff_local\\results",
+  "reports_dir": "E:\\CLAUDE\\YOUTUBE\\PHAN_TICH_TOI_UU_VIDEO\\reports\\viral_hunt"
+ },
+ "_ghi_chu_nguong": "Thang bac: A=>100k view/<10k sub/<=5 ngay (dung luat anh); B=>50k; C=>30k; D=>=30k/<=7 ngay; E=>=15k/<=7 ngay. Sub <10k la LUAT CUNG, khong bao gio noi. Do 2026-10-18: quet 547 video manga <=7 ngay cua ca thi truong, chi 1 video dat bac A va khop ngach.",
+ "search_budget": 120,
+ "_ghi_chu_search": "search.list = 100 unit/call VA co han muc rieng 'Search Queries per day' (da an HTTP 429 ngay 2026-10-18 khi quet 38 tu khoa). Vi vay tool KHONG dung search.list: duong chinh la watchlist kenh (playlistItems 1 unit/kenh) + quet trang youtube.com/results (0 unit).",
+ "_ghi_chu_api": "SUA 2026-10-20: API KHONG loi. Ban 2026-10-18 bo API vi project can quota, nhung do la su co tam thoi — hom nay key tra dung videos.list/channels.list/playlistItems/search.list. Tu 2026-10-20 dung API lam duong CHINH de lay publishedAt CHINH XAC + like/comment + sub tin cay (1 unit/50 id, ca luot chay ~62 unit / tran 10.000). Duong web (ytweb.py) giu lam DU PHONG khi API 403 quotaExceeded — va da sua de khong bao gio gan sub = 0."
+}

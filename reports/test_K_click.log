@@ -1,0 +1,28 @@
+07:02:58 ===== BAT DAU (DRY-RUN) tay =====
+07:03:00 --- attach vao profile da mo san: ws://127.0.0.1:9222/devtools/browser/c671519b-96a6-4c5f-863c...
+07:03:00 --- tab se doc: ['K-yakkyoku-sukatto']
+07:03:09     · chuyen video: nghi 4.0s
+07:03:22     · KHONG thay 'Content' de bam
+07:03:31     · KHONG thay 'Channel content' de bam
+07:03:31     · khong thay menu Content (dang o https://studio.youtube.com/channel/UCk8E_FHIYjY7GN_qdpSKaMw) -> ve trang chu Studio
+07:04:04     · Studio: UC-03gNBRs14lZHus7TiKofA
+07:04:05     · bam Content (lan 2) @(97,332)
+07:04:31     · khong thay video v9WZx9l0O64 trong danh sach (da cuon 12 lan)
+07:04:31     · Studio bao loi, doi lau: nghi 3.6s
+07:04:58     · khong thay video v9WZx9l0O64 trong danh sach (da cuon 12 lan)
+07:04:58 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+07:04:58     · chuyen video: nghi 2.7s
+07:05:26     · khong thay video GVqpSJwYQb4 trong danh sach (da cuon 12 lan)
+07:05:26     · Studio bao loi, doi lau: nghi 8.3s
+07:06:00     · khong thay video GVqpSJwYQb4 trong danh sach (da cuon 12 lan)
+07:06:00 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+07:06:00     · chuyen video: nghi 1.9s
+07:06:02 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+07:06:02     · chuyen video: nghi 3.4s
+07:06:32     · khong thay video wqwFUzXwNec trong danh sach (da cuon 12 lan)
+07:06:32     · Studio bao loi, doi lau: nghi 7.2s
+07:07:04     · khong thay video wqwFUzXwNec trong danh sach (da cuon 12 lan)
+07:07:04 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: khong doc duoc trang Reach 24h -> bo qua
+07:07:04 [K-yakkyoku-sukatto] DRY-RUN: 0 dong, KHONG ghi sheet
+07:07:04     · chuyen tab: nghi 0.8s
+07:07:05 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 4 phút

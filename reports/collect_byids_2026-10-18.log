@@ -1,0 +1,74 @@
+06:34:57 === SMOKE-TEST === 1 id, API co 1, profile VirgiliTraino95@gmail.com
+06:34:59   GPMLogin chua bat -> tu mo C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe
+06:36:18 [1/1] vy7ucq5Zy64: LOI daily 'float' object has no attribute 'strip'
+06:36:18 [1/1] vy7ucq5Zy64 imp=320800.0 ctr=3.9 view=24200.0 age=541.1h ctr24= mark=
+06:36:19 [SMOKE-TEST] DA GHI 1 dong vao CSV
+06:38:32 === SMOKE-TEST === 1 id, API co 1, profile VirgiliTraino95@gmail.com
+06:39:49 [1/1] vy7ucq5Zy64 imp=320800.0 ctr=3.9 view=24200.0 age=541.2h ctr24=7.9 mark=BO_QUA_1000
+06:39:49 [SMOKE-TEST] DA GHI 1 dong vao CSV
+06:40:02 === F-teinengo-real === 18 id, API co 18, profile VirgiliTraino95@gmail.com
+06:40:06 === L-shakai-no-naze === 19 id, API co 18, profile SyedualiBajwa92@gmail.com
+06:40:11 === Lane-O === 10 id, API co 10, profile rosellagreysonbk920@gmail.com
+06:41:45 [1/19] VE_CE60s40I imp=27500.0 ctr=3.8 view=4800.0 age=540.3h ctr24=2.7 mark=BO_QUA_1000
+06:41:49 [1/18] pTmVyc6Z2W4 imp=14900.0 ctr=6.1 view=2900.0 age=565.2h ctr24=6.3 mark=BO_QUA_1000
+06:41:51 [1/10] tSs5M9ydTLU imp=45000.0 ctr=7.5 view=11500.0 age=253.2h ctr24=8.7 mark=BO_QUA_1000
+06:42:02 [2/19] C9CQf5jztvM imp=26700.0 ctr=4.4 view=4800.0 age=517.2h ctr24=4.9 mark=BO_QUA_1000
+06:42:05 [2/18] vy7ucq5Zy64 imp=320800.0 ctr=3.9 view=24200.0 age=541.2h ctr24=7.9 mark=BO_QUA_1000
+06:42:08 [2/10] YnuthHXJug4 imp=116300.0 ctr=8.2 view=41100.0 age=300.7h ctr24=9.2 mark=BO_QUA_1000
+06:42:20 [3/19] HLLsbKb0FF4 imp=13600.0 ctr=4.9 view=3400.0 age=493.2h ctr24=3.5 mark=BO_QUA_1000
+06:42:22 [3/18] ctRisa4AEH4 imp=15600.0 ctr=6.3 view=3600.0 age=517.2h ctr24=7.1 mark=BO_QUA_1000
+06:42:25 [3/10] tqeYQOLyTqc imp=28900.0 ctr=6.7 view=6000.0 age=206.5h ctr24=5.5 mark=BO_QUA_1000
+06:42:37 [4/19] 8hsGdbMobVQ imp=8700.0 ctr=4.4 view=2300.0 age=422.0h ctr24=3.5 mark=BO_QUA_1000
+06:42:39 [4/18] qfg_YVoo9RA imp=36200.0 ctr=6.4 view=11900.0 age=493.2h ctr24=4.8 mark=BO_QUA_1000
+06:42:42 [4/10] 3FMS2jR7ToE imp=3400.0 ctr=6.6 view=788.0 age=182.2h ctr24=11.1 mark=NO
+06:42:54 [5/19] 7YoIs7L8c_w imp=19600.0 ctr=3.8 view=6200.0 age=469.2h ctr24=0.0 mark=BO_QUA_1000
+06:42:57 [5/18] 6woJHXK_x7M imp=3800.0 ctr=5.9 view=1300.0 age=421.2h ctr24=12.5 mark=BO_QUA_1000
+06:42:58 [5/10] 4eotc8pewgg imp=16000.0 ctr=7.3 view=3000.0 age=134.2h ctr24=6.2 mark=BO_QUA_1000
+06:43:12 [6/19] Tsk1WPERijs imp=1900.0 ctr=4.8 view=432.0 age=397.2h ctr24=3.1 mark=NO
+06:43:14 [6/18] QGzofxom8Gk imp=3900.0 ctr=5.6 view=539.0 age=397.2h ctr24=5.4 mark=NO
+06:43:15 [6/10] PAFixvlgoOc imp=8800.0 ctr=6.2 view=2300.0 age=93.7h ctr24=5.1 mark=BO_QUA_1000
+06:43:28 [7/19] oljpMKOsZ0M imp=21000.0 ctr=3.4 view=3300.0 age=349.2h ctr24=2.6 mark=BO_QUA_1000
+06:43:32 [7/18] sAeKtLlVEaI imp=17000.0 ctr=8.7 view=6700.0 age=373.2h ctr24=27.7 mark=BO_QUA_1000
+06:43:33 [7/10] k6dS3j7RAI4 imp=14400.0 ctr=5.9 view=3300.0 age=158.2h ctr24=5.1 mark=BO_QUA_1000
+06:43:46 [8/19] iHbgfMd8Mbk imp=10900.0 ctr=3.8 view=1800.0 age=277.2h ctr24=2.4 mark=BO_QUA_1000
+06:43:50 [8/10] kb8KvGBpofU imp=2000.0 ctr=6.4 view=446.0 age=62.2h ctr24=5.9 mark=NO
+06:43:50 [8/18] axi49gJn9bs imp=36000.0 ctr=6.7 view=9900.0 age=325.2h ctr24=26.9 mark=BO_QUA_1000
+06:44:04 [9/19] m_uKThRuMIs imp=23500.0 ctr=4.7 view=6200.0 age=253.2h ctr24=3.8 mark=BO_QUA_1000
+06:44:07 [9/10] 9DwbX9zEn9I imp=908.0 ctr=5.1 view=159.0 age=38.2h ctr24=4.8 mark=CHUA_48H
+06:44:09 [9/18] vzI25R7cmKM imp=36300.0 ctr=7.4 view=9600.0 age=301.2h ctr24=14.6 mark=BO_QUA_1000
+06:44:22 [10/19] SBAbtQtYGJE imp=7400.0 ctr=3.4 view=1700.0 age=230.2h ctr24=2.9 mark=BO_QUA_1000
+06:44:26 [10/18] FuilNim7x_g imp=129699.99999999999 ctr=5.1 view=15400.0 age=253.2h ctr24=7.9 mark=BO_QUA_1000
+06:44:41 [11/19] G8ygvvE4wK8 imp=28100.0 ctr=4.7 view=6100.0 age=205.7h ctr24=3.5 mark=BO_QUA_1000
+06:44:43 [11/18] dzcHbtj5Ri0 imp=48700.0 ctr=5.0 view=6400.0 age=230.2h ctr24=5.9 mark=BO_QUA_1000
+06:44:59 [12/19] j7o0lpgCKRc imp=67200.0 ctr=4.5 view=5700.0 age=205.5h ctr24=4.0 mark=BO_QUA_1000
+06:45:01 [12/18] ePU-IcQZlgY imp=19200.0 ctr=6.6 view=4000.0 age=205.9h ctr24=6.5 mark=BO_QUA_1000
+06:45:17 [13/19] YA9tuTvW9wo imp=3200.0 ctr=3.8 view=312.0 age=182.2h ctr24=4.2 mark=NO
+06:45:18 [10/10] fL6EPr0fZKc imp=755.0 ctr=6.2 view=172.0 age=14.2h ctr24= mark=
+06:45:19 [Lane-O] DA GHI 10 dong vao CSV
+06:45:19 [13/18] Nu1em19hTcE imp=1400.0 ctr=7.6 view=174.0 age=134.3h ctr24=5.7 mark=NO
+06:45:33 === Lane-N === 11 id, API co 11, profile thienduongly7890@gmail.com
+06:45:36 [14/19] pXujDEe1JnI imp=18300.0 ctr=4.8 view=6300.0 age=134.3h ctr24=8.1 mark=BO_QUA_1000
+06:45:38 [14/18] 3UFhsRh8f4Q imp=8500.0 ctr=9.1 view=2900.0 age=182.3h ctr24=6.9 mark=BO_QUA_1000
+06:45:54 [15/19] 9DXfxfghhEU imp=4000.0 ctr=2.3 view=804.0 age=62.3h ctr24=2.8 mark=NO
+06:45:56 [15/18] wUlSLQtGkTs imp=6700.0 ctr=6.2 view=2100.0 age=93.7h ctr24=5.6 mark=BO_QUA_1000
+06:46:09 [1/11] EvdfvywqDc8 imp=5500.0 ctr=3.1 view=863.0 age=277.3h ctr24=2.0 mark=TITLE+THUMB
+06:46:13 [16/19] vhwBncvsnbY imp=7700.0 ctr=3.8 view=2200.0 age=93.8h ctr24=3.9 mark=BO_QUA_1000
+06:46:15 [16/18] UeOxoZUN_UI imp=9900.0 ctr=6.3 view=2800.0 age=62.3h ctr24=5.6 mark=BO_QUA_1000
+06:46:28 [2/11] 0zh3rnxHRic imp=18200.0 ctr=4.7 view=3900.0 age=253.3h ctr24=5.0 mark=BO_QUA_1000
+06:46:32 [17/19] nDuj3Ovhwcc imp=2800.0 ctr=1.3 view=199.0 age=38.3h ctr24=1.5 mark=CHUA_48H
+06:46:45 [3/11] Jc7l8TYs4_Q imp=1300.0 ctr=4.8 view=183.0 age=311.3h ctr24=3.2 mark=NO
+06:47:04 [4/11] oXCuQVjE4jQ imp=6100.0 ctr=0.8 view=80.0 age=182.3h ctr24=0.0 mark=TITLE+THUMB
+06:47:22 [5/11] zl-rXzd4zZQ imp=2500.0 ctr=2.6 view=136.0 age=158.3h ctr24=3.9 mark=NO
+06:47:27 [17/18] c7BAsPkpPcc imp=650.0 ctr=4.5 view=88.0 age=14.3h ctr24= mark=
+06:47:41 [6/11] Js2At6VOYl4 imp=6600.0 ctr=2.6 view=475.0 age=206.3h ctr24=6.9 mark=NO
+06:47:44 [18/19] huTyt8Hsk5s imp=551.0 ctr=2.2 view=51.0 age=14.3h ctr24= mark=
+06:47:44 [19/19] xIUVlWyZPiU: API khong co (rieng tu/hen gio) -> bo qua
+06:47:45 [L-shakai-no-naze] DA GHI 18 dong vao CSV
+06:47:45 [18/18] XS4solt4RVk imp=6400.0 ctr=3.8 view=1100.0 age=38.3h ctr24=3.8 mark=BO_QUA_1000
+06:47:45 [F-teinengo-real] DA GHI 18 dong vao CSV
+06:47:59 [7/11] j434s_1kHgI imp=40.0 ctr=2.5 view=14.0 age=38.3h ctr24=2.8 mark=CHUA_48H
+06:48:16 [8/11] ltLZafQsxXk imp=4400.0 ctr=2.6 view=217.0 age=134.4h ctr24=3.4 mark=NO
+06:48:36 [9/11] a7l7bMG7lgs imp=6800.0 ctr=3.0 view=1200.0 age=86.3h ctr24=3.8 mark=BO_QUA_1000
+06:48:54 [10/11] cEDcJIhTySQ imp=111.0 ctr=4.5 view=41.0 age=62.3h ctr24=5.9 mark=NO
+06:50:04 [11/11] RypJKGCiDY8 imp=17.0 ctr= view=3.0 age=14.3h ctr24= mark=
+06:50:06 [Lane-N] DA GHI 11 dong vao CSV

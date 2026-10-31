@@ -1,0 +1,16 @@
+{
+ "_ghi_chu": "Job 05:00 (anh chot 2026-10-16). Moi nhom = 1 profile mo 1 lan, doc lan luot cac tab trong nhom. engine: gpm (mail = ten profile GPM) | ads (user_id AdsPower) | cdp (Chrome rieng, cong co dinh). Kenh dung chung 1 mail -> tool tu chuyen kenh theo channelId cua video (Data API). Satori bo (kenh bi dinh chi).",
+ "groups": [
+  {"engine": "cdp", "port": 9222, "tabs": ["A-shinya_shiryoshitsu", "M-teinengo-anaba"]},
+  {"engine": "gpm", "mail": "normaneileenpm218@gmail.com", "tabs": ["E-70dai-kenko"]},
+  {"engine": "gpm", "mail": "VirgiliTraino95@gmail.com", "tabs": ["F-teinengo-real"]},
+  {"engine": "gpm", "mail": "cobbytheona159@gmail.com", "tabs": ["G"]},
+  {"engine": "gpm", "mail": "rosellagreysonbk920@gmail.com", "tabs": ["K-yakkyoku-sukatto", "Lane-O"]},
+  {"engine": "gpm", "mail": "SyedualiBajwa92@gmail.com", "tabs": ["L-shakai-no-naze"]},
+  {"engine": "gpm", "mail": "FuentesMitsy202@gmail.com", "tabs": ["kokoro-kazoku"]},
+  {"engine": "gpm", "mail": "AldenorRodrigues626@gmail.com", "tabs": ["sengoku-uragawa", "Lane-J"]},
+  {"engine": "ads", "user_id": "k15wbjoo", "mail": "thienduongly7890@gmail.com", "tabs": ["Lane-N"]},
+  {"engine": "gpm", "mail": "tiffanyhenrietta3@gmail.com", "tabs": ["Lane-P"]},
+  {"engine": "gpm", "mail": "JordaneLaetitia694@gmail.com", "tabs": ["Lane-Q"]}
+ ]
+}

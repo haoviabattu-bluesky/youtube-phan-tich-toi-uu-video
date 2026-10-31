@@ -99,18 +99,43 @@ channels:
     mail: haoviabattu@gmail.com
     h2dev_profile: teinengo-anaba
     h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\M-teinengo-anaba
-    enabled: true
+    enabled: false               # 2026-10-22: anh chốt KHÔNG làm lane M (HUONG_DAN_HERMES)
     note: Bật 2026-10-08 theo yêu cầu anh. Mail này có 2 kênh (Lane A + M) → khi đăng phải đúng kênh M (poster verify identity).
 
   - lane: O
     channel_id: UCnwgkB18gTTON1YXNQvxsbg      # tra từ video tSs5M9ydTLU (tab Lane-O) 2026-10-08
     channel_name: 人生のつづき
+    handle: "@人生のつづき"                 # tra API 2026-10-22 (thiếu handle → thread_has_owner_reply khớp nhầm mọi tác giả)
     sheet_tab: Lane-O
     mail: rosellagreysonbk920@gmail.com   # anh báo 2026-10-09 (cùng mail lane K → poster verify identity đúng kênh O)
     h2dev_profile: kaigo-sukatto
     h2dev_assets_dir: E:\CLAUDE\YOUTUBE\h2dev\assets\O-kaigo-sukatto
     enabled: true
     note: 2026-10-09 bật theo yêu cầu anh (2 video có bình luận).
+
+  - lane: P
+    channel_id: UC0AVbIBy108MV7dp1Rmux9g      # tra API 2026-10-22: 日本企業ウォッチ @nihon-kigyo-watch
+    channel_name: 日本企業ウォッチ
+    handle: "@nihon-kigyo-watch"
+    audience: 日本の企業・経済・日中関係に関心のある幅広い世代の日本人
+    sheet_tab: Lane-P
+    mail: tiffanyhenrietta3@gmail.com
+    h2dev_profile: null
+    h2dev_assets_dir: null
+    enabled: true
+    note: Bật 2026-10-22 theo HUONG_DAN_HERMES. Chủ đề Nhật–Trung → nhiều bình luận chính trị (chỉ cảm ơn).
+
+  - lane: Q
+    channel_id: UCdz_XWaievFUBOi6wL_evZg      # tra API 2026-10-22: 凛とした日本 @rintoshita-nippon
+    channel_name: 凛とした日本
+    handle: "@rintoshita-nippon"
+    audience: 日本の社会・文化・日中関係に関心のある幅広い世代の日本人
+    sheet_tab: Lane-Q
+    mail: JordaneLaetitia694@gmail.com
+    h2dev_profile: null
+    h2dev_assets_dir: null
+    enabled: true
+    note: Bật 2026-10-22 theo HUONG_DAN_HERMES. Như P.
 
   - lane: Satori
     channel_id: UC9huXCiBIXBfUh11D7ZsFSA

@@ -1,0 +1,1543 @@
+05:00:06 ===== DA LUONG 3 profile cung luc | 11 nhom | tat ca tab  =====
+05:00:06   luong 1: ['cdp9222', 'normaneileenpm218@gmail.com', 'SyedualiBajwa92@gmail.com', 'tiffanyhenrietta3@gmail.com']
+05:00:06   luong 2: ['rosellagreysonbk920@gmail.com', 'VirgiliTraino95@gmail.com', 'FuentesMitsy202@gmail.com', 'JordaneLaetitia694@gmail.com']
+05:00:06   luong 3: ['AldenorRodrigues626@gmail.com', 'cobbytheona159@gmail.com', 'thienduongly7890@gmail.com']
+05:00:06     · luong 1 cho mo profile: nghi 0.5s
+05:00:06     · luong 2 cho mo profile: nghi 9.2s
+05:00:06     · luong 3 cho mo profile: nghi 19.0s
+05:00:07   luong 1 mo profile: cdp cdp9222
+05:00:07   luong 1 chay: cdp9222 | tabs=['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+05:00:15 <cdp9222> ===== BAT DAU tay =====
+05:00:15   luong 2 mo profile: gpm rosellagreysonbk920@gmail.com
+05:00:18 <cdp9222> --- attach vao profile da mo san: http://127.0.0.1:9222...
+05:00:18 <cdp9222> --- tab se doc: ['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+05:00:30 <cdp9222>     · phong to cua so: 1920px
+05:00:50 <cdp9222>     · chuyen video: nghi 37.3s
+05:01:15   luong 2 chay: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto', 'Lane-O']
+05:01:17 <rosellagreysonbk920> ===== BAT DAU tay =====
+05:01:20 <rosellagreysonbk920> --- attach vao profile da mo san: ws://localhost:65041/devtools/browser/bb65f1eb-0e0b-4f08-9c0...
+05:01:20 <rosellagreysonbk920> --- tab se doc: ['K-yakkyoku-sukatto', 'Lane-O']
+05:01:23 <rosellagreysonbk920>     · phong to cua so: 1920px
+05:01:31 <cdp9222>     · bam Content @(97,332)
+05:01:38 <rosellagreysonbk920>     · chua vao duoc kenh sau goto (lan 1, trang Oops)
+05:01:46 <cdp9222>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:01:52 <cdp9222>     · bam video itNs2a3zJmQ @(712,661)
+05:01:55 <rosellagreysonbk920>     · bam kenh '薬局スカッと帳' @(1011,168)
+05:01:59 <cdp9222>     · mo duoc video: セスナ上空の光はUFOか金星か…父が語る息子の恐怖【都市伝説 ミステリー 怖い話】
+05:02:02 <cdp9222>     · bam tab Analytics @(101,380)
+05:02:03 <rosellagreysonbk920> [K-yakkyoku-sukatto] LOI lane: Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigation to "https://www.youtube.com/"
+Call log:
+  - navigating to "https://studio.youtube.com/", waiting until "domc
+05:02:03 <rosellagreysonbk920>     · chuyen tab: nghi 15.6s
+05:02:08 <cdp9222>     · bam tab Reach @(410,178)
+05:02:13 <cdp9222>     · doc so xong: nghi 3.9s
+05:02:19   luong 3 chay: AldenorRodrigues626@gmail.com | tabs=['sengoku-uragawa', 'Lane-J']
+05:02:20 <cdp9222>     · bam nhan khoang ngay @(1329,155)
+05:02:22 <AldenorRodrigues626> ===== BAT DAU tay =====
+05:02:25 <AldenorRodrigues626> --- attach vao profile da mo san: ws://localhost:65219/devtools/browser/3a6fc8ab-1b76-4f0c-a33...
+05:02:25 <AldenorRodrigues626> --- tab se doc: ['sengoku-uragawa', 'Lane-J']
+05:02:27 <cdp9222>     · bam Custom @(1326,598)
+05:02:28 <AldenorRodrigues626>     · phong to cua so: 1920px
+05:02:29 <AldenorRodrigues626> [sengoku-uragawa] khong co video_id o cot L -> bo qua
+05:02:29 <AldenorRodrigues626>     · chuyen tab: nghi 9.4s
+05:02:30 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:02:37 <cdp9222>     · bam Apply @(1454,505)
+05:02:41 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:02:44 <rosellagreysonbk920>     · chuyen video: nghi 44.8s
+05:02:49 <cdp9222>     · doc so xong: nghi 2.9s
+05:02:52 <cdp9222> [A-shinya_shiryoshitsu] dong 2 itNs2a3zJmQ: N=41 O=26 P=2,5% Q=— imp24h=0.0 | VANG | K=CTR 24h=— (0 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:02:52 <AldenorRodrigues626>     · chua vao duoc kenh sau goto (lan 1, trang Oops)
+05:02:54 <cdp9222> [A-shinya_shiryoshitsu] dong 2: DA GHI SHEET
+05:02:55 <cdp9222> [A-shinya_shiryoshitsu] TONGHOP TONGHOP khong co cot A-shinya_shiryoshitsu
+05:02:55 <cdp9222>     · chuyen video: nghi 47.9s
+05:03:04 <AldenorRodrigues626>     · channel_switcher khong co kenh '老後の知恵袋'
+05:03:04 <AldenorRodrigues626>     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:03:04 <AldenorRodrigues626> [Lane-J] KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ (url=https://www.youtube.com/account) -> bo qua lane
+05:03:04 <AldenorRodrigues626>     · chuyen tab: nghi 21.7s
+05:03:26 <AldenorRodrigues626> ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: Lane-J · 1 phút
+05:03:26   luong 3: AldenorRodrigues626@gmail.com xong (exit 0)
+05:03:27   luong 3: dong profile AldenorRodrigues626@gmail.com
+05:03:27     · mo profile tiep theo: nghi 10.8s
+05:03:33 <rosellagreysonbk920>     · bam Content @(97,332)
+05:03:37   luong 3 mo profile: gpm cobbytheona159@gmail.com
+05:03:42 <rosellagreysonbk920>     · bam video tSs5M9ydTLU @(710,677)
+05:03:43 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/itNs2a3zJmQ/analytics/tab-r, menu=co) -> chuyen lai
+05:03:46 <rosellagreysonbk920>     · mo duoc video: 【漫画】「じゃあ、辞めます」が口ぐせの介護士が、3度目に同じ言葉を言った結果…
+05:03:50 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:03:56 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:04:03 <rosellagreysonbk920>     · doc so xong: nghi 3.2s
+05:04:03 <cdp9222>     · bam Content @(97,332)
+05:04:09 <rosellagreysonbk920>     · bam nhan khoang ngay @(1324,88)
+05:04:14 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:04:17 <cdp9222>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:04:17 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:04:23 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:04:24 <cdp9222>     · bam video oRXPrmO2eY8 @(709,493)
+05:04:27 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:04:30 <cdp9222>     · mo duoc video: ウォルトンが消えた5日間…迫る2,500ドルの罰金【都市伝説 ミステリー 怖い話】
+05:04:33 <cdp9222>     · bam tab Analytics @(101,380)
+05:04:35 <rosellagreysonbk920>     · doc so xong: nghi 3.7s
+05:04:39 <cdp9222>     · bam tab Reach @(410,178)
+05:04:39 <rosellagreysonbk920> [Lane-O] dong 2 tSs5M9ydTLU: N=18 O=17300 P=8,3% Q=10,9% imp24h=1800.0 | ok | K=443h · 17.300 view · CTR tổng 8,3% · CTR 24h 10,9% · 1.800 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:04:39 <rosellagreysonbk920> [Lane-O] dong 2: DA GHI SHEET
+05:04:39   luong 3 chay: cobbytheona159@gmail.com | tabs=['G']
+05:04:39 <rosellagreysonbk920>     · chuyen video: nghi 33.7s
+05:04:40 <cobbytheona159> ===== BAT DAU tay =====
+05:04:42 <cobbytheona159> --- attach vao profile da mo san: ws://localhost:65445/devtools/browser/3c3baec8-8a53-4888-a9e...
+05:04:42 <cobbytheona159> --- tab se doc: ['G']
+05:04:43 <cdp9222>     · doc so xong: nghi 3.8s
+05:04:45 <cobbytheona159>     · phong to cua so: 1920px
+05:04:49 <cdp9222>     · bam nhan khoang ngay @(1329,155)
+05:04:54 <cdp9222>     · bam Custom @(1326,598)
+05:04:57 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:05:01 <cobbytheona159>     · chuyen video: nghi 42.2s
+05:05:02 <cdp9222>     · bam Apply @(1454,505)
+05:05:06 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:05:13 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/tSs5M9ydTLU/analytics/tab-r, menu=co) -> chuyen lai
+05:05:16 <cdp9222>     · doc so xong: nghi 2.6s
+05:05:18 <cdp9222> [A-shinya_shiryoshitsu] dong 3 oRXPrmO2eY8: N=38 O=9 P= Q=— imp24h=1.0 | VANG | K=CTR 24h=— (1 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:05:19 <cdp9222> [A-shinya_shiryoshitsu] dong 3: DA GHI SHEET
+05:05:20 <cdp9222> [A-shinya_shiryoshitsu] TONGHOP TONGHOP khong co cot A-shinya_shiryoshitsu
+05:05:20 <cdp9222>     · chuyen video: nghi 20.2s
+05:05:34 <rosellagreysonbk920>     · bam Content @(97,332)
+05:05:40 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/oRXPrmO2eY8/analytics/tab-r, menu=co) -> chuyen lai
+05:05:41 <rosellagreysonbk920>     · bam video YnuthHXJug4 @(710,761)
+05:05:45 <cobbytheona159>     · bam Content @(97,332)
+05:05:45 <rosellagreysonbk920>     · mo duoc video: 【漫画】「自分、仕事できるんで」が口ぐせの介護士…気づけば担当表から名前が消えていた
+05:05:49 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:05:55 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:06:00 <cdp9222>     · bam Content @(97,332)
+05:06:01 <cobbytheona159>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:06:01 <rosellagreysonbk920>     · doc so xong: nghi 3.8s
+05:06:06 <cobbytheona159>     · bam video tdmVOys-r9U @(675,577)
+05:06:08 <rosellagreysonbk920>     · bam nhan khoang ngay @(1324,88)
+05:06:11 <cobbytheona159>     · mo duoc video: 【漫画】64歳、朝を捨てていた…定年後に始めた「小さな朝習慣」5選
+05:06:14 <cobbytheona159>     · bam tab Analytics @(101,380)
+05:06:14 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:06:15 <cdp9222>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:06:17 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:06:19 <cobbytheona159>     · bam tab Reach @(410,178)
+05:06:21 <cdp9222>     · bam video VALYwHZIlRw @(712,577)
+05:06:22 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:06:25 <cobbytheona159>     · doc so xong: nghi 4.2s
+05:06:26 <cdp9222>     · mo duoc video: 「地下に9機の円盤」エリア51の男を公文書で追うと…【都市伝説 ミステリー 怖い話】
+05:06:27 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:06:30 <cdp9222>     · bam tab Analytics @(101,380)
+05:06:31 <cobbytheona159>     · bam nhan khoang ngay @(1329,155)
+05:06:34 <rosellagreysonbk920>     · doc so xong: nghi 3.3s
+05:06:35 <cdp9222>     · bam tab Reach @(410,178)
+05:06:36 <cobbytheona159>     · bam Custom @(1326,598)
+05:06:37 <rosellagreysonbk920> [Lane-O] dong 3 YnuthHXJug4: N=20 O=61000 P=8,1% Q=7,5% imp24h=4200.0 | ok | K=491h · 61.000 view · CTR tổng 8,1% · CTR 24h 7,5% · 4.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:06:37 <rosellagreysonbk920> [Lane-O] dong 3: DA GHI SHEET
+05:06:38 <rosellagreysonbk920>     · chuyen video: nghi 48.5s
+05:06:40 <cobbytheona159>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:06:40 <cdp9222>     · doc so xong: nghi 3.2s
+05:06:45 <cdp9222>     · bam nhan khoang ngay @(1329,155)
+05:06:45 <cobbytheona159>     · bam Apply @(1454,505)
+05:06:49 <cobbytheona159>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:06:51 <cdp9222>     · bam Custom @(1326,598)
+05:06:54 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:06:56 <cobbytheona159>     · doc so xong: nghi 3.8s
+05:06:59 <cobbytheona159> [G] dong 2 tdmVOys-r9U: N=30 O=1 P= Q=— imp24h=29.0 | VANG | K=CTR 24h=— (29 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:07:01 <cobbytheona159> [G] dong 2: DA GHI SHEET
+05:07:01 <cobbytheona159> [G] TONGHOP TONGHOP khong co cot G
+05:07:01 <cobbytheona159>     · chuyen video: nghi 36.4s
+05:07:01 <cdp9222>     · bam Apply @(1454,505)
+05:07:05 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:07:12 <cdp9222>     · doc so xong: nghi 2.7s
+05:07:15 <cdp9222> [A-shinya_shiryoshitsu] dong 4 VALYwHZIlRw: N=39 O=9 P=2,2% Q=— imp24h=0.0 | VANG | K=CTR 24h=— (0 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:07:16 <cdp9222> [A-shinya_shiryoshitsu] dong 4: DA GHI SHEET
+05:07:16 <cdp9222> [A-shinya_shiryoshitsu] TONGHOP TONGHOP khong co cot A-shinya_shiryoshitsu
+05:07:16 <cdp9222>     · chuyen video: nghi 40.1s
+05:07:26 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/YnuthHXJug4/analytics/tab-r, menu=co) -> chuyen lai
+05:07:38 <cobbytheona159>     · chua san sang (url=https://studio.youtube.com/video/tdmVOys-r9U/analytics/tab-r, menu=co) -> chuyen lai
+05:07:47 <rosellagreysonbk920>     · bam Content @(97,332)
+05:07:54 <rosellagreysonbk920>     · bam video tqeYQOLyTqc @(710,593)
+05:07:56 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/VALYwHZIlRw/analytics/tab-r, menu=co) -> chuyen lai
+05:07:59 <rosellagreysonbk920>     · mo duoc video: 【漫画】「定時なんで」が口ぐせの介護士が、退勤12分前に家族の相談を断った結果…
+05:08:03 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:08:03 <cobbytheona159>     · bam Content @(97,332)
+05:08:08 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:08:12 <cdp9222>     · bam Content @(97,332)
+05:08:14 <rosellagreysonbk920>     · doc so xong: nghi 3.5s
+05:08:19 <rosellagreysonbk920>     · bam nhan khoang ngay @(1324,155)
+05:08:19 <cobbytheona159>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:08:23 <cobbytheona159>     · bam video fimMUWtL6cE @(712,493)
+05:08:24 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:08:27 <cdp9222>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:08:28 <cobbytheona159>     · mo duoc video: 【漫画】定年後「何もしない」が怖かった65歳男性…月1000円以下で「暇な毎日」が待ち遠
+05:08:28 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:08:31 <cobbytheona159>     · bam tab Analytics @(101,380)
+05:08:34 <cdp9222>     · bam video dwA72VyL9UM @(712,409)
+05:08:35 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:08:36 <cobbytheona159>     · bam tab Reach @(410,178)
+05:08:39 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:08:40 <cdp9222>     · mo duoc video: 確認信号は0件…フェルミの問いが残した2つの結末【都市伝説 ミステリー 怖い話】
+05:08:41 <cobbytheona159>     · doc so xong: nghi 2.9s
+05:08:42 <cdp9222>     · bam tab Analytics @(101,380)
+05:08:46 <rosellagreysonbk920>     · doc so xong: nghi 2.1s
+05:08:47 <cobbytheona159>     · bam nhan khoang ngay @(1329,155)
+05:08:48 <rosellagreysonbk920> [Lane-O] dong 4 tqeYQOLyTqc: N=16 O=6300 P=6,6% Q=6,6% imp24h=394.0 | ok | K=396h · 6.300 view · CTR tổng 6,6% · CTR 24h 6,6% · 394 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:08:48 <cdp9222>     · bam tab Reach @(410,178)
+05:08:49 <rosellagreysonbk920> [Lane-O] dong 4: DA GHI SHEET
+05:08:49 <rosellagreysonbk920>     · chuyen video: nghi 26.9s
+05:08:51 <cobbytheona159>     · bam Custom @(1326,598)
+05:08:54 <cobbytheona159>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:08:55 <cdp9222>     · doc so xong: nghi 2.6s
+05:09:00 <cdp9222>     · bam nhan khoang ngay @(1329,88)
+05:09:01 <cobbytheona159>     · bam Apply @(1454,505)
+05:09:05 <cobbytheona159>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:09:05 <cdp9222>     · bam Custom @(1326,531)
+05:09:08 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:09:14 <cdp9222>     · bam Apply @(1454,438)
+05:09:15 <cobbytheona159>     · doc so xong: nghi 3.5s
+05:09:16 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/tqeYQOLyTqc/analytics/tab-r, menu=co) -> chuyen lai
+05:09:18 <cobbytheona159> [G] dong 3 fimMUWtL6cE: N=29 O=4 P=1,6% Q=— imp24h=6.0 | VANG | K=CTR 24h=— (6 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:09:18 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:09:19 <cobbytheona159> [G] dong 3: DA GHI SHEET
+05:09:20 <cobbytheona159> [G] TONGHOP TONGHOP khong co cot G
+05:09:20 <cobbytheona159>     · chuyen video: nghi 35.1s
+05:09:27 <cdp9222>     · doc so xong: nghi 2.1s
+05:09:29 <cdp9222> [A-shinya_shiryoshitsu] dong 5 dwA72VyL9UM: N=33 O=1 P= Q=— imp24h=1.0 | VANG | K=CTR 24h=— (1 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:09:30 <cdp9222> [A-shinya_shiryoshitsu] dong 5: DA GHI SHEET
+05:09:31 <cdp9222> [A-shinya_shiryoshitsu] TONGHOP TONGHOP khong co cot A-shinya_shiryoshitsu
+05:09:31 <cdp9222>     · chuyen video: nghi 34.1s
+05:09:36 <rosellagreysonbk920>     · bam Content @(97,332)
+05:09:44 <rosellagreysonbk920>     · bam video 3FMS2jR7ToE @(710,509)
+05:09:49 <rosellagreysonbk920>     · mo duoc video: 【漫画】賢い人は「代わりはいくらでもいる」とは考えない。そう思い続けた人が、最後に失った
+05:09:52 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:09:55 <cobbytheona159>     · chua san sang (url=https://studio.youtube.com/video/fimMUWtL6cE/analytics/tab-r, menu=co) -> chuyen lai
+05:09:59 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:10:05 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/dwA72VyL9UM/analytics/tab-r, menu=co) -> chuyen lai
+05:10:06 <rosellagreysonbk920>     · doc so xong: nghi 3.2s
+05:10:12 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,88)
+05:10:13 <cobbytheona159>     · bam Content @(97,332)
+05:10:16 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:10:20 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:10:24 <cdp9222>     · bam Content @(97,332)
+05:10:25 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:10:28 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:10:29 <cobbytheona159>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:10:35 <rosellagreysonbk920>     · doc so xong: nghi 3.8s
+05:10:35 <cobbytheona159>     · bam video HNt29CYLlI4 @(703,409)
+05:10:39 <rosellagreysonbk920> [Lane-O] dong 5 3FMS2jR7ToE: N=15 O=1000 P=6,7% Q=9,3% imp24h=86.0 | ok | K=372h · 1.000 view · CTR tổng 6,7% · CTR 24h 9,3% · 86 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:10:39 <cobbytheona159>     · mo duoc video: 【漫画】65歳、「いつでも行ける」で数年…定年後、平日に歩きたい城下町5選
+05:10:39 <rosellagreysonbk920> [Lane-O] dong 5: DA GHI SHEET
+05:10:40 <rosellagreysonbk920>     · chuyen video: nghi 46.2s
+05:10:41 <cdp9222>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:10:42 <cobbytheona159>     · bam tab Analytics @(101,380)
+05:10:45 <cdp9222>     · bam video SFoq1pO3OPE @(712,325)
+05:10:47 <cobbytheona159>     · bam tab Reach @(410,178)
+05:10:49 <cdp9222>     · mo duoc video: バミューダ5機失踪、報告書は「原因不明」じゃなかった【都市伝説 ミステリー 怖い話】
+05:10:53 <cdp9222>     · bam tab Analytics @(101,380)
+05:10:54 <cobbytheona159>     · doc so xong: nghi 1.9s
+05:10:58 <cdp9222>     · bam tab Reach @(410,178)
+05:11:00 <cobbytheona159>     · bam nhan khoang ngay @(1329,119)
+05:11:04 <cobbytheona159>     · bam Custom @(1326,562)
+05:11:05 <cdp9222>     · doc so xong: nghi 3.4s
+05:11:07 <cobbytheona159>     · bam o ngay bat dau -> 2026-10-24 @(1304,125)
+05:11:12 <cdp9222>     · bam nhan khoang ngay @(1329,88)
+05:11:14 <cobbytheona159>     · bam Apply @(1454,469)
+05:11:15 <cdp9222>     · bam Custom @(1326,531)
+05:11:17 <cobbytheona159>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:11:19 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:11:25 <cobbytheona159>     · doc so xong: nghi 2.0s
+05:11:26 <cdp9222>     · bam Apply @(1454,438)
+05:11:26 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/3FMS2jR7ToE/analytics/tab-r, menu=co) -> chuyen lai
+05:11:27 <cobbytheona159> [G] dong 4 HNt29CYLlI4: N=28 O=2 P=1,9% Q=— imp24h=5.0 | VANG | K=CTR 24h=— (5 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:11:28 <cobbytheona159> [G] dong 4: DA GHI SHEET
+05:11:29 <cobbytheona159> [G] TONGHOP TONGHOP khong co cot G
+05:11:29 <cobbytheona159>     · chuyen video: nghi 34.0s
+05:11:29 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:11:36 <cdp9222>     · doc so xong: nghi 3.6s
+05:11:40 <cdp9222> [A-shinya_shiryoshitsu] dong 6 SFoq1pO3OPE: N=31 O=3 P= Q=— imp24h=37.0 | VANG | K=CTR 24h=— (37 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:11:41 <cdp9222> [A-shinya_shiryoshitsu] dong 6: DA GHI SHEET
+05:11:41 <cdp9222> [A-shinya_shiryoshitsu] TONGHOP TONGHOP khong co cot A-shinya_shiryoshitsu
+05:11:41 <cdp9222> [A-shinya_shiryoshitsu] xong lane: 5 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+05:11:41 <cdp9222>     · chuyen tab: nghi 14.3s
+05:11:47 <rosellagreysonbk920>     · bam Content @(97,332)
+05:11:56 <rosellagreysonbk920>     · bam video 4eotc8pewgg @(710,476)
+05:12:01 <rosellagreysonbk920>     · mo duoc video: 【漫画】「そんなことも分からないの？」が口ぐせの介護士…新人が3人続けて辞めた結果
+05:12:03 <cobbytheona159>     · chua san sang (url=https://studio.youtube.com/video/HNt29CYLlI4/analytics/tab-r, menu=co) -> chuyen lai
+05:12:05 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:12:10 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:12:11 <cdp9222>     · chuyen video: nghi 36.7s
+05:12:17 <rosellagreysonbk920>     · doc so xong: nghi 3.0s
+05:12:21 <cobbytheona159>     · bam Content @(97,332)
+05:12:23 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:12:27 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:12:30 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:12:37 <cobbytheona159>     · bam chip Videos (giao dien Content moi) @(314,249)
+05:12:37 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:12:41 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:12:41 <cobbytheona159>     · bam video ltkGA90pQNQ @(712,325)
+05:12:46 <cobbytheona159>     · mo duoc video: 【漫画】60代から夜中に目が覚める人へ…夜ぐっすり眠るための最高の夕方習慣5選
+05:12:48 <rosellagreysonbk920>     · doc so xong: nghi 1.7s
+05:12:49 <cobbytheona159>     · bam tab Analytics @(101,380)
+05:12:50 <rosellagreysonbk920> [Lane-O] dong 6 4eotc8pewgg: N=13 O=3400 P=7,3% Q=5,8% imp24h=414.0 | ok | K=324h · 3.400 view · CTR tổng 7,3% · CTR 24h 5,8% · 414 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:12:51 <rosellagreysonbk920> [Lane-O] dong 6: DA GHI SHEET
+05:12:51 <rosellagreysonbk920>     · chuyen video: nghi 30.9s
+05:12:52 <cdp9222>     · bam Content @(97,332)
+05:12:54 <cobbytheona159>     · bam tab Reach @(410,178)
+05:12:59 <cdp9222>     · bam video 6rM_7jwLs2k @(710,677)
+05:13:00 <cobbytheona159>     · doc so xong: nghi 3.2s
+05:13:05 <cdp9222>     · mo duoc video: 【漫画】60代、定年後の仕事選びに悩んでいませんか？｜座って働ける、資格不要の穴場バイト
+05:13:05 <cobbytheona159>     · bam nhan khoang ngay @(1329,88)
+05:13:09 <cdp9222>     · bam tab Analytics @(101,380)
+05:13:11 <cobbytheona159>     · bam Custom @(1326,531)
+05:13:14 <cobbytheona159>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:13:15 <cdp9222>     · bam tab Reach @(410,178)
+05:13:21 <cdp9222>     · doc so xong: nghi 3.8s
+05:13:21 <cobbytheona159>     · bam Apply @(1454,438)
+05:13:22 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/4eotc8pewgg/analytics/tab-r, menu=co) -> chuyen lai
+05:13:25 <cobbytheona159>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:13:28 <cdp9222>     · bam nhan khoang ngay @(1329,153)
+05:13:33 <cobbytheona159>     · doc so xong: nghi 3.4s
+05:13:34 <cdp9222>     · bam Custom @(1326,596)
+05:13:37 <cobbytheona159> [G] dong 5 ltkGA90pQNQ: N=27 O=3 P= Q=— imp24h=35.0 | VANG | K=CTR 24h=— (35 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:13:37 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,159)
+05:13:38 <cobbytheona159> [G] dong 5: DA GHI SHEET
+05:13:38 <cobbytheona159> [G] TONGHOP TONGHOP khong co cot G
+05:13:38 <cobbytheona159> [G] xong lane: 4 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+05:13:38 <cobbytheona159>     · chuyen tab: nghi 17.9s
+05:13:43 <rosellagreysonbk920>     · bam Content @(97,332)
+05:13:43 <cdp9222>     · bam Apply @(1454,503)
+05:13:48 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:13:52 <rosellagreysonbk920>     · bam video PAFixvlgoOc @(710,476)
+05:13:56 <cdp9222>     · doc so xong: nghi 3.2s
+05:13:56 <rosellagreysonbk920>     · mo duoc video: 【漫画】「それ、担当じゃない」が危険な3つの理由…介護士歴20年の男が見落とした“9分間
+05:13:56 <cobbytheona159> ===== XONG: 4 video · 4 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 9 phút
+05:13:57   luong 3: cobbytheona159@gmail.com xong (exit 0)
+05:13:57   luong 3: dong profile cobbytheona159@gmail.com
+05:13:57     · mo profile tiep theo: nghi 9.9s
+05:13:58 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:13:59 <cdp9222> [M-teinengo-anaba] dong 2 6rM_7jwLs2k: N=25 O=2000 P=4,9% Q=3,7% imp24h=510.0 | ok | K=611h · 2.000 view · CTR tổng 4,9% · CTR 24h 3,7% · 510 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:13:59 <cdp9222> [M-teinengo-anaba] dong 2: DA GHI SHEET
+05:14:00 <cdp9222>     · chuyen video: nghi 23.6s
+05:14:02 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:14:07   luong 3 mo profile: ads thienduongly7890@gmail.com
+05:14:08 <rosellagreysonbk920>     · doc so xong: nghi 3.4s
+05:14:15   luong 3 chay: thienduongly7890@gmail.com | tabs=['Lane-N']
+05:14:15 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,88)
+05:14:19 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:14:21 <thienduongly7890> ===== BAT DAU tay =====
+05:14:23 <thienduongly7890> --- attach vao profile da mo san: ws://127.0.0.1:49335/devtools/browser/44e21929-c847-49d8-b81...
+05:14:23 <thienduongly7890> --- tab se doc: ['Lane-N']
+05:14:23 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:14:24 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/6rM_7jwLs2k/analytics/tab-r, menu=co) -> chuyen lai
+05:14:27 <thienduongly7890>     · phong to cua so: 1920px
+05:14:29 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:14:33 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:14:40 <rosellagreysonbk920>     · doc so xong: nghi 2.9s
+05:14:43 <rosellagreysonbk920> [Lane-O] dong 7 PAFixvlgoOc: N=11 O=3200 P=6,0% Q=3,7% imp24h=294.0 | ok | K=284h · 3.200 view · CTR tổng 6,0% · CTR 24h 3,7% · 294 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:14:43 <rosellagreysonbk920> [Lane-O] dong 7: DA GHI SHEET
+05:14:44 <rosellagreysonbk920>     · chuyen video: nghi 29.7s
+05:14:44 <cdp9222>     · bam Content @(97,332)
+05:14:45 <thienduongly7890>     · chuyen video: nghi 50.4s
+05:14:53 <cdp9222>     · bam video 7hnpdufAVHg @(706,761)
+05:14:58 <cdp9222>     · mo duoc video: 【漫画】なぜ「断れない人」ほど損をする？60代が選び直した定年後の仕事7選
+05:15:01 <cdp9222>     · bam tab Analytics @(101,380)
+05:15:07 <cdp9222>     · bam tab Reach @(410,178)
+05:15:14 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/PAFixvlgoOc/analytics/tab-r, menu=co) -> chuyen lai
+05:15:14 <cdp9222>     · doc so xong: nghi 4.3s
+05:15:22 <cdp9222>     · bam nhan khoang ngay @(1329,155)
+05:15:27 <cdp9222>     · bam Custom @(1326,598)
+05:15:31 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:15:34 <rosellagreysonbk920>     · bam Content @(97,332)
+05:15:35 <cdp9222>     · bam Apply @(1454,505)
+05:15:40 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:15:40 <rosellagreysonbk920>     · bam video k6dS3j7RAI4 @(666,476)
+05:15:41 <thienduongly7890>     · bam Content @(97,332)
+05:15:46 <rosellagreysonbk920>     · mo duoc video: 【漫画】「いい人なのに、なぜか信用できない」その違和感の正体
+05:15:47 <cdp9222>     · doc so xong: nghi 3.5s
+05:15:48 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:15:50 <thienduongly7890>     · bam video EvdfvywqDc8 @(710,677)
+05:15:51 <cdp9222> [M-teinengo-anaba] dong 3 7hnpdufAVHg: N=27 O=464 P=3,6% Q=— imp24h=103.0 | VANG | K=CTR 24h=— (103 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:15:52 <cdp9222> [M-teinengo-anaba] dong 3: DA GHI SHEET
+05:15:52 <cdp9222> [M-teinengo-anaba] TONGHOP Ep02 F5: GIU NGUYEN ghi chu cua anh 'ĐÃ SỬA CTR - CẦN THAY TAY 21/10' (CTR 24h van thap)
+05:15:52 <cdp9222>     · chuyen video: nghi 25.6s
+05:15:54 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:15:55 <thienduongly7890>     · mo duoc video: 【漫画】水道課36年の62歳がシルバー人材センターへ。「お役所さんは草取りで十分だ」と笑
+05:15:58 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:16:00 <rosellagreysonbk920>     · doc so xong: nghi 2.0s
+05:16:04 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:16:05 <thienduongly7890>     · bam tab Reach @(410,178)
+05:16:10 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:16:10 <thienduongly7890>     · doc so xong: nghi 3.7s
+05:16:13 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:16:18 <thienduongly7890>     · bam nhan khoang ngay @(1324,155)
+05:16:18 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/7hnpdufAVHg/analytics/tab-r, menu=co) -> chuyen lai
+05:16:20 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:16:22 <thienduongly7890>     · bam Custom @(1326,598)
+05:16:24 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:16:25 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:16:32 <rosellagreysonbk920>     · doc so xong: nghi 4.3s
+05:16:32 <thienduongly7890>     · bam Apply @(1454,505)
+05:16:36 <rosellagreysonbk920> [Lane-O] dong 8 k6dS3j7RAI4: N=14 O=3800 P=6,3% Q=7,2% imp24h=278.0 | ok | K=348h · 3.800 view · CTR tổng 6,3% · CTR 24h 7,2% · 278 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:16:37 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:16:37 <rosellagreysonbk920> [Lane-O] dong 8: DA GHI SHEET
+05:16:37 <rosellagreysonbk920>     · chuyen video: nghi 28.2s
+05:16:39 <cdp9222>     · bam Content @(97,332)
+05:16:43 <thienduongly7890>     · doc so xong: nghi 3.0s
+05:16:46 <cdp9222>     · bam video VFdj45ytUaI @(710,593)
+05:16:46 <thienduongly7890> [Lane-N] dong 2 EvdfvywqDc8: N=19 O=1400 P=4,1% Q=4,6% imp24h=564.0 | ok | K=467h · 1.400 view · CTR tổng 4,1% · CTR 24h 4,6% · 564 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:16:47 <thienduongly7890> [Lane-N] dong 2: DA GHI SHEET
+05:16:47 <thienduongly7890> [Lane-N] TONGHOP Ep01 D4: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:16:47 <thienduongly7890>     · chuyen video: nghi 42.9s
+05:16:51 <cdp9222>     · mo duoc video: 【漫画】人と話さなくていい60代の穴場バイト7選｜受付で怒鳴られた63歳が見つけた静かな
+05:16:54 <cdp9222>     · bam tab Analytics @(101,380)
+05:17:00 <cdp9222>     · bam tab Reach @(410,178)
+05:17:05 <cdp9222>     · doc so xong: nghi 4.4s
+05:17:05 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/k6dS3j7RAI4/analytics/tab-r, menu=co) -> chuyen lai
+05:17:12 <cdp9222>     · bam nhan khoang ngay @(1324,155)
+05:17:17 <cdp9222>     · bam Custom @(1326,598)
+05:17:20 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:17:27 <cdp9222>     · bam Apply @(1454,505)
+05:17:30 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/EvdfvywqDc8/analytics/tab-r, menu=co) -> chuyen lai
+05:17:30 <rosellagreysonbk920>     · bam Content @(97,332)
+05:17:31 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:17:37 <cdp9222>     · doc so xong: nghi 1.8s
+05:17:38 <rosellagreysonbk920>     · bam video kb8KvGBpofU @(680,476)
+05:17:39 <cdp9222> [M-teinengo-anaba] dong 4 VFdj45ytUaI: N=24 O=1800 P=3,9% Q=2,8% imp24h=637.0 | ok | K=587h · 1.800 view · CTR tổng 3,9% · CTR 24h 2,8% · 637 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:17:39 <cdp9222> [M-teinengo-anaba] dong 4: DA GHI SHEET
+05:17:40 <cdp9222> [M-teinengo-anaba] TONGHOP Ep03 F6: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:17:40 <cdp9222>     · chuyen video: nghi 47.0s
+05:17:43 <rosellagreysonbk920>     · mo duoc video: 【漫画】人には厳しいのに、自分には甘い人が最後まで気づかないこと
+05:17:47 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:17:49 <thienduongly7890>     · bam Content @(97,332)
+05:17:53 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:17:56 <thienduongly7890>     · bam video 0zh3rnxHRic @(710,593)
+05:17:59 <rosellagreysonbk920>     · doc so xong: nghi 2.6s
+05:18:02 <thienduongly7890>     · mo duoc video: 【漫画】給料は悪くない。それでも続かないのはなぜ？仕事選びで見落とす3つの盲点
+05:18:04 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:18:04 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,88)
+05:18:09 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:18:10 <thienduongly7890>     · bam tab Reach @(410,178)
+05:18:13 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:18:15 <thienduongly7890>     · doc so xong: nghi 3.9s
+05:18:19 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:18:22 <thienduongly7890>     · bam nhan khoang ngay @(1324,155)
+05:18:22 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:18:27 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/VFdj45ytUaI/analytics/tab-r, menu=co) -> chuyen lai
+05:18:28 <thienduongly7890>     · bam Custom @(1326,598)
+05:18:30 <rosellagreysonbk920>     · doc so xong: nghi 3.1s
+05:18:32 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:18:33 <rosellagreysonbk920> [Lane-O] dong 9 kb8KvGBpofU: N=10 O=641 P=7,4% Q=11,1% imp24h=72.0 | ok | K=252h · 641 view · CTR tổng 7,4% · CTR 24h 11,1% · 72 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:18:34 <rosellagreysonbk920> [Lane-O] dong 9: DA GHI SHEET
+05:18:34 <rosellagreysonbk920>     · chuyen video: nghi 47.0s
+05:18:39 <thienduongly7890>     · bam Apply @(1454,505)
+05:18:42 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:18:43 <cdp9222>     · bam Content @(97,332)
+05:18:50 <thienduongly7890>     · doc so xong: nghi 2.6s
+05:18:52 <cdp9222>     · bam video axCH-36CNxI @(710,509)
+05:18:52 <thienduongly7890> [Lane-N] dong 3 0zh3rnxHRic: N=18 O=4200 P=4,7% Q=6,5% imp24h=46.0 | ok | K=443h · 4.200 view · CTR tổng 4,7% · CTR 24h 6,5% · 46 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:18:53 <thienduongly7890> [Lane-N] dong 3: DA GHI SHEET
+05:18:54 <thienduongly7890>     · chuyen video: nghi 38.4s
+05:18:58 <cdp9222>     · mo duoc video: 【漫画】定年後、なぜ「他人の物差し」で自分の価値を決めてしまう？60代が選び直した朝の仕
+05:19:01 <cdp9222>     · bam tab Analytics @(101,380)
+05:19:06 <cdp9222>     · bam tab Reach @(410,178)
+05:19:12 <cdp9222>     · doc so xong: nghi 2.2s
+05:19:18 <cdp9222>     · bam nhan khoang ngay @(1324,144)
+05:19:21 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/kb8KvGBpofU/analytics/tab-r, menu=co) -> chuyen lai
+05:19:23 <cdp9222>     · bam Custom @(1326,587)
+05:19:26 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,150)
+05:19:31 <cdp9222>     · bam Apply @(1454,494)
+05:19:32 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/0zh3rnxHRic/analytics/tab-r, menu=co) -> chuyen lai
+05:19:35 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:19:43 <cdp9222>     · doc so xong: nghi 4.3s
+05:19:44 <rosellagreysonbk920>     · bam Content @(97,332)
+05:19:47 <cdp9222> [M-teinengo-anaba] dong 5 axCH-36CNxI: N=20 O=1400 P=3,3% Q=0,9% imp24h=110.0 | VANG | K=CTR 24h=0,9%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:19:48 <cdp9222> [M-teinengo-anaba] dong 5: DA GHI SHEET
+05:19:48 <cdp9222> [M-teinengo-anaba] TONGHOP Ep04 F7: GIU NGUYEN ghi chu cua anh 'ĐÃ SỬA CTR - CẦN THAY TAY 21/10' (CTR 24h van thap)
+05:19:48 <cdp9222>     · chuyen video: nghi 29.4s
+05:19:50 <rosellagreysonbk920>     · bam video 9DwbX9zEn9I @(666,819)
+05:19:55 <rosellagreysonbk920>     · mo duoc video: 【漫画】本当に怖いのは「知らない人」より「知ろうとしない人」
+05:19:55 <thienduongly7890>     · bam Content @(97,332)
+05:19:58 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:20:02 <thienduongly7890>     · bam video Jc7l8TYs4_Q @(710,761)
+05:20:02 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:20:08 <thienduongly7890>     · mo duoc video: 【漫画】「優しさ」と「利用」の境界線はどこ？誰にでも起こる人間関係の3つの落とし穴
+05:20:09 <rosellagreysonbk920>     · doc so xong: nghi 3.7s
+05:20:11 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:20:16 <thienduongly7890>     · bam tab Reach @(410,178)
+05:20:17 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:20:18 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/axCH-36CNxI/analytics/tab-r, menu=co) -> chuyen lai
+05:20:20 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:20:21 <thienduongly7890>     · doc so xong: nghi 4.0s
+05:20:24 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:20:29 <thienduongly7890>     · bam nhan khoang ngay @(1324,155)
+05:20:31 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:20:34 <thienduongly7890>     · bam Custom @(1326,598)
+05:20:35 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:20:38 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:20:39 <cdp9222>     · bam Content @(97,332)
+05:20:42 <rosellagreysonbk920>     · doc so xong: nghi 3.5s
+05:20:44 <thienduongly7890>     · bam Apply @(1454,505)
+05:20:45 <cdp9222>     · bam video lbJMkB5Vus0 @(710,476)
+05:20:46 <rosellagreysonbk920> [Lane-O] dong 10 9DwbX9zEn9I: N=9 O=290 P=5,4% Q=6,8% imp24h=88.0 | ok | K=228h · 290 view · CTR tổng 5,4% · CTR 24h 6,8% · 88 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:20:46 <rosellagreysonbk920> [Lane-O] dong 10: DA GHI SHEET
+05:20:47 <rosellagreysonbk920>     · chuyen video: nghi 20.9s
+05:20:48 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:20:51 <cdp9222>     · mo duoc video: 【漫画】再雇用を断った63歳が見つけた穴場の仕事7選｜38年の経験を外で活かせる仕事
+05:20:55 <cdp9222>     · bam tab Analytics @(101,380)
+05:20:57 <thienduongly7890>     · doc so xong: nghi 1.5s
+05:20:58 <thienduongly7890> [Lane-N] dong 4 Jc7l8TYs4_Q: N=20 O=584 P=5,4% Q=7,6% imp24h=145.0 | ok | K=501h · 584 view · CTR tổng 5,4% · CTR 24h 7,6% · 145 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:20:59 <thienduongly7890> [Lane-N] dong 4: DA GHI SHEET
+05:21:00 <cdp9222>     · bam tab Reach @(410,178)
+05:21:00 <thienduongly7890>     · chuyen video: nghi 52.6s
+05:21:06 <cdp9222>     · doc so xong: nghi 3.4s
+05:21:08 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/9DwbX9zEn9I/analytics/tab-r, menu=co) -> chuyen lai
+05:21:13 <cdp9222>     · bam nhan khoang ngay @(1324,155)
+05:21:17 <cdp9222>     · bam Custom @(1326,598)
+05:21:20 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:21:26 <rosellagreysonbk920>     · bam Content @(97,332)
+05:21:26 <cdp9222>     · bam Apply @(1454,505)
+05:21:30 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:21:31 <rosellagreysonbk920>     · bam video fL6EPr0fZKc @(673,735)
+05:21:36 <cdp9222>     · doc so xong: nghi 4.4s
+05:21:38 <rosellagreysonbk920>     · mo duoc video: 【漫画】真面目な人を疲れさせる「自分の仕事しかしない人」の特徴
+05:21:40 <cdp9222> [M-teinengo-anaba] dong 6 lbJMkB5Vus0: N=16 O=10800 P=4,2% Q=3,6% imp24h=1200.0 | ok | K=397h · 10.800 view · CTR tổng 4,2% · CTR 24h 3,6% · 1.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:21:41 <cdp9222> [M-teinengo-anaba] dong 6: DA GHI SHEET
+05:21:41 <cdp9222>     · chuyen video: nghi 47.4s
+05:21:42 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:21:47 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:21:52 <rosellagreysonbk920>     · doc so xong: nghi 2.8s
+05:21:52 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/Jc7l8TYs4_Q/analytics/tab-r, menu=co) -> chuyen lai
+05:21:57 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:22:03 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:22:06 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:22:11 <thienduongly7890>     · bam Content @(97,332)
+05:22:13 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:22:17 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:22:21 <thienduongly7890>     · bam video oXCuQVjE4jQ @(710,476)
+05:22:24 <rosellagreysonbk920>     · doc so xong: nghi 2.7s
+05:22:27 <rosellagreysonbk920> [Lane-O] dong 11 fL6EPr0fZKc: N=8 O=399 P=6,2% Q=6,3% imp24h=144.0 | ok | K=204h · 399 view · CTR tổng 6,2% · CTR 24h 6,3% · 144 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:22:28 <thienduongly7890>     · mo duoc video: 【漫画】写真館を44年守った69歳。同窓会で「年金11万？それで生きてるの？」と笑われた
+05:22:28 <rosellagreysonbk920> [Lane-O] dong 11: DA GHI SHEET
+05:22:28 <rosellagreysonbk920>     · chuyen video: nghi 54.7s
+05:22:29 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/lbJMkB5Vus0/analytics/tab-r, menu=co) -> chuyen lai
+05:22:31 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:22:39 <thienduongly7890>     · bam tab Reach @(410,178)
+05:22:44 <thienduongly7890>     · doc so xong: nghi 2.9s
+05:22:49 <cdp9222>     · bam Content @(97,332)
+05:22:50 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:22:55 <thienduongly7890>     · bam Custom @(1326,531)
+05:22:57 <cdp9222>     · bam video fRp-ynO-DJs @(710,476)
+05:22:59 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:23:01 <cdp9222>     · mo duoc video: 【漫画】仕事はあるのに収入が安定しない…60代が仕事選びで見落としやすい5つの条件と穴場
+05:23:04 <cdp9222>     · bam tab Analytics @(101,380)
+05:23:06 <thienduongly7890>     · bam Apply @(1454,438)
+05:23:09 <cdp9222>     · bam tab Reach @(410,178)
+05:23:10 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:23:14 <cdp9222>     · doc so xong: nghi 2.1s
+05:23:16 <thienduongly7890>     · doc so xong: nghi 4.2s
+05:23:20 <cdp9222>     · bam nhan khoang ngay @(1328,155)
+05:23:21 <thienduongly7890> [Lane-N] dong 5 oXCuQVjE4jQ: N=15 O=176 P=0,9% Q=4,6% imp24h=22.0 | ok | K=372h · 176 view · CTR tổng 0,9% · CTR 24h 4,6% · 22 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:23:21 <thienduongly7890> [Lane-N] dong 5: DA GHI SHEET
+05:23:22 <thienduongly7890> [Lane-N] TONGHOP Ep04 D7: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:23:22 <thienduongly7890>     · chuyen video: nghi 47.8s
+05:23:23 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/fL6EPr0fZKc/analytics/tab-r, menu=co) -> chuyen lai
+05:23:24 <cdp9222>     · bam Custom @(1326,598)
+05:23:28 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:23:34 <cdp9222>     · bam Apply @(1454,505)
+05:23:38 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:23:45 <rosellagreysonbk920>     · bam Content @(97,332)
+05:23:47 <cdp9222>     · doc so xong: nghi 2.7s
+05:23:50 <cdp9222> [M-teinengo-anaba] dong 7 fRp-ynO-DJs: N=15 O=5100 P=3,5% Q=3,2% imp24h=815.0 | ok | K=372h · 5.100 view · CTR tổng 3,5% · CTR 24h 3,2% · 815 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:23:50 <cdp9222> [M-teinengo-anaba] dong 7: DA GHI SHEET
+05:23:51 <cdp9222>     · chuyen video: nghi 26.2s
+05:23:52 <rosellagreysonbk920>     · bam video u7QZ-UXe8YQ @(710,651)
+05:23:58 <rosellagreysonbk920>     · mo duoc video: 【漫画】「俺は部長だったんだぞ」が口ぐせの62歳介護職員…肩書きの下で誰が我慢していたの
+05:24:01 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:24:06 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:24:09 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/oXCuQVjE4jQ/analytics/tab-r, menu=co) -> chuyen lai
+05:24:11 <rosellagreysonbk920>     · doc so xong: nghi 2.8s
+05:24:17 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/fRp-ynO-DJs/analytics/tab-r, menu=co) -> chuyen lai
+05:24:17 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:24:21 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:24:24 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:24:31 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:24:34 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:24:34 <thienduongly7890>     · bam Content @(97,332)
+05:24:41 <rosellagreysonbk920>     · doc so xong: nghi 3.8s
+05:24:41 <cdp9222>     · bam Content @(97,332)
+05:24:42 <thienduongly7890>     · bam video zl-rXzd4zZQ @(710,476)
+05:24:45 <rosellagreysonbk920> [Lane-O] dong 12 u7QZ-UXe8YQ: N=7 O=1900 P=9,9% Q=6,2% imp24h=422.0 | ok | K=181h · 1.900 view · CTR tổng 9,9% · CTR 24h 6,2% · 422 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:24:45 <rosellagreysonbk920> [Lane-O] dong 12: DA GHI SHEET
+05:24:46 <rosellagreysonbk920>     · chuyen video: nghi 44.5s
+05:24:47 <thienduongly7890>     · mo duoc video: 【漫画】本当に必要なのは「家」より「居場所」？人生の大きな決断で見落としやすい3つのこと
+05:24:50 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:24:51 <cdp9222>     · bam video 9Bn6J3RtCJ4 @(710,476)
+05:24:57 <thienduongly7890>     · bam tab Reach @(410,178)
+05:24:57 <cdp9222>     · mo duoc video: 【漫画】60代の再就職で損しない面接の質問7選｜「特にありません」で土曜が全部埋まった6
+05:25:00 <cdp9222>     · bam tab Analytics @(101,380)
+05:25:02 <thienduongly7890>     · doc so xong: nghi 2.1s
+05:25:06 <cdp9222>     · bam tab Reach @(410,178)
+05:25:07 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:25:12 <cdp9222>     · doc so xong: nghi 1.9s
+05:25:12 <thienduongly7890>     · bam Custom @(1326,598)
+05:25:15 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:25:18 <cdp9222>     · bam nhan khoang ngay @(1324,155)
+05:25:21 <thienduongly7890>     · bam Apply @(1454,505)
+05:25:24 <cdp9222>     · bam Custom @(1326,598)
+05:25:25 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:25:27 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:25:30 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/u7QZ-UXe8YQ/analytics/tab-r, menu=co) -> chuyen lai
+05:25:34 <cdp9222>     · bam Apply @(1454,505)
+05:25:34 <thienduongly7890>     · doc so xong: nghi 2.6s
+05:25:37 <thienduongly7890> [Lane-N] dong 6 zl-rXzd4zZQ: N=14 O=520 P=3,7% Q=10,3% imp24h=78.0 | ok | K=348h · 520 view · CTR tổng 3,7% · CTR 24h 10,3% · 78 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:25:38 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:25:38 <thienduongly7890> [Lane-N] dong 6: DA GHI SHEET
+05:25:38 <thienduongly7890>     · chuyen video: nghi 28.5s
+05:25:47 <cdp9222>     · doc so xong: nghi 1.8s
+05:25:48 <cdp9222> [M-teinengo-anaba] dong 8 9Bn6J3RtCJ4: N=17 O=1400 P=3,7% Q=3,0% imp24h=168.0 | ok | K=420h · 1.400 view · CTR tổng 3,7% · CTR 24h 3,0% · 168 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:25:49 <cdp9222> [M-teinengo-anaba] dong 8: DA GHI SHEET
+05:25:50 <cdp9222> [M-teinengo-anaba] TONGHOP Ep07 F10: 'SỬA CTR' -> 'Listed'
+05:25:50 <cdp9222>     · nghi giua phien: nghi 152.6s
+05:25:51 <rosellagreysonbk920>     · bam Content @(97,332)
+05:25:59 <rosellagreysonbk920>     · bam video qaRArefRWkk @(694,567)
+05:26:05 <rosellagreysonbk920>     · mo duoc video: 【漫画】なぜ「仕事ができる人」に見えるのに、一緒に働くと疲れるのか？
+05:26:07 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/zl-rXzd4zZQ/analytics/tab-r, menu=co) -> chuyen lai
+05:26:09 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:26:14 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:26:19 <rosellagreysonbk920>     · doc so xong: nghi 1.6s
+05:26:24 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:26:26 <thienduongly7890>     · bam Content @(97,332)
+05:26:28 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:26:31 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:26:33 <thienduongly7890>     · bam video Js2At6VOYl4 @(710,509)
+05:26:37 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:26:40 <thienduongly7890>     · mo duoc video: 【漫画】「何かあったら言って」と言う人ほど、いざという時に頼れない？本当に困った時に見え
+05:26:42 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:26:43 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:26:49 <thienduongly7890>     · bam tab Reach @(410,178)
+05:26:50 <rosellagreysonbk920>     · doc so xong: nghi 2.2s
+05:26:53 <rosellagreysonbk920> [Lane-O] dong 13 qaRArefRWkk: N=6 O=596 P=8,3% Q=7,3% imp24h=205.0 | ok | K=155h · 596 view · CTR tổng 8,3% · CTR 24h 7,3% · 205 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:26:53 <rosellagreysonbk920> [Lane-O] dong 13: DA GHI SHEET
+05:26:54 <rosellagreysonbk920>     · nghi giua phien: nghi 208.5s
+05:26:56 <thienduongly7890>     · doc so xong: nghi 2.7s
+05:27:02 <thienduongly7890>     · bam nhan khoang ngay @(1324,88)
+05:27:07 <thienduongly7890>     · bam Custom @(1326,531)
+05:27:11 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:27:17 <thienduongly7890>     · bam Apply @(1454,438)
+05:27:21 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:27:29 <thienduongly7890>     · doc so xong: nghi 2.4s
+05:27:32 <thienduongly7890> [Lane-N] dong 7 Js2At6VOYl4: N=16 O=779 P=3,0% Q=— imp24h=109.0 | VANG | K=CTR 24h=— (109 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:27:33 <thienduongly7890> [Lane-N] dong 7: DA GHI SHEET
+05:27:33 <thienduongly7890>     · chuyen video: nghi 45.1s
+05:28:18 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/Js2At6VOYl4/analytics/tab-r, menu=co) -> chuyen lai
+05:28:23 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/9Bn6J3RtCJ4/analytics/tab-r, menu=co) -> chuyen lai
+05:28:37 <thienduongly7890>     · bam Content @(97,332)
+05:28:42 <thienduongly7890>     · bam video j434s_1kHgI @(710,819)
+05:28:44 <cdp9222>     · bam Content @(97,332)
+05:28:48 <thienduongly7890>     · mo duoc video: 【漫画】72歳で自宅で転倒。初めて老人ホームに体験入居してみた。施設での暮らしのリアルと
+05:28:50 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:28:50 <cdp9222>     · bam video s8rmYRsePdk @(710,819)
+05:28:56 <thienduongly7890>     · bam tab Reach @(410,178)
+05:28:57 <cdp9222>     · mo duoc video: 【漫画】辞めた会社からは頼られるのに、なぜ再就職では評価されない？60代が見つけた「経験
+05:29:00 <cdp9222>     · bam tab Analytics @(101,380)
+05:29:03 <thienduongly7890>     · doc so xong: nghi 3.9s
+05:29:06 <cdp9222>     · bam tab Reach @(410,178)
+05:29:11 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:29:12 <cdp9222>     · doc so xong: nghi 2.9s
+05:29:15 <thienduongly7890>     · bam Custom @(1326,598)
+05:29:17 <cdp9222>     · bam nhan khoang ngay @(1328,155)
+05:29:19 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:29:22 <cdp9222>     · bam Custom @(1326,598)
+05:29:24 <thienduongly7890>     · bam Apply @(1454,505)
+05:29:26 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:29:29 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:29:33 <cdp9222>     · bam Apply @(1454,505)
+05:29:36 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:29:36 <thienduongly7890>     · doc so xong: nghi 1.8s
+05:29:38 <thienduongly7890> [Lane-N] dong 8 j434s_1kHgI: N=9 O=201 P=5,1% Q=5,8% imp24h=261.0 | ok | K=228h · 201 view · CTR tổng 5,1% · CTR 24h 5,8% · 261 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:29:39 <thienduongly7890> [Lane-N] dong 8: DA GHI SHEET
+05:29:39 <thienduongly7890>     · chuyen video: nghi 33.2s
+05:29:44 <cdp9222>     · doc so xong: nghi 3.2s
+05:29:48 <cdp9222> [M-teinengo-anaba] dong 9 s8rmYRsePdk: N=13 O=630 P=3,5% Q=1,8% imp24h=496.0 | VANG | K=CTR 24h=1,8%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:29:48 <cdp9222> [M-teinengo-anaba] dong 9: DA GHI SHEET
+05:29:49 <cdp9222> [M-teinengo-anaba] TONGHOP Ep08 F11: 'Listed' -> 'SỬA CTR'
+05:29:49 <cdp9222>     · chuyen video: nghi 39.9s
+05:30:12 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/j434s_1kHgI/analytics/tab-r, menu=co) -> chuyen lai
+05:30:22 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/qaRArefRWkk/analytics/tab-r, menu=co) -> chuyen lai
+05:30:29 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/s8rmYRsePdk/analytics/tab-r, menu=co) -> chuyen lai
+05:30:30 <thienduongly7890>     · bam Content @(97,332)
+05:30:36 <thienduongly7890>     · bam video ltLZafQsxXk @(663,476)
+05:30:42 <rosellagreysonbk920>     · bam Content @(97,332)
+05:30:42 <thienduongly7890>     · mo duoc video: 【漫画】「家族任せ」が一番危ない？老後に起きる3つの落とし穴
+05:30:46 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:30:47 <cdp9222>     · bam Content @(97,332)
+05:30:49 <rosellagreysonbk920>     · bam video dV4tlo9sCLE @(708,483)
+05:30:51 <thienduongly7890>     · bam tab Reach @(410,178)
+05:30:53 <rosellagreysonbk920>     · mo duoc video: 【漫画】なぜ「私がやった方が早い」と言う人の周りでは、人が育たないのか？
+05:30:54 <cdp9222>     · bam video cGZVfCjdRlE @(685,735)
+05:30:57 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:30:58 <thienduongly7890>     · doc so xong: nghi 2.7s
+05:31:00 <cdp9222>     · mo duoc video: 【漫画】「知ってるつもり」が一番危ない？60代が見直した穴場仕事7選
+05:31:02 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:31:03 <cdp9222>     · bam tab Analytics @(101,380)
+05:31:05 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:31:07 <rosellagreysonbk920>     · doc so xong: nghi 2.1s
+05:31:08 <cdp9222>     · bam tab Reach @(410,178)
+05:31:10 <thienduongly7890>     · bam Custom @(1326,531)
+05:31:11 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,155)
+05:31:13 <cdp9222>     · doc so xong: nghi 3.9s
+05:31:14 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:31:15 <rosellagreysonbk920>     · bam Custom @(1326,598)
+05:31:19 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:31:19 <thienduongly7890>     · bam Apply @(1454,438)
+05:31:21 <cdp9222>     · bam nhan khoang ngay @(1328,155)
+05:31:23 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:31:24 <rosellagreysonbk920>     · bam Apply @(1454,505)
+05:31:25 <cdp9222>     · bam Custom @(1326,598)
+05:31:28 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:31:29 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:31:31 <thienduongly7890>     · doc so xong: nghi 4.1s
+05:31:33 <cdp9222>     · bam Apply @(1454,505)
+05:31:35 <thienduongly7890> [Lane-N] dong 9 ltLZafQsxXk: N=13 O=950 P=2,9% Q=2,0% imp24h=452.0 | VANG | K=CTR 24h=2,0%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:31:36 <thienduongly7890> [Lane-N] dong 9: DA GHI SHEET
+05:31:37 <rosellagreysonbk920>     · doc so xong: nghi 2.4s
+05:31:37 <thienduongly7890> [Lane-N] TONGHOP Ep08 D11: 'Listed' -> 'SỬA CTR'
+05:31:37 <thienduongly7890>     · chuyen video: nghi 26.2s
+05:31:38 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:31:39 <rosellagreysonbk920> [Lane-O] dong 14 dV4tlo9sCLE: N=5 O=919 P=8,9% Q=7,1% imp24h=226.0 | ok | K=133h · 919 view · CTR tổng 8,9% · CTR 24h 7,1% · 226 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:31:40 <rosellagreysonbk920> [Lane-O] dong 14: DA GHI SHEET
+05:31:40 <rosellagreysonbk920>     · chuyen video: nghi 24.3s
+05:31:47 <cdp9222>     · doc so xong: nghi 1.6s
+05:31:49 <cdp9222> [M-teinengo-anaba] dong 10 cGZVfCjdRlE: N=11 O=2200 P=6,7% Q=2,7% imp24h=110.0 | ok | K=284h · 2.200 view · CTR tổng 6,7% · CTR 24h 2,7% · 110 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:31:49 <cdp9222> [M-teinengo-anaba] dong 10: DA GHI SHEET
+05:31:49 <cdp9222>     · chuyen video: nghi 42.0s
+05:32:03 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/ltLZafQsxXk/analytics/tab-r, menu=co) -> chuyen lai
+05:32:04 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/dV4tlo9sCLE/analytics/tab-r, menu=co) -> chuyen lai
+05:32:24 <thienduongly7890>     · bam Content @(97,332)
+05:32:25 <rosellagreysonbk920>     · bam Content @(97,332)
+05:32:30 <rosellagreysonbk920>     · bam video dG8Vdkh08Zc @(710,399)
+05:32:31 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/cGZVfCjdRlE/analytics/tab-r, menu=co) -> chuyen lai
+05:32:33 <thienduongly7890>     · bam video a7l7bMG7lgs @(710,476)
+05:32:36 <rosellagreysonbk920>     · mo duoc video: 【漫画】「前の施設ではこうでした」とお風呂を一人6分にした介護士。浴室の前で86歳が口に
+05:32:38 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:32:39 <thienduongly7890>     · mo duoc video: 【漫画】元トラック運転手67歳、結婚相談所に60万円。お見合い相手に聞かれた「世話をして
+05:32:41 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:32:42 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:32:47 <thienduongly7890>     · bam tab Reach @(410,178)
+05:32:49 <cdp9222>     · bam Content @(97,332)
+05:32:50 <rosellagreysonbk920>     · doc so xong: nghi 3.4s
+05:32:54 <thienduongly7890>     · doc so xong: nghi 2.0s
+05:32:56 <cdp9222>     · bam video nNlqnf28Kak @(710,651)
+05:32:57 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,135)
+05:32:59 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:33:01 <cdp9222>     · mo duoc video: 【漫画】なぜ60代は「近い仕事」が得なのか？定年後に無理なく続けやすい穴場仕事7選
+05:33:03 <rosellagreysonbk920>     · bam Custom @(1326,578)
+05:33:05 <thienduongly7890>     · bam Custom @(1326,531)
+05:33:05 <cdp9222>     · bam tab Analytics @(101,380)
+05:33:07 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,141)
+05:33:09 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:33:10 <cdp9222>     · bam tab Reach @(410,178)
+05:33:14 <rosellagreysonbk920>     · bam Apply @(1454,485)
+05:33:14 <thienduongly7890>     · bam Apply @(1454,438)
+05:33:15 <cdp9222>     · doc so xong: nghi 3.5s
+05:33:19 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:33:19 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:33:21 <cdp9222>     · bam nhan khoang ngay @(1328,155)
+05:33:27 <cdp9222>     · bam Custom @(1326,598)
+05:33:28 <rosellagreysonbk920>     · doc so xong: nghi 4.0s
+05:33:28 <thienduongly7890>     · doc so xong: nghi 3.8s
+05:33:30 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:33:32 <rosellagreysonbk920> [Lane-O] dong 15 dG8Vdkh08Zc: N=3 O=1600 P=7,8% Q=4,2% imp24h=792.0 | ok | K=85h · 1.600 view · CTR tổng 7,8% · CTR 24h 4,2% · 792 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:33:32 <thienduongly7890> [Lane-N] dong 10 a7l7bMG7lgs: N=11 O=1500 P=3,8% Q=7,2% imp24h=360.0 | ok | K=277h · 1.500 view · CTR tổng 3,8% · CTR 24h 7,2% · 360 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:33:32 <rosellagreysonbk920> [Lane-O] dong 15: DA GHI SHEET
+05:33:32 <thienduongly7890> [Lane-N] dong 10: DA GHI SHEET
+05:33:32 <rosellagreysonbk920>     · chuyen video: nghi 48.9s
+05:33:33 <thienduongly7890> [Lane-N] TONGHOP Ep09 D12: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:33:33 <thienduongly7890>     · chuyen video: nghi 33.5s
+05:33:36 <cdp9222>     · bam Apply @(1454,505)
+05:33:41 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:33:48 <cdp9222>     · doc so xong: nghi 4.1s
+05:33:52 <cdp9222> [M-teinengo-anaba] dong 11 nNlqnf28Kak: N=10 O=671 P=2,9% Q=1,9% imp24h=105.0 | VANG | K=CTR 24h=1,9%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:33:53 <cdp9222> [M-teinengo-anaba] dong 11: DA GHI SHEET
+05:33:54 <cdp9222> [M-teinengo-anaba] TONGHOP Ep10 F13: 'Listed' -> 'SỬA CTR'
+05:33:54 <cdp9222>     · chuyen video: nghi 45.3s
+05:34:06 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/a7l7bMG7lgs/analytics/tab-r, menu=co) -> chuyen lai
+05:34:21 <rosellagreysonbk920>     · chua san sang (url=https://studio.youtube.com/video/dG8Vdkh08Zc/analytics/tab-r, menu=co) -> chuyen lai
+05:34:26 <thienduongly7890>     · bam Content @(97,332)
+05:34:35 <thienduongly7890>     · bam video cEDcJIhTySQ @(710,476)
+05:34:39 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/nNlqnf28Kak/analytics/tab-r, menu=co) -> chuyen lai
+05:34:40 <thienduongly7890>     · mo duoc video: 【漫画】定年退職後、高級キャンピングカーで日本一周へ。病気の母に会いに帰りたい妻を夫が引
+05:34:42 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:34:43 <rosellagreysonbk920>     · bam Content @(97,332)
+05:34:47 <thienduongly7890>     · bam tab Reach @(410,178)
+05:34:49 <rosellagreysonbk920>     · bam video jqxQk54BWSM @(710,315)
+05:34:52 <thienduongly7890>     · doc so xong: nghi 2.5s
+05:34:55 <rosellagreysonbk920>     · mo duoc video: 【漫画】仕事が遅いと心配された新人介護士。「余裕っす」が口ぐせの同期は、退職代行で辞めた
+05:34:57 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:34:58 <rosellagreysonbk920>     · bam tab Analytics @(101,380)
+05:35:00 <cdp9222>     · bam Content @(97,332)
+05:35:01 <thienduongly7890>     · bam Custom @(1326,598)
+05:35:03 <rosellagreysonbk920>     · bam tab Reach @(410,178)
+05:35:05 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:35:07 <cdp9222>     · bam video rsdKmuD-y-4 @(710,567)
+05:35:10 <rosellagreysonbk920>     · doc so xong: nghi 2.5s
+05:35:10 <thienduongly7890>     · bam Apply @(1454,505)
+05:35:13 <cdp9222>     · mo duoc video: 【漫画】60代が知らないと損する警備の仕事7選｜63歳が働いて気づいた「本当に合う仕事」
+05:35:15 <rosellagreysonbk920>     · bam nhan khoang ngay @(1328,88)
+05:35:15 <cdp9222>     · bam tab Analytics @(101,380)
+05:35:15 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:35:20 <rosellagreysonbk920>     · bam Custom @(1326,531)
+05:35:21 <cdp9222>     · bam tab Reach @(410,178)
+05:35:23 <thienduongly7890>     · doc so xong: nghi 2.5s
+05:35:23 <rosellagreysonbk920>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:35:25 <thienduongly7890> [Lane-N] dong 11 cEDcJIhTySQ: N=10 O=260 P=4,0% Q=— imp24h=91.0 | VANG | K=CTR 24h=— (91 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:35:26 <thienduongly7890> [Lane-N] dong 11: DA GHI SHEET
+05:35:27 <thienduongly7890> [Lane-N] TONGHOP Ep10 D13: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+05:35:27 <thienduongly7890>     · chuyen video: nghi 53.3s
+05:35:28 <cdp9222>     · doc so xong: nghi 2.7s
+05:35:29 <rosellagreysonbk920>     · bam Apply @(1454,438)
+05:35:33 <cdp9222>     · bam nhan khoang ngay @(1328,88)
+05:35:33 <rosellagreysonbk920>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:35:37 <cdp9222>     · bam Custom @(1326,531)
+05:35:41 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:35:41 <rosellagreysonbk920>     · doc so xong: nghi 3.4s
+05:35:45 <rosellagreysonbk920> [Lane-O] dong 16 jqxQk54BWSM: N=2 O=3600 P=7,5% Q=5,7% imp24h=3100.0 | ok | K=61h · 3.600 view · CTR tổng 7,5% · CTR 24h 5,7% · 3.100 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:35:45 <rosellagreysonbk920> [Lane-O] dong 16: DA GHI SHEET
+05:35:46 <rosellagreysonbk920> [Lane-O] xong lane: 15 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+05:35:46 <rosellagreysonbk920>     · chuyen tab: nghi 16.7s
+05:35:46 <cdp9222>     · bam Apply @(1454,438)
+05:35:51 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:35:59 <cdp9222>     · doc so xong: nghi 2.4s
+05:36:01 <cdp9222> [M-teinengo-anaba] dong 13 rsdKmuD-y-4: N=9 O=1700 P=5,3% Q=4,2% imp24h=768.0 | ok | K=229h · 1.700 view · CTR tổng 5,3% · CTR 24h 4,2% · 768 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:36:01 <cdp9222> [M-teinengo-anaba] dong 13: DA GHI SHEET
+05:36:02 <cdp9222> [M-teinengo-anaba] TONGHOP Ep12 F15: GIU NGUYEN ghi chu cua anh 'ĐÃ SỬA CTR - CẦN THAY TAY 21/10'
+05:36:02 <cdp9222>     · chuyen video: nghi 25.5s
+05:36:02 <rosellagreysonbk920> ===== XONG: 15 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: K-yakkyoku-sukatto · 34 phút
+05:36:03   luong 2: rosellagreysonbk920@gmail.com xong (exit 0)
+05:36:04   luong 2: dong profile rosellagreysonbk920@gmail.com
+05:36:04     · mo profile tiep theo: nghi 11.2s
+05:36:16   luong 2 mo profile: gpm VirgiliTraino95@gmail.com
+05:36:20 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/cEDcJIhTySQ/analytics/tab-r, menu=co) -> chuyen lai
+05:36:27 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/rsdKmuD-y-4/analytics/tab-r, menu=co) -> chuyen lai
+05:36:36 <cdp9222> [M-teinengo-anaba] dong 15 0gshT0RitS0: LOI doc Studio Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://studio.youtube.com/channel/UC-03gNBRs14lZHus7TiKofA
+Call log:
+  - 
+05:36:36 <cdp9222>     · Studio bao loi, doi lau: nghi 49.1s
+05:36:39 <thienduongly7890>     · bam Content @(97,332)
+05:36:47   luong 2 LOI VirgiliTraino95@gmail.com: 'NoneType' object is not subscriptable -> bo qua, sang profile tiep
+05:36:47     · mo profile tiep theo: nghi 10.5s
+05:36:52 <thienduongly7890>     · bam video RypJKGCiDY8 @(710,735)
+05:36:57   luong 2 mo profile: gpm FuentesMitsy202@gmail.com
+05:36:58 <thienduongly7890>     · mo duoc video: 【漫画】定年後、お弁当工場のおにぎり製造ラインで働くとどうなる？64歳の元銀行員のリアル
+05:37:01 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:37:07 <thienduongly7890>     · bam tab Reach @(410,178)
+05:37:14 <thienduongly7890>     · doc so xong: nghi 4.1s
+05:37:22 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:37:25 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/rsdKmuD-y-4/analytics/tab-r, menu=KHONG) -> chuyen lai
+05:37:28 <thienduongly7890>     · bam Custom @(1326,531)
+05:37:30 <cdp9222> [M-teinengo-anaba] dong 15 0gshT0RitS0: LOI doc Studio Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://studio.youtube.com/channel/UC-03gNBRs14lZHus7TiKofA
+Call log:
+  - 
+05:37:30 <cdp9222> [M-teinengo-anaba] dong 15 0gshT0RitS0: khong doc duoc trang Reach 24h -> bo qua
+05:37:30 <cdp9222>     · chuyen video: nghi 33.0s
+05:37:31 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:37:37 <thienduongly7890>     · bam Apply @(1454,438)
+05:37:42 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:37:51 <thienduongly7890>     · doc so xong: nghi 4.0s
+05:37:55 <thienduongly7890> [Lane-N] dong 12 RypJKGCiDY8: N=8 O=1500 P=5,3% Q=3,4% imp24h=613.0 | ok | K=205h · 1.500 view · CTR tổng 5,3% · CTR 24h 3,4% · 613 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:37:57   luong 2 chay: FuentesMitsy202@gmail.com | tabs=['kokoro-kazoku']
+05:37:58 <FuentesMitsy202> ===== BAT DAU tay =====
+05:38:00 <FuentesMitsy202> --- attach vao profile da mo san: ws://localhost:50466/devtools/browser/253732a9-44a1-4284-82f...
+05:38:00 <FuentesMitsy202> --- tab se doc: ['kokoro-kazoku']
+05:38:03 <FuentesMitsy202>     · phong to cua so: 1920px
+05:38:03 <cdp9222>     · chua san sang (url=chrome-error://chromewebdata/, menu=KHONG) -> chuyen lai
+05:38:03 <FuentesMitsy202> [kokoro-kazoku] khong co video_id o cot L -> bo qua
+05:38:03 <FuentesMitsy202>     · chuyen tab: nghi 13.8s
+05:38:14 <thienduongly7890> [Lane-N] dong 12: LOI ghi sheet [WinError 10054] An existing connection was forcibly closed by the remote host
+05:38:14 <thienduongly7890>     · chuyen video: nghi 41.2s
+05:38:17 <FuentesMitsy202> ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 0 phút
+05:38:17   luong 2: FuentesMitsy202@gmail.com xong (exit 0)
+05:38:18   luong 2: dong profile FuentesMitsy202@gmail.com
+05:38:18     · mo profile tiep theo: nghi 13.8s
+05:38:20 <cdp9222>     · bam Content @(97,332)
+05:38:26 <cdp9222>     · bam video MLHsJKhmw84 @(710,399)
+05:38:30 <cdp9222>     · mo duoc video: 【シニアの再就職】70代が知らないと損する「採られやすい仕事」7選｜72歳でも頼られる穴
+05:38:31   luong 2 mo profile: gpm JordaneLaetitia694@gmail.com
+05:38:33 <cdp9222>     · bam tab Analytics @(101,380)
+05:38:37 <cdp9222>     · bam tab Reach @(410,178)
+05:38:43 <cdp9222>     · doc so xong: nghi 3.7s
+05:38:50 <cdp9222>     · bam nhan khoang ngay @(1328,155)
+05:38:55 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/RypJKGCiDY8/analytics/tab-r, menu=co) -> chuyen lai
+05:38:56 <cdp9222>     · bam Custom @(1326,598)
+05:39:00 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:39:06 <cdp9222>     · bam Apply @(1454,505)
+05:39:10 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:39:12 <thienduongly7890>     · bam Content @(97,332)
+05:39:18 <thienduongly7890>     · bam video 7aQQRFOyJK8 @(710,651)
+05:39:19 <cdp9222>     · doc so xong: nghi 1.8s
+05:39:21 <cdp9222> [M-teinengo-anaba] dong 16 MLHsJKhmw84: N=7 O=397 P=4,5% Q=5,6% imp24h=251.0 | ok | K=180h · 397 view · CTR tổng 4,5% · CTR 24h 5,6% · 251 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:39:23 <thienduongly7890>     · mo duoc video: 【漫画】定年後、66歳で病院清掃の仕事を始めたら、毎日の暮らしはどう変わるのか？
+05:39:24   GPM start lan 1: ProfileUsingByOther -> stop + dong chrome cua profile roi thu lai
+05:39:26 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:39:32 <thienduongly7890>     · bam tab Reach @(410,178)
+05:39:34   da dong 0 tien trinh chrome cua profile 5168b79f (theo PID [])
+05:39:39 <thienduongly7890>     · doc so xong: nghi 2.2s
+05:39:40 <cdp9222> [M-teinengo-anaba] dong 16: LOI ghi sheet [WinError 10054] An existing connection was forcibly closed by the remote host
+05:39:40 <cdp9222>     · chuyen video: nghi 30.1s
+05:39:41   GPM start lan 2: ProfileUsingByOther -> stop + dong chrome cua profile roi thu lai
+05:39:46 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:39:50 <thienduongly7890>     · bam Custom @(1326,531)
+05:39:54 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:39:57   da dong 0 tien trinh chrome cua profile 5168b79f (theo PID [])
+05:40:00 <thienduongly7890>     · bam Apply @(1454,438)
+05:40:05 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:40:10 <cdp9222>     · chua san sang (url=https://studio.youtube.com/video/MLHsJKhmw84/analytics/tab-r, menu=co) -> chuyen lai
+05:40:13 <thienduongly7890>     · doc so xong: nghi 2.6s
+05:40:14   GPM start lan 3: ProfileUsingByOther -> stop + dong chrome cua profile roi thu lai
+05:40:16 <thienduongly7890> [Lane-N] dong 13 7aQQRFOyJK8: N=7 O=2000 P=4,8% Q=8,0% imp24h=176.0 | ok | K=181h · 2.000 view · CTR tổng 4,8% · CTR 24h 8,0% · 176 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:40:16 <thienduongly7890> [Lane-N] dong 13: DA GHI SHEET
+05:40:17 <thienduongly7890>     · nghi giua phien: nghi 198.0s
+05:40:32 <cdp9222>     · bam Content @(97,332)
+05:40:38 <cdp9222>     · bam video YlRUS1h150E @(710,315)
+05:40:38   da dong 0 tien trinh chrome cua profile 5168b79f (theo PID [])
+05:40:44 <cdp9222>     · mo duoc video: 【漫画】定年後、一流の人ほど欠かさない「小さな線引き」5選【もうタダ働きしない】
+05:40:48 <cdp9222>     · bam tab Analytics @(101,380)
+05:40:53 <cdp9222>     · bam tab Reach @(410,178)
+05:40:53   GPM start lan 4: ProfileUsingByOther -> stop + dong chrome cua profile roi thu lai
+05:40:59 <cdp9222>     · doc so xong: nghi 2.4s
+05:41:05 <cdp9222>     · bam nhan khoang ngay @(1328,88)
+05:41:08 <cdp9222>     · bam Custom @(1326,531)
+05:41:12 <cdp9222>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:41:18 <cdp9222>     · bam Apply @(1454,438)
+05:41:22 <cdp9222>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:41:23   da dong 0 tien trinh chrome cua profile 5168b79f (theo PID [])
+05:41:29 <cdp9222>     · doc so xong: nghi 2.2s
+05:41:32 <cdp9222> [M-teinengo-anaba] dong 17 YlRUS1h150E: N=4 O=2700 P=4,3% Q=4,6% imp24h=3700.0 | ok | K=109h · 2.700 view · CTR tổng 4,3% · CTR 24h 4,6% · 3.700 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:41:32 <cdp9222> [M-teinengo-anaba] dong 17: DA GHI SHEET
+05:41:33 <cdp9222> [M-teinengo-anaba] xong lane: 13 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+05:41:33 <cdp9222>     · chuyen tab: nghi 19.6s
+05:41:38   luong 2 LOI JordaneLaetitia694@gmail.com: GPM khong mo duoc profile sau 4 lan: ProfileUsingByOther -> bo qua, sang profile tiep
+05:41:38     · mo profile tiep theo: nghi 11.7s
+05:41:53 <cdp9222> ===== XONG: 18 video · 9 dòng vàng · lỗi 1 video · lỗi ghi sheet 1 · lane bỏ qua: không · 41 phút
+05:41:54   luong 1: cdp9222 xong (exit 0)
+05:41:54   luong 1: dong profile cdp9222
+05:41:54     · mo profile tiep theo: nghi 12.1s
+05:42:06   luong 1 mo profile: gpm normaneileenpm218@gmail.com
+05:43:03   luong 1 chay: normaneileenpm218@gmail.com | tabs=['E-70dai-kenko']
+05:43:07 <normaneileenpm218> ===== BAT DAU tay =====
+05:43:15 <normaneileenpm218> --- attach vao profile da mo san: ws://localhost:51028/devtools/browser/684114ec-90b2-4779-b93...
+05:43:15 <normaneileenpm218> --- tab se doc: ['E-70dai-kenko']
+05:43:19 <normaneileenpm218>     · phong to cua so: 1920px
+05:43:35 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/7aQQRFOyJK8/analytics/tab-r, menu=co) -> chuyen lai
+05:43:36 <normaneileenpm218>     · chua vao duoc kenh sau goto (lan 1)
+05:43:56 <normaneileenpm218>     · chua vao duoc kenh sau goto (lan 2)
+05:44:04 <thienduongly7890>     · bam Content @(97,332)
+05:44:22 <thienduongly7890>     · bam chip Videos (giao dien Content moi) @(305,170)
+05:44:28 <normaneileenpm218>     · bam kenh '健康の知恵袋' @(1011,168)
+05:44:32 <thienduongly7890>     · bam video XINsEgzTFpY @(666,483)
+05:44:39 <normaneileenpm218> [E-70dai-kenko] LOI lane: Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigation to "https://www.youtube.com/"
+Call log:
+  - navigating to "https://studio.youtube.com/", waiting until "domc
+05:44:39 <normaneileenpm218>     · chuyen tab: nghi 23.9s
+05:44:41 <thienduongly7890>     · mo duoc video: 【漫画】定年後に「夜間警備員」になると、どんな生活になるのか
+05:44:46 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:45:02 <thienduongly7890>     · bam tab Reach @(410,178)
+05:45:04 <normaneileenpm218> ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: E-70dai-kenko · 1 phút
+05:45:06   luong 1: normaneileenpm218@gmail.com xong (exit 0)
+05:45:06   luong 1: dong profile normaneileenpm218@gmail.com
+05:45:06     · mo profile tiep theo: nghi 11.5s
+05:45:15 <thienduongly7890>     · doc so xong: nghi 2.8s
+05:45:18   luong 1 mo profile: gpm SyedualiBajwa92@gmail.com
+05:45:24 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:45:29 <thienduongly7890>     · bam Custom @(1326,598)
+05:45:32 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:45:39 <thienduongly7890>     · bam Apply @(1454,505)
+05:45:42 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:45:48 <thienduongly7890>     · doc so xong: nghi 4.4s
+05:45:52 <thienduongly7890> [Lane-N] dong 14 XINsEgzTFpY: N=5 O=4800 P=4,6% Q=3,9% imp24h=6500.0 | ok | K=133h · 4.800 view · CTR tổng 4,6% · CTR 24h 3,9% · 6.500 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:45:53 <thienduongly7890> [Lane-N] dong 14: DA GHI SHEET
+05:45:54 <thienduongly7890>     · chuyen video: nghi 44.1s
+05:46:08   luong 1 chay: SyedualiBajwa92@gmail.com | tabs=['L-shakai-no-naze']
+05:46:10 <SyedualiBajwa92> ===== BAT DAU tay =====
+05:46:12 <SyedualiBajwa92> --- attach vao profile da mo san: ws://localhost:51362/devtools/browser/1c3571bb-13ae-4eb5-839...
+05:46:12 <SyedualiBajwa92> --- tab se doc: ['L-shakai-no-naze']
+05:46:14 <SyedualiBajwa92>     · phong to cua so: 1920px
+05:46:30 <SyedualiBajwa92>     · chuyen video: nghi 38.4s
+05:46:38 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/XINsEgzTFpY/analytics/tab-r, menu=co) -> chuyen lai
+05:46:54 <thienduongly7890>     · bam Content @(97,332)
+05:47:00 <thienduongly7890>     · bam video dzxXIh4zvfs @(710,399)
+05:47:04 <thienduongly7890>     · mo duoc video: 60歳で再雇用に残った人と、辞めてスキマバイトを選んだ人。5年後、違ったのは「通帳の数字
+05:47:07 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:47:13 <SyedualiBajwa92>     · bam Content @(97,332)
+05:47:14 <thienduongly7890>     · bam tab Reach @(410,178)
+05:47:20 <thienduongly7890>     · doc so xong: nghi 3.4s
+05:47:21 <SyedualiBajwa92>     · bam video VE_CE60s40I @(710,761)
+05:47:25 <SyedualiBajwa92>     · mo duoc video: 『Z世代はもう出世しない』なぜ入社したZ世代の管理職志望が激減してるのか【漫画】
+05:47:27 <thienduongly7890>     · bam nhan khoang ngay @(1328,88)
+05:47:29 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:47:32 <thienduongly7890>     · bam Custom @(1326,531)
+05:47:36 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:47:37 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:47:42 <SyedualiBajwa92>     · doc so xong: nghi 4.5s
+05:47:44 <thienduongly7890>     · bam Apply @(1454,438)
+05:47:48 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:47:50 <SyedualiBajwa92>     · bam nhan khoang ngay @(1329,155)
+05:47:55 <SyedualiBajwa92>     · bam Custom @(1326,598)
+05:47:56 <thienduongly7890>     · doc so xong: nghi 2.6s
+05:47:59 <thienduongly7890> [Lane-N] dong 15 dzxXIh4zvfs: N=4 O=1200 P=3,0% Q=2,9% imp24h=1500.0 | ok | K=109h · 1.200 view · CTR tổng 3,0% · CTR 24h 2,9% · 1.500 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:47:59 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:47:59 <thienduongly7890> [Lane-N] dong 15: DA GHI SHEET
+05:48:00 <thienduongly7890>     · chuyen video: nghi 38.1s
+05:48:05 <SyedualiBajwa92>     · bam Apply @(1454,505)
+05:48:10 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:48:19 <SyedualiBajwa92>     · doc so xong: nghi 4.4s
+05:48:23 <SyedualiBajwa92> [L-shakai-no-naze] dong 2 VE_CE60s40I: N=30 O=5000 P=3,7% Q=7,0% imp24h=114.0 | ok | K=731h · 5.000 view · CTR tổng 3,7% · CTR 24h 7,0% · 114 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:48:24 <SyedualiBajwa92> [L-shakai-no-naze] dong 2: DA GHI SHEET
+05:48:24 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep01 C4: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY TITLE+THUMB 21/10'
+05:48:24 <SyedualiBajwa92>     · chuyen video: nghi 28.7s
+05:48:38 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/dzxXIh4zvfs/analytics/tab-r, menu=co) -> chuyen lai
+05:48:53 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/VE_CE60s40I/analytics/tab-r, menu=co) -> chuyen lai
+05:48:56 <thienduongly7890>     · bam Content @(97,332)
+05:49:03 <thienduongly7890>     · bam video pHAvM2jaWLQ @(710,315)
+05:49:08 <thienduongly7890>     · mo duoc video: 【漫画】「老人ホームに入ったら、終わり」…給食室で38年働いた74歳ひとり暮らしの私は、
+05:49:12 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:49:15 <SyedualiBajwa92>     · bam Content @(97,332)
+05:49:18 <thienduongly7890>     · bam tab Reach @(410,178)
+05:49:24 <thienduongly7890>     · doc so xong: nghi 3.2s
+05:49:25 <SyedualiBajwa92>     · bam video C9CQf5jztvM @(679,677)
+05:49:29 <SyedualiBajwa92>     · mo duoc video: 部下は定時、課長は22時…働き方改革で仕事はどこへ消えた？【漫画】
+05:49:31 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:49:31 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:49:37 <thienduongly7890>     · bam Custom @(1326,598)
+05:49:38 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:49:39 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:49:43 <SyedualiBajwa92>     · doc so xong: nghi 1.7s
+05:49:47 <thienduongly7890>     · bam Apply @(1454,505)
+05:49:47 <SyedualiBajwa92>     · bam nhan khoang ngay @(1329,155)
+05:49:51 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:49:52 <SyedualiBajwa92>     · bam Custom @(1326,598)
+05:49:55 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:49:58 <thienduongly7890>     · doc so xong: nghi 3.8s
+05:50:02 <thienduongly7890> [Lane-N] dong 16 pHAvM2jaWLQ: N=3 O=736 P=3,1% Q=3,3% imp24h=4800.0 | ok | K=85h · 736 view · CTR tổng 3,1% · CTR 24h 3,3% · 4.800 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:50:02 <SyedualiBajwa92>     · bam Apply @(1454,505)
+05:50:03 <thienduongly7890> [Lane-N] dong 16: DA GHI SHEET
+05:50:03 <thienduongly7890>     · chuyen video: nghi 45.6s
+05:50:06 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:50:14 <SyedualiBajwa92>     · doc so xong: nghi 2.3s
+05:50:16 <SyedualiBajwa92> [L-shakai-no-naze] dong 3 C9CQf5jztvM: N=29 O=6200 P=4,8% Q=6,8% imp24h=250.0 | ok | K=708h · 6.200 view · CTR tổng 4,8% · CTR 24h 6,8% · 250 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:50:17 <SyedualiBajwa92> [L-shakai-no-naze] dong 3: DA GHI SHEET
+05:50:17 <SyedualiBajwa92>     · chuyen video: nghi 43.7s
+05:50:49 <thienduongly7890>     · chua san sang (url=https://studio.youtube.com/video/pHAvM2jaWLQ/analytics/tab-r, menu=co) -> chuyen lai
+05:51:01 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/C9CQf5jztvM/analytics/tab-r, menu=co) -> chuyen lai
+05:51:09 <thienduongly7890>     · bam Content @(97,332)
+05:51:13 <thienduongly7890>     · bam video 6zzAQXravUU @(710,567)
+05:51:19 <thienduongly7890>     · mo duoc video: 【漫画】60歳で「安定」を選んだ人と、「自由」を選んだ人。5年後に二人が知った「本当の正
+05:51:20 <SyedualiBajwa92>     · bam Content @(97,332)
+05:51:22 <thienduongly7890>     · bam tab Analytics @(101,380)
+05:51:27 <SyedualiBajwa92>     · bam video HLLsbKb0FF4 @(638,593)
+05:51:28 <thienduongly7890>     · bam tab Reach @(410,178)
+05:51:31 <SyedualiBajwa92>     · mo duoc video: 「言われたことだけやる」人が増えた本当の理由【漫画】
+05:51:33 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:51:34 <thienduongly7890>     · doc so xong: nghi 1.6s
+05:51:39 <thienduongly7890>     · bam nhan khoang ngay @(1328,155)
+05:51:39 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:51:44 <thienduongly7890>     · bam Custom @(1326,598)
+05:51:45 <SyedualiBajwa92>     · doc so xong: nghi 2.6s
+05:51:47 <thienduongly7890>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:51:51 <SyedualiBajwa92>     · bam nhan khoang ngay @(1329,155)
+05:51:53 <thienduongly7890>     · bam Apply @(1454,505)
+05:51:56 <thienduongly7890>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:51:57 <SyedualiBajwa92>     · bam Custom @(1326,598)
+05:52:01 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:52:03 <thienduongly7890>     · doc so xong: nghi 1.6s
+05:52:04 <thienduongly7890> [Lane-N] dong 17 6zzAQXravUU: N=6 O=1500 P=2,6% Q=4,9% imp24h=548.0 | ok | K=157h · 1.500 view · CTR tổng 2,6% · CTR 24h 4,9% · 548 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:52:05 <thienduongly7890> [Lane-N] dong 17: DA GHI SHEET
+05:52:05 <thienduongly7890> [Lane-N] xong lane: 16 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+05:52:05 <thienduongly7890>     · chuyen tab: nghi 12.8s
+05:52:08 <SyedualiBajwa92>     · bam Apply @(1454,505)
+05:52:11 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:52:18 <thienduongly7890> ===== XONG: 16 video · 3 dòng vàng · lỗi 0 video · lỗi ghi sheet 1 · lane bỏ qua: không · 37 phút
+05:52:19   luong 3: thienduongly7890@gmail.com xong (exit 0)
+05:52:19 <SyedualiBajwa92>     · doc so xong: nghi 4.1s
+05:52:21   luong 3: dong profile thienduongly7890@gmail.com
+05:52:21     · mo profile tiep theo: nghi 11.2s
+05:52:23 <SyedualiBajwa92> [L-shakai-no-naze] dong 4 HLLsbKb0FF4: N=28 O=3400 P=4,9% Q=7,1% imp24h=56.0 | ok | K=684h · 3.400 view · CTR tổng 4,9% · CTR 24h 7,1% · 56 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:52:24 <SyedualiBajwa92> [L-shakai-no-naze] dong 4: DA GHI SHEET
+05:52:24 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep03 C6: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:52:24 <SyedualiBajwa92>     · chuyen video: nghi 21.2s
+05:52:46 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/HLLsbKb0FF4/analytics/tab-r, menu=co) -> chuyen lai
+05:53:08 <SyedualiBajwa92>     · bam Content @(97,332)
+05:53:15 <SyedualiBajwa92>     · bam video 8hsGdbMobVQ @(645,476)
+05:53:19 <SyedualiBajwa92>     · mo duoc video: なぜ「普通の人」がカスハラ客になってしまうのか【漫画】
+05:53:23 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:53:30 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:53:35 <SyedualiBajwa92>     · doc so xong: nghi 4.1s
+05:53:42 <SyedualiBajwa92>     · bam nhan khoang ngay @(1329,155)
+05:53:47 <SyedualiBajwa92>     · bam Custom @(1326,598)
+05:53:51 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:53:58 <SyedualiBajwa92>     · bam Apply @(1454,505)
+05:54:03 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:54:10 <SyedualiBajwa92>     · doc so xong: nghi 2.2s
+05:54:13 <SyedualiBajwa92> [L-shakai-no-naze] dong 5 8hsGdbMobVQ: N=25 O=2500 P=4,4% Q=— imp24h=37.0 | VANG | K=CTR 24h=— (37 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:54:14 <SyedualiBajwa92> [L-shakai-no-naze] dong 5: DA GHI SHEET
+05:54:14 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep04 C7: 'Listed' -> 'SỬA CTR'
+05:54:14 <SyedualiBajwa92>     · chuyen video: nghi 32.7s
+05:54:47 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/8hsGdbMobVQ/analytics/tab-r, menu=co) -> chuyen lai
+05:55:10 <SyedualiBajwa92>     · bam Content @(97,332)
+05:55:17 <SyedualiBajwa92>     · bam video 7YoIs7L8c_w @(668,509)
+05:55:21 <SyedualiBajwa92>     · mo duoc video: 『俺たちが決めた』29歳の給料が父の29歳とほぼ同じ理由【漫画】
+05:55:24 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:55:31 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:55:38 <SyedualiBajwa92>     · doc so xong: nghi 3.1s
+05:55:46 <SyedualiBajwa92>     · bam nhan khoang ngay @(1329,88)
+05:55:51 <SyedualiBajwa92>     · bam Custom @(1326,531)
+05:55:54 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+05:56:00 <SyedualiBajwa92>     · bam Apply @(1454,438)
+05:56:05 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:56:13 <SyedualiBajwa92>     · doc so xong: nghi 3.5s
+05:56:17 <SyedualiBajwa92> [L-shakai-no-naze] dong 6 7YoIs7L8c_w: N=27 O=6200 P=3,9% Q=— imp24h=24.0 | VANG | K=CTR 24h=— (24 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:56:18 <SyedualiBajwa92> [L-shakai-no-naze] dong 6: DA GHI SHEET
+05:56:18 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep05 C8: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+05:56:18 <SyedualiBajwa92>     · chuyen video: nghi 37.1s
+05:56:55 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/7YoIs7L8c_w/analytics/tab-r, menu=co) -> chuyen lai
+05:57:16 <SyedualiBajwa92>     · bam Content @(97,332)
+05:57:24 <SyedualiBajwa92>     · bam video Tsk1WPERijs @(670,476)
+05:57:30 <SyedualiBajwa92>     · mo duoc video: 【漫画】職場で孤独になる人ほど、「やってみたい」が言えない理由
+05:57:32 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:57:39 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:57:46 <SyedualiBajwa92>     · doc so xong: nghi 2.6s
+05:57:52 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,155)
+05:57:57 <SyedualiBajwa92>     · bam Custom @(1326,598)
+05:58:01 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+05:58:06 <SyedualiBajwa92>     · bam Apply @(1454,505)
+05:58:10 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+05:58:16 <SyedualiBajwa92>     · doc so xong: nghi 1.7s
+05:58:18 <SyedualiBajwa92> [L-shakai-no-naze] dong 7 Tsk1WPERijs: N=24 O=449 P=4,7% Q=3,6% imp24h=28.0 | ok | K=588h · 449 view · CTR tổng 4,7% · CTR 24h 3,6% · 28 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:58:18 <SyedualiBajwa92> [L-shakai-no-naze] dong 7: DA GHI SHEET
+05:58:19 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep06 C9: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+05:58:19 <SyedualiBajwa92>     · chuyen video: nghi 46.7s
+05:59:05 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/Tsk1WPERijs/analytics/tab-r, menu=co) -> chuyen lai
+05:59:27 <SyedualiBajwa92>     · bam Content @(97,332)
+05:59:35 <SyedualiBajwa92>     · bam video oljpMKOsZ0M @(666,476)
+05:59:41 <SyedualiBajwa92>     · mo duoc video: 「若者は甘えている」そう決めつける大人が見落とすこと【漫画】
+05:59:45 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+05:59:51 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+05:59:57 <SyedualiBajwa92>     · doc so xong: nghi 3.1s
+06:00:02 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,155)
+06:00:07 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:00:10 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:00:17 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:00:21 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:00:27 <SyedualiBajwa92>     · doc so xong: nghi 3.1s
+06:00:30 <SyedualiBajwa92> [L-shakai-no-naze] dong 8 oljpMKOsZ0M: N=22 O=3500 P=3,3% Q=2,0% imp24h=49.0 | VANG | K=CTR 24h=2,0%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:00:31 <SyedualiBajwa92> [L-shakai-no-naze] dong 8: DA GHI SHEET
+06:00:31 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep07 C10: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+06:00:31 <SyedualiBajwa92>     · chuyen video: nghi 22.7s
+06:00:54 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/oljpMKOsZ0M/analytics/tab-r, menu=co) -> chuyen lai
+06:01:14 <SyedualiBajwa92>     · bam Content @(97,332)
+06:01:23 <SyedualiBajwa92>     · bam video iHbgfMd8Mbk @(659,476)
+06:01:27 <SyedualiBajwa92>     · mo duoc video: なぜ「礼儀」を守るほど、人間関係が苦しくなるのか？【漫画】
+06:01:30 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:01:35 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:01:43 <SyedualiBajwa92>     · doc so xong: nghi 2.8s
+06:01:49 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,97)
+06:01:56 <SyedualiBajwa92>     · bam Custom @(1326,540)
+06:01:59 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,103)
+06:02:06 <SyedualiBajwa92>     · bam Apply @(1454,447)
+06:02:10 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:02:17 <SyedualiBajwa92>     · doc so xong: nghi 2.5s
+06:02:19 <SyedualiBajwa92> [L-shakai-no-naze] dong 9 iHbgfMd8Mbk: N=19 O=2100 P=3,9% Q=6,7% imp24h=15.0 | ok | K=468h · 2.100 view · CTR tổng 3,9% · CTR 24h 6,7% · 15 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:02:20 <SyedualiBajwa92> [L-shakai-no-naze] dong 9: DA GHI SHEET
+06:02:21 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep08 C11: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+06:02:21 <SyedualiBajwa92>     · chuyen video: nghi 35.4s
+06:02:56 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/iHbgfMd8Mbk/analytics/tab-r, menu=co) -> chuyen lai
+06:03:18 <SyedualiBajwa92>     · bam Content @(97,332)
+06:03:26 <SyedualiBajwa92>     · bam video m_uKThRuMIs @(687,476)
+06:03:33 <SyedualiBajwa92>     · mo duoc video: 『転勤はもう受けない』なぜ社員の転勤の拒否が急増してるのか【漫画】
+06:03:35 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:03:40 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:03:45 <SyedualiBajwa92>     · doc so xong: nghi 3.9s
+06:03:52 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,155)
+06:03:56 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:03:59 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:04:07 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:04:11 <SyedualiBajwa92>     · khoang ngay KHONG phai 1 ngay (period=None) lan 1 -> thu lai
+06:04:11 <SyedualiBajwa92>     · khong thay nhan khoang ngay de bam
+06:04:11 <SyedualiBajwa92>     · KHONG doi duoc khoang ngay -> CTR 24h de TRONG (khong lay so tron doi)
+06:04:11 <SyedualiBajwa92>     · doc so xong: nghi 2.5s
+06:04:14 <SyedualiBajwa92> [L-shakai-no-naze] dong 10 m_uKThRuMIs: N=18 O=6300 P=4,6% Q=— imp24h=None | VANG | K=CTR 24h=— (0 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:04:15 <SyedualiBajwa92> [L-shakai-no-naze] dong 10: DA GHI SHEET
+06:04:15 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep09 C12: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY TITLE+THUMB 21/10' (CTR 24h van thap)
+06:04:15 <SyedualiBajwa92>     · chuyen video: nghi 51.4s
+06:05:07 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/m_uKThRuMIs/analytics/tab-r, menu=co) -> chuyen lai
+06:05:28 <SyedualiBajwa92>     · bam Content @(97,332)
+06:05:34 <SyedualiBajwa92>     · bam video SBAbtQtYGJE @(673,476)
+06:05:40 <SyedualiBajwa92>     · mo duoc video: なぜ「大丈夫」と言う人ほど、限界まで頑張ってしまうのか【漫画】
+06:05:44 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:05:49 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:05:54 <SyedualiBajwa92>     · doc so xong: nghi 2.5s
+06:06:01 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,88)
+06:06:06 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:06:09 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:06:15 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:06:19 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:06:25 <SyedualiBajwa92>     · doc so xong: nghi 4.3s
+06:06:29 <SyedualiBajwa92> [L-shakai-no-naze] dong 11 SBAbtQtYGJE: N=17 O=1800 P=3,4% Q=1,7% imp24h=60.0 | VANG | K=CTR 24h=1,7%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:06:30 <SyedualiBajwa92> [L-shakai-no-naze] dong 11: DA GHI SHEET
+06:06:31 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep10 C13: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+06:06:31 <SyedualiBajwa92>     · chuyen video: nghi 49.9s
+06:07:21 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/SBAbtQtYGJE/analytics/tab-r, menu=co) -> chuyen lai
+06:07:41 <SyedualiBajwa92>     · bam Content @(97,332)
+06:07:49 <SyedualiBajwa92>     · bam video G8ygvvE4wK8 @(710,476)
+06:07:53 <SyedualiBajwa92>     · mo duoc video: 50代になるにつれて、なぜ何をしても楽しくなくなるのか？その状態から抜け出すにはどうすれ
+06:07:56 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:08:01 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:08:06 <SyedualiBajwa92>     · doc so xong: nghi 3.7s
+06:08:12 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,155)
+06:08:17 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:08:20 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:08:28 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:08:31 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:08:38 <SyedualiBajwa92>     · doc so xong: nghi 3.9s
+06:08:42 <SyedualiBajwa92> [L-shakai-no-naze] dong 12 G8ygvvE4wK8: N=16 O=6400 P=4,8% Q=6,3% imp24h=206.0 | ok | K=397h · 6.400 view · CTR tổng 4,8% · CTR 24h 6,3% · 206 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:08:42 <SyedualiBajwa92> [L-shakai-no-naze] dong 12: DA GHI SHEET
+06:08:43 <SyedualiBajwa92>     · chuyen video: nghi 22.3s
+06:09:05 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/G8ygvvE4wK8/analytics/tab-r, menu=co) -> chuyen lai
+06:09:23 <SyedualiBajwa92>     · bam Content @(97,332)
+06:09:30 <SyedualiBajwa92>     · bam video j7o0lpgCKRc @(631,476)
+06:09:34 <SyedualiBajwa92>     · mo duoc video: 婚活男性が「見られる前」に諦めてしまう理由【漫画】
+06:09:36 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:09:42 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:09:48 <SyedualiBajwa92>     · doc so xong: nghi 3.7s
+06:09:54 <SyedualiBajwa92>     · bam nhan khoang ngay @(1324,155)
+06:09:58 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:10:02 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:10:08 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:10:12 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:10:18 <SyedualiBajwa92>     · doc so xong: nghi 1.9s
+06:10:20 <SyedualiBajwa92> [L-shakai-no-naze] dong 13 j7o0lpgCKRc: N=16 O=5900 P=4,5% Q=2,8% imp24h=176.0 | ok | K=396h · 5.900 view · CTR tổng 4,5% · CTR 24h 2,8% · 176 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:10:21 <SyedualiBajwa92> [L-shakai-no-naze] dong 13: DA GHI SHEET
+06:10:22 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep12 C15: 'SỬA CTR' -> 'Listed'
+06:10:22 <SyedualiBajwa92>     · nghi giua phien: nghi 131.7s
+06:12:34 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/j7o0lpgCKRc/analytics/tab-r, menu=co) -> chuyen lai
+06:13:03 <SyedualiBajwa92>     · bam Content @(97,332)
+06:13:14 <SyedualiBajwa92>     · bam video YA9tuTvW9wo @(618,476)
+06:13:18 <SyedualiBajwa92>     · mo duoc video: 職場の9割が知らない、賢い人の人間関係5つの秘密
+06:13:22 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:13:32 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:13:38 <SyedualiBajwa92>     · doc so xong: nghi 2.3s
+06:13:45 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:13:50 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:13:53 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:14:00 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:14:05 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:14:15 <SyedualiBajwa92>     · doc so xong: nghi 4.2s
+06:14:19 <SyedualiBajwa92> [L-shakai-no-naze] dong 14 YA9tuTvW9wo: N=15 O=324 P=3,8% Q=— imp24h=8.0 | VANG | K=CTR 24h=— (8 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:14:21 <SyedualiBajwa92> [L-shakai-no-naze] dong 14: DA GHI SHEET
+06:14:22 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep13 C16: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY TITLE+THUMB 21/10' (CTR 24h van thap)
+06:14:22 <SyedualiBajwa92>     · chuyen video: nghi 21.9s
+06:14:44 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/YA9tuTvW9wo/analytics/tab-r, menu=co) -> chuyen lai
+06:15:09 <SyedualiBajwa92>     · bam Content @(97,332)
+06:15:15 <SyedualiBajwa92>     · bam video pXujDEe1JnI @(638,476)
+06:15:22 <SyedualiBajwa92>     · mo duoc video: なぜ仕事ができる人ほど、会社を突然辞めるのか【漫画】
+06:15:26 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:15:31 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:15:37 <SyedualiBajwa92>     · doc so xong: nghi 4.2s
+06:15:45 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:15:50 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:15:54 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:15:59 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:16:02 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:16:10 <SyedualiBajwa92>     · doc so xong: nghi 3.6s
+06:16:13 <SyedualiBajwa92> [L-shakai-no-naze] dong 15 pXujDEe1JnI: N=13 O=6400 P=4,7% Q=5,5% imp24h=55.0 | ok | K=325h · 6.400 view · CTR tổng 4,7% · CTR 24h 5,5% · 55 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:16:16 <SyedualiBajwa92> [L-shakai-no-naze] dong 15: DA GHI SHEET
+06:16:16 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep14 C17: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY TITLE+THUMB 21/10'
+06:16:16 <SyedualiBajwa92>     · chuyen video: nghi 51.0s
+06:17:07 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/pXujDEe1JnI/analytics/tab-r, menu=co) -> chuyen lai
+06:17:31 <SyedualiBajwa92>     · bam Content @(97,332)
+06:17:40 <SyedualiBajwa92>     · bam video 9DXfxfghhEU @(670,476)
+06:17:44 <SyedualiBajwa92>     · mo duoc video: なぜ昇給したのに手取りが減るのか？誰もが驚く5つの理由【漫画】
+06:17:48 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:17:54 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:18:00 <SyedualiBajwa92>     · doc so xong: nghi 2.9s
+06:18:06 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,122)
+06:18:12 <SyedualiBajwa92>     · bam Custom @(1326,565)
+06:18:15 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,128)
+06:18:21 <SyedualiBajwa92>     · bam Apply @(1454,472)
+06:18:24 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:18:30 <SyedualiBajwa92>     · doc so xong: nghi 1.9s
+06:18:32 <SyedualiBajwa92> [L-shakai-no-naze] dong 16 9DXfxfghhEU: N=10 O=1300 P=2,5% Q=— imp24h=22.0 | VANG | K=CTR 24h=— (22 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:18:33 <SyedualiBajwa92> [L-shakai-no-naze] dong 16: DA GHI SHEET
+06:18:33 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep15 C18: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+06:18:33 <SyedualiBajwa92>     · chuyen video: nghi 21.2s
+06:18:55 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/9DXfxfghhEU/analytics/tab-r, menu=co) -> chuyen lai
+06:19:16 <SyedualiBajwa92>     · bam Content @(97,332)
+06:19:26 <SyedualiBajwa92>     · bam video vhwBncvsnbY @(652,476)
+06:19:32 <SyedualiBajwa92>     · mo duoc video: なぜ会社に尽くした人ほど、最後に居場所を失うのか【漫画】
+06:19:35 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:19:41 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:19:48 <SyedualiBajwa92>     · doc so xong: nghi 1.6s
+06:19:51 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,155)
+06:19:55 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:19:59 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:20:04 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:20:07 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:20:15 <SyedualiBajwa92>     · doc so xong: nghi 1.8s
+06:20:17 <SyedualiBajwa92> [L-shakai-no-naze] dong 17 vhwBncvsnbY: N=11 O=2200 P=3,7% Q=9,0% imp24h=78.0 | ok | K=285h · 2.200 view · CTR tổng 3,7% · CTR 24h 9,0% · 78 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:20:17 <SyedualiBajwa92> [L-shakai-no-naze] dong 17: DA GHI SHEET
+06:20:18 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep16 C19: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB'
+06:20:18 <SyedualiBajwa92>     · chuyen video: nghi 54.1s
+06:21:12 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/vhwBncvsnbY/analytics/tab-r, menu=co) -> chuyen lai
+06:21:32 <SyedualiBajwa92>     · bam Content @(97,332)
+06:21:38 <SyedualiBajwa92>     · bam video nDuj3Ovhwcc @(659,476)
+06:21:42 <SyedualiBajwa92>     · mo duoc video: なぜ職場では、間違いに気づいても誰も注意しないのか【漫画】
+06:21:47 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:21:51 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:21:59 <SyedualiBajwa92>     · doc so xong: nghi 2.0s
+06:22:04 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:22:09 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:22:12 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:22:18 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:22:23 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:22:32 <SyedualiBajwa92>     · doc so xong: nghi 4.0s
+06:22:36 <SyedualiBajwa92> [L-shakai-no-naze] dong 18 nDuj3Ovhwcc: N=9 O=428 P=1,2% Q=— imp24h=391.0 | VANG | K=CTR 24h=— (391 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:22:37 <SyedualiBajwa92> [L-shakai-no-naze] dong 18: DA GHI SHEET
+06:22:37 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep17 C20: GIU NGUYEN ghi chu cua anh 'ĐÃ THAY THUMB' (CTR 24h van thap)
+06:22:37 <SyedualiBajwa92>     · chuyen video: nghi 55.0s
+06:23:32 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/nDuj3Ovhwcc/analytics/tab-r, menu=co) -> chuyen lai
+06:23:53 <SyedualiBajwa92>     · bam Content @(97,332)
+06:23:58 <SyedualiBajwa92>     · bam video huTyt8Hsk5s @(710,819)
+06:24:01 <SyedualiBajwa92>     · mo duoc video: 婚活で多くの人が気づかない「普通」の落とし穴――見直したい5つの条件【漫画】
+06:24:04 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:24:10 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:24:17 <SyedualiBajwa92>     · doc so xong: nghi 4.1s
+06:24:24 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:24:28 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:24:32 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:24:39 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:24:43 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:24:50 <SyedualiBajwa92>     · doc so xong: nghi 4.3s
+06:24:54 <SyedualiBajwa92> [L-shakai-no-naze] dong 19 huTyt8Hsk5s: N=8 O=4100 P=3,6% Q=0,9% imp24h=426.0 | VANG | K=CTR 24h=0,9%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:24:56 <SyedualiBajwa92> [L-shakai-no-naze] dong 19: DA GHI SHEET
+06:24:56 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep18 C21: 'Listed' -> 'SỬA CTR'
+06:24:56 <SyedualiBajwa92>     · chuyen video: nghi 36.4s
+06:25:33 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/huTyt8Hsk5s/analytics/tab-r, menu=co) -> chuyen lai
+06:25:55 <SyedualiBajwa92>     · bam Content @(97,332)
+06:26:01 <SyedualiBajwa92>     · bam video xIUVlWyZPiU @(666,735)
+06:26:05 <SyedualiBajwa92>     · mo duoc video: なぜ浮気もしていない夫が、妻から離婚を告げられたのか【漫画】
+06:26:07 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:26:12 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:26:19 <SyedualiBajwa92>     · doc so xong: nghi 1.9s
+06:26:25 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,155)
+06:26:30 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:26:33 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:26:39 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:26:43 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:26:51 <SyedualiBajwa92>     · doc so xong: nghi 1.7s
+06:26:52 <SyedualiBajwa92> [L-shakai-no-naze] dong 20 xIUVlWyZPiU: N=7 O=390 P=2,6% Q=— imp24h=49.0 | VANG | K=CTR 24h=— (49 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:26:53 <SyedualiBajwa92> [L-shakai-no-naze] dong 20: DA GHI SHEET
+06:26:54 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep19 C22: 'Listed' -> 'SỬA CTR'
+06:26:54 <SyedualiBajwa92>     · chuyen video: nghi 53.9s
+06:27:48 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/xIUVlWyZPiU/analytics/tab-r, menu=co) -> chuyen lai
+06:28:09 <SyedualiBajwa92>     · bam Content @(97,332)
+06:28:17 <SyedualiBajwa92>     · bam video t9zhYP2EpQw @(652,567)
+06:28:21 <SyedualiBajwa92>     · mo duoc video: なぜ人は「言っても無駄」と思った瞬間、黙るのか？【漫画】
+06:28:23 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:28:31 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:28:36 <SyedualiBajwa92>     · doc so xong: nghi 4.0s
+06:28:44 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,155)
+06:28:50 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:28:52 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:28:58 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:29:02 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:29:11 <SyedualiBajwa92>     · doc so xong: nghi 3.4s
+06:29:15 <SyedualiBajwa92> [L-shakai-no-naze] dong 21 t9zhYP2EpQw: N=5 O=8200 P=5,7% Q=8,2% imp24h=6700.0 | ok | K=133h · 8.200 view · CTR tổng 5,7% · CTR 24h 8,2% · 6.700 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:29:15 <SyedualiBajwa92> [L-shakai-no-naze] dong 21: DA GHI SHEET
+06:29:16 <SyedualiBajwa92>     · chuyen video: nghi 31.9s
+06:29:48 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/t9zhYP2EpQw/analytics/tab-r, menu=co) -> chuyen lai
+06:30:10 <SyedualiBajwa92>     · bam Content @(97,332)
+06:30:16 <SyedualiBajwa92>     · bam video YW7fDFQ5TUQ @(710,483)
+06:30:22 <SyedualiBajwa92>     · mo duoc video: 【漫画】婚活で女性に「退職時は部長でした」と名刺を出した男。料理教室で「肩書きじゃ米は炊
+06:30:26 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:30:30 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:30:37 <SyedualiBajwa92>     · doc so xong: nghi 2.7s
+06:30:42 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,155)
+06:30:47 <SyedualiBajwa92>     · bam Custom @(1326,598)
+06:30:49 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:30:55 <SyedualiBajwa92>     · bam Apply @(1454,505)
+06:31:00 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:31:07 <SyedualiBajwa92>     · doc so xong: nghi 2.7s
+06:31:09 <SyedualiBajwa92> [L-shakai-no-naze] dong 22 YW7fDFQ5TUQ: N=4 O=4600 P=4,8% Q=5,1% imp24h=3800.0 | ok | K=110h · 4.600 view · CTR tổng 4,8% · CTR 24h 5,1% · 3.800 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:31:10 <SyedualiBajwa92> [L-shakai-no-naze] dong 22: DA GHI SHEET
+06:31:11 <SyedualiBajwa92>     · chuyen video: nghi 22.4s
+06:31:33 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/YW7fDFQ5TUQ/analytics/tab-r, menu=co) -> chuyen lai
+06:31:53 <SyedualiBajwa92>     · bam Content @(97,332)
+06:31:58 <SyedualiBajwa92>     · bam video hELa_6p4Zkg @(710,651)
+06:32:03 <SyedualiBajwa92>     · mo duoc video: 【漫画】子供が熱を出した母親に「急に休む人は雇えない！」と告げた小さな食堂…半年間、応募
+06:32:07 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:32:13 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:32:21 <SyedualiBajwa92>     · doc so xong: nghi 2.9s
+06:32:27 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:32:31 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:32:34 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:32:41 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:32:44 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:32:52 <SyedualiBajwa92>     · doc so xong: nghi 2.4s
+06:32:55 <SyedualiBajwa92> [L-shakai-no-naze] dong 23 hELa_6p4Zkg: N=6 O=296 P=1,6% Q=1,4% imp24h=831.0 | VANG | K=CTR 24h=1,4%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:32:56 <SyedualiBajwa92> [L-shakai-no-naze] dong 23: DA GHI SHEET
+06:32:56 <SyedualiBajwa92>     · chuyen video: nghi 43.5s
+06:33:40 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/hELa_6p4Zkg/analytics/tab-r, menu=co) -> chuyen lai
+06:34:02 <SyedualiBajwa92>     · bam Content @(97,332)
+06:34:06 <SyedualiBajwa92>     · bam video 2t0nXlMSMEA @(710,399)
+06:34:12 <SyedualiBajwa92>     · mo duoc video: 【漫画】家を手放して車で生活する50代契約社員の実態…家賃ゼロでもお金が残らない車上生活
+06:34:15 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:34:21 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:34:28 <SyedualiBajwa92>     · doc so xong: nghi 3.4s
+06:34:34 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:34:39 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:34:42 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:34:48 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:34:53 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:35:00 <SyedualiBajwa92>     · doc so xong: nghi 3.7s
+06:35:04 <SyedualiBajwa92> [L-shakai-no-naze] dong 24 2t0nXlMSMEA: N=3 O=1500 P=5,6% Q=6,2% imp24h=1500.0 | ok | K=86h · 1.500 view · CTR tổng 5,6% · CTR 24h 6,2% · 1.500 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:35:05 <SyedualiBajwa92> [L-shakai-no-naze] dong 24: DA GHI SHEET
+06:35:05 <SyedualiBajwa92>     · chuyen video: nghi 53.0s
+06:35:58 <SyedualiBajwa92>     · chua san sang (url=https://studio.youtube.com/video/2t0nXlMSMEA/analytics/tab-r, menu=co) -> chuyen lai
+06:36:18 <SyedualiBajwa92>     · bam Content @(97,332)
+06:36:26 <SyedualiBajwa92>     · bam video e8MRV4aFiSU @(694,315)
+06:36:30 <SyedualiBajwa92>     · mo duoc video: 【漫画】「助けて」と言えない人が生活保護を申請しないとどうなるのか？
+06:36:34 <SyedualiBajwa92>     · bam tab Analytics @(101,380)
+06:36:40 <SyedualiBajwa92>     · bam tab Reach @(410,178)
+06:36:48 <SyedualiBajwa92>     · doc so xong: nghi 3.6s
+06:36:56 <SyedualiBajwa92>     · bam nhan khoang ngay @(1328,88)
+06:37:00 <SyedualiBajwa92>     · bam Custom @(1326,531)
+06:37:04 <SyedualiBajwa92>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:37:10 <SyedualiBajwa92>     · bam Apply @(1454,438)
+06:37:13 <SyedualiBajwa92>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:37:20 <SyedualiBajwa92>     · doc so xong: nghi 3.9s
+06:37:24 <SyedualiBajwa92> [L-shakai-no-naze] dong 25 e8MRV4aFiSU: N=2 O=319 P=2,0% Q=4,1% imp24h=291.0 | ok | K=62h · 319 view · CTR tổng 2,0% · CTR 24h 4,1% · 291 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:37:25 <SyedualiBajwa92> [L-shakai-no-naze] dong 25: DA GHI SHEET
+06:37:28 <SyedualiBajwa92> [L-shakai-no-naze] TONGHOP Ep24 C27: 'SỬA CTR' -> 'Listed'
+06:37:28 <SyedualiBajwa92> [L-shakai-no-naze] xong lane: 24 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+06:37:28 <SyedualiBajwa92>     · chuyen tab: nghi 24.9s
+06:37:53 <SyedualiBajwa92> ===== XONG: 24 video · 11 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 51 phút
+06:37:53   luong 1: SyedualiBajwa92@gmail.com xong (exit 0)
+06:37:54   luong 1: dong profile SyedualiBajwa92@gmail.com
+06:37:54     · mo profile tiep theo: nghi 13.6s
+06:38:07   luong 1 mo profile: gpm tiffanyhenrietta3@gmail.com
+06:39:01   luong 1 chay: tiffanyhenrietta3@gmail.com | tabs=['Lane-P']
+06:39:02 <tiffanyhenrietta3> ===== BAT DAU tay =====
+06:39:04 <tiffanyhenrietta3> --- attach vao profile da mo san: ws://localhost:53250/devtools/browser/fb55b96b-4b8a-4bbe-8b8...
+06:39:04 <tiffanyhenrietta3> --- tab se doc: ['Lane-P']
+06:39:07 <tiffanyhenrietta3>     · phong to cua so: 1920px
+06:39:25 <tiffanyhenrietta3>     · chuyen video: nghi 24.0s
+06:39:53 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:39:57 <tiffanyhenrietta3>     · bam video Y7TiikwCrtU @(710,819)
+06:40:03 <tiffanyhenrietta3>     · mo duoc video: 中国「日本はドアノブまで時代遅れｗ ウチの隠しハンドルを見習え！」→結果、中国が自ら禁止
+06:40:07 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:40:12 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+06:40:17 <tiffanyhenrietta3>     · doc so xong: nghi 4.5s
+06:40:25 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+06:40:31 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+06:40:34 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:40:41 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+06:40:44 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:40:52 <tiffanyhenrietta3>     · doc so xong: nghi 2.0s
+06:40:54 <tiffanyhenrietta3> [Lane-P] dong 3 Y7TiikwCrtU: N=11 O=52200 P=6,7% Q=5,7% imp24h=5600.0 | ok | K=277h · 52.200 view · CTR tổng 6,7% · CTR 24h 5,7% · 5.600 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:40:54 <tiffanyhenrietta3> [Lane-P] dong 3: DA GHI SHEET
+06:40:55 <tiffanyhenrietta3>     · chuyen video: nghi 41.2s
+06:41:36 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/Y7TiikwCrtU/analytics/tab-r, menu=co) -> chuyen lai
+06:41:58 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:42:04 <tiffanyhenrietta3>     · bam video yGb_Dd97NjE @(710,735)
+06:42:10 <tiffanyhenrietta3>     · mo duoc video: 中国「ファスナーなんてたった3角で作れる！日本はもう終わりだ！ハハハ！」→中国の高級ファ
+06:42:13 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:42:18 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+06:42:25 <tiffanyhenrietta3>     · doc so xong: nghi 3.7s
+06:42:31 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,88)
+06:42:35 <tiffanyhenrietta3>     · bam Custom @(1326,531)
+06:42:38 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:42:45 <tiffanyhenrietta3>     · bam Apply @(1454,438)
+06:42:49 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:42:56 <tiffanyhenrietta3>     · doc so xong: nghi 2.7s
+06:42:58 <tiffanyhenrietta3> [Lane-P] dong 5 yGb_Dd97NjE: N=9 O=1400 P=4,0% Q=0,8% imp24h=121.0 | VANG | K=CTR 24h=0,8%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:42:59 <tiffanyhenrietta3> [Lane-P] dong 5: DA GHI SHEET
+06:43:00 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep04 H7: 'Listed' -> 'SỬA CTR'
+06:43:00 <tiffanyhenrietta3>     · chuyen video: nghi 28.6s
+06:43:29 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/yGb_Dd97NjE/analytics/tab-r, menu=co) -> chuyen lai
+06:43:48 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:43:53 <tiffanyhenrietta3>     · bam video P8MvoMgUa74 @(576,588)
+06:43:58 <tiffanyhenrietta3>     · mo duoc video: 中国「日本のドーナツなんて食えたもんじゃないｗ 客に見捨てられて潰れて当然だ、ハハハ！」
+06:44:02 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:44:05 <tiffanyhenrietta3>     · bam tab Reach @(410,170)
+06:44:12 <tiffanyhenrietta3>     · doc so xong: nghi 2.9s
+06:44:18 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1784,133)
+06:44:24 <tiffanyhenrietta3>     · bam Custom @(1712,576)
+06:44:28 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1622,187)
+06:44:33 <tiffanyhenrietta3>     · bam Apply @(1772,4730)
+06:44:38 <tiffanyhenrietta3>     · khoang ngay KHONG phai 1 ngay (period=None) lan 1 -> thu lai
+06:44:40 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1784,133)
+06:44:46 <tiffanyhenrietta3>     · bam Custom @(1712,576)
+06:44:49 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1622,187)
+06:44:56 <tiffanyhenrietta3>     · bam Apply @(1772,4730)
+06:45:00 <tiffanyhenrietta3>     · khoang ngay KHONG phai 1 ngay (period=None) lan 2 -> thu lai
+06:45:03 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1784,133)
+06:45:08 <tiffanyhenrietta3>     · bam Custom @(1712,576)
+06:45:12 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1622,187)
+06:45:18 <tiffanyhenrietta3>     · bam Apply @(1772,4730)
+06:45:22 <tiffanyhenrietta3>     · khoang ngay KHONG phai 1 ngay (period=None) lan 3 -> thu lai
+06:45:22 <tiffanyhenrietta3>     · KHONG doi duoc khoang ngay -> CTR 24h de TRONG (khong lay so tron doi)
+06:45:22 <tiffanyhenrietta3>     · doc so xong: nghi 1.6s
+06:45:23 <tiffanyhenrietta3> [Lane-P] dong 6 P8MvoMgUa74: N=8 O=215 P=4,8% Q=— imp24h=None | VANG | K=CTR 24h=— (0 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:45:24 <tiffanyhenrietta3> [Lane-P] dong 6: DA GHI SHEET
+06:45:25 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep05 H8: 'Listed' -> 'SỬA CTR'
+06:45:25 <tiffanyhenrietta3>     · chuyen video: nghi 27.1s
+06:45:52 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/P8MvoMgUa74/analytics/tab-r, menu=co) -> chuyen lai
+06:46:12 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:46:19 <tiffanyhenrietta3>     · bam video NULQOgz-W0U @(710,483)
+06:46:24 <tiffanyhenrietta3>     · mo duoc video: 中国「日本がチップを作るだと？笑わせるな！」→結果、味の素がABFを独占、中国のニューフ
+06:46:28 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:46:34 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+06:46:40 <tiffanyhenrietta3>     · doc so xong: nghi 3.1s
+06:46:46 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+06:46:52 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+06:46:55 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:47:02 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+06:47:06 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:47:13 <tiffanyhenrietta3>     · doc so xong: nghi 3.3s
+06:47:16 <tiffanyhenrietta3> [Lane-P] dong 7 NULQOgz-W0U: N=6 O=1100 P=3,7% Q=6,1% imp24h=328.0 | ok | K=158h · 1.100 view · CTR tổng 3,7% · CTR 24h 6,1% · 328 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:47:17 <tiffanyhenrietta3> [Lane-P] dong 7: DA GHI SHEET
+06:47:17 <tiffanyhenrietta3>     · chuyen video: nghi 33.0s
+06:47:50 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/NULQOgz-W0U/analytics/tab-r, menu=co) -> chuyen lai
+06:48:14 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:48:22 <tiffanyhenrietta3>     · bam video dlD3KB_hNys @(710,399)
+06:48:27 <tiffanyhenrietta3>     · mo duoc video: 中国「日本ごときが丸型で追いつけるものかｗ」→結果、2027年から自国で半幅が事実上禁止
+06:48:30 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:48:36 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+06:48:40 <tiffanyhenrietta3>     · doc so xong: nghi 3.2s
+06:48:46 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+06:48:52 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+06:48:55 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1304,161)
+06:49:00 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+06:49:03 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:49:10 <tiffanyhenrietta3>     · doc so xong: nghi 3.7s
+06:49:14 <tiffanyhenrietta3> [Lane-P] dong 10 dlD3KB_hNys: N=5 O=95 P=4,5% Q=5,2% imp24h=77.0 | ok | K=133h · 95 view · CTR tổng 4,5% · CTR 24h 5,2% · 77 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:49:15 <tiffanyhenrietta3> [Lane-P] dong 10: DA GHI SHEET
+06:49:15 <tiffanyhenrietta3>     · chuyen video: nghi 50.3s
+06:50:05 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/dlD3KB_hNys/analytics/tab-r, menu=co) -> chuyen lai
+06:50:25 <tiffanyhenrietta3>     · bam Content @(97,332)
+06:50:29 <tiffanyhenrietta3>     · bam video 78RVMNnFKFA @(710,315)
+06:50:34 <tiffanyhenrietta3>     · mo duoc video: 中国「自動運転は世界一ｗ 日本なんぞ時代遅れの国だ、ハハハ！」→結果、わずか2週間後、1
+06:50:36 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+06:50:41 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+06:50:48 <tiffanyhenrietta3>     · doc so xong: nghi 3.8s
+06:50:56 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,88)
+06:51:02 <tiffanyhenrietta3>     · bam Custom @(1326,531)
+06:51:06 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-24 @(1304,94)
+06:51:11 <tiffanyhenrietta3>     · bam Apply @(1454,438)
+06:51:15 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-24 (URL xac nhan)
+06:51:22 <tiffanyhenrietta3>     · doc so xong: nghi 3.8s
+06:51:26 <tiffanyhenrietta3> [Lane-P] dong 11 78RVMNnFKFA: N=3 O=1700 P=3,0% Q=3,5% imp24h=3900.0 | ok | K=86h · 1.700 view · CTR tổng 3,0% · CTR 24h 3,5% · 3.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:51:26 <tiffanyhenrietta3> [Lane-P] dong 11: DA GHI SHEET
+06:51:27 <tiffanyhenrietta3> [Lane-P] xong lane: 6 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+06:51:27 <tiffanyhenrietta3>     · chuyen tab: nghi 21.7s
+06:51:49 <tiffanyhenrietta3> ===== XONG: 6 video · 2 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 12 phút
+06:51:49   luong 1: tiffanyhenrietta3@gmail.com xong (exit 0)
+06:51:49   luong 1: dong profile tiffanyhenrietta3@gmail.com
+06:51:49     · mo profile tiep theo: nghi 12.8s
+06:52:02 ===== XONG DA LUONG: 111 phut (3 profile cung luc)

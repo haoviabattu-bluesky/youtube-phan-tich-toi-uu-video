@@ -1,0 +1,414 @@
+# -*- coding: utf-8 -*-
+"""run_daily.py — tìm video nguồn đang nổ cho lane L / N / O / M, 2 đề/lane/ngày.
+
+HAI ĐƯỜNG LẤY DỮ LIỆU (vì search.list là tài nguyên khan — đã ăn HTTP 429 ngày 2026-10-18):
+
+  1. WATCHLIST (đường chính, rẻ): mỗi kênh nguồn đã biết = 1 unit, đọc 50 video mới nhất
+     của playlist uploads → lọc ≤5 ngày → chấm điểm. KHÔNG đụng hạn mức search.
+     Kênh nào có video lọt lọc cứng thì TỰ ĐỘNG vào watchlist vĩnh viễn.
+
+  2. SEARCH MỞ RỘNG (đường phụ, có ngân sách): mỗi ngày tiêu tối đa `search_budget` call
+     (mặc định 6 = 600 unit), từ khoá XOAY VÒNG theo lane nên mỗi ngày mở một góc khác.
+
+Chạy tay:
+  py -3.13 run_daily.py
+  py -3.13 run_daily.py --lane L,N --no-llm
+  py -3.13 run_daily.py --dry-run
+  py -3.13 run_daily.py --seed                 # nạp watchlist từ cột VIDEO GỐC của sheet
+  py -3.13 run_daily.py --search-budget 0      # chỉ watchlist, không search
+  py -3.13 run_daily.py --min-views 100000     # ngưỡng cứng đúng luật anh
+
+Lịch: Task Scheduler 'ViralHunt0300' (create_task.ps1).
+"""
+import argparse
+import datetime
+import json
+import os
+import re
+import sys
+import time
+import traceback
+from concurrent.futures import ThreadPoolExecutor
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+
+import analyze                     # noqa: E402
+import report                      # noqa: E402
+import state                       # noqa: E402
+import watchlist                   # noqa: E402
+import websearch                   # noqa: E402
+from lanes import LANES, MANGA_ANY  # noqa: E402
+from ytapi import YT, QuotaExceeded   # noqa: E402
+
+ROOT = os.path.dirname(HERE)
+CONFIG = os.path.join(HERE, "config.json")
+DEFAULT_LANES = ["L", "N", "O", "M"]
+SHEET_TABS = {"L": "L-shakai-no-naze", "N": "Lane-N", "O": "Lane-O", "M": "M-teinengo-anaba"}
+
+
+def load_cfg():
+    if os.path.exists(CONFIG):
+        return json.load(open(CONFIG, encoding="utf-8"))
+    return {}
+
+
+def iso_after(days):
+    return (datetime.datetime.now(datetime.timezone.utc)
+            - datetime.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def scan_watchlist(yt, conn, days, log):
+    """Đọc 50 video mới nhất của từng kênh trong watchlist. Trả [(video_id, channel_id)]."""
+    rows = watchlist.active(conn)
+    if not rows:
+        return []
+    log(f"  watchlist: {len(rows)} kênh đang bật")
+    cutoff = time.time() - days * 86400
+    fresh, seen_ch, failed = [], 0, 0
+    for r in rows:
+        cid = r["channel_id"]
+        upl = "UU" + cid[2:]                 # playlist uploads = 'UU' + id[2:]
+        items = yt.playlist_items(upl, 50)
+        if not items:
+            failed += 1
+            continue
+        seen_ch += 1
+        hit = False
+        for it in items:
+            sn = it.get("snippet") or {}
+            vid = (sn.get("resourceId") or {}).get("videoId")
+            pub = sn.get("publishedAt", "")
+            if not vid:
+                continue
+            try:
+                ts = datetime.datetime.strptime(pub, "%Y-%m-%dT%H:%M:%SZ") \
+                    .replace(tzinfo=datetime.timezone.utc).timestamp()
+            except ValueError:
+                continue
+            if ts >= cutoff:
+                fresh.append((vid, cid))
+                hit = True
+        watchlist.touch(conn, cid, hit)
+    log(f"  watchlist: đọc {seen_ch} kênh (lỗi/trống {failed}), {len(fresh)} video ≤{days} ngày")
+    return fresh
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--lane", default=",".join(DEFAULT_LANES))
+    ap.add_argument("--days", type=int, default=None)
+    ap.add_argument("--min-views", type=int, default=None)
+    ap.add_argument("--per-lane", type=int, default=2)
+    ap.add_argument("--search-budget", type=int, default=None,
+                    help="số TỪ KHOÁ web tối đa (mỗi từ khoá ~150 video, 0 unit quota)")
+    ap.add_argument("--pages", type=int, default=10,
+                    help="số trang kết quả mỗi từ khoá (mỗi trang ~20 video)")
+    ap.add_argument("--threads", type=int, default=8, help="số luồng quét web song song")
+    ap.add_argument("--seed", action="store_true", help="nạp watchlist từ cột VIDEO GỐC của sheet")
+    ap.add_argument("--no-llm", action="store_true")
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--budget", type=int, default=None)
+    ap.add_argument("--quiet", action="store_true")
+    a = ap.parse_args()
+
+    cfg = load_cfg()
+    lanes = [x.strip() for x in a.lane.split(",") if x.strip() in LANES]
+    if not lanes:
+        sys.exit(f"lane không hợp lệ. Chọn trong {list(LANES)}")
+    days = a.days or cfg.get("max_days", analyze.HARD["max_days"])
+    analyze.HARD["max_days"] = days
+    analyze.HARD["max_subs"] = cfg.get("max_subs", analyze.HARD["max_subs"])
+    if a.min_views:
+        analyze.HARD["min_views_A"] = a.min_views
+        analyze.HARD["min_views_B"] = int(a.min_views * 0.5)
+        analyze.HARD["min_views_C"] = int(a.min_views * 0.3)
+    budget = a.budget if a.budget is not None else cfg.get("quota_budget", 6000)
+    sbudget = (a.search_budget if a.search_budget is not None
+               else cfg.get("search_budget", 120))
+    if a.pages == 10:
+        a.pages = cfg.get("pages", 10)
+    if a.threads == 8:
+        a.threads = cfg.get("threads", 8)
+
+    def log(msg):
+        if not a.quiet:
+            print(msg, flush=True)
+
+    t0 = time.time()
+    day = datetime.date.today().isoformat()
+    yt = YT(budget=budget)
+    conn = state.connect()
+    conn.executescript(watchlist.SCHEMA)
+
+    log(f"=== viral_hunt {day} · lane {','.join(lanes)} · ≤{days} ngày · "
+        f"budget {budget} unit · search≤{sbudget} call ===")
+
+    # ---------------------------------------------------------- seed
+    if a.seed or watchlist.stats(conn)["active"] == 0:
+        tabs = [SHEET_TABS[l] for l in lanes if l in SHEET_TABS]
+        try:
+            watchlist.seed_from_sheet(conn, yt, tabs, log=log)
+        except Exception as e:                                # noqa: BLE001
+            log(f"  ! seed lỗi: {type(e).__name__} {e}")
+
+    # ---------------------------------------------------------- 1. watchlist
+    raw = []
+    try:
+        raw = scan_watchlist(yt, conn, days, log)
+    except QuotaExceeded as e:
+        log(f"  !! hết quota ở watchlist: {e}")
+
+    # ---------------------------------------------------------- 2. search mở rộng
+    # KHÔNG dùng search.list (100 unit + hạn mức riêng, đã ăn 429): quét trang kết quả
+    # youtube.com/results với sp = sort view + this week. Miễn phí quota, chỉ tốn API khi
+    # xác thực ~50 video cuối.
+    if sbudget > 0 and lanes:
+        base = sbudget // len(lanes)
+        extra = sbudget % len(lanes)
+        rot = int(day.replace("-", "")) % len(lanes)
+        quota = {l: base + (1 if (i - rot) % len(lanes) < extra else 0)
+                 for i, l in enumerate(lanes)}
+        # Mỗi từ khoá: filter THÁNG (trả ~158 video) thay vì TUẦN (chỉ 62 — đo thật
+        # 2026-10-18), phân trang sâu, chạy SONG SONG 8 luồng. Web search = 0 unit quota
+        # nên đây là chỗ duy nhất có thể "quét 5000–10000 video" mà không tốn tiền.
+        jobs = []
+        for lane in lanes:
+            kws = watchlist.next_keywords(conn, lane, LANES[lane]["keywords"],
+                                          quota[lane], day)
+            for kw in kws:
+                jobs.append((lane, kw))
+        log(f"  web search: {len(jobs)} từ khoá × {a.pages} trang × filter tháng, "
+            f"{a.threads} luồng")
+
+        def _one(job):
+            lane, kw = job
+            # KHÔNG dùng stop_after_age: sort theo view nên trang 2+ hay toàn video cũ,
+            # dừng sớm là mất phần lớn video mới nằm sâu trong trang (đo thật 2026-10-18:
+            # 120 từ khoá chỉ ra 1.160 unique vì bị cắt; bỏ cắt ra hơn 5.000).
+            res = websearch.search_web(kw, sp=websearch.SP_VIEW_MONTH, pages=a.pages)
+            return lane, kw, res
+
+        spent, web_err, seen_kw = 0, 0, 0
+        with ThreadPoolExecutor(max_workers=a.threads) as pool:
+            for lane, kw, res in pool.map(_one, jobs):
+                spent += 1
+                if isinstance(res, dict):
+                    web_err += 1
+                    log(f"  web 「{kw}」 LỖI: {res.get('_error')}")
+                    continue
+                hit = [x for x in res if x["age_days"] <= days]
+                seen_kw += 1
+                log(f"  web 「{kw}」 {len(res):>4} video → {len(hit):>3} video ≤{days} ngày "
+                    f"(lane {lane})")
+                for x in hit:
+                    raw.append((x["video_id"], None, x))
+        log(f"  web search: {spent}/{len(jobs)} từ khoá xong (lỗi {web_err}) · 0 unit quota")
+    log(f"  tổng video thô: {len(set(r[0] for r in raw))} · đã tiêu {yt.units} unit")
+
+    # ---------------------------------------------------------- 3. enrich + chấm
+    # raw có 2 loại: (video_id, channel_id) từ watchlist và (video_id, None, web_item)
+    # từ web search. Gộp id, gọi videos.list 1 lần (1 unit/50 id).
+    ids = list(dict.fromkeys([r[0] for r in raw]))
+    vids = {v["id"]: v for v in yt.videos(ids)} if ids else {}
+    ch_ids = list({(v.get("snippet") or {}).get("channelId") for v in vids.values()} - {None})
+    chans = {c["id"]: c for c in yt.channels(ch_ids)} if ch_ids else {}
+
+    wl = {r["channel_id"]: r for r in watchlist.active(conn)}
+    ratio_cache = {cid: (r.get("manga_ratio") or 0.0) for cid, r in wl.items()}
+
+    # web_item theo video_id — dùng khi API chưa trả (video quá mới) hoặc để đối chiếu
+    web_meta = {r[0]: r[2] for r in raw if len(r) > 2 and r[2]}
+
+    scored = {lane: [] for lane in lanes}
+    rejects = {}
+    for vid in ids:
+        v = vids.get(vid)
+        if not v:
+            # API không trả (thường là video vừa đăng hoặc bị hạn chế) → bỏ, không đoán số
+            rejects["API không trả video"] = rejects.get("API không trả video", 0) + 1
+            continue
+        sn = v.get("snippet") or {}
+        cid = sn.get("channelId")
+        ch = chans.get(cid) or {}
+        ratio = ratio_cache.get(cid)
+        if ratio is None and ch:
+            ups = ((ch.get("contentDetails") or {}).get("relatedPlaylists") or {}).get("uploads")
+            titles = yt.uploads_sample(cid, ups, 20) if ups else []
+            ratio = (sum(1 for t in titles if re.search(MANGA_ANY, t, re.I)) / len(titles)
+                     if titles else 0.0)
+            ratio_cache[cid] = ratio
+        ratio = ratio or 0.0
+        # Chấm cho MỌI lane đang chạy, không giới hạn theo lane của kênh trong watchlist.
+        # Vì sao (bug đã trả giá 2026-10-18): kênh tự học lưu lane = lane đầu tiên chấm được
+        # (luôn là L, phần tử đầu của `lanes`) ⇒ lần chạy sau mọi video của kênh đó chỉ được
+        # chấm cho L, 3 lane còn lại ra 0 đề. Video trùng giữa các lane đã được chặn khi chọn.
+        targets = lanes
+        for lane in targets:
+            s = analyze.score(v, ch, lane, time.time(), channel_manga_ratio=ratio)
+            s["lane"] = lane
+            s["desc"] = sn.get("description", "")
+            s["web"] = web_meta.get(vid) or {}
+            if s["ok"]:
+                scored[lane].append(s)
+            else:
+                key = re.sub(r"[\d,\.]+", "N", s["reason"])[:60]
+                rejects[key] = rejects.get(key, 0) + 1
+    if rejects:
+        log("  lý do loại: " + " · ".join(f"{k} ×{v}" for k, v in
+                                        sorted(rejects.items(), key=lambda x: -x[1])[:8]))
+
+    # tự học kênh mới
+    added = set()
+    for lane in lanes:
+        for s in scored[lane]:
+            cid = s["channel_id"]
+            if cid and cid not in wl and cid not in added:
+                watchlist.upsert(conn, cid, s["channel"], s["subs"], lane,
+                                 s.get("manga_ratio", 0), "auto_learn")
+                added.add(cid)
+    if added:
+        log(f"  tự học: +{len(added)} kênh mới vào watchlist")
+
+    for lane in lanes:
+        scored[lane] = sorted(scored[lane], key=lambda x: -x["score"])
+        log(f"  lane {lane}: {len(scored[lane])} video qua lọc, top "
+            + (", ".join(f"{x['score']}({x['grade']})" for x in scored[lane][:4]) or "—"))
+
+    # ---------------------------------------------------------- 4. chống lặp
+    done = state.already_reported(conn, [x["video_id"] for l in lanes for x in scored[l]])
+    for lane in lanes:
+        before = len(scored[lane])
+        scored[lane] = [x for x in scored[lane] if x["video_id"] not in done]
+        if before != len(scored[lane]):
+            log(f"  lane {lane}: loại {before - len(scored[lane])} video đã báo cáo trước đây")
+
+    # ---------------------------------------------------------- 5. chọn 2/lane
+    # Vòng 1: chọn trong lane của chính nó. Vòng 2 (bù): nếu lane nào thiếu đề, lấy video
+    # đang thừa ở lane khác — NHƯNG chỉ khi nó cũng khớp công thức của lane thiếu (điểm
+    # đã tính riêng cho từng lane), và ghi rõ "mượn từ lane X".
+    lanes_result, chosen = {}, set()
+    for lane in lanes:
+        picked = []
+        for x in scored[lane]:
+            if len(picked) >= a.per_lane:
+                break
+            if x["video_id"] in chosen:
+                continue
+            picked.append(x)
+            chosen.add(x["video_id"])
+        lanes_result[lane] = {"picked": picked, "borrowed": False}
+
+    # Vòng 2 (bù): lane thiếu đề thì lấy video đang thừa ở lane khác — kể cả video đã dùng
+    # cho lane khác, vì mỗi lane sinh ĐỀ KHÁC NHAU theo công thức riêng của nó. Điều kiện:
+    # phải đúng ngách của lane thiếu (chấm lại độc lập). Ghi rõ "mượn từ lane X".
+    # Ưu tiên video CHƯA ai dùng; chỉ khi hết mới lấy video đã dùng (bài học 2026-10-18:
+    # N và M cùng lấy 2 video giống nhau nên 2 cặp đề gần trùng).
+    for lane in lanes:
+        need = a.per_lane - len(lanes_result[lane]["picked"])
+        if need <= 0:
+            continue
+        pool, seen_local = [], {x["video_id"] for x in lanes_result[lane]["picked"]}
+        for other in lanes:
+            if other == lane:
+                continue
+            for x in scored[other]:
+                if x["video_id"] in seen_local:
+                    continue
+                alt = analyze.score({"id": x["video_id"], "snippet": {
+                    "title": x["title"], "channelId": x["channel_id"],
+                    "channelTitle": x["channel"], "publishedAt": x["published"],
+                    "description": x.get("desc", "")},
+                    "statistics": {"viewCount": x["views"], "likeCount": x["likes"],
+                                   "commentCount": x["comments"]},
+                    "contentDetails": {"seconds": x["sec"]},
+                    "status": {"privacyStatus": "public"}},
+                    {"statistics": {"subscriberCount": x["subs"]}},
+                    lane, time.time(), channel_manga_ratio=x.get("manga_ratio", 0))
+                if alt.get("ok") and alt["score"] >= 6.0:
+                    alt["lane"] = lane
+                    alt["borrowed_from"] = other
+                    alt["desc"] = x.get("desc", "")
+                    alt["web"] = x.get("web", {})
+                    pool.append(alt)
+                    seen_local.add(x["video_id"])
+        pool.sort(key=lambda z: (z["video_id"] in chosen, -z["score"]))
+        for x in pool[:need]:
+            lanes_result[lane]["picked"].append(x)
+            lanes_result[lane]["borrowed"] = True
+            chosen.add(x["video_id"])
+
+    for lane in lanes:
+        picked = lanes_result[lane]["picked"]
+        lanes_result[lane].update({
+            "scanned": len(scored[lane]) + len(done),
+            "candidates": len(scored[lane]),
+            "note": "" if picked else ("Không có video nào khớp công thức lane này trong 7 ngày "
+                                       "gần nhất — đây là thực tế thị trường, không phải lỗi tool. "
+                                       "Xem mục 2 để biết video đang nổ ngoài ngách."),
+        })
+
+    # ---------------------------------------------------------- 6. đề bài
+    for lane in lanes:
+        for p in lanes_result[lane]["picked"]:
+            if a.no_llm:
+                p["draft"] = analyze.draft(p, lane, use_llm=False)
+            else:
+                try:
+                    p["draft"] = analyze.draft(p, lane, use_llm=True)
+                    log(f"  đề {lane}/{p['video_id']}: {p['draft'].get('nguon')}")
+                except Exception as e:                        # noqa: BLE001
+                    p["draft"] = analyze.draft(p, lane, use_llm=False)
+                    log(f"  !! draft {lane}/{p['video_id']}: {type(e).__name__} {e}")
+
+    # ---------------------------------------------------------- 7. xuất
+    all_scored = []
+    for lane in lanes:
+        for x in scored[lane][:12]:
+            all_scored.append({**{k: x[k] for k in ("video_id", "lane", "grade", "score",
+                                                    "views", "views_per_hour", "subs",
+                                                    "mins", "title")},
+                               "chosen": x["video_id"] in chosen})
+    meta = {"units": yt.units, "errors": yt.errors,
+            "finished": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "all_scored": all_scored, "history": state.recent_days(conn, 14),
+            "calls": yt.calls, "watchlist": watchlist.stats(conn),
+            "search_calls": yt.calls.get("search", 0),
+            "scanned": len(ids), "scored_videos": sum(len(v) for v in scored.values())}
+
+    paths = cfg.get("paths") or {}
+    results_dir = paths.get("results_dir", r"E:\CLAUDE\YOUTUBE\FlowHandoff_local\results")
+    reports_dir = paths.get("reports_dir", os.path.join(ROOT, "reports", "viral_hunt"))
+
+    if a.dry_run:
+        txt = report.build(day, lanes_result, meta)
+        log(f"  [dry-run] HTML {len(txt):,} ký tự — không ghi file, không ghi state")
+        p_local = p_sync = p_jobs = None
+    else:
+        p_local, p_sync, p_jobs = report.write(day, lanes_result, meta, results_dir, reports_dir)
+        for lane in lanes:
+            state.mark_reported(conn, [{**p, "day": day} for p in lanes_result[lane]["picked"]])
+        state.mark_seen(conn, [(x["video_id"], x["lane"], x["title"])
+                               for l in lanes for x in scored[l]])
+        state.log_run(conn, day, True, len(ids),
+                      sum(len(v["picked"]) for v in lanes_result.values()),
+                      yt.units, f"calls={yt.calls} watchlist={meta['watchlist']}")
+
+    tot = sum(len(v["picked"]) for v in lanes_result.values())
+    log(f"--- XONG: {tot} đề / {len(lanes)} lane · {yt.units} unit · "
+        f"search {yt.calls.get('search', 0)} call · {time.time() - t0:.0f}s")
+    for p in (p_sync, p_local, p_jobs):
+        if p:
+            log(f"    {p}")
+    return 0 if tot else 2
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(main())
+    except QuotaExceeded as e:
+        print(f"HẾT QUOTA: {e}")
+        sys.exit(3)
+    except Exception:                                          # noqa: BLE001
+        print("LỖI KHÔNG MONG ĐỢI:\n" + traceback.format_exc())
+        sys.exit(1)

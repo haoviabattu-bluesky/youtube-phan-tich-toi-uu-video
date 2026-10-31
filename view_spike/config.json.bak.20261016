@@ -1,0 +1,84 @@
+{
+ "_ghi_chu": "Anh chot 2026-10-15: moi lane 2 video moi nhat, <=72h; tang 1 API >=300 view/gio -> tang 2 Studio >=1000 view/gio -> bao",
+ "suspect_per_hour_api": 300,
+ "alert_per_hour_studio": 1000,
+ "keep_per_lane": 2,
+ "max_hours": 72,
+ "sheet_refresh_minutes": 60,
+ "studio_recheck_minutes": 60,
+ "alert_cooldown_hours": 6,
+ "lanes": [
+  {
+   "tab": "A-shinya_shiryoshitsu",
+   "port": 9222,
+   "handle": "@shinya_shiryoshitsu"
+  },
+  {
+   "tab": "M-teinengo-anaba",
+   "port": 9222,
+   "handle": "@teinengo-anaba"
+  },
+  {
+   "tab": "E-70dai-kenko",
+   "mail": "normaneileenpm218@gmail.com",
+   "handle": "@70dai-kenko"
+  },
+  {
+   "tab": "F-teinengo-real",
+   "mail": "VirgiliTraino95@gmail.com",
+   "handle": "@teinengo-real"
+  },
+  {
+   "tab": "G",
+   "mail": "cobbytheona159@gmail.com",
+   "handle": "@teinengo-tanoshimi"
+  },
+  {
+   "tab": "K-yakkyoku-sukatto",
+   "mail": "rosellagreysonbk920@gmail.com",
+   "handle": "@yakkyoku-sukatto"
+  },
+  {
+   "tab": "L-shakai-no-naze",
+   "mail": "SyedualiBajwa92@gmail.com",
+   "handle": "@shakai-no-naze"
+  },
+  {
+   "tab": "kokoro-kazoku",
+   "mail": "FuentesMitsy202@gmail.com"
+  },
+  {
+   "tab": "sengoku-uragawa",
+   "mail": "AldenorRodrigues626@gmail.com"
+  },
+  {
+   "tab": "Lane-J",
+   "mail": null,
+   "handle": "@rougo_chie60",
+   "_ly_do": "lethientan26061994@gmail.com khong co trong GPM"
+  },
+  {
+   "tab": "Lane-N",
+   "mail": null,
+   "handle": "@senior_kurashi60",
+   "_ly_do": "thienduongly7890@gmail.com khong co trong GPM"
+  },
+  {
+   "tab": "Lane-O",
+   "mail": null,
+   "handle": "@人生のつづき",
+   "_ly_do": "khong co trong tab GMAIL"
+  },
+  {
+   "tab": "Lane-P",
+   "mail": "tiffanyhenrietta3@gmail.com",
+   "handle": "@nihon-kigyo-watch"
+  },
+  {
+   "tab": "Lane-Q",
+   "mail": "JordaneLaetitia694@gmail.com",
+   "handle": "@rintoshita-nippon"
+  }
+ ],
+ "_ghi_chu_lanes": "Doi chieu 2026-10-15 bang API (channelId cua video trong tab -> handle) + cot TEN KENH tab GMAIL. mail=null: khong co profile GPM / khong ro mail -> tang 2 khong mo duoc, chi bao 'nghi dang len' theo so API. Satori bo (kenh bi dinh chi). kokoro-kazoku/sengoku-uragawa chua co video."
+}

@@ -1,0 +1,17 @@
+mo profile + chuyen kenh: 49s
+
+ # video            read  daily    TONG  ok
+ 1 pTmVyc6Z2W4    161.5s  60.5s  222.1s  False
+ 2 vy7ucq5Zy64     13.9s   8.5s   22.4s  True
+ 3 ctRisa4AEH4     19.7s   8.3s   27.9s  True
+ 4 qfg_YVoo9RA     28.6s  12.0s   40.6s  True
+ 5 6woJHXK_x7M     20.6s  82.9s  103.5s  True
+ 6 QGzofxom8Gk    157.5s  15.6s  173.1s  True
+ 7 sAeKtLlVEaI     85.2s   8.8s   94.0s  True
+ 8 axi49gJn9bs     13.1s   7.5s   20.7s  True
+
+mo profile: 49s | 8 video: 761s
+trung binh/video: 88.0s | thanh cong 7/8
+trung binh khi THANH CONG: 68.9s
+
+=> 96 video, 11 nhom: 8988s = 150 phut = 2.5 gio

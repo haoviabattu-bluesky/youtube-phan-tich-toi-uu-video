@@ -1,0 +1,126 @@
+# -*- coding: utf-8 -*-
+r"""
+TANG 2 — doc view/gio THAT trong Studio (the Realtime tren tab Overview cua video).
+
+Da do that 2026-10-15 (plans/261015-1647-view-spike-alert/phase-01):
+  * The Realtime co SO TONG + nhan: "4 · Views · Last 60 minutes" (video moi, cot = PHUT)
+    hoac "814 · Views · Last 48 hours" (cot = GIO).
+  * So tung cot KHONG co trong DOM -> phai re chuot len `yta-realtime-chart`, tooltip vao DOM dang
+    "Today, 3:00 – 4:00 PM. 85." Cot 48h rong ~5,8px -> buoc <=2px, buoc 6px bo sot 1 nua so cot.
+  * Cot ngoai cung phai = gio HIEN TAI (chua tron), cot ke = gio tron gan nhat.
+
+Mo profile: GPM theo mail (ProfileUsingByOther -> PROFILE_BUSY, KHONG dong/kill) hoac Chrome rieng
+cong 9222 (kenh haoviabattu, lane A + M). Dong profile GPM ngay sau khi doc; Chrome 9222 chi dong
+neu CHINH tool vua mo no (khong thi co the AUTO_LIST dang upload do).
+"""
+import os, re, sys, time, json, subprocess, urllib.request
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(HERE), "tools"))
+from playwright.sync_api import sync_playwright
+from studio_collect import DEEP, wait_text, num            # noqa: E402
+from scan_channels import all_profiles, match, start, stop  # noqa: E402
+
+CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+PROFILE_9222 = r"E:\CLAUDE\YOUTUBE\HAOVIABATTU_PROFILE"
+LABELS = ["Realtime", "Thời gian thực", "リアルタイム"]
+FIND_CHART = """() => { let r = null; const walk = (root) => { for (const el of root.querySelectorAll('*')) {
+    if (el.shadowRoot) walk(el.shadowRoot);
+    if (!r && el.tagName.toLowerCase() === 'yta-realtime-chart') { const b = el.getBoundingClientRect();
+      if (b.width > 0) r = [b.x, b.y, b.width, b.height]; } } }; walk(document); return r; }"""
+TIP = re.compile(r"^(.+?)\.\s*([\d,\.]+\s*[KMB]?)\.$")
+
+
+def _cdp_alive(port):
+    try:
+        with urllib.request.urlopen(f"http://127.0.0.1:{port}/json/version", timeout=3):
+            return True
+    except Exception:
+        return False
+
+
+def _open_port(port, log):
+    """Tra ve True neu tool VUA mo Chrome nay (de dong lai sau)."""
+    if _cdp_alive(port):
+        return False
+    log(f"  cong {port} trong -> mo lai dung lenh cu (--user-data-dir {PROFILE_9222})")
+    subprocess.Popen([CHROME, f"--user-data-dir={PROFILE_9222}", f"--remote-debugging-port={port}", "--no-first-run"],
+                     creationflags=0x00000008 | 0x00000200, close_fds=True)
+    for _ in range(20):
+        time.sleep(1.5)
+        if _cdp_alive(port):
+            return True
+    raise RuntimeError(f"khong mo duoc Chrome cong {port}")
+
+
+def read_realtime(page, vid):
+    """{'mode': '60m'|'48h', 'total': n, 'hours': [(nhan, n), ...] (gio hien tai truoc), 'per_hour': n}"""
+    parts = []
+    for _ in range(2):   # bay #5: lan goto dau hay dung o root
+        page.goto(f"https://studio.youtube.com/video/{vid}/analytics/tab-overview/period-default",
+                  wait_until="domcontentloaded", timeout=90000)
+        parts = wait_text(page, ["Views · Last"], loops=15)
+        if any(p.startswith("Views · Last") for p in parts):
+            break
+    res = {"mode": None, "total": None, "hours": [], "per_hour": None}
+    for i, t in enumerate(parts):
+        if t.startswith("Views · Last") and i > 0:
+            res["mode"] = "60m" if "60 minutes" in t else "48h"
+            res["total"] = num(parts[i - 1])
+            break
+    if res["mode"] is None:
+        raise RuntimeError("khong thay the Realtime (Views · Last ...)")
+    if res["mode"] == "60m":
+        res["per_hour"] = res["total"]
+        return res
+    box = page.evaluate(FIND_CHART)
+    if not box:
+        raise RuntimeError("khong thay yta-realtime-chart")
+    x0, y0, w, h = box
+    base = set(page.evaluate(DEEP))
+    for dx in range(1, 30, 2):
+        page.mouse.move(x0 + w - dx, y0 + h * 0.6)
+        time.sleep(0.5)
+        for t in page.evaluate(DEEP):
+            m = TIP.match(t) if t not in base and "–" in t else None
+            if m and m.group(1) not in [x[0] for x in res["hours"]]:
+                res["hours"].append((m.group(1), num(m.group(2))))
+        if len(res["hours"]) >= 2:
+            break
+    page.mouse.move(5, 5)
+    vals = [v for _, v in res["hours"][:2] if v is not None]
+    res["per_hour"] = max(vals) if vals else None
+    return res
+
+
+def check_lane(lane, items, log):
+    """items = [(vid, channel_id)]. Tra {vid: ket qua | {'error': ...}}. PROFILE_BUSY -> raise."""
+    out, pid, launched = {}, None, False
+    if lane.get("port"):
+        launched = _open_port(lane["port"], log)
+        ws = f"http://127.0.0.1:{lane['port']}"
+    else:
+        pid = match(all_profiles(), lane["mail"])
+        if not pid:
+            raise RuntimeError(f"khong thay profile GPM cho {lane['mail']}")
+        ws = start(pid)     # ProfileUsingByOther -> RuntimeError PROFILE_BUSY
+    try:
+        with sync_playwright() as p:
+            br = p.chromium.connect_over_cdp(ws)
+            page = br.contexts[0].new_page()
+            page.bring_to_front()   # tab nen khong an chuot on dinh (bay da gap o lane M)
+            page.set_viewport_size({"width": 1500, "height": 1000})
+            for vid, ch in items:
+                try:
+                    if lane.get("port") and ch:   # mail co 2 kenh (A+M) -> dat dung kenh truoc
+                        page.goto(f"https://studio.youtube.com/channel/{ch}", wait_until="domcontentloaded", timeout=90000)
+                        time.sleep(4)
+                    out[vid] = read_realtime(page, vid)
+                except Exception as e:
+                    out[vid] = {"error": str(e)[:200]}
+            page.close()
+            if launched:
+                br.new_browser_cdp_session().send("Browser.close")   # chi dong Chrome do CHINH tool vua mo
+    finally:
+        if pid:
+            stop(pid)
+    return out

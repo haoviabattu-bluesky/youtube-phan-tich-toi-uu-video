@@ -44,12 +44,14 @@ BAY DA TRA GIA (dung don gian hoa lai — xem them CLAUDE.md muc Du lieu):
   4. Dinh dang so trong sheet la kieu VIET (dau phay thap phan): "2,3%" khong phai "2.3%".
      Ghi sai dinh dang la lam hong dong bo voi cot P/Q da co san.
 """
-import sys, os, re, time, argparse, datetime
+import sys, os, re, time, random, argparse, datetime
 sys.stdout.reconfigure(encoding="utf-8")
 import requests
 from playwright.sync_api import sync_playwright
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import human_pace as hp
 
 GPM = "http://127.0.0.1:9495/api/v1"
 BANNER = "GPMLogin Global API"
@@ -63,6 +65,10 @@ COL_CTR_TOTAL = 15  # P
 COL_CTR_24H = 16    # Q
 COL_VIEW_OLD = 17   # R
 COL_CTR_24H_OLD = 18  # S
+
+# Cho tab Reach bao lau. Do that 2026-10-20: chay 1 profile thi tab hien sau 3-5s; chay 2-4 profile
+# song song thi Studio cham han, lane K truot 3/3 video vi chi cho 45s. Dat 120s qua env.
+REACH_WAIT = int(os.environ.get("HUMAN_REACH_WAIT", "120"))
 
 DEEP = """() => {
   const skip = new Set(['SCRIPT','STYLE','NOSCRIPT','TEMPLATE']);
@@ -212,9 +218,10 @@ def vn_pct(v):
 
 
 def wait_text(page, needles, loops=25, gap=3):
+    """Cho toi khi thay `needles`. Moi vong cho gap +-40% (nhip nguoi that, khong dung metronome)."""
     parts = []
     for _ in range(loops):
-        time.sleep(gap)
+        time.sleep(gap * random.uniform(0.6, 1.4))
         parts = page.evaluate(DEEP)
         j = " | ".join(parts)
         if any(n in j for n in needles):
@@ -222,40 +229,115 @@ def wait_text(page, needles, loops=25, gap=3):
     return parts
 
 
+def _oops(parts):
+    return any(t.strip().startswith("Oops, something went wrong") for t in parts)
+
+
 # ---------------- 1 video ----------------
+def _reach_snapshot(parts):
+    """(impressions, CTR, views) dang hien tren tab Reach — de biet so da doi theo khoang ngay chua."""
+    return (after(parts, "Thumbnail impressions", lambda t: None if "%" in t else num(t), span=3),
+            pct_after(parts, "Thumbnail click-through rate"), after(parts, "Views", num))
+
+
 def read_video(page, vid):
     """Tra (days, views, ctr_total, ctr_24h) — None neu khong doc duoc muc do."""
-    # Overview de lay ngay dang
-    page.goto(f"https://studio.youtube.com/video/{vid}/analytics/tab-overview/period-default",
-              wait_until="domcontentloaded", timeout=90000)
-    parts = wait_text(page, ["Average view duration", "Views"])
+    r = read_video_full(page, vid)
+    return r["days"], r["views"], r["ctr_total"], r["ctr_24h"]
+
+
+def read_video_full(page, vid, log=None, expect_ch=""):
+    """Doc N/O/P/Q + imp24h bang DUONG NGUOI THAT (anh chot 2026-10-20).
+
+    CAM goto URL video. Trinh tu: Content -> click dung dong video -> Analytics -> Reach
+    -> doc so (Since published) -> menu ngay -> Custom -> chon NGAY HOM QUA -> doc CTR/imp.
+    Ly do: goto URL tung video lam Studio tra "Oops, something went wrong" hang loat
+    (lane A 19-20/10: 5 video lien tiep, 457s/video, 0 so doc duoc).
+
+    Tra ve dict nhu cu: days, views, ctr_total, ctr_24h, imp_24h, ok.
+    ctr_24h/imp_24h = so cua NGAY DU SO GAN NHAT (Studio chi cho chon ngay, khong co gio).
+    """
+    import studio_human as sh
+
+    # 0. phai dung DUNG kenh va Studio da render xong truoc khi bam bat ky thu gi
+    if expect_ch and not sh.verify_channel(page, expect_ch, log, vid=vid):
+        log and log(f"    · khong o duoc kenh {expect_ch} -> bo qua video {vid} (tranh ghi nham kenh)")
+        return {"days": None, "views": None, "ctr_total": None, "ctr_24h": None,
+                "imp_24h": None, "ok": False}
+
+    # 1. vao lai danh sach video cua kenh (nhu nguoi mo tab Content)
+    if "/videos/upload" not in (page.url or ""):
+        if not sh.open_content(page, log):
+            log and log("    · khong mo duoc danh sach video -> bo qua video nay")
+            return {"days": None, "views": None, "ctr_total": None, "ctr_24h": None,
+                    "imp_24h": None, "ok": False}
+
+    # 2. click dung video
+    if not sh.click_video(page, vid, log):
+        return {"days": None, "views": None, "ctr_total": None, "ctr_24h": None,
+                "imp_24h": None, "ok": False}
+
+    # 3. tab Analytics -> tab Reach (cho lau hon khi nhieu profile chay song song)
+    if not sh.click_tab(page, "Analytics", log):
+        return {"days": None, "views": None, "ctr_total": None, "ctr_24h": None,
+                "imp_24h": None, "ok": False}
+    sh.wait_url(page, "/analytics/", tries=15)
+    if not sh.click_tab(page, "Reach", log, wait_s=REACH_WAIT):
+        return {"days": None, "views": None, "ctr_total": None, "ctr_24h": None,
+                "imp_24h": None, "ok": False}
+
+    parts = sh.wait_text(page, ["Thumbnail impressions"], tries=25)
+    if not any(t.strip() == "Thumbnail impressions" for t in parts):
+        log and log("    · trang Reach khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan")
+        hp.after_oops(log)
+        sh.click_tab(page, "Reach", log, wait_s=REACH_WAIT)
+        parts = sh.wait_text(page, ["Thumbnail impressions"], tries=25)
+    ok = any(t.strip() == "Thumbnail impressions" for t in parts)
+    hp.wander(page)
+
+    # 4. so TRON DOI (nhan dang "Since published")
     j = " | ".join(parts)
     days = None
     m = re.search(r"([A-Z][a-z]{2} \d{1,2}, \d{4}) — Now", j)
     if m:
         try:
             d0 = datetime.datetime.strptime(m.group(1), "%b %d, %Y")
-            hours = (datetime.datetime.now() - d0).total_seconds() / 3600
-            days = int(hours // 24)
+            days = int(((datetime.datetime.now() - d0).total_seconds() / 3600) // 24)
         except Exception:
             pass
-
-    # Reach / Since published (period-default) -> Views + CTR TONG
-    page.evaluate(CLICK_TEXT, "Reach")
-    parts = wait_text(page, ["Thumbnail impressions"])
     views = after(parts, "Views", num)
     ctr_total = pct_after(parts, "Thumbnail click-through rate")
+    hp.after_read(log)
 
-    # Reach / rolling 24h that su (now-24h .. now) -> CTR 24H
-    now = datetime.datetime.now()
-    start_ms = int((now - datetime.timedelta(hours=24)).timestamp() * 1000)
-    end_ms = int(now.timestamp() * 1000)
-    page.goto(f"https://studio.youtube.com/video/{vid}/analytics/tab-reach_viewers/period-{start_ms},{end_ms}",
-              wait_until="domcontentloaded", timeout=90000)
-    parts = wait_text(page, ["Thumbnail impressions"])
-    ctr_24h = pct_after(parts, "Thumbnail click-through rate")
+    # 5. doi sang NGAY (Custom) de lay CTR/impressions 24h
+    #    QUAN TRONG: doi ngay that bai thi ctr_24h = None (o Q de trong), TUYET DOI khong
+    #    lay ctr_total — neu khong video se bi bao "CTR 24h dat" bang chinh so tron doi.
+    ctr_24h = imp_24h = None
+    if ok:
+        snap0 = _reach_snapshot(parts)
+        if sh.set_latest_day(page, log):          # URL da xac nhan khoang = dung 1 ngay
+            # Nhan "Thumbnail impressions" con nguyen tu so TRON DOI -> wait_text tra ve ngay lap tuc;
+            # cho bo so doi khac so tron doi (Studio ve lai) roi moi doc. (Loi goc Q = P tu 20/10 la khoang
+            # ngay sai — xem studio_human.set_latest_day.)
+            parts2 = parts
+            for _ in range(12):
+                time.sleep(2)
+                parts2 = sh.wait_text(page, ["Thumbnail impressions"], tries=3)
+                if _reach_snapshot(parts2) != snap0:
+                    break
+            else:   # URL da chung minh khoang = 1 ngay; so y het chi khi moi luot hien thi deu roi vao ngay do
+                log and log("    · so 1 ngay trung so tron doi sau 24s (URL da xac nhan 1 ngay) -> van lay")
+            if any(t.strip() == "Thumbnail impressions" for t in parts2):
+                ctr_24h = pct_after(parts2, "Thumbnail click-through rate")
+                imp_24h = after(parts2, "Thumbnail impressions",
+                                lambda t: None if "%" in t else num(t), span=3)
+            hp.wander(page)
+        else:
+            log and log("    · KHONG doi duoc khoang ngay -> CTR 24h de TRONG (khong lay so tron doi)")
+    hp.after_read(log)
 
-    return days, views, ctr_total, ctr_24h
+    return {"days": days, "views": views, "ctr_total": ctr_total, "ctr_24h": ctr_24h,
+            "imp_24h": imp_24h, "ok": ok}
 
 
 def main():

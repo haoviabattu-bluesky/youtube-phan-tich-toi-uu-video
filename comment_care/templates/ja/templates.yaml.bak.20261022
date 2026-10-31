@@ -1,0 +1,49 @@
+# Thư viện câu có kiểm soát (controlled variation) — spec mục H/M. Mỗi reply template = kansha + (uketome) + musubi,
+# chọn ngẫu nhiên nhưng không lặp tổ hợp với 20 reply gần nhất cùng video. {detail} = key_detail_ja do classifier trích (≤40 chữ), có thể rỗng.
+slots:
+  kansha:
+    - コメントをありがとうございます。
+    - ご視聴とコメントをありがとうございます。
+    - 温かいコメントをありがとうございます。
+    - ご覧いただき、ありがとうございます。
+  uketome_praise:
+    - そう言っていただけて、励みになります。
+    - そのように感じていただけたこと、うれしく思います。
+    - 動画づくりの励みになります。
+  uketome_agree:
+    - 同じように感じていただけて、うれしく思います。
+    - 共感していただけたこと、ありがたく思います。
+  musubi:
+    - お身体に気をつけてください。
+    - これからもよろしくお願いします。
+    - またぜひ見に来てください。
+
+by_category:
+  GRATITUDE_SIMPLE:
+    pattern: "{kansha}{musubi}"
+  PRAISE:
+    pattern: "{kansha}{uketome_praise}{musubi}"
+  AGREEMENT:
+    pattern: "{kansha}{uketome_agree}{musubi}"
+  REQUEST:
+    pattern: "リクエストをありがとうございます。今後の動画づくりの参考にさせていただきます。{musubi}"
+  CRITICISM_CONSTRUCTIVE:
+    pattern: "ご指摘をありがとうございます。{detail_clause}今後の動画づくりの参考にさせていただきます。{musubi}"
+    detail_clause: "{detail}の点は、"          # chỉ chèn khi detail không rỗng
+  FINANCIAL_SPECIFIC:
+    pattern: "貴重な情報を共有していただき、ありがとうございます。実際のご経験に基づくお話は、同じ立場の方の参考になるかと思います。{musubi}"
+  HOSTILE:
+    fixed: "はい、ご意見ありがとうございます。"
+  # anh chốt 2026-10-15: MỌI câu nhạy cảm không trả lời được (chính trị/xã hội/giới, gay gắt, mỉa mai) = "Vâng, cám ơn bạn đã góp ý"
+  SENSITIVE:
+    fixed: "はい、ご意見ありがとうございます。"
+
+# Footer (CTA) — spec mục M. Kênh footer_policy A/C: luôn gắn; B/BC: bỏ theo policy_table.footer=no.
+# C/BC: luân phiên variants theo video; `full` chỉ dùng cho reply ĐẦU TIÊN của mỗi video.
+footer:
+  # Anh chốt 2026-10-08: ngắn, chữ đơn giản như người thật, MỌI reply xin 1 like + 1 đăng ký (trừ grief/sức khoẻ/hostile).
+  full: よかったら高評価とチャンネル登録、お願いします。
+  variants:
+    - よければ高評価とチャンネル登録もお願いします。
+    - 高評価とチャンネル登録をいただけると、とても励みになります。
+    - よかったらチャンネル登録と高評価、よろしくお願いします。

@@ -18,3 +18,7 @@ credentials/
 # Comment care — state SQLite + report chua comment that (privacy)
 comment_care/state/
 reports/comment_care/
+
+# Nghien cuu geolens_fossa — du lieu nang (~830MB: .npy DEM, frame PNG, mp4)
+# KHONG phai du lieu cua du an nay, chi de nguyen tren may
+research/geolens_fossa/

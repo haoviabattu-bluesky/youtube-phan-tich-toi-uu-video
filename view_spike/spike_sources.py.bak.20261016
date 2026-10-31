@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+r"""
+NGUON DU LIEU tang 1 (KHONG mo profile): video_id tu Sheet + YouTube Data API.
+
+Tiet kiem quota (anh yeu cau 2026-10-15):
+  * videos.list = 1 unit / lan, toi da 50 id / lan.
+  * Ngay dang + channel cua moi video KHONG doi -> cache vinh vien o state/meta.json, chi hoi API
+    cho id MOI xuat hien tren sheet. Moi vong 15 phut chi con 1 lan goi statistics cho <=20 video.
+  * Sheet chi doc lai moi `sheet_refresh_minutes` (Sheets API khong tinh quota YouTube).
+"""
+import os, json, time, datetime, requests
+from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+STATE = os.path.join(HERE, "state")
+META = os.path.join(STATE, "meta.json")
+SHEET_ID = "1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU"
+CREDS = r"D:\CLAUDE\credentials\google-sheets-key.json"
+KEY_ENV = "YOUTUBE_API_KEY"
+KEY_ENV_FILE = r"E:\CLAUDE\YOUTUBE\TRENDING-RESEARCH\config\.env"   # cung nguon voi comment_care
+API = "https://www.googleapis.com/youtube/v3/videos"
+
+UNITS_USED = {"n": 0}   # unit that da tieu trong tien trinh nay
+
+
+def api_key():
+    k = os.environ.get(KEY_ENV, "").strip()
+    if not k and os.path.exists(KEY_ENV_FILE):
+        for ln in open(KEY_ENV_FILE, encoding="utf-8").read().splitlines():
+            if ln.startswith(KEY_ENV + "="):
+                k = ln.split("=", 1)[1].strip().strip('"').strip("'")
+    if not k:
+        raise SystemExit(f"thieu {KEY_ENV} (env hoac {KEY_ENV_FILE})")
+    return k
+
+
+def sheet_video_ids(tabs):
+    """{tab: [video_id]} — cot L (index 11) tu dong 2, doc theo VI TRI. 1 lan batchGet cho moi tab."""
+    creds = Credentials.from_service_account_file(CREDS, scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
+    svc = build("sheets", "v4", credentials=creds, cache_discovery=False)
+    res = svc.spreadsheets().values().batchGet(spreadsheetId=SHEET_ID,
+                                               ranges=[f"'{t}'!L2:L500" for t in tabs]).execute()
+    out = {}
+    for tab, vr in zip(tabs, res.get("valueRanges", [])):
+        ids = []
+        for r in vr.get("values", []):
+            v = (r[0] if r else "").strip()
+            if len(v) == 11 and v not in ids:
+                ids.append(v)
+        out[tab] = ids
+    return out
+
+
+def _get(ids, part):
+    items = []
+    for i in range(0, len(ids), 50):
+        r = requests.get(API, params={"part": part, "id": ",".join(ids[i:i + 50]),
+                                      "key": api_key(), "maxResults": 50}, timeout=30)
+        UNITS_USED["n"] += 1
+        r.raise_for_status()
+        items += r.json().get("items", [])
+    return items
+
+
+def _load(path, default):
+    try:
+        return json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def _save(path, obj):
+    os.makedirs(STATE, exist_ok=True)
+    tmp = path + ".tmp"
+    json.dump(obj, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.replace(tmp, path)
+
+
+def refresh_meta(cfg, force=False):
+    """Cap nhat state/meta.json: {'sheet_at': ts, 'tabs': {tab: [ids]}, 'videos': {id: {published, channel_id, title}}}.
+    Video chua cong khai (hen gio) thi API khong tra -> de lan sau hoi lai."""
+    meta = _load(META, {"sheet_at": 0, "tabs": {}, "videos": {}})
+    if not force and time.time() - meta["sheet_at"] < cfg["sheet_refresh_minutes"] * 60:
+        return meta
+    meta["tabs"] = sheet_video_ids([l["tab"] for l in cfg["lanes"]])
+    meta["sheet_at"] = time.time()
+    unknown = [v for ids in meta["tabs"].values() for v in ids if v not in meta["videos"]]
+    for it in _get(unknown, "snippet") if unknown else []:
+        sn = it["snippet"]
+        meta["videos"][it["id"]] = {"published": sn["publishedAt"], "channel_id": sn.get("channelId", ""),
+                                    "title": sn.get("title", "")}
+    _save(META, meta)
+    return meta
+
+
+def pub_dt(s):
+    return datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+
+def watch_list(cfg, meta):
+    """[(lane, vid, info, age_h)] — moi lane 2 video MOI NHAT, chi giu cai <=72h (anh chot 2026-10-15)."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    out = []
+    for lane in cfg["lanes"]:
+        known = [(v, meta["videos"][v]) for v in meta["tabs"].get(lane["tab"], []) if v in meta["videos"]]
+        known.sort(key=lambda kv: kv[1]["published"], reverse=True)
+        for vid, info in known[:cfg["keep_per_lane"]]:
+            age = (now - pub_dt(info["published"])).total_seconds() / 3600
+            if 0 <= age <= cfg["max_hours"]:
+                out.append((lane, vid, info, age))
+    return out
+
+
+def views_now(ids):
+    """{id: viewCount} — 1 unit cho <=50 id."""
+    return {it["id"]: int(it["statistics"].get("viewCount", 0)) for it in _get(ids, "statistics")} if ids else {}
+
+
+def videos_stats(ids):
+    """(giu cho probe_api_log.py) {id: {views}}"""
+    return {k: {"views": v} for k, v in views_now(ids).items()}

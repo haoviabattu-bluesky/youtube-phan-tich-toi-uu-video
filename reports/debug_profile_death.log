@@ -1,0 +1,16 @@
+profile id: 0de2b1bb-a691-4570-a61d-81af46c40974
+WS: ws://localhost:50184/devtools/browser/6361359a-f317-4248-a8aa-95d1e2b9ec01
+mo page OK
+  goto lan 1: 0.5s | url=https://studio.youtube.com/
+    chrome proc con: 0
+  goto lan 2: 4.1s | url=https://studio.youtube.com/channel/UCIimxP275YufOXXIlu9y9Lg
+    chrome proc con: 0
+  goto lan 3: 1.7s | url=https://studio.youtube.com/channel/UCIimxP275YufOXXIlu9y9Lg
+    chrome proc con: 0
+  goto lan 4: 1.7s | url=https://studio.youtube.com/channel/UCIimxP275YufOXXIlu9y9Lg
+    chrome proc con: 0
+  goto lan 5: 1.8s | url=https://studio.youtube.com/channel/UCIimxP275YufOXXIlu9y9Lg
+    chrome proc con: 0
+  goto lan 6: 1.7s | url=https://studio.youtube.com/channel/UCIimxP275YufOXXIlu9y9Lg
+    chrome proc con: 0
+da stop profile

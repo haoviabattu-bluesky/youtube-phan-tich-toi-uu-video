@@ -19,10 +19,13 @@ BA DIEU DA TRA GIA KHI DO (dung "don gian hoa" lai):
      khong co --remote-debugging-port). Phai stop -> doi -> dong not tien trinh chrome CUA DUNG
      profile do theo PID (doi chieu --user-data-dir) -> start lai.
 """
-import sys, os, re, csv, time, argparse, datetime
+import sys, os, re, csv, time, random, argparse, datetime
 sys.stdout.reconfigure(encoding="utf-8")
 import requests
 from playwright.sync_api import sync_playwright
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import studio_daily
+import human_pace as hp
 
 GPM = "http://127.0.0.1:9495/api/v1"
 BANNER = "GPMLogin Global API"
@@ -69,7 +72,7 @@ COLUMNS = ["channel", "lane", "episode", "video_id", "title", "publish_time", "s
            "top_search_term_1", "search_term_1_pct",
            "thumbnail_version", "title_version", "hook_type", "topic",
            "distribution_status", "traffic_mode", "packaging_status", "hook_status",
-           "body_status", "recommended_action", "notes"]
+           "body_status", "recommended_action", "notes"] + studio_daily.COLUMNS
 
 
 # ---------------- GPM ----------------
@@ -145,9 +148,10 @@ def pct_after(parts, label, span=6):
 
 
 def wait_text(page, needles, loops=25, gap=3):
+    """Cho toi khi thay `needles`; moi vong lech +-40% cho khong giong may."""
     parts = []
     for _ in range(loops):
-        time.sleep(gap)
+        time.sleep(gap * random.uniform(0.6, 1.4))
         parts = page.evaluate(DEEP)
         j = " | ".join(parts)
         if any(n in j for n in needles):
@@ -156,15 +160,24 @@ def wait_text(page, needles, loops=25, gap=3):
 
 
 # ---------------- thu thap 1 video ----------------
-def collect_video(page, vid):
+def collect_video(page, vid, log=None):
+    """Doc 1 video — DUONG NGUOI THAT (click), khong goto URL video (anh chot 2026-10-20)."""
+    import studio_human as sh
     row = {c: "" for c in COLUMNS}
     row["video_id"] = vid
     row["snapshot_time"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    # --- OVERVIEW ---
-    page.goto(f"https://studio.youtube.com/video/{vid}/analytics/tab-overview/period-default",
-              wait_until="domcontentloaded", timeout=90000)
-    parts = wait_text(page, ["Average view duration", "Views"])
+    # --- mo danh sach video -> click dung video -> Analytics -> Reach ---
+    if "/videos/upload" not in (page.url or ""):
+        if not sh.open_content(page, log):
+            raise RuntimeError("khong mo duoc danh sach video")
+    if not sh.click_video(page, vid, log):
+        raise RuntimeError(f"khong thay video {vid} trong danh sach")
+    if not sh.click_tab(page, "Analytics", log):
+        raise RuntimeError("khong bam duoc tab Analytics")
+    sh.wait_url(page, "/analytics/", tries=15)
+
+    parts = sh.wait_text(page, ["Average view duration", "Views"], tries=25)
     j = " | ".join(parts)
 
     m = re.search(r"([A-Z][a-z]{2} \d{1,2}, \d{4}) — Now", j)
@@ -191,8 +204,11 @@ def collect_video(page, vid):
         row["ret_30s"] = m.group(1)
 
     # --- REACH (phai BAM tab, URL tab-reach truc tiep loi "Oops") ---
-    page.evaluate(CLICK_TEXT, "Reach")
-    parts = wait_text(page, ["Thumbnail impressions"])
+    hp.wander(page)
+    hp.after_read()
+    if not sh.click_tab(page, "Reach", log):
+        raise RuntimeError("khong bam duoc tab Reach")
+    parts = sh.wait_text(page, ["Thumbnail impressions"], tries=25)
     j = " | ".join(parts)
 
     row["impressions"] = after(parts, "Thumbnail impressions", num) or ""
@@ -214,6 +230,11 @@ def collect_video(page, vid):
     try:
         i = parts.index("Content suggesting this video")
         seg = parts[i:i + 40]
+        # Muc nay "Not enough traffic data" thi "Proportion..." gan nhat la cua muc SEARCH TERMS
+        # ben duoi -> doc nham tu khoa thanh video goi y (dinh that: Area 51, 2026-09-23)
+        k0 = seg.index("Proportion of your total traffic:")
+        if any(t.startswith("Not enough traffic data") for t in seg[:k0]):
+            raise ValueError
         k = seg.index("Proportion of your total traffic:")
         pairs = []
         rest = seg[k + 2:]
@@ -228,7 +249,17 @@ def collect_video(page, vid):
     try:
         i = parts.index("YouTube search terms")
         seg = parts[i:i + 30]
-        k = seg.index("Proportion of your total traffic:")
+        # Cung bay nhu khoi "Content suggesting this video": khi muc search KHONG du du lieu,
+        # "Proportion of your total traffic:" gan nhat la cua muc TRAFFIC SOURCES ben duoi
+        # -> doc nham "Browse features" thanh tu khoa (dinh that lane M ep01/ep07, 2026-10-18).
+        k0 = seg.index("Proportion of your total traffic:")
+        # Studio in "0,2% / Not enough traffic data to show this report" ngay SAU nhan do
+        # (khong phai truoc). Khong chan -> doc nham "Browse features" cua muc Traffic sources
+        # ben duoi thanh tu khoa (dinh that lane M ep14 + ep07, 2026-10-18).
+        end = next((j for j in range(k0, len(seg)) if seg[j].strip() == "See more"), len(seg))
+        if any(t.startswith("Not enough traffic data") for t in seg[k0:end]):
+            raise ValueError
+        k = k0
         if k + 3 < len(seg) and seg[k + 2].strip().endswith("%"):
             row["top_search_term_1"] = seg[k + 3][:60] if not seg[k + 3].endswith("%") else ""
         for a in range(k + 2, len(seg) - 1):
@@ -255,6 +286,27 @@ def list_videos(page, cid, limit=None):
             break
     rows = [r for r in rows if r["id"]]
     return rows[:limit] if limit else rows
+
+
+def migrate_csv_header():
+    """CSV cu thieu cot moi -> sao luu ra reports/ roi viet lai voi header day du (du lieu giu nguyen)."""
+    if not os.path.exists(CSV_PATH):
+        return
+    with open(CSV_PATH, newline="", encoding="utf-8-sig") as f:
+        rd = csv.DictReader(f)
+        if rd.fieldnames == COLUMNS:
+            return
+        rows = list(rd)
+    bak = os.path.join(ROOT, "reports", "backup_metrics_%s.csv" % datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
+    os.makedirs(os.path.dirname(bak), exist_ok=True)
+    with open(CSV_PATH, "rb") as s, open(bak, "wb") as d:
+        d.write(s.read())
+    with open(CSV_PATH, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
+        w.writeheader()
+        for r in rows:
+            w.writerow({c: r.get(c, "") for c in COLUMNS})
+    print("CSV doi header (+%d cot), ban cu -> %s" % (len(COLUMNS) - len(rd.fieldnames or []), bak))
 
 
 def main():
@@ -317,8 +369,9 @@ def main():
         print("So video:", len(vids))
         for n, v in enumerate(vids, 1):
             print(f"[{n}/{len(vids)}] {v['id']} {v['title'][:50]}", flush=True)
+            hp.session_break() if n > 1 and (n - 1) % 12 == 0 else hp.between_videos()
             try:
-                row = collect_video(page, v["id"])
+                row = collect_video(page, v["id"], log=lambda *x: print("   ", *x, flush=True))
             except Exception as e:
                 print("   LOI:", str(e)[:200]); continue
             row["title"] = v["title"]
@@ -326,7 +379,17 @@ def main():
             row["lane"] = a.lane
             out.append(row)
             print("   impr={impressions} ctr={ctr} views={views} avd={avd_sec}s apv={apv_pct} browse={browse_pct} sugg={suggested_pct}".format(**row), flush=True)
+            try:
+                row.update(studio_daily.collect_daily(page, v["id"], DEEP, row["impressions"] or 0,
+                                                      row["hours_since_publish"], row["views"]))
+            except Exception as e:
+                row["current_distribution_status"] = "LOI_DAILY"
+                print("   LOI daily:", str(e)[:200])
+            print("   24h[{last_data_day}]: impr={impressions_last_24h} ctr={ctr_last_24h} | prev24h={impressions_previous_24h}"
+                  " | 48h={impressions_last_48h} | 72h={impressions_last_72h} | change={distribution_change_pct}%"
+                  " | {current_distribution_status} | DANH DAU={mark_needed}".format(**row), flush=True)
 
+    migrate_csv_header()
     new = not os.path.exists(CSV_PATH)
     with open(CSV_PATH, "a", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)

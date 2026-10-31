@@ -1,0 +1,6 @@
+  GPM start lan 1: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+  da dong 0 tien trinh chrome cua profile 0de2b1bb (theo PID [])
+chuyen kenh: True | mo profile: 70s
+  lan 1: 30.0s -> {'days': 24, 'views': 2900.0, 'ctr_total': 6.1, 'ctr_24h': 6.3, 'imp_24h': 32.0, 'ok': True}
+  lan 2: 25.6s -> {'days': 24, 'views': 2900.0, 'ctr_total': 6.1, 'ctr_24h': 6.3, 'imp_24h': 32.0, 'ok': True}
+TONG: 133s

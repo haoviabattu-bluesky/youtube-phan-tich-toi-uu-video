@@ -64,11 +64,18 @@ class Policy:
         if fl.get("not_japanese"):
             return Decision("SKIP", risk="HIGH", reason="not_japanese", policy_version=pv, category=cat)
         if fl.get("asks_question_factual") and d.decision == "REPLY":
-            return Decision("SKIP", risk="HIGH", reason="can_fact_check (flag)", policy_version=pv, category=cat)
+            return self._thanks("can_fact_check (flag)", cat)
         if d.decision in ("SKIP", "ESCALATE", "NO_REPLY_NEEDED"):
             return d
         # confidence gate
         if cls.c_conf < float(self.th["skip_below"]) or u_conf < float(self.th["skip_below"]):
+            if cat in self.t.get("sensitive_fallback_categories", []):
+                # anh chốt 2026-10-15: câu nhạy cảm không hiểu chắc → không bỏ qua, đăng câu cố định SENSITIVE
+                return Decision("REPLY", risk="MEDIUM", generator="TEMPLATE", footer="no", template_key="SENSITIVE", length=(10, 50),
+                                reason=f"sensitive_fallback c={cls.c_conf:.2f} u={u_conf:.2f}", auto_phase=99, policy_version=pv, category=cat)
+            if self.t.get("low_confidence_template"):
+                # 2026-10-22 HUONG_DAN_HERMES: khó/không chắc → chỉ cảm ơn, không bỏ qua
+                return self._thanks(f"low_confidence c={cls.c_conf:.2f} u={u_conf:.2f}", cat)
             return Decision("SKIP", risk="HIGH", reason=f"low_confidence c={cls.c_conf:.2f} u={u_conf:.2f}", policy_version=pv, category=cat)
         # follow-up: tối đa 1 reply bot / thread
         if cat == "FOLLOW_UP_TO_OWNER" and bot_replies_in_thread >= int(row.get("max_bot_replies_per_thread", 1)):
@@ -80,6 +87,11 @@ class Policy:
         if ch.footer_policy in ("A", "C"):
             d.footer = "yes"
         return d
+
+    def _thanks(self, reason, cat) -> Decision:
+        """Chỉ một lời cảm ơn cố định (template THANKS), không footer, không bao giờ tự gửi."""
+        return Decision("REPLY", risk="HIGH", generator="TEMPLATE", footer="no", template_key=self.t.get("low_confidence_template") or "THANKS",
+                        length=(8, 50), reason=reason, auto_phase=99, policy_version=self.version, category=cat)
 
     def gate(self, d: Decision, cls, reply_conf: float, judge_pass: bool, ch, sent_today: int) -> str:
         """→ SEND | DRAFT | SKIP (chỉ có ý nghĩa ở mode auto_*; mode khác luôn DRAFT)."""

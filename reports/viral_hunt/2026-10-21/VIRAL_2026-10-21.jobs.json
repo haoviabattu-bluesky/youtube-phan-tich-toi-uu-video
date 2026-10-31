@@ -1,0 +1,270 @@
+{
+ "day": "2026-10-21",
+ "generated": "2026-10-21 03:04",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 1234,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 8.97,
+     "source": {
+      "video_id": "_9DODjvtAl0",
+      "title": "【漫画】俺を給料泥棒扱いする上司が美人鬼課長の引き抜きに大喜び→異動後、元部署が崩壊寸前になり「戻ってくれ」と泣きつかれて…【恋愛マンガ動画】",
+      "channel": "男の逆転劇場",
+      "subs": 1080,
+      "views": 15629,
+      "views_per_hour": 117.5,
+      "hours": 133.0,
+      "published": "2026-10-15T07:04:38Z",
+      "url": "https://www.youtube.com/watch?v=_9DODjvtAl0"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý uất ức công sở (người làm việc thực chất bị coi là 'kẻ ăn bám lương') kết hợp mô-típ trừng phạt 'gậy ông đập lưng ông', kích hoạt mạnh mẽ trục đối lập Quản lý - Cấp dưới.",
+      "de_bai": "Một nhân viên Z世代 bị Trưởng phòng thế hệ cũ coi là 'kẻ ăn bám' vì đúng giờ là về, bị đẩy sang phòng ban 'lò lửa' của nữ quản lý khét tiếng khó tính, dẫn tới việc sụp đổ toàn bộ hệ thống vận hành ngầm mà cậu âm thầm duy trì.",
+      "khac_nguon": "Bỏ hoàn toàn yếu tố ngôn tình/harem, đổi sang xung đột thế hệ sâu sắc (chăm chỉ hiện diện kiểu cũ vs tối ưu hóa/Shadow Work của người trẻ) và kết cục giải quyết bằng cơ chế kiểm toán/phạt nội bộ thay vì xin xỏ tình cảm.",
+      "hook_3cau": "'Cậu đúng là đồ ăn bám lương, biến sang phòng của mụ phù thủy kia đi!' — Trưởng phòng cười hả hê khi tống khứ được tôi. Ông ta không ngờ rằng [SỐ CẦN KIỂM]% quy trình vận hành của cả phòng bấy lâu nay chạy êm là nhờ hệ thống tôi âm thầm tự động hóa. Chỉ đúng 3 ngày sau lệnh điều chuyển, thảm họa bắt đầu nổ ra.",
+      "title_jp": "「給料泥棒」と若手を左遷した無能上司、3日で部署崩壊",
+      "thumbnail_jp": "3日で部署崩壊",
+      "so_lieu_can": [
+       "[SỐ CẦN KIỂM]% công việc nền tảng (Shadow Work) do nhân viên trẻ tự động hóa",
+       "[SỐ CẦN KIỂM] ngày/giờ sụp đổ hoàn toàn sau khi nhân sự rời đi",
+       "[SỐ CẦN KIỂM] triệu yên thiệt hại hoặc chi phí khắc phục sự cố"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも「定時で帰る＝サボり」と勘違いしている管理職はいませんか？",
+      "rui_ro": "Nếu kịch bản tập trung quá nhiều vào cảm xúc hả hê trả thù (スカッと) mà quên phân tích cơ chế quản lý sai lầm và chi phí vô hình của Shadow Work, video sẽ mất chất Lane L và biến thành truyện drama rẻ tiền.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 1234,
+   "jobs": [
+    {
+     "grade": "D",
+     "score": 18.03,
+     "source": {
+      "video_id": "CWeVn6SvdyM",
+      "title": "【漫画】定年後「財布は別々」と言い出した65歳夫…冷蔵庫を半分にした3週間後、妻が倒れた結果",
+      "channel": "心晴れるシニア漫画館",
+      "subs": 832,
+      "views": 39747,
+      "views_per_hour": 285.5,
+      "hours": 139.2,
+      "published": "2026-10-15T00:51:15Z",
+      "url": "https://www.youtube.com/watch?v=CWeVn6SvdyM"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng nỗi sợ kinh tế tuổi 65 với cú sốc 'tách riêng ví tiền' (財布は別々) và hình ảnh cực đoan chia đôi tủ lạnh, đẩy mâu thuẫn tiền bạc sinh hoạt sau hưu lên đỉnh điểm.",
+      "de_bai": "Cựu trưởng phòng 65 tuổi sau 40 năm cống hiến bị vợ yêu cầu 'tiền ai nấy tiêu' vì lương hưu không đủ bù sinh hoạt phí [SỐ CẦN KIỂM] yên/tháng, buộc phải đi làm bảo vệ (警備) ca đêm bị coi như con số 0.",
+      "khac_nguon": "Đổi mâu thuẫn gia đình thuần túy thành bi kịch lao động sau hưu của người chồng đi làm bảo vệ bị coi thường; giữ cơ chế sốc 'tách riêng ví tiền tuổi 65' và con số 3 tuần kiệt sức.",
+      "hook_3cau": "Đúng ngày sinh nhật tuổi 65, vợ đặt lên bàn hai chiếc ví riêng và bảo từ nay tiền ai nấy lo. 40 năm làm trưởng phòng chỉ nhận về mức lương hưu thiếu hụt [SỐ CẦN KIỂM] yên mỗi tháng so với tiền sinh hoạt. Sau 3 tuần cắn răng đứng gác ca đêm trong giá rét, tôi ngã gục ngay trước cổng công trường.",
+      "title_jp": "65歳で財布別々…年金月[SỐ CẦN KIỂM]万不足の元部長が夜間警備で倒れた結末",
+      "thumbnail_jp": "65歳で財布別々",
+      "so_lieu_can": [
+       "Tuổi 65 (lấy từ nguồn)",
+       "Thời gian 3 tuần (lấy từ nguồn)",
+       "Số năm làm việc cũ 38-40 năm (theo công thức lane, [SỐ CẦN KIỂM])",
+       "Số tiền thiếu hụt mỗi tháng / lương hưu cụ thể ([SỐ CẦN KIỂM])",
+       "Lương giờ bảo vệ ([SỐ CẦN KIỂM])"
+      ],
+      "cau_hoi_cuoi": "定年後に夫婦で財布を別にするのはアリだと思いますか？皆さんのご家庭のルールもぜひコメント欄で教えてください。",
+      "rui_ro": "Dễ bị cuốn vào mâu thuẫn vợ chồng ly hôn/chia tiền của nguồn mà làm loãng chi tiết hiện thực khắc nghiệt tại chỗ làm bảo vệ ca đêm.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 17.12,
+     "source": {
+      "video_id": "nNQryRQh7MU",
+      "title": "【漫画】60歳で辞めるか、65歳まで働くか。同期2人が5年後に知った「本当の正解」｜定年後に差がつく5つのこと | 家計簿 | 60歳定年 | 65歳まで働く | 定年後 | 退職",
+      "channel": "人生家計簿",
+      "subs": 1590,
+      "views": 18357,
+      "views_per_hour": 1593.5,
+      "hours": 11.5,
+      "published": "2026-10-20T08:31:31Z",
+      "url": "https://www.youtube.com/watch?v=nNQryRQh7MU"
+     },
+     "draft": {
+      "vi_sao_thang": "Đánh trúng nút thắt tâm lý lớn nhất tuổi hưu: nên nghỉ ở tuổi 60 hay cố làm tiếp tới 65 tuổi qua mô-típ đối chiếu số phận 2 người đồng nghiệp gắn liền với bài toán chi tiêu thực tế.",
+      "de_bai": "Cựu quản lý 60 tuổi quyết định nghỉ hưu sớm để an dưỡng nhưng bị hụt [SỐ CẦN KIỂM] yên/tháng, buộc phải đi làm bảo vệ (警備) ca đêm bị chỉ trích gay gắt, trong khi người đồng nghiệp chọn ở lại làm tiếp đến 65 tuổi nhận cái kết hoàn toàn trái ngược sau 5 năm.",
+      "khac_nguon": "Đổi từ bài giảng tài chính - phong cách sống so sánh 2 người chung chung thành câu chuyện trải nghiệm va chạm thực tế tại MỘT nghề làm thêm cụ thể (警備員), giữ lại mâu thuẫn lựa chọn 60 tuổi nghỉ hay 65 tuổi cày tiếp.",
+      "hook_3cau": "Tưởng nghỉ hưu ở tuổi 60 là thảnh thơi, cho đến khi tài khoản gia đình thâm hụt [SỐ CẦN KIỂM] yên mỗi tháng. 38 năm làm bàn giấy bỗng chốc trở thành con số 0 khi tôi phải đứng gác 10 tiếng dưới mưa gió và bị quát tháo. Nhìn lại người đồng nghiệp chọn làm đến 65 tuổi, tôi mới thấm thía cái giá của sự vội vàng.",
+      "title_jp": "60歳退職の代償…月[SỐ CẦN KIỂM]万不足で警備員へ。65歳まで働いた同期との残酷な5年後",
+      "thumbnail_jp": "60歳退職の地獄",
+      "so_lieu_can": [
+       "60 tuổi nghỉ hưu (lấy từ nguồn)",
+       "65 tuổi mốc làm việc so sánh (lấy từ nguồn)",
+       "Khoảng cách kiểm chứng: 5 năm sau (lấy từ nguồn)",
+       "Số tiền thiếu hụt chi tiêu mỗi tháng: [SỐ CẦN KIỂM]",
+       "Mức lương/thu nhập nghề bảo vệ sau 60 tuổi: [SỐ CẦN KIỂM]",
+       "Chênh lệch lương hưu thực tế giữa mốc 60 và 65 tuổi: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたは60歳で完全リタイアしたいですか？それとも65歳まで働きますか？ぜひコメント欄でご意見をお聞かせください。",
+      "rui_ro": "Dễ sa đà vào việc liệt kê bảng biểu chi phí và lý thuyết so sánh giống nguồn, làm mất đi tính cọ xát thực tế và sự nhục nhã của nghề làm thêm vốn là cốt lõi kéo giữ chân khán giả của Lane N.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 1234,
+   "jobs": [
+    {
+     "grade": "C",
+     "score": 11.04,
+     "source": {
+      "video_id": "fnFaRCHr6cY",
+      "title": "【漫画】社内で「鬼」と恐れられる女上司と二人きりで出張になった俺。同僚「ご愁傷さまw」→商談の席で先方に絡まれた上司をかばったら…",
+      "channel": "それ、俺だけど ?【スカッと漫画】",
+      "subs": 265,
+      "views": 35007,
+      "views_per_hour": 590.5,
+      "hours": 59.3,
+      "published": "2026-10-18T08:45:09Z",
+      "url": "https://www.youtube.com/watch?v=fnFaRCHr6cY"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ thế kẹt 'phải ghép cặp 2 người với đối tượng khó chịu', kích thích tò mò người xem về việc ai sẽ gánh hậu quả khi biến cố bất ngờ ập đến.",
+      "de_bai": "Ca trực đêm viện dưỡng lão chỉ có 2 người, đồng nghiệp ngang hàng liên tục dùng câu 'それ、担当じゃないんで' để trốn việc chăm sóc ca khó; nhân vật chính lặng lẽ gánh trọn đến kiệt sức cho đến khi bảng phân ca mới công bố một chi tiết nhỏ.",
+      "khac_nguon": "Đổi từ sếp nữ đi công tác sang đồng nghiệp điều dưỡng trực đêm ngang hàng; đổi việc ra mặt bảo vệ sếp thành lặng lẽ chịu đựng gánh việc; đổi cái kết lãng mạn/công sở thành bảng phân công tách ca triệt để.",
+      "hook_3cau": "Đêm nay lại là ca trực chỉ có hai người chúng tôi. Vừa nghe chuông khẩn cấp từ phòng cụ Tanaka, cô ta liền bấm điện thoại bảo 'Đó đâu phải người tôi phụ trách'. Nhìn đồng hồ chỉ đúng 2 giờ sáng, tôi biết đêm nay mình lại phải gánh hết một mình.",
+      "title_jp": "「それ担当外なんで」夜勤で丸投げする同僚。耐え続けた私の前に出た来月のシフト",
+      "thumbnail_jp": "それ担当外なんで",
+      "so_lieu_can": [
+       "Thời lượng video: khoảng 9.6 phút (lấy từ video nguồn)",
+       "Số giờ ca trực đêm, số lần bấm chuông né việc, thời điểm bảng ca mới được dán lên [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも「担当じゃない」を口癖に仕事を押し付ける同僚はいますか？",
+      "rui_ro": "Dễ trượt sang tình huống bỏ bê gây tai nạn nghiêm trọng cho cụ già (vi phạm chuẩn nghề nghiệp/bị kiểm duyệt), làm mất tính chất ức chế âm ỉ đời thường của công thức.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 10.35,
+     "source": {
+      "video_id": "OLh8ECjitZQ",
+      "title": "【漫画】家を売ると言われたら、私は出ていくしか…生まれてからずっと実家で母を6年介護してきた62歳の姉が、縁側の日なたで母の手をにぎって聞いた“この家のこと”",
+      "channel": "源さん【定年シニアの人生相談】",
+      "subs": 8540,
+      "views": 17366,
+      "views_per_hour": 158.0,
+      "hours": 109.9,
+      "published": "2026-10-16T06:00:32Z",
+      "url": "https://www.youtube.com/watch?v=OLh8ECjitZQ"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý uất ức khi một người lặng lẽ hy sinh chăm sóc suốt 6 năm bị phủi sạch công lao, kích hoạt lòng trắc ẩn tột cùng của khán giả lớn tuổi.",
+      "de_bai": "Điều dưỡng 38 tuổi luôn lặng lẽ gánh phần thay bỉm và dọn chất thải cho cô đồng nghiệp cùng ca 29 tuổi suốt 6 tháng vì câu cửa miệng 'Cái đó không thuộc phân công của em'; cái giá hiển hiện khi người gánh việc xin đổi ca đột ngột để lại cô ta đối mặt với phòng bệnh nặng 12 phút trước giờ về.",
+      "khac_nguon": "Đổi từ bi kịch gia đình (chị 62 tuổi chăm mẹ 6 năm bị ép bán nhà) sang bối cảnh viện dưỡng lão với hai điều dưỡng ngang hàng; giữ cơ chế kẻ trốn việc nói lý lẽ ép người hiền lành chịu đựng.",
+      "hook_3cau": "'Phần đó không thuộc phân công của em'—cô ta thản nhiên đứng bấm điện thoại khi chuông phòng bệnh reo liên tục. Tôi không nói gì, lặng lẽ một mình đẩy xe đi xử lý vết bẩn cho bệnh nhân lần thứ 3 trong buổi chiều. Nhưng cô ta không ngờ rằng, đó là ca trực chung cuối cùng của chúng tôi trước khi tên tôi biến mất khỏi bảng phân công.",
+      "title_jp": "「担当外なんで」と介護を押し付ける同僚。シフト表から私の名前を消した結果…",
+      "thumbnail_jp": "担当じゃないんで",
+      "so_lieu_can": [
+       "6 năm (số năm chăm sóc lấy từ video nguồn, chuyển thành 6 tháng chịu đựng trong bối cảnh công sở)",
+       "62 tuổi (tuổi nhân vật nguồn, chuyển thành độ tuổi bệnh nhân trong viện)",
+       "Lần thứ 3 dọn vệ sinh [SỐ CẦN KIỂM]",
+       "12 phút trước giờ về [SỐ CẦN KIỂM]",
+       "Nhân vật 38 tuổi và 29 tuổi [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも「それ、私の担当じゃないんで」と平気で言う介護士はいませんか？",
+      "rui_ro": "Dễ trượt sang việc biến đồng nghiệp thành kẻ xấu tính lộ liễu, làm mất đi sự ức chế đặc trưng của việc dùng lý lẽ đúng quy trình để đùn đẩy việc.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 1234,
+   "jobs": [
+    {
+     "grade": "D",
+     "score": 12.5,
+     "source": {
+      "video_id": "ETxcGYbVAWQ",
+      "title": "【漫画】年金で残クレアルファードを買った65歳。深夜2時、警察に呼び止められた理由",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3330,
+      "views": 36110,
+      "views_per_hour": 279.7,
+      "hours": 129.1,
+      "published": "2026-10-15T11:00:11Z",
+      "url": "https://www.youtube.com/watch?v=ETxcGYbVAWQ"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng nỗi sợ mất thể diện của nam giới tuổi 65, hành vi gồng gánh mua sĩ diện (trả góp xe sang bằng lương hưu) dẫn đến bi kịch bẽ bàng lúc 2 giờ sáng, kích thích trí tò mò cực lớn về lý do bị cảnh sát chặn.",
+      "de_bai": "Một người đàn ông 65 tuổi sau tái tuyển dụng bị công ty cũ ngấm ngầm ép chuyển sang ca đêm và cắt giảm [SỐ CẦN KIỂM] man lương, cố cắn răng làm để giấu gia đình cho đến khi kiệt sức lúc 2 giờ sáng, sau đó quyết định rút lui để chuyển sang 7 công việc ngách bảo toàn trọn vẹn lương hưu và phẩm giá.",
+      "khac_nguon": "Đổi bi kịch tiêu xài nợ nần mua xe sang thành xung đột bị bóc lột ca đêm và tụt giảm thu nhập sau tái tuyển dụng; đổi kết thúc tiêu cực thành bài học giải pháp với danh sách 7 công việc ngách giữ phẩm giá.",
+      "hook_3cau": "Từng là quản lý nhưng ở tuổi 65, tôi phải giấu gia đình đi làm ca đêm vì thu nhập tái tuyển dụng bị cắt mất [SỐ CẦN KIỂM] man mỗi tháng. 2 giờ sáng gục ngã vì kiệt sức, tôi cay đắng nhận ra mình đang đánh đổi cả tính mạng chỉ để giữ chút thể diện hão huyền. Nếu bạn đang bị công ty hạ giá hoặc loay hoay vì bẫy lương hưu, đây là 7 công việc ngách giúp người 60+ vừa giữ được tiền vừa ngẩng cao đầu.",
+      "title_jp": "【65歳の屈辱】再雇用で収入激減…深夜労働から脱出した穴場職7選",
+      "thumbnail_jp": "深夜2時の屈辱",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ nguồn)",
+       "2 giờ sáng / 深夜2時 (lấy từ nguồn)",
+       "Số tiền lương bị cắt giảm sau tái tuyển dụng [SỐ CẦN KIỂM]",
+       "Mức trần thu nhập cắt giảm lương hưu 在職老齢年金 [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後の再雇用で、プライドや収入が傷つけられた経験はありますか？ぜひコメント欄で教えてください。",
+      "rui_ro": "Dễ bị sa đà vào kịch tính bi kịch cá nhân lúc đêm khuya mà làm loãng phần phân tích con số thiệt hại và format xếp hạng 7 công việc ngách của lane.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "D",
+     "score": 10.21,
+     "source": {
+      "video_id": "FM-_jb2AEsw",
+      "title": "【漫画】定年後、遠くへ行かなくても人生は広がる…60代から始めたい「小さな半日旅」5つの楽しみ方",
+      "channel": "60代からの道しるべ",
+      "subs": 113,
+      "views": 39066,
+      "views_per_hour": 258.8,
+      "hours": 151.0,
+      "published": "2026-10-14T13:00:03Z",
+      "url": "https://www.youtube.com/watch?v=FM-_jb2AEsw"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn nổ nhờ đánh trúng tâm lý người 60+ thèm cảm giác tự do, muốn thoát khỏi tù túng hậu nghỉ hưu nhưng ngại tốn kém và mệt mỏi.",
+      "de_bai": "Nam 62 tuổi tái tuyển dụng bị công ty ép giảm từ 5 ngày xuống còn [SỐ CẦN KIỂM] ngày công, lương mất [SỐ CẦN KIỂM] vạn yên kèm lời mỉa mai 'rảnh rỗi thì đi du lịch nửa ngày đi'; ông quyết định dứt áo ra đi, tìm lại phẩm giá bằng 7 công việc ngách tự chủ thời gian.",
+      "khac_nguon": "Đổi từ cẩm nang du lịch/hưởng thụ thụ động sang bi kịch bị ép hạ ca cắt lương tại nơi làm việc cũ, biến 'nửa ngày rảnh rỗi' thành động lực chọn 7 công việc ngách giữ trọn thu nhập.",
+      "hook_3cau": "'Bác nhiều thời gian rảnh thì cứ đi du lịch nửa ngày cho thong thả' — câu nói của người quản lý trẻ tuổi kèm bản hợp đồng bị cắt giảm ca làm như một cái tát vào mặt tôi. Mất đi [SỐ CẦN KIỂM] vạn yên thu nhập mỗi tháng, ngay cả tiền vé tàu đi lại tôi cũng phải đắn đo từng đồng. Khoảnh khắc ký đơn từ bỏ chế độ tái tuyển dụng nhục nhã đó, tôi đã tìm ra 7 công việc ngách vừa giữ được tiền, vừa lấy lại tự do.",
+      "title_jp": "再雇用で給与半減「旅でも行けば？」と切られた60代が選んだ穴場職7選",
+      "thumbnail_jp": "屈辱の減給から逆転",
+      "so_lieu_can": [
+       "Số ngày công bị giảm từ 5 ngày xuống còn [SỐ CẦN KIỂM] ngày",
+       "Số tiền lương bị cắt giảm âm thầm: [SỐ CẦN KIỂM] vạn yên/tháng",
+       "Mức thu nhập mục tiêu khi làm việc ngách: [SỐ CẦN KIỂM] vạn yên"
+      ],
+      "cau_hoi_cuoi": "定年後の再雇用で理不尽な扱いを受けたり、思い切って仕事を変えた経験はありますか？",
+      "rui_ro": "Dễ bị trượt sang chủ đề phong cách sống hoặc thiết kế thời gian thuần túy nếu kịch bản sa đà vào việc giải tỏa tâm lý thay vì tập trung vào con số tiền bị cắt và tiêu chí thực tế của 7 công việc.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  }
+ }
+}

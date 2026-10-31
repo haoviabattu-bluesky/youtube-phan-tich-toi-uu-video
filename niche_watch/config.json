@@ -1,0 +1,33 @@
+{
+ "_ghi_chu": "Anh chot 2026-10-22: nuoi ngach 18:00-21:00, xoay vong 3-4 profile/luot, xem 10-15 phut/video, duoc like+sub, profile ban -> tu dong roi mo lai, lane M dong ca Chrome 9222. 'niche' de trong = lay o B1 cua tab. 'seed_queries' dung khi tab chua co tap nao o cot E.",
+ "start": "18:00",
+ "end": "21:00",
+ "batch_size": 4,
+ "watch_minutes": [10, 15],
+ "max_chain": 4,
+ "search_top": 10,
+ "suggest_top": 12,
+ "min_length_sec": 180,
+ "like_prob": 0.75,
+ "sub_prob": 0.5,
+ "vision_model": "gemini-3.8-flash",
+ "lanes": [
+  {"lane": "E", "tab": "E-70dai-kenko", "engine": "gpm", "mail": "normaneileenpm218@gmail.com", "channel_name": "健康の知恵袋"},
+  {"lane": "H", "tab": "kokoro-kazoku", "engine": "gpm", "mail": "FuentesMitsy202@gmail.com",
+   "seed_queries": ["親子関係 漫画", "定年後 夫婦 漫画", "熟年離婚 漫画", "老後 親子 すれ違い", "嫁姑問題 漫画", "家族の話 感動 漫画", "定年後 夫 妻 本音", "親の介護 兄弟 漫画"]},
+  {"lane": "F", "tab": "F-teinengo-real", "engine": "gpm", "mail": "VirgiliTraino95@gmail.com", "channel_name": "定年後のリアル"},
+  {"lane": "L", "tab": "L-shakai-no-naze", "engine": "gpm", "mail": "SyedualiBajwa92@gmail.com", "channel_name": "社会のなぜ研究室"},
+  {"lane": "M", "tab": "M-teinengo-anaba", "engine": "cdp", "port": 9222, "mail": "haoviabattu@gmail.com",
+   "channel_id": "UC-03gNBRs14lZHus7TiKofA", "channel_name": "定年後の盲点【漫画】"},
+  {"lane": "O", "tab": "Lane-O", "engine": "gpm", "mail": "rosellagreysonbk920@gmail.com",
+   "channel_id": "UCnwgkB18gTTON1YXNQvxsbg", "channel_name": "人生のつづき"},
+  {"lane": "N", "tab": "Lane-N", "engine": "ads", "user_id": "k15wbjoo", "mail": "thienduongly7890@gmail.com", "channel_name": "シニア暮らし研究所"},
+  {"lane": "Q", "tab": "Lane-Q", "engine": "gpm", "mail": "JordaneLaetitia694@gmail.com",
+   "niche": "Kênh Nhật yêu nước (@rintoshita-nippon): tiểu phẩm ゆっくり/海外の反応/スカッと so sánh Nhật Bản với Trung Quốc, Trung Quốc chê Nhật rồi nhận kết quả ngược, khán giả Nhật"},
+  {"lane": "P", "tab": "Lane-P", "engine": "gpm", "mail": "tiffanyhenrietta3@gmail.com",
+   "niche": "Kênh 日本企業ウォッチ (@nihon-kigyo-watch): tiểu phẩm ゆっくり/海外の反応 về doanh nghiệp, ô tô, kinh tế Nhật vs Trung Quốc — TQ chê doanh nghiệp Nhật rồi bị kết quả ngược (スカッと), motion graphics"},
+  {"lane": "X", "tab": "X", "engine": "gpm", "mail": "theeuxanh1@gmail.com",
+   "niche": "Kênh AINazotokiLab: dùng AI giải mã bí ẩn lịch sử Nhật/thế giới (本能寺の変, 古代文明, 未解読文字...) — ゆっくり/minh hoạ, KHÔNG phải video nói về công nghệ AI",
+   "seed_queries": ["AI 歴史ミステリー", "AI 未解決の謎", "AIに推理させた 歴史", "AI 本能寺の変 黒幕", "AI 古代文明の謎", "AI 日本史 最大の謎"]}
+ ]
+}

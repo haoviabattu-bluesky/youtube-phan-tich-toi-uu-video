@@ -32,13 +32,13 @@ def write_reports(ch, run_id, mode, items: list[dict], quota_used: int, errors: 
          f"Replied (SENT): {sum(1 for i in items if i.get('status') == 'SENT')}", f"Drafted: {len(drafts)}",
          f"Skipped: {dec.get('SKIP', 0)}   Escalated: {dec.get('ESCALATE', 0)}   No reply needed: {dec.get('NO_REPLY_NEEDED', 0)}   Already handled: {dec.get('ALREADY_HANDLED', 0)}",
          f"Unresolved: {len(unresolved)}   Errors: {len(errors)}", "", "By category:"]
-    L += [f"  {k:24} {v}" for k, v in cats.most_common()]
-    L += ["", "By gate:"] + [f"  {k:10} {v}" for k, v in gates.most_common()]
+    L += [f"  {str(k):24} {v}" for k, v in cats.most_common()]
+    L += ["", "By gate:"] + [f"  {str(k):10} {v}" for k, v in gates.most_common()]
     L += ["", "Context level per video:"]
     seen = {}
     for i in items:
         seen.setdefault(i.get("video_id"), (i.get("context_level"), i.get("video_title", "")[:50], i.get("ep_dir")))
-    L += [f"  {v} {lv:4} {t} ← {ep or '(không map được thư mục tập)'}" for v, (lv, t, ep) in seen.items()]
+    L += [f"  {v} {str(lv):4} {t} ← {ep or '(không map được thư mục tập)'}" for v, (lv, t, ep) in seen.items()]
     if high:
         L += ["", "High-risk comments:"] + [f"  {i['comment_id']} [{i.get('category')}] {i.get('text', '')[:90].replace(chr(10), ' ')}" for i in high]
     if errors:
@@ -56,7 +56,7 @@ def write_reports(ch, run_id, mode, items: list[dict], quota_used: int, errors: 
               "COMMENT (dịch tiếng Việt):", (i.get("text_vi") or "(chưa dịch)").strip(), "",
               f"CATEGORY: {i.get('category')}  (secondary {i.get('secondary')})  RISK: {i.get('risk')}  GENERATOR: {i.get('generator')}  MODEL: {i.get('model')}",
               f"SUMMARY: {i.get('summary_ja', '')}  KEY_DETAIL: {i.get('key_detail_ja', '')}",
-              f"CONFIDENCE: classify={i.get('c_conf', 0):.2f} understand={i.get('u_conf', 0):.2f} reply(judge)={i.get('reply_conf', 0):.2f}  JUDGE: {i.get('judge_model')} {'PASS' if i.get('judge_pass') else 'FAIL ' + str(i.get('judge_fails'))}",
+              f"CONFIDENCE: classify={(i.get('c_conf') or 0):.2f} understand={(i.get('u_conf') or 0):.2f} reply(judge)={(i.get('reply_conf') or 0):.2f}  JUDGE: {i.get('judge_model')} {'PASS' if i.get('judge_pass') else 'FAIL ' + str(i.get('judge_fails'))}",
               f"ACTION: {('NEEDS_HUMAN_REVIEW — judge FAIL: ' + '; '.join(i.get('judge_reasons') or [])[:300]) if i.get('status') == 'JUDGE_FAIL' else ('WOULD_REPLY' if i.get('gate') in ('SEND', 'DRAFT', 'WOULD_SEND') else i.get('gate'))}  (gate={i.get('gate')}, footer={'yes' if i.get('footer_text') else 'no'})",
               *([f"JUDGE NHẬN XÉT (dịch): {i.get('judge_vi')}"] if i.get("judge_vi") else []),
               "PROPOSED REPLY (tiếng Nhật — đây là câu sẽ đăng):", i["final_text"], "",
@@ -74,7 +74,7 @@ def write_reports(ch, run_id, mode, items: list[dict], quota_used: int, errors: 
               f"REASON_NOT_REPLIED: {i.get('decision')} — {i.get('reason', '')}" + (f" — QC: {i.get('qc_fails')}" if i.get("qc_fails") else "")
               + (f" — JUDGE: {i.get('judge_fails')} {i.get('judge_reasons')}" if i.get("judge_fails") else ""),
               f"CATEGORY: {i.get('category')}  SUMMARY: {i.get('summary_ja', '')}", "", f"MODEL: {i.get('model') or i.get('cls_model', '')}",
-              f"CONFIDENCE: classify={i.get('c_conf', 0):.2f} understand={i.get('u_conf', 0):.2f}", "-" * 78, ""]
+              f"CONFIDENCE: classify={(i.get('c_conf') or 0):.2f} understand={(i.get('u_conf') or 0):.2f}", "-" * 78, ""]
     (out / "UNRESOLVED_COMMENTS.txt").write_text("\n".join(U), encoding="utf-8")
 
     # ---------------- HIGH_RISK + reply_log

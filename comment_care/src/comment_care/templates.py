@@ -13,7 +13,7 @@ class Templates:
         self.rng = random.Random(seed)
 
     def hostile(self) -> str:
-        return self.t["by_category"]["HOSTILE"]["fixed"]
+        return self.t["by_category"]["SENSITIVE"]["fixed"]
 
     def render(self, category: str, detail: str = "", avoid_combos=()) -> tuple[str, str]:
         """→ (text, combo_key). Tránh lặp tổ hợp slot với `avoid_combos` (20 reply gần nhất cùng video)."""

@@ -1,0 +1,17 @@
+2026-10-22 08:52:54 === LICH 2026-10-22: 10 lane, 3 luot x 60' — 18:00 -> 21:00
+2026-10-22 08:52:54   luot 1: H, F, L, M
+2026-10-22 08:52:54   luot 2: O, N, Q
+2026-10-22 08:52:54   luot 3: P, X, E
+2026-10-22 09:10:35 === LICH 2026-10-22: 2 lane, 1 luot x 14' — 09:10 -> 09:25
+2026-10-22 09:10:35   luot 1: F, E
+2026-10-22 09:10:35 --- LUOT 1: F, E den 09:25
+2026-10-22 09:10:35   mo worker lane F (PID 36508)
+2026-10-22 09:12:02   mo worker lane E (PID 55768)
+2026-10-22 09:29:02   worker lane F qua han chua thoat -> taskkill ca cay PID 36508
+2026-10-22 09:29:03   worker lane E thoat, ma 0
+2026-10-22 09:29:33 [F] LOI khi dong: ReadTimeout HTTPConnectionPool(host='127.0.0.1', port=9495): Read timed out. (read timeout=30)
+2026-10-22 09:30:03 [E] LOI khi dong: ReadTimeout HTTPConnectionPool(host='127.0.0.1', port=9495): Read timed out. (read timeout=30)
+2026-10-22 09:30:36 [E] LOI khi dong: ReadTimeout HTTPConnectionPool(host='127.0.0.1', port=9495): Read timed out. (read timeout=30)
+2026-10-22 09:31:06 [F] LOI khi dong: ReadTimeout HTTPConnectionPool(host='127.0.0.1', port=9495): Read timed out. (read timeout=30)
+2026-10-22 09:31:06 SWEEP xong: CON PROFILE CHUA DONG — xem log
+2026-10-22 09:31:06 === XONG buoi toi, da sweep dong profile

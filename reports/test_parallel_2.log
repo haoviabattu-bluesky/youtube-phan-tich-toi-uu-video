@@ -1,0 +1,30 @@
+06:31:31 ===== DA LUONG 2 profile cung luc | 2 nhom | 2 tab (DRY-RUN) =====
+06:31:31   luong 1: ['rosellagreysonbk920@gmail.com']
+06:31:31   luong 2: ['JordaneLaetitia694@gmail.com']
+06:31:31 --no-lock: BO QUA khoa run.lock (chi dung de test)
+06:31:31   mo profile luong 1: gpm rosellagreysonbk920@gmail.com
+06:33:03   chay luong 1: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto']
+06:33:03     · mo profile tiep theo: nghi 2.0s
+06:33:04 ===== BAT DAU (DRY-RUN) tay =====
+06:33:05   mo profile luong 2: gpm JordaneLaetitia694@gmail.com
+06:33:06 --- attach vao profile da mo san: ws://localhost:54216/devtools/browser/bd7b5697-5412-4eda-90c...
+06:33:06 --- tab se doc: ['K-yakkyoku-sukatto']
+06:33:16     · chuyen video: nghi 6.9s
+06:33:54   chay luong 2: JordaneLaetitia694@gmail.com | tabs=['Lane-Q']
+06:33:54     · mo profile tiep theo: nghi 1.9s
+06:33:55 ===== BAT DAU (DRY-RUN) tay =====
+06:33:57 --- attach vao profile da mo san: ws://localhost:54417/devtools/browser/2dbc3edc-f976-4698-b3a...
+06:33:57 --- tab se doc: ['Lane-Q']
+06:34:07     · chuyen video: nghi 4.9s
+06:34:39 [Lane-Q] dong 2 dhjDEazNOy0: N=5 O=505 P=3,9% Q=4,1% imp24h=584.0 | ok | K=140h · 505 view · CTR tổng 3,9% · CTR 24h 4,1% · 584 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:34:39     · chuyen video: nghi 5.9s
+06:35:10 [Lane-Q] dong 4 f7xhMrUmFug: N=4 O=20 P=3,8% Q=4,6% imp24h=217.0 | ok | K=105h · 20 view · CTR tổng 3,8% · CTR 24h 4,6% · 217 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:35:10     · chuyen video: nghi 6.6s
+06:35:38 [Lane-Q] dong 6 ZJauO_vPW9E: N=8 O=77 P=3,5% Q=2,4% imp24h=84.0 | VANG | K=CTR 24h=2,4%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+06:35:38     · chuyen video: nghi 8.0s
+06:36:07 [Lane-Q] dong 7 HlC_ibnbsFs: N=0 O=3 P=25,0% Q=25,0% imp24h=None | ok | K=19h · 3 view · CTR tổng 25,0% · CTR 24h 25,0% · — lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:36:07 [Lane-Q] DRY-RUN: 4 dong, KHONG ghi sheet
+06:36:07     · chuyen tab: nghi 2.9s
+06:36:10 ===== XONG: 4 video · 1 dòng vàng · lỗi 0 video · lane bỏ qua: không · 2 phút
+06:36:59     · trang 24h khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan
+06:36:59     · Studio bao loi, doi lau: nghi 11.9s

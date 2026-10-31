@@ -1,0 +1,270 @@
+{
+ "day": "2026-10-20",
+ "generated": "2026-10-20 06:46",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 1005,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 9.93,
+     "source": {
+      "video_id": "tFH2SVOkcUY",
+      "title": "【漫画】幸せをサポートする仕事？結婚相談所勤務で働いてみたら、思ってたのと違う…。",
+      "channel": "社会観測所",
+      "subs": 8770,
+      "views": 16241,
+      "views_per_hour": 235.0,
+      "hours": 69.1,
+      "published": "2026-10-17T02:30:11Z",
+      "url": "https://www.youtube.com/watch?v=tFH2SVOkcUY"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ bóc trần mặt tối hậu trường trung tâm mai mối (結婚相談所) và va chạm trực diện với thực tế tàn khốc của thị trường tìm kiếm bạn đời thay vì bức tranh màu hồng.",
+      "de_bai": "Một nữ nhân viên tư vấn mai mối 27 tuổi buộc phải ép các nam khách hàng U40 nạp gói dịch vụ VIP hàng chục vạn yên dù biết cơ chế thuật toán khiến tỷ lệ thành đôi của họ gần như bằng 0, chỉ để công ty duy trì phí thành viên hàng tháng.",
+      "khac_nguon": "Đổi từ việc nhân viên than thở vụn vặt về khách kỳ quặc sang việc bóc trần cơ chế kinh doanh giữ chân người ế (成婚させないビジネス) và xung đột lợi ích giữa tư vấn viên với nam giới đi tìm vợ; kết cục nhân viên chỉ rõ cách hệ thống bóc lột hy vọng.",
+      "hook_3cau": "Anh tưởng trả 30 vạn yên thì người ta sẽ thật lòng giúp anh kết hôn sao? Thực tế, đàn ông U40 tìm vợ càng lâu, trung tâm mai mối càng kiếm được nhiều tiền từ phí duy trì hàng tháng. Đây là sự thật tàn nhẫn đằng sau bản hợp đồng mai mối mà không một tư vấn viên nào dám nói trước mặt bạn.",
+      "title_jp": "【漫画】相談所が年収400万男性をカモにする理由…成婚させない闇",
+      "thumbnail_jp": "成婚させない罠",
+      "so_lieu_can": [
+       "Chi phí gói VIP trung bình [SỐ CẦN KIỂM] vạn yên",
+       "Tỷ lệ thành hôn thực tế của nam giới U40 mức lương trung bình [SỐ CẦN KIỂM]%",
+       "Phí duy trì tài khoản hàng tháng [SỐ CẦN KIỂM] vạn yên"
+      ],
+      "cau_hoi_cuoi": "結婚相談所は本当に「結婚したい人」の味方だと思いますか？それともビジネス優先だと思いますか？",
+      "rui_ro": "Dễ bị trượt sang góc nhìn công kích cá nhân trung tâm mai mối lừa đảo thay vì phân tích cơ chế kinh tế và bất cân xứng cung - cầu trên thị trường hôn nhân.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 1005,
+   "jobs": [
+    {
+     "grade": "C",
+     "score": 17.15,
+     "source": {
+      "video_id": "Mrrg0GVNMhg",
+      "title": "知らなきゃ大損！定年後に\"ラクに稼げる\"最強バイトTOP5【漫画】",
+      "channel": "縁側の知恵",
+      "subs": 1360,
+      "views": 32466,
+      "views_per_hour": 457.0,
+      "hours": 71.0,
+      "published": "2026-10-17T00:39:39Z",
+      "url": "https://www.youtube.com/watch?v=Mrrg0GVNMhg"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn đánh trúng tâm lý tò mò và ảo tưởng muốn tìm việc nhẹ lương cao để bù đắp sinh kế sau hưu của nhóm khán giả 60+ thông qua định dạng xếp hạng hấp dẫn.",
+      "de_bai": "Một cựu trưởng phòng [SỐ CẦN KIỂM] năm cống hiến, vì lương hưu thiếu hụt [SỐ CẦN KIỂM] vạn yên/tháng nên xin làm quản lý chung cư (nghề tưởng như nhàn nhất), nhưng thực tế bị cư dân coi thường, kinh nghiệm cũ về số 0 và phải đánh đổi lòng tự trọng để kiếm từng đồng.",
+      "khac_nguon": "Đổi từ dạng liệt kê danh sách TOP 5 chung chung sang câu chuyện đào sâu duy nhất một nghề (quản lý chung cư) để bóc trần ảo tưởng 'việc nhàn' bằng trải nghiệm thực tế phũ phàng.",
+      "hook_3cau": "Cứ tưởng làm quản lý chung cư chỉ việc ngồi phòng máy lạnh ngắm camera rồi cuối tháng cầm tiền, tôi đã lầm to. Ba mươi mấy năm làm sếp công ty lớn, giờ đây tôi phải quỳ gối dọn bãi nôn cho cư dân đáng tuổi con mình. Thiếu đúng [SỐ CẦN KIỂM] vạn yên tiền sinh hoạt mỗi tháng, đây là cái giá tôi phải trả để tiếp tục sinh tồn sau khi về hưu.",
+      "title_jp": "定年後「ラクな仕事」と信じたマンション管理人の地獄…元部長60代の現実",
+      "thumbnail_jp": "ラクな仕事の罠",
+      "so_lieu_can": [
+       "[SỐ CẦN KIỂM] vạn yên: số tiền lương hưu nhận được mỗi tháng",
+       "[SỐ CẦN KIỂM] vạn yên: khoản thiếu hụt chi phí sinh hoạt cố định mỗi tháng buộc phải đi làm",
+       "[SỐ CẦN KIỂM] năm: số năm cống hiến ở công ty cũ bị gạt bỏ hoàn toàn",
+       "[SỐ CẦN KIỂM] yên: mức lương theo giờ thực tế nhận được tại công việc quản lý"
+      ],
+      "cau_hoi_cuoi": "定年後の仕事で「思っていたのと違った」と感じた経験はありますか？ぜひコメント欄で教えてください。",
+      "rui_ro": "Nếu kịch bản tập trung quá nhiều vào drama mâu thuẫn với cư dân quấy rối sẽ dễ trôi thành thể loại tâm lý xã hội thuần túy, làm loãng xung đột cốt lõi về áp lực mưu sinh và tiền bạc của Lane N.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 14.79,
+     "source": {
+      "video_id": "y8iPHPXVWtI",
+      "title": "【漫画】60歳で辞めるか、65歳まで働くか。早期退職した夫婦が、76日目に再就職を決めた理由",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3280,
+      "views": 26052,
+      "views_per_hour": 1206.1,
+      "hours": 21.6,
+      "published": "2026-10-19T02:00:36Z",
+      "url": "https://www.youtube.com/watch?v=y8iPHPXVWtI"
+     },
+     "draft": {
+      "vi_sao_thang": "Video đánh trúng nỗi trăn trở lớn nhất của người chuẩn bị hưu trí (nghỉ tuổi 60 hay ráng đến 65) và đưa ra con số thực tế gây sốc (chỉ 76 ngày sau nghỉ sớm đã vỡ mộng tài chính phải đi làm lại).",
+      "de_bai": "Cựu trưởng phòng 38 năm thâm niên nghỉ hưu sớm tuổi 60, nhưng đúng ngày thứ 76 cạn quỹ dự phòng do thâm hụt [SỐ CẦN KIỂM] yên mỗi tháng, buộc phải xin làm nhân viên dọn vệ sinh (清掃) và nếm trải cảm giác kinh nghiệm cả đời bị xóa về số 0.",
+      "khac_nguon": "Đổi từ câu chuyện tâm lý nghỉ ngơi của cặp vợ chồng sang bi kịch cá nhân va chạm thực tế với nghề dọn vệ sinh (清掃), giữ mốc 60 tuổi và con số 76 ngày vỡ mộng.",
+      "hook_3cau": "Tưởng nghỉ hưu tuổi 60 là chuỗi ngày an nhàn, nhưng đúng ngày thứ 76, tài khoản của tôi báo động đỏ khi mỗi tháng thiếu hụt [SỐ CẦN KIỂM] yên. 38 năm ngồi bàn giấy làm quản lý bỗng chốc hóa thành số 0 khi tôi phải cầm cây lau sàn tại tòa nhà thương mại. Bị một nhân viên đáng tuổi con mình quát mắng ngay ngày đầu đi làm, tôi mới thấu nỗi đau của việc tái xuất đi cày.",
+      "title_jp": "【漫画】60歳早期退職の末路…76日目で赤字転落、清掃員に再就職した元課長",
+      "thumbnail_jp": "早期退職76日の末路",
+      "so_lieu_can": [
+       "60 tuổi (nguồn)",
+       "65 tuổi (nguồn)",
+       "76 ngày (nguồn)",
+       "38 năm thâm niên nghề cũ (công thức lane)",
+       "Số tiền thâm hụt sinh hoạt phí hàng tháng: [SỐ CẦN KIỂM] yên",
+       "Tiền lương giờ làm dọn vệ sinh: [SỐ CẦN KIỂM] yên"
+      ],
+      "cau_hoi_cuoi": "定年後、昔のプライドを捨てて全く未経験の仕事に飛び込めますか？ぜひご意見をお聞かせください。",
+      "rui_ro": "Dễ sa đà vào miêu tả tâm lý hoang mang ở nhà trong 76 ngày đầu mà vào việc làm thêm (清掃) quá trễ, vi phạm quy tắc phải tập trung vào va chạm nghề nghiệp của lane.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 1005,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 9.4,
+     "source": {
+      "video_id": "zxjfk4fEN7o",
+      "title": "【漫画】職場の万能な事務員さんを「地味でブス」と笑うイケメン転職者→俺だけが知っている、彼女の本当の姿",
+      "channel": "それ、俺だけど ?【スカッと漫画】",
+      "subs": 232,
+      "views": 16070,
+      "views_per_hour": 255.6,
+      "hours": 62.9,
+      "published": "2026-10-17T08:45:24Z",
+      "url": "https://www.youtube.com/watch?v=zxjfk4fEN7o"
+     },
+     "draft": {
+      "vi_sao_thang": "Nguồn thắng vì khai thác mâu thuẫn giữa một kẻ tự phụ dựa vào vẻ ngoài/tốc độ đi coi thường đồng nghiệp thầm lặng gánh việc, kích thích người xem mong chờ quả báo khi hệ thống thiếu người gánh.",
+      "de_bai": "Một nam điều dưỡng chuyển việc liên tục nói 'Ở viện cũ tôi làm nhanh gấp đôi' để né việc vệ sinh kỹ cho bệnh nhân, để mặc nữ đồng nghiệp cùng ca âm thầm xử lý lại; hậu quả bùng nổ khi nữ đồng nghiệp kiệt sức và tên chị biến mất khỏi bảng phân công ca đêm.",
+      "khac_nguon": "Đổi bối cảnh công sở văn phòng và mô-típ lột xác nhan sắc tình cảm sang viện dưỡng lão cùng ca trực, chuyển cái kết từ phát hiện danh tính sang sụp đổ ca làm việc thực tế.",
+      "hook_3cau": "'Ở viện cũ tôi xử lý xong cả tầng trong chốc lát, chị làm rề rà thế bảo sao không kịp giờ' - câu nói của cậu đồng nghiệp mới khiến phòng giao ca im bặt. Chị đồng nghiệp thâm niên chỉ khẽ gật đầu, lặng lẽ quay lại phòng thay đệm tã đóng ẩu cho cụ ông. Đến đúng giờ đổi ca, bảng phân công trực đêm lần đầu tiên hoàn toàn gạch tên chị.",
+      "title_jp": "「前の施設では余裕でした」と笑う新人介護士。地味な先輩がシフトから消えた夜",
+      "thumbnail_jp": "前の施設ではこうでした",
+      "so_lieu_can": [
+       "Thời lượng tham chiếu: 10.6 phút (từ nguồn)",
+       "Số phút trước giờ tan ca: [SỐ CẦN KIỂM]",
+       "Số người bệnh nhân cần thay bỉm trong ca: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも「前の施設ではこうだった」と言って仕事を押し付ける人はいませんか？",
+      "rui_ro": "Dễ trượt sang việc biến nhân vật mới thành kẻ lười biếng ác độc lộ liễu nếu không giữ được lý lẽ 'tôi đang làm việc năng suất, đúng quy trình' rất hợp lý của cậu ta.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 9.1,
+     "source": {
+      "video_id": "FccxGhjH-C0",
+      "title": "【漫画】大手百貨店部長「AIが査定しました。御社の四十年は〇円です。仕立屋は要りません」→私「わかりました。型紙、お返しします」→「え」…秋の叙勲の朝、会長の背中が裂け、頭を下げに来たのは【スカッと】",
+      "channel": "職場トラブルAI漫画【問題の裏側】",
+      "subs": 1030,
+      "views": 18206,
+      "views_per_hour": 134.3,
+      "hours": 135.6,
+      "published": "2026-10-14T08:00:35Z",
+      "url": "https://www.youtube.com/watch?v=FccxGhjH-C0"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn đạt 134.3 view/giờ trên kênh mới 1030 sub nhờ kích hoạt sự phẫn nộ khi kẻ tự phụ dùng cớ 'công nghệ/chuẩn mực mới' để coi kinh nghiệm lâu năm bằng 0, dẫn đến kết cục bẽ mặt ngay tại thời khắc quan trọng nhất.",
+      "de_bai": "Một kaigo cùng ca luôn miệng nói 'Thời nay quản lý bằng app rồi, kinh nghiệm tay chân của chị giá trị 0 yên' để từ chối các bước nắn chỉnh tư thế tỉ mỉ; người tiền nhiệm lặng lẽ dừng đỡ hộ, để mặc đồng nghiệp đối mặt với hình ảnh vết trượt loét lộ rõ ngay 12 phút trước giờ thanh tra.",
+      "khac_nguon": "Đổi từ bối cảnh bộ trưởng bách hóa - thợ may già sang hai kaigo cùng ca trực tại viện dưỡng lão; đổi chi tiết rách áo ở lễ nhận huân chương thành vết tấy đỏ trên lưng cụ già lộ ra ngay trước giờ giao ca.",
+      "hook_3cau": "Đồng nghiệp cùng ca đập mạnh máy tính bảng xuống bàn và cười cợt rằng thời đại số hóa thì kinh nghiệm chăm sóc tỉ mỉ của tôi chỉ đáng giá 0 yên. Cô ta bảo cứ làm đúng checklist trên màn hình là xong, việc gì phải nắn từng nếp đệm cho mệt người. Tôi không đáp lại, chỉ lặng lẽ cất cuốn sổ ghi nhớ thói quen của các cụ vào đáy tủ cá nhân.",
+      "title_jp": "「経験とか０円なんで」アプリ信者の同僚→省いた結果、巡回12分前の背中に…",
+      "thumbnail_jp": "「それ、無駄なんで」",
+      "so_lieu_can": [
+       "0 yên (lấy từ nguồn: '〇円')",
+       "40 năm (lấy từ nguồn: '四十年')",
+       "[SỐ CẦN KIỂM] phút trước giờ kiểm tra phòng hoặc giao ca",
+       "[SỐ CẦN KIỂM] lần bỏ qua bước chèn đệm chống loét"
+      ],
+      "cau_hoi_cuoi": "マニュアルやアプリを盾にして、現場の気配りを「無駄」と切り捨てる同僚…あなたの職場にもいませんか？",
+      "rui_ro": "Dễ bị trượt sang xung đột thế hệ cũ - mới trừu tượng nếu không gắn chặt việc né việc vào một thao tác thể xác cực kỳ cụ thể trong ca trực kaigo.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 1005,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 11.53,
+     "source": {
+      "video_id": "uxVwiYD3HmI",
+      "title": "【漫画】定年後、夫が毎日家にいるとどうなる？妻が倒れた「夫源病」…65歳夫婦のリアル…",
+      "channel": "あの人の暮らし【アノクラ】",
+      "subs": 93,
+      "views": 18351,
+      "views_per_hour": 136.3,
+      "hours": 134.6,
+      "published": "2026-10-14T09:00:12Z",
+      "url": "https://www.youtube.com/watch?v=uxVwiYD3HmI"
+     },
+     "draft": {
+      "vi_sao_thang": "Đánh trúng nỗi sợ mất vai trò xã hội ở tuổi 65 dẫn đến xung đột gia đình gay gắt (vợ mắc 夫源病 vì chồng quanh quẩn ở nhà), chạm trực tiếp vào lòng tự trọng bị tổn thương của nam giới sau định niên.",
+      "de_bai": "Nam nhân viên 65 tuổi kết thúc hợp đồng tái tuyển dụng, lui về ở nhà khiến vợ ngạt thở đến mức đổ bệnh; để cứu vãn tự trọng và hôn nhân, ông quyết định bước ra khỏi nhà qua 7 công việc kín đáo vừa giữ khoảng cách vừa có thu nhập.",
+      "khac_nguon": "Đổi bi kịch gia đình thuần túy thành đòn bẩy hành động tìm việc làm bảo vệ phẩm giá; giữ mốc 65 tuổi và xung đột vợ chồng khi người chồng ở nhà toàn thời gian.",
+      "hook_3cau": "65 tuổi, ngày đầu tiên nghỉ việc ở nhà toàn thời gian, tôi chết lặng khi nghe tiếng thở dài của vợ: 'Từ nay ngày nào anh cũng quanh quẩn ở đây à?'. Chưa đầy nửa năm, vợ ngất xỉu nhập viện vì hội chứng sợ chồng, còn tôi cay đắng nhận ra mình đã trở thành kẻ thừa thãi tước đoạt không gian của người khác. Để cứu lấy lòng tự trọng và sự bình yên của gia đình, đây là 7 công việc kín đáo giúp người 60+ ra khỏi nhà mà vẫn có tiền.",
+      "title_jp": "65歳定年で在宅…妻が倒れた。夫源病を防ぐ「外に出る穴場仕事」7選",
+      "thumbnail_jp": "妻が限界「家にいないで」",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ nguồn)",
+       "Chi phí sinh hoạt hụt đi mỗi tháng khi nghỉ việc [SỐ CẦN KIỂM]",
+       "Mức thu nhập mục tiêu từ công việc mới [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後、奥様との距離感や居場所の確保で悩んだ経験はありますか？",
+      "rui_ro": "Dễ bị sa đà vào drama mâu thuẫn vợ chồng đời sống nếu không nhanh chóng neo câu chuyện vào bài toán kinh tế và danh sách 7 công việc thực tế của Lane M.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 11.67,
+     "source": {
+      "video_id": "y8iPHPXVWtI",
+      "title": "【漫画】60歳で辞めるか、65歳まで働くか。早期退職した夫婦が、76日目に再就職を決めた理由",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3280,
+      "views": 26052,
+      "views_per_hour": 1206.1,
+      "hours": 21.6,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=y8iPHPXVWtI"
+     },
+     "draft": {
+      "vi_sao_thang": "Nguồn nổ vì đánh trúng thế tiến thoái lưỡng nan tuổi 60 giữa nghỉ hẳn hay cày tiếp tới 65, kết hợp chi tiết tò mò 'ngày thứ 76' sau khi nghỉ hưu sớm nhận ra thực tế nghiệt ngã của tiền bạc.",
+      "de_bai": "Nam nhân viên 60 tuổi bị công ty ép tái ký hợp đồng với mức lương tụt mất [SỐ CẦN KIỂM]% kèm công việc quét dọn dưới quyền cấp dưới cũ, quyết định dứt áo ra đi sau [SỐ CẦN KIỂM] ngày để tìm lại phẩm giá ở 7 công việc ngách ít ai ngờ.",
+      "khac_nguon": "Đổi từ câu chuyện hai vợ chồng cùng nghỉ hưu sớm rồi túng thiếu thành một cá nhân bị sỉ nhục tại bàn đàm phán tái tuyển dụng (再雇用), giữ cấu trúc đếm ngày thức tỉnh và xung đột mốc 60-65 tuổi.",
+      "hook_3cau": "Vừa chạm mốc 60, bảng lương [SỐ CẦN KIỂM] man của tôi bị gọt thẳng tay xuống còn [SỐ CẦN KIỂM] man kèm lời nhắn 'chú làm chân phụ việc giúp tụi trẻ nhé'. Đứng trước lựa chọn cắn răng chịu đựng đến năm 65 tuổi hay trắng tay ra đường, tôi đã chọn phương án thứ ba khiến cả phòng ngỡ ngàng. Nếu bạn cũng sắp nhận tờ giấy tái tuyển dụng, hãy nhìn kỹ con số này trước khi đặt bút ký.",
+      "title_jp": "60歳再雇用の屈辱…給与半減で辞めた男の逆転職7選",
+      "thumbnail_jp": "60歳で辞めて正解",
+      "so_lieu_can": [
+       "60 tuổi (nguồn)",
+       "65 tuổi (nguồn)",
+       "76 ngày (nguồn)",
+       "Mức lương trước và sau tái tuyển dụng: [SỐ CẦN KIỂM] vạn yên",
+       "Tỷ lệ giảm lương thực tế theo quy chế 再雇用: [SỐ CẦN KIỂM]%"
+      ],
+      "cau_hoi_cuoi": "60歳の定年時、給料が半分になっても今の会社に残りますか？それとも別の道を選びますか？",
+      "rui_ro": "Dễ trôi sang kịch bản tâm lý cay cú cấp dưới nếu không bám chặt vào con số thiệt hại tài chính và tiêu chí thực tế của 7 công việc thay thế.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  }
+ }
+}

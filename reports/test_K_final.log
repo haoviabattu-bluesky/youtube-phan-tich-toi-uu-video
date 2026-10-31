@@ -1,0 +1,10 @@
+07:30:45 ===== BAT DAU (DRY-RUN) tay =====
+07:30:47 --- nhom gpm rosellagreysonbk920@gmail.com: ['K-yakkyoku-sukatto']
+07:31:37   GPM start lan 1: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+07:31:43   da dong 0 tien trinh chrome cua profile b74cbbd9 (theo PID [])
+07:31:52   GPM start lan 2: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+07:31:58   da dong 0 tien trinh chrome cua profile b74cbbd9 (theo PID [])
+07:32:06   GPM start lan 3: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+07:32:13   da dong 0 tien trinh chrome cua profile b74cbbd9 (theo PID [])
+07:32:21 LOI mo profile rosellagreysonbk920@gmail.com: GPM khong mo duoc profile sau 3 lan: ProfileInUse
+07:32:21 ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lane bỏ qua: K-yakkyoku-sukatto · 1 phút

@@ -1,0 +1,119 @@
+06:58:35 ===== DA LUONG 2 profile cung luc | 2 nhom | 2 tab (DRY-RUN) =====
+06:58:35   luong 1: ['rosellagreysonbk920@gmail.com']
+06:58:35   luong 2: ['JordaneLaetitia694@gmail.com']
+06:58:35 --no-lock: BO QUA khoa run.lock (chi dung de test)
+06:58:35   mo profile luong 1: gpm rosellagreysonbk920@gmail.com
+06:59:15   chay luong 1: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto']
+06:59:15     · mo profile tiep theo: nghi 0.8s
+06:59:16 ===== BAT DAU (DRY-RUN) tay =====
+06:59:16   mo profile luong 2: gpm JordaneLaetitia694@gmail.com
+06:59:18 --- attach vao profile da mo san: ws://localhost:54216/devtools/browser/bd7b5697-5412-4eda-90c...
+06:59:18 --- tab se doc: ['K-yakkyoku-sukatto']
+06:59:27     · chuyen video: nghi 3.5s
+06:59:40     · KHONG thay 'Content' de bam
+06:59:49     · KHONG thay 'Channel content' de bam
+06:59:49     · khong mo duoc danh sach video -> bo qua video nay
+06:59:49     · Studio bao loi, doi lau: nghi 4.7s
+06:59:54   chay luong 2: JordaneLaetitia694@gmail.com | tabs=['Lane-Q']
+06:59:54     · mo profile tiep theo: nghi 1.2s
+06:59:55 ===== BAT DAU (DRY-RUN) tay =====
+06:59:57 --- attach vao profile da mo san: ws://localhost:54417/devtools/browser/2dbc3edc-f976-4698-b3a...
+06:59:57 --- tab se doc: ['Lane-Q']
+07:00:03     · KHONG thay 'Content' de bam
+07:00:06     · chuyen video: nghi 3.1s
+07:00:11     · bam Content @(97,332)
+07:00:12     · KHONG thay 'Channel content' de bam
+07:00:12     · khong mo duoc danh sach video -> bo qua video nay
+07:00:12 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+07:00:12     · bam video dhjDEazNOy0 @(712,483)
+07:00:12     · chuyen video: nghi 4.1s
+07:00:14     · mo duoc video: 中国「日本の水産業を潰してやる！」→日本産ホタテが劇的復活！中国の水産加工工場が次々と倒
+07:00:15     · bam tab Analytics @(101,380)
+07:00:20     · bam tab Reach @(410,178)
+07:00:25     · KHONG thay 'Content' de bam
+07:00:26     · doc so xong: nghi 0.3s
+07:00:27     · bam nhan khoang ngay @(1328,155)
+07:00:30     · bam Custom @(1326,598)
+07:00:34     · bam o ngay 2026-10-19 @(1304,161)
+07:00:34     · KHONG thay 'Channel content' de bam
+07:00:34     · khong mo duoc danh sach video -> bo qua video nay
+07:00:34     · Studio bao loi, doi lau: nghi 7.3s
+07:00:38     · bam o ngay 2026-10-19 @(1436,161)
+07:00:41     · bam Apply @(1454,505)
+07:00:47     · khoang ngay da doi sang Oct 19, 2026
+07:00:51     · KHONG thay 'Content' de bam
+07:00:51     · doc so xong: nghi 0.2s
+07:00:51 [Lane-Q] dong 2 dhjDEazNOy0: N=5 O=505 P=3,9% Q=4,0% imp24h=5900.0 | ok | K=141h · 505 view · CTR tổng 3,9% · CTR 24h 4,0% · 5.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:00:51     · chuyen video: nghi 3.3s
+07:01:00     · KHONG thay 'Channel content' de bam
+07:01:00     · khong mo duoc danh sach video -> bo qua video nay
+07:01:00 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+07:01:00     · chuyen video: nghi 3.3s
+07:01:03 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+07:01:03     · chuyen video: nghi 3.3s
+07:01:04     · KHONG thay 'Content' de bam
+07:01:04     · bam Channel content @(130,92)
+07:01:06     · bam video f7xhMrUmFug @(712,399)
+07:01:09     · mo duoc video: 中国「日本便を全部止めろ！」→結果、自国の航空会社3社が赤字で沈むｗ【海外の反応・ゆっく
+07:01:09     · bam tab Analytics @(101,380)
+07:01:14     · bam tab Reach @(410,111)
+07:01:16     · KHONG thay 'Content' de bam
+07:01:22     · doc so xong: nghi 0.2s
+07:01:23     · bam nhan khoang ngay @(1328,155)
+07:01:25     · KHONG thay 'Channel content' de bam
+07:01:25     · khong mo duoc danh sach video -> bo qua video nay
+07:01:25     · Studio bao loi, doi lau: nghi 3.7s
+07:01:26     · bam Custom @(1326,598)
+07:01:29     · bam o ngay 2026-10-19 @(1304,161)
+07:01:33     · bam o ngay 2026-10-19 @(1436,161)
+07:01:37     · bam Apply @(1454,505)
+07:01:37     · KHONG thay 'Content' de bam
+07:01:42     · khoang ngay da doi sang Oct 19, 2026
+07:01:44     · doc so xong: nghi 0.2s
+07:01:45 [Lane-Q] dong 4 f7xhMrUmFug: N=4 O=20 P=3,7% Q=3,8% imp24h=288.0 | ok | K=105h · 20 view · CTR tổng 3,7% · CTR 24h 3,8% · 288 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:01:45     · chuyen video: nghi 4.3s
+07:01:46     · KHONG thay 'Channel content' de bam
+07:01:46     · khong mo duoc danh sach video -> bo qua video nay
+07:01:46 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: khong doc duoc trang Reach 24h -> bo qua
+07:01:46 [K-yakkyoku-sukatto] DRY-RUN: 0 dong, KHONG ghi sheet
+07:01:47     · chuyen tab: nghi 1.3s
+07:01:48 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 2 phút
+07:01:48   luong rosellagreysonbk920@gmail.com xong (exit 0)
+07:01:48   dong profile rosellagreysonbk920@gmail.com
+07:01:58     · KHONG thay 'Content' de bam
+07:01:59     · bam Channel content @(130,92)
+07:02:01     · bam video ZJauO_vPW9E @(712,567)
+07:02:03     · mo duoc video: 中国「張本は口だけｗ」→結果、ブーイングした中国が世界ランクから消えるｗ【海外の反応・ゆ
+07:02:04     · bam tab Analytics @(101,380)
+07:02:10     · bam tab Reach @(410,177)
+07:02:17     · doc so xong: nghi 0.1s
+07:02:18     · bam nhan khoang ngay @(1328,155)
+07:02:21     · bam Custom @(1326,598)
+07:02:24     · bam o ngay 2026-10-19 @(1304,161)
+07:02:27     · bam o ngay 2026-10-19 @(1436,161)
+07:02:31     · bam Apply @(1454,505)
+07:02:36     · khoang ngay da doi sang Oct 19, 2026
+07:02:40     · doc so xong: nghi 0.3s
+07:02:40 [Lane-Q] dong 6 ZJauO_vPW9E: N=8 O=77 P=3,5% Q=3,5% imp24h=688.0 | ok | K=215h · 77 view · CTR tổng 3,5% · CTR 24h 3,5% · 688 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:02:40     · chuyen video: nghi 4.1s
+07:02:53     · KHONG thay 'Content' de bam
+07:02:54     · bam Channel content @(130,92)
+07:02:56     · bam video HlC_ibnbsFs @(712,315)
+07:02:58     · mo duoc video: 中国「日本の観光はもう終わりだ！世界一は中国だ！」→結果、中国の偽物の古い町並みはガラガ
+07:02:59     · bam tab Analytics @(101,380)
+07:03:03     · bam tab Reach @(410,178)
+07:03:13     · doc so xong: nghi 0.2s
+07:03:14     · bam nhan khoang ngay @(1328,155)
+07:03:17     · bam Custom @(1326,598)
+07:03:20     · bam o ngay 2026-10-19 @(1304,161)
+07:03:24     · bam o ngay 2026-10-19 @(1436,161)
+07:03:27     · bam Apply @(1454,505)
+07:03:33     · khoang ngay da doi sang Oct 19, 2026
+07:03:36     · doc so xong: nghi 0.2s
+07:03:37 [Lane-Q] dong 7 HlC_ibnbsFs: N=0 O=3 P=25,0% Q=25,0% imp24h=0.0 | ok | K=19h · 3 view · CTR tổng 25,0% · CTR 24h 25,0% · 0 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:03:37 [Lane-Q] DRY-RUN: 4 dong, KHONG ghi sheet
+07:03:37     · chuyen tab: nghi 1.2s
+07:03:38 ===== XONG: 4 video · 0 dòng vàng · lỗi 0 video · lane bỏ qua: không · 3 phút
+07:03:38   luong JordaneLaetitia694@gmail.com xong (exit 0)
+07:03:38   dong profile JordaneLaetitia694@gmail.com
+07:03:38 ===== XONG DA LUONG: 5 phut (2 profile cung luc)

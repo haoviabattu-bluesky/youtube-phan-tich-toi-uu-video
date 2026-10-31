@@ -1,0 +1,297 @@
+{
+ "day": "2026-10-19",
+ "generated": "2026-10-19 08:51",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 1212,
+   "jobs": [
+    {
+     "grade": "C",
+     "score": 11.21,
+     "source": {
+      "video_id": "7eMUyKQOtrw",
+      "title": "【漫画】お見合いで妹を紹介されたら、写真と別人の美女が現れて…「絶対に逃げないでよ」",
+      "channel": "るびこん漫画",
+      "subs": 2330,
+      "views": 32504,
+      "views_per_hour": 338.6,
+      "hours": 96.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=7eMUyKQOtrw"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý tò mò và ảo tưởng của nam giới trong 婚活: motif 'ảnh mai mối xấu nhưng ngoài đời là mỹ nữ' kèm câu thoại lật kèo mang tính đe dọa ('đừng hòng chạy')",
+      "de_bai": "Một nam nhân viên văn phòng 38 tuổi tự ti đi xem mắt tại 結婚相談所, bất ngờ gặp mỹ nữ 26 tuổi đòi cưới gấp trong [SỐ CẦN KIỂM] tháng, để rồi phát hiện mình rơi vào bẫy 'tuyển người gánh nợ và chăm sóc gia đình' hợp pháp hóa qua hôn nhân.",
+      "khac_nguon": "Đổi bối cảnh từ mai mối gia đình giới thiệu em gái sang cạm bẫy dịch vụ 結婚相談所, đổi cái kết tình cảm cá nhân thành màn bóc trần cơ chế trục lợi dựa trên sự tuyệt vọng của 婚活男性.",
+      "hook_3cau": "Một cô gái 26 tuổi đẹp như người mẫu lại tha thiết đòi kết hôn ngay lần đầu gặp với người đàn ông 38 tuổi thu nhập bình thường? Đằng sau nụ cười thì thầm 'tuyệt đối đừng chạy trốn nhé' không phải phép màu cổ tích, mà là một cái bẫy có tính toán. Hãy cùng lật mở cơ chế đen tối đang biến những cuộc hôn nhân 'quá hời' thành bản án tài chính suốt đời.",
+      "title_jp": "【婚活の闇】なぜ美女は売れ残り男に迫るのか？結婚相談所に潜む罠",
+      "thumbnail_jp": "逃げないでよ？裏の罠",
+      "so_lieu_can": [
+       "Phí thành hôn (成婚料) trung bình tại các 結婚相談所: [SỐ CẦN KIỂM]",
+       "Tỷ lệ chênh lệch cung-cầu nam/nữ theo độ tuổi trong 婚活: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "もしお見合いで写真以上の美女から即決を迫られたら、あなたはその裏を疑いますか？",
+      "rui_ro": "Nếu kịch bản quá tập trung vào drama lừa đảo cá nhân mà không nêu bật được cơ chế vận hành bất cập của thị trường 婚活, video sẽ bị trôi thành truyện giật gân đại trà thay vì nội dung phân tích xã hội của lane.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 10.23,
+     "source": {
+      "video_id": "rG5noBMZREc",
+      "title": "【漫画】「AI使えばいい」AIを過信したZ世代の末路とは…？",
+      "channel": "社会観測所",
+      "subs": 8750,
+      "views": 19922,
+      "views_per_hour": 207.5,
+      "hours": 96.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=rG5noBMZREc"
+     },
+     "draft": {
+      "vi_sao_thang": "Nguồn nổ (đạt gần 20.000 view sau 4 ngày ở kênh nhỏ) nhờ đánh trúng tâm lý ức chế thế hệ tại công sở: người đi trước bất bình khi thế hệ trẻ lạm dụng AI để đi đường tắt và sự hả hê muốn xem cái giá phải trả (末路).",
+      "de_bai": "Một nhân viên Z-gen dùng AI tự động hóa phần lớn công việc để tan làm đúng giờ và đạt KPI ảo, cho đến khi một báo cáo quan trọng dính lỗi thông tin giả do AI bịa đặt gây thiệt hại cho khách hàng, đẩy cả phòng vào khủng hoảng quy trách nhiệm.",
+      "khac_nguon": "Đổi từ việc Z-gen lười biếng cá nhân bị đuổi việc sang xung đột quản trị do phong trào chuyển đổi số ép chỉ số, giữ cơ chế đối đầu gay gắt giữa quản lý kỳ cựu và tư duy làm việc thời AI.",
+      "hook_3cau": "AI làm xong hết rồi nên tôi xin phép về đúng giờ nhé. Câu nói nhẹ tênh của cấp dưới Z-gen khiến trưởng phòng nghẹn họng, cho đến khi đối tác khẩn cấp gọi điện đòi bồi thường hợp đồng vì số liệu ma. Đây không phải chuyện của riêng kẻ lười biếng, mà là cái bẫy cơ chế khi nơi làm việc thần thánh hóa AI.",
+      "title_jp": "【漫画】「AI任せで定時退社」を続けたZ世代の末路",
+      "thumbnail_jp": "ＡＩ過信の末路",
+      "so_lieu_can": [
+       "Số giờ làm việc cắt giảm được nhờ AI [SỐ CẦN KIỂM] giờ/tuần",
+       "Thiệt hại hợp đồng phát sinh do số liệu sai lệch [SỐ CẦN KIỂM] vạn yên",
+       "Tỷ lệ nhân viên trẻ sử dụng AI tạo sinh trong công việc hàng ngày [SỐ CẦN KIỂM]%"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも、AIを過信して確認を怠る部下や同僚はいませんか？",
+      "rui_ro": "Dễ bị trượt sang bài giảng kỹ thuật công nghệ trừu tượng (vùng đã thua) nếu quá đào sâu vào cách hoạt động của AI thay vì tập trung vào drama tranh cãi trách nhiệm giữa quản lý và cấp dưới.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 1212,
+   "jobs": [
+    {
+     "grade": "A",
+     "score": 21.27,
+     "source": {
+      "video_id": "VOx2qqJpEHQ",
+      "title": "【漫画】定年後、一流の人ほど欠かさない「小さな習慣」5選【誰でも出来る】",
+      "channel": "人生の知らせ",
+      "subs": 6360,
+      "views": 166641,
+      "views_per_hour": 2314.5,
+      "hours": 72.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=VOx2qqJpEHQ"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng nỗi sợ mất giá trị và sự bơ vơ sau nghỉ hưu, dùng vỏ bọc 'thói quen của người hạng nhất' để kích thích tính tò mò muốn duy trì thể diện của nhóm khán giả lớn tuổi.",
+      "de_bai": "Một cựu trưởng phòng cống hiến [SỐ CẦN KIỂM] năm, sau hưu bị thiếu hụt [SỐ CẦN KIỂM] vạn yên/tháng nên phải đi làm quản lý chung cư (マンション管理人); mang thói quen chỉ đạo cũ áp dụng vào việc mới thì bị cư dân coi là số không, buộc phải học các quy tắc sinh tồn thực tế để giữ việc.",
+      "khac_nguon": "Đổi từ video liệt kê triết lý sống chung chung thành câu chuyện làm việc cụ thể tại một chung cư với áp lực thiếu tiền hàng tháng, giữ lại móc nối về 'thói quen/quy tắc sống còn sau định niên'.",
+      "hook_3cau": "40 năm làm việc tôi luôn tự hào giữ đúng thói quen của một nhân sự cốt cán, cho đến khi cầm sổ hưu thiếu đúng [SỐ CẦN KIỂM] vạn yên mỗi tháng. Ở tuổi 65, đứng cúi đầu lau dọn rác bị cư dân đáng tuổi con nạt nộ, mọi hào quang cũ lập tức trở về con số không. Muốn bám trụ lại nghề quản lý chung cư này, tôi buộc phải học lại những thói quen sinh tồn hoàn toàn khác.",
+      "title_jp": "定年後、月[SỐ CẦN KIỂM]万不足…元部長が管理人室で捨てたプライド",
+      "thumbnail_jp": "元部長の管理人",
+      "so_lieu_can": [
+       "Số năm làm việc ở công ty cũ [SỐ CẦN KIỂM]",
+       "Số tiền lương hưu thiếu hụt mỗi tháng [SỐ CẦN KIỂM]",
+       "Mức thù lao theo giờ hoặc lương tháng của nghề quản lý chung cư [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後の新しい仕事で、昔のプライドを完全に捨てることはできると思いますか？ご意見をお聞かせください。",
+      "rui_ro": "Dễ bị trôi về bài học đạo lý cuộc sống giống video nguồn nếu không mô tả chi tiết các đầu việc cực nhọc và xung đột tiền nong cụ thể tại chung cư.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 19.08,
+     "source": {
+      "video_id": "z7YJotPEykI",
+      "title": "【漫画】定年後、シルバー人材センターに入った65歳の男「月5万は余裕だろ！」→1年後…",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3210,
+      "views": 21394,
+      "views_per_hour": 891.4,
+      "hours": 24.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=z7YJotPEykI"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý tự tin thái quá của nam giới tuổi 65 khi nghĩ kiếm thêm 5 vạn yên/tháng ở tuổi già là chuyện nhỏ, kết hợp tò mò về thực tế sau 1 năm gia nhập Trung tâm Nhân lực Bạc (Silver Center). Tốc độ 891.4 view/giờ chứng minh chủ đề việc làm hưu trí kèm con số tiền cụ thể có sức hút rất mạnh với tệp khán giả lớn tuổi.",
+      "de_bai": "Một cựu trưởng phòng 65 tuổi cống hiến 38 năm [SỐ CẦN KIỂM], nhận lương hưu thiếu 5 vạn yên mỗi tháng nên đăng ký làm công việc dọn dẹp vệ sinh (清掃) qua Silver Center với tâm thế kiếm tiền dễ dàng. Cái giá phải trả là toàn bộ kinh nghiệm quản lý bị coi là con số 0 khi ông phải quỳ gối cọ bồn cầu dưới sự chỉ đạo gay gắt của người giám sát trẻ tuổi.",
+      "khac_nguon": "Đổi từ góc nhìn chung chung về Silver Center sang một nghề cụ thể là dọn dẹp vệ sinh (清掃), đẩy mạnh xung đột hạ cái tôi của 38 năm [SỐ CẦN KIỂM] làm văn phòng xuống công việc lao động chân tay nặng nhọc.",
+      "hook_3cau": "Đường đường là cựu trưởng phòng vừa nghỉ hưu tuổi 65, tôi từng tự tin nghĩ kiếm thêm 5 vạn yên mỗi tháng ở Trung tâm Nhân lực Bạc chỉ là chuyện cỏn con. Thế nhưng ngay buổi đi làm đầu tiên, thứ đón chào tôi không phải sự nể trọng mà là xô nước lau sàn và ánh mắt lạnh tanh của người quản lý đáng tuổi con mình. 38 năm [SỐ CẦN KIỂM] lăn lộn thương trường của tôi, hóa ra khi bước vào nhà vệ sinh công cộng chẳng có giá trị nổi 1 yên.",
+      "title_jp": "【漫画】65歳定年後「月5万稼ぐ」と清掃に入った元課長…38年の誇りが崩壊した現実",
+      "thumbnail_jp": "月5万清掃の過酷な現実",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ nguồn: 65歳の男)",
+       "5 vạn yên/tháng (lấy từ nguồn: 月5万)",
+       "Mốc thời gian 1 năm (lấy từ nguồn: 1年後)",
+       "38 năm cống hiến công ty cũ [SỐ CẦN KIỂM]",
+       "Mức lương hưu nhận thực tế mỗi tháng [SỐ CẦN KIỂM]",
+       "Thù lao thực nhận theo giờ của công việc dọn dẹp [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後にシルバー人材センターや清掃の仕事を経験された方、現実は甘かったですか？ぜひコメント欄で教えてください。",
+      "rui_ro": "Nếu sa đà quá nhiều vào drama mâu thuẫn lòng tự trọng mà thiếu đi các chi tiết thực tế về định mức công việc, tiền công và hợp đồng của nghề dọn dẹp, video sẽ dễ bị đánh giá là kịch bản bi kịch hóa thay vì nội dung thực chiến cho người chuẩn bị nghỉ hưu.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 1212,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 13.25,
+     "source": {
+      "video_id": "PuwLwPrNxzU",
+      "title": "【スカッと】義母の介護を５年任せて妻を捨てた夫「女を捨ててたじゃないか。もっと若くて綺麗な人と再婚する」私「離婚するわ」→SNSで有名人になった私を見るなり復縁を迫ってきたので…【アニメ漫画】",
+      "channel": "妻のスカッと【ツマスカ】",
+      "subs": 727,
+      "views": 23385,
+      "views_per_hour": 974.4,
+      "hours": 24.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=PuwLwPrNxzU"
+     },
+     "draft": {
+      "vi_sao_thang": "Nguồn nổ nhờ kích hoạt sự uất ức cực độ khi công sức gánh vác việc chăm sóc nặng nhọc suốt 5 năm bị phủ nhận và chê bai là 'kém cỏi/không biết làm đẹp', sau đó giải tỏa bằng việc kẻ vô ơn nhận cái giá thích đáng khi mất đi người gánh vác.",
+      "de_bai": "Hai điều dưỡng ngang hàng làm cùng nhau 5 năm, kẻ lười dùng câu 'それ、私の担当じゃないんで' đùn đẩy toàn bộ ca chăm sóc nặng/thay bỉm cho người hiền lành và tự nhận mình 'làm việc thông minh, tối ưu hơn'; cái giá đến khi người hiền nộp đơn chuyển ca, tên biến mất khỏi bảng trực và kẻ kia sụp đổ ngay ca trực một mình đầu tiên [SỐ CẦN KIỂM].",
+      "khac_nguon": "Đổi từ drama hôn nhân/mẹ chồng - nàng dâu sang mâu thuẫn đồng nghiệp cùng ca tại viện dưỡng lão; đổi cách trả đũa bằng nổi tiếng mạng xã hội sang hậu quả thực tế tại nơi làm việc khi bảng phân công thay đổi; giữ nguyên cốt lõi 5 năm gánh việc chăm sóc bị coi thường.",
+      "hook_3cau": "'Suốt 5 năm qua cô toàn làm mấy việc chân tay bẩn thỉu đó vì không biết cách tối ưu công việc đấy à?' Đồng nghiệp cùng ca thản nhiên buông câu 'Đó không phải việc của tôi' rồi xách túi ra về đúng giờ. Người đó không hề biết rằng, bảng phân công ca trực ngày mai đã không còn tên tôi gánh thay nữa.",
+      "title_jp": "「それ担当じゃないんで」5年介護を押し付け定時退社する同僚の末路",
+      "thumbnail_jp": "5年押し付けた末路",
+      "so_lieu_can": [
+       "5 năm (5年) - lấy từ video nguồn",
+       "15 phút trước giờ giao ca - [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも「それ担当じゃない」と言って面倒な介護を押し付ける同僚はいますか？",
+      "rui_ro": "Khoảng thời gian 5 năm chịu đựng giữa hai đồng nghiệp ngang hàng có thể khiến người xem thấy thụ động khó tin nếu không khắc họa rõ lý do nhẫn nhịn và sự tích tụ của những việc vụn vặt hàng ngày.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 10.47,
+     "source": {
+      "video_id": "l09lVlGK5E8",
+      "title": "【漫画】経理課長「この手形、ゼロを一つ足しましたね」→元信金マンと一枚の印紙で町工場のばね屋が逆転【スカッと漫画】",
+      "channel": "スカッと島",
+      "subs": 237,
+      "views": 19393,
+      "views_per_hour": 269.3,
+      "hours": 72.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=l09lVlGK5E8"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ chi tiết phát hiện gian lận bằng một con số sai lệch cụ thể trên giấy tờ; Lane O khai thác cơ chế này qua việc phát hiện sai phạm ghi chép của đồng nghiệp lười biếng luôn miệng nói lý lẽ.",
+      "de_bai": "Đồng nghiệp cùng ca 32 tuổi luôn dùng câu '私、間違えないんで' để né đo sinh hiệu và tự bịa số liệu sổ sách, người gánh thay âm thầm phát hiện con số chênh lệch bất thường dẫn đến việc kẻ lười bị gạch tên khỏi ca trực chung.",
+      "khac_nguon": "Đổi bối cảnh từ xưởng cơ khí và kế toán ăn chặn sang ca trực viện dưỡng lão đo sinh hiệu; giữ cơ chế vạch trần kẻ lươn lẹo bằng một con số vô lý trên chứng từ ghi chép.",
+      "hook_3cau": "Đồng nghiệp ca chiều cười nhạt bảo 'Tôi không bao giờ nhầm đâu' rồi đẩy xấp sổ theo dõi bài tiết sang cho tôi. Cô ta chỉ ngồi chép lại số liệu cũ của tuần trước để kịp giờ lướt điện thoại. Nhưng trên tờ phiếu sinh hiệu phòng 204, cô ta đã lỡ tay viết dư một chữ số không thể cứu vãn.",
+      "title_jp": "「私、間違えないんで」記録を偽造した同僚介護士の末路",
+      "thumbnail_jp": "私間違えないんで",
+      "so_lieu_can": [
+       "Số 0 viết thừa trên phiếu theo dõi (lấy cảm hứng từ video nguồn)",
+       "Huyết áp bất thường [SỐ CẦN KIỂM]",
+       "Số phòng bệnh viện dưỡng lão [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "みなさんの職場にも「私、間違えないんで」と言って手抜きする同僚はいませんか？",
+      "rui_ro": "Dễ bị trôi sang hướng điều tra trinh thám nếu quá tập trung vào con số giả mạo thay vì cảm xúc ức chế và sự quá tải của người phải gánh việc.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 1212,
+   "jobs": [
+    {
+     "grade": "A",
+     "score": 19.31,
+     "source": {
+      "video_id": "Eu0sV2ZCjr4",
+      "title": "【漫画】テレビ通販で豪華クルーズを申し込んだ65歳夫婦。テレビではわからない10日間の船旅の実態とは？",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3210,
+      "views": 154210,
+      "views_per_hour": 1606.4,
+      "hours": 96.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=Eu0sV2ZCjr4"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý vỡ mộng của tuổi 65: kỳ vọng viễn cảnh hưu trí màu hồng (du thuyền 10 ngày) va chạm với thực tế phũ phàng, kích hoạt nỗi bất an tài chính tuổi già của tệp 60+.",
+      "de_bai": "Người đàn ông 65 tuổi vừa định nghỉ ngơi sau chuỗi 10 ngày thưởng hưu trí thì bị công ty ép tái tuyển dụng với mức lương bị cắt [SỐ CẦN KIỂM] yên và giảm ca, chạm tự ái danh dự khiến ông quyết định dứt áo tìm 7 công việc giữ phẩm giá.",
+      "khac_nguon": "Đổi bối cảnh từ chuyến du lịch mua qua TV sang xung đột ép hạ lương tái tuyển dụng ở công ty; đổi kết thúc từ vỡ mộng tiêu dùng sang hành động giữ phẩm giá; giữ mốc 65 tuổi và yếu tố sụp đổ ảo tưởng an nhàn.",
+      "hook_3cau": "Vừa bước sang tuổi 65 và tính tự thưởng chuyến nghỉ ngơi 10 ngày, tôi nhận được bản hợp đồng tái tuyển dụng bị cắt thẳng [SỐ CẦN KIỂM] yên thu nhập mỗi tháng. Quản lý trẻ tuổi buông lời sắc lạnh: 'Tuổi này có việc giữ lại là may mắn rồi, đừng đòi hỏi nhiều'. Câu nói ấy chạm thẳng vào lòng tự trọng của một đời cống hiến, thúc đẩy tôi đưa ra một quyết định thay đổi hoàn toàn cục diện.",
+      "title_jp": "65歳再雇用の裏切り…月給激変で尊厳奪われた男の逆転劇7選",
+      "thumbnail_jp": "65歳再雇用の現実",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ video nguồn)",
+       "10 ngày (lấy từ video nguồn)",
+       "Số tiền lương bị cắt giảm sau tái tuyển dụng [SỐ CẦN KIỂM]",
+       "Mức trần thu nhập tránh bị trừ lương hưu 在職老齢年金 [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "65歳を超えてからの再雇用で、理不尽な条件を提示された経験はありますか？",
+      "rui_ro": "Dễ bị trôi thành câu chuyện drama cảm xúc đơn thuần nếu không neo chặt vào con số tiền lương bị cắt và các quy định pháp lý về lương hưu.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "B",
+     "score": 13.83,
+     "source": {
+      "video_id": "B48_kgPWIig",
+      "title": "【漫画】65歳でスーパーの品出しになるとどうなるのか？元教師が早朝3時間で知った現実…店長は、昔の教え子だった",
+      "channel": "はたらく横顔",
+      "subs": 542,
+      "views": 66632,
+      "views_per_hour": 555.3,
+      "hours": 120.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=B48_kgPWIig"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nổ lớn vì đánh trúng nỗi đau rơi rụng phẩm giá tột cùng ở tuổi 65: người từng có vị thế xã hội (giáo viên) phải làm việc chân tay mức đáy và bị cấp dưới/học trò cũ trực tiếp chỉ đạo.",
+      "de_bai": "Cựu trưởng phòng 65 tuổi bị công ty cũ cắt giờ làm xuống dưới 20h/tuần để né đóng bảo hiểm, phải nhận việc quét dọn và chạm mặt cấp dưới cũ, từ đó tỉnh ngộ tìm 7 công việc giữ trọn phẩm giá và lương hưu.",
+      "khac_nguon": "Đổi cựu giáo viên làm xếp hàng siêu thị thành cựu trưởng phòng bị ép giảm ca mất bảo hiểm xã hội, đổi việc chấp nhận cam chịu thành phân tích giải pháp rút lui vào 7 công việc穴場 giữ phẩm giá.",
+      "hook_3cau": "Từng chỉ đạo hàng chục nhân viên, ở tuổi 65 tôi phải cúi đầu trước người từng là lính của mình để xin giữ ca 3 tiếng mỗi sáng. Khi nhận ra công ty cố tình dồn giờ làm xuống dưới mức đóng bảo hiểm, tôi hiểu mình không chỉ mất tiền mà đang tự vứt bỏ chút tự trọng cuối cùng. Nhưng rời đi thế nào để vừa không mất lương hưu vừa ngẩng cao đầu thì không ai dạy.",
+      "title_jp": "65歳元課長が早朝3時間清掃で失った尊厳…シフト削減の罠と再就職7選",
+      "thumbnail_jp": "部下の前で早朝清掃",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ nguồn: 65歳)",
+       "Ca sáng 3 giờ (lấy từ nguồn: 早朝3時間)",
+       "Ngưỡng giờ làm việc 20 giờ/tuần để duy trì bảo hiểm xã hội [SỐ CẦN KIỂM]",
+       "Mức thu nhập bị cắt giảm hàng tháng [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "もし元部下の職場で働くことになったら、プライドと収入のどちらを優先しますか？",
+      "rui_ro": "Dễ bị cuốn vào kịch bản drama đấu đá cá nhân mà quên đi bản chất Lane M là phân tích thiệt hơn về con số kinh tế và 7 lựa chọn công việc an toàn.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  }
+ }
+}

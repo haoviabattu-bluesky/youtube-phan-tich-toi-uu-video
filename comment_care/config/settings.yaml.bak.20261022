@@ -1,0 +1,44 @@
+# Comment Care — cấu hình chung (không chứa secret). Đường dẫn tuyệt đối theo máy 1.
+paths:
+  state_db: E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\comment_care\state\comment_care.sqlite
+  reports_dir: E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\reports\comment_care
+  h2dev_pipeline: E:\CLAUDE\YOUTUBE\h2dev\pipeline
+  flowhandoff_jobs: E:\CLAUDE\YOUTUBE\FlowHandoff_local\jobs   # sửa 2026-10-14: thư mục cũ trong h2dev không còn (anh báo)
+  sheets_service_account: D:\CLAUDE\credentials\google-sheets-key.json
+  youtube_oauth_dir: D:\CLAUDE\credentials\youtube_oauth      # token OAuth per channel (Phase 2b, chưa có)
+
+youtube_api:
+  key_env: YOUTUBE_API_KEY
+  key_env_file: E:\CLAUDE\YOUTUBE\TRENDING-RESEARCH\config\.env   # đọc dòng YOUTUBE_API_KEY= nếu env trống
+  daily_quota_budget: 6000          # unit/ngày dành cho module này (project 10.000)
+  cost: {commentThreads: 1, comments: 1, videos: 1, channels: 1, playlistItems: 1, insert: 50}
+
+sheet:
+  id: 1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU
+  col_folder: 2      # C = FOLDER (thư mục assets của tập)
+  col_video_id: 11   # L = ID video YouTube
+
+limits:
+  max_threads_fetch_per_channel: 200
+  max_comments_llm_per_run: 50
+  max_replies_per_run: 20
+  daily_cap_per_channel: 30
+  judge_regen_max: 2
+  send_gap_seconds: [20, 60]
+  send_hours_jst: [8, 22]
+
+llm:
+  classify_chain: [[ramclouds, gemini-3.8-flash], [ns24, gemini-3.8-flash], [ns24, deepseek-v4.1-flash]]
+  classify_temperature: 0.1
+  generate_strong_model: claude-opus-5-5         # qua claude -p (claude_p_bridge)
+  generate_cheap_chain: [[ramclouds, gemini-3.8-flash], [ns24, gemini-3.8-flash]]
+  generate_temperature: 0.3
+  judge_primary: sol                             # gpt-5.6-sol qua sol_client (khác họ với Claude/gemini)
+  judge_fallback_chain: [[ramclouds, gemini-3.8-flash], [ns24, gemini-3.8-flash]]
+  timeout_s: 180
+
+versions:
+  prompt_version: v1
+  policy_version: v1
+
+retention_days_raw_comment: 90

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\reports\explore_custom_range.py", line 81, in <module>
+    lab = [x for x in parts if ("Now" in x or "—" in x) and len(x)<40][0]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

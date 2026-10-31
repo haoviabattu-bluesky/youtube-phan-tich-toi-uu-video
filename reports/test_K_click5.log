@@ -1,0 +1,26 @@
+07:21:28 ===== BAT DAU (DRY-RUN) tay =====
+07:21:31 --- nhom gpm rosellagreysonbk920@gmail.com: ['K-yakkyoku-sukatto']
+07:22:29     · chuyen video: nghi 1.7s
+07:22:31     · chua san sang (url=https://studio.youtube.com/channel/UCk8E_FHIYjY7GN_qdpSKaMw, menu=KHONG) -> chuyen lai
+07:22:41     · bam kenh 薬局スカッと帳 @(1039,146)
+07:22:48 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: LOI doc Studio Page.evaluate: Execution context was destroyed, most likely because of a navigation
+07:22:48     · Studio bao loi, doi lau: nghi 7.4s
+07:22:55     · chua san sang (url=https://www.youtube.com/account, menu=KHONG) -> chuyen lai
+07:23:03     · bam kenh 薬局スカッと帳 @(1015,146)
+07:23:09 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: LOI doc Studio Page.evaluate: Execution context was destroyed, most likely because of a navigation
+07:23:09 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+07:23:09     · chuyen video: nghi 3.5s
+07:23:12 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+07:23:12     · Studio bao loi, doi lau: nghi 4.9s
+07:23:17 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+07:23:17 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+07:23:17     · chuyen video: nghi 3.4s
+07:23:21 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+07:23:21     · chuyen video: nghi 2.6s
+07:23:23 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+07:23:23     · Studio bao loi, doi lau: nghi 4.9s
+07:23:28 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+07:23:28 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: khong doc duoc trang Reach 24h -> bo qua
+07:23:28 [K-yakkyoku-sukatto] DRY-RUN: 0 dong, KHONG ghi sheet
+07:23:28     · chuyen tab: nghi 0.8s
+07:23:29 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 2 phút

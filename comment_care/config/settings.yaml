@@ -3,7 +3,7 @@ paths:
   state_db: E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\comment_care\state\comment_care.sqlite
   reports_dir: E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\reports\comment_care
   h2dev_pipeline: E:\CLAUDE\YOUTUBE\h2dev\pipeline
-  flowhandoff_jobs: E:\CLAUDE\YOUTUBE\h2dev\FlowHandoff_local\jobs
+  flowhandoff_jobs: E:\CLAUDE\YOUTUBE\FlowHandoff_local\jobs   # sửa 2026-10-14: thư mục cũ trong h2dev không còn (anh báo)
   sheets_service_account: D:\CLAUDE\credentials\google-sheets-key.json
   youtube_oauth_dir: D:\CLAUDE\credentials\youtube_oauth      # token OAuth per channel (Phase 2b, chưa có)
 
@@ -31,6 +31,7 @@ llm:
   classify_chain: [[ramclouds, gemini-3.8-flash], [ns24, gemini-3.8-flash], [ns24, deepseek-v4.1-flash]]
   classify_temperature: 0.1
   generate_strong_model: claude-opus-5-5         # qua claude -p (claude_p_bridge)
+  generate_use_claude: false                     # anh chốt 2026-10-22: hết quota Claude → strong = sol → gemini. ĐỪNG bật lại khi chưa hỏi anh
   generate_cheap_chain: [[ramclouds, gemini-3.8-flash], [ns24, gemini-3.8-flash]]
   generate_temperature: 0.3
   judge_primary: sol                             # gpt-5.6-sol qua sol_client (khác họ với Claude/gemini)

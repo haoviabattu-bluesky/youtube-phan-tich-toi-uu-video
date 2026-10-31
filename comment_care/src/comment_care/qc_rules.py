@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 from .prefilter import japanese_ratio
+from .reply_rules import body_fails
 
 EMOJI = re.compile(r"[\U0001F300-\U0001FAFF☀-➿]")
 INTERNAL = re.compile(r"\{|\}|\[|\]|CATEGORY|CONFIDENCE|REPLY_DECISION|PROPOSED|```|#{2,}|<\w+>")
@@ -29,30 +30,23 @@ class RuleQC:
     def blocklist_hits(self, text: str) -> list[str]:
         return [p.pattern for p in self.block if p.search(text or "")]
 
-    def check(self, body: str, footer: str, dec, allowed_footers: list[str], recent_texts: list[str]) -> list[str]:
+    def check(self, body: str, footer: str, dec, allowed_footers: list[str], recent_texts: list[str], comment_text: str = "",
+              video_title: str = "") -> list[str]:
         fails = []
         if not body or not body.strip():
             return ["empty"]
         if japanese_ratio(body) < 0.6:
             fails.append(f"japanese_only ratio={japanese_ratio(body):.2f}")
-        if VIET.search(body):
-            fails.append("vietnamese_chars")
-        if re.search(r"[A-Za-z]{4,}", body):
-            fails.append("latin_word")
+        # 2026-10-22 HUONG_DAN_HERMES: tiếng Việt/Latin/emoji/@/link + CẤM trích dẫn lời khách/tiêu đề, cấm số, cấm nói về bản thân, thân ≤50
+        fails += body_fails(body, comment_text, video_title)
         n = ja_len(body)
         lo, hi = dec.length
         if n < lo:
             fails.append(f"too_short {n}<{lo}")
-        if n > hi + 20:
+        if n > hi:
             fails.append(f"too_long {n}>{hi}")
-        if EMOJI.search(body):
-            fails.append("emoji")
         if INTERNAL.search(body):
             fails.append("internal_text")
-        if "@" in body:
-            fails.append("at_mention")
-        if re.search(r"https?://|www\.", body):
-            fails.append("url")
         hits = self.blocklist_hits(body)
         if hits:
             fails.append("blocklist:" + ";".join(hits[:3]))
@@ -68,6 +62,7 @@ class RuleQC:
                 fails.append("sentence_over_75")
                 break
         full = (body + ("\n" + footer if footer else "")).strip()
-        if full in [t.strip() for t in recent_texts if t]:
+        # câu cố định SENSITIVE (anh chốt 2026-10-15) / THANKS (2026-10-22) được phép lặp trong cùng video
+        if getattr(dec, "template_key", None) not in ("SENSITIVE", "THANKS") and full in [t.strip() for t in recent_texts if t]:
             fails.append("duplicate_text")
         return fails

@@ -1,0 +1,64 @@
+{
+ "Y7TiikwCrtU": {
+  "unverified_at": 1792097553.0241666,
+  "studio_at": 1792111094.2031631,
+  "last_studio": {
+   "mode": "48h",
+   "total": 23481.0,
+   "hours": [
+    [
+     "Today, 7:00 – 8:00 AM",
+     218.0
+    ],
+    [
+     "Today, 6:00 – 7:00 AM",
+     503.0
+    ]
+   ],
+   "per_hour": 503.0
+  }
+ },
+ "cGZVfCjdRlE": {
+  "last_studio": {
+   "mode": "48h",
+   "total": 1236.0,
+   "hours": [
+    [
+     "Today, 8:00 – 9:00 PM",
+     2.0
+    ],
+    [
+     "Today, 7:00 – 8:00 PM",
+     134.0
+    ]
+   ],
+   "per_hour": 134.0
+  }
+ },
+ "UeOxoZUN_UI": {
+  "last_studio": {
+   "mode": "60m",
+   "total": 22.0,
+   "hours": [],
+   "per_hour": 22.0
+  }
+ },
+ "vhwBncvsnbY": {
+  "studio_at": 1792118286.8268163,
+  "last_studio": {
+   "mode": "48h",
+   "total": 688.0,
+   "hours": [
+    [
+     "Today, 9:00 – 10:00 AM",
+     43.0
+    ],
+    [
+     "Today, 8:00 – 9:00 AM",
+     79.0
+    ]
+   ],
+   "per_hour": 79.0
+  }
+ }
+}

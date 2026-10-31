@@ -1,0 +1,159 @@
+08:05:08 ===== DA LUONG 2 profile cung luc | 2 nhom | 2 tab (DRY-RUN) =====
+08:05:08   luong 1: ['rosellagreysonbk920@gmail.com']
+08:05:08   luong 2: ['JordaneLaetitia694@gmail.com']
+08:05:08 --no-lock: BO QUA khoa run.lock (chi dung de test)
+08:05:08   mo profile luong 1: gpm rosellagreysonbk920@gmail.com
+08:05:53   GPM start lan 1: {'profile_id': 'b74cbbd9-c90f-40f4-ab5f-705c5f23bd9a', 'driver_path': 'C:\\Users\\xxx\\AppData\\Roaming\\GPMLoginGlobal\ -> stop + dong chrome cua profile roi thu lai
+08:06:03   da dong 1 tien trinh chrome cua profile b74cbbd9 (theo PID [56796])
+08:06:13   chay luong 1: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto']
+08:06:13     · mo profile tiep theo: nghi 0.7s
+08:06:14   mo profile luong 2: gpm JordaneLaetitia694@gmail.com
+08:06:14 ===== BAT DAU (DRY-RUN) tay =====
+08:06:20 --- attach vao profile da mo san: ws://localhost:65059/devtools/browser/8e6d35dd-b729-43b5-9b7...
+08:06:20 --- tab se doc: ['K-yakkyoku-sukatto']
+08:06:29     · chuyen video: nghi 4.0s
+08:06:34     · bam Content @(97,332)
+08:06:37     · bam video v9WZx9l0O64 @(712,567)
+08:06:39     · mo duoc video: 【漫画】「それ、私の担当じゃないんで」が口ぐせの薬剤師。主任を決める面談ですべて見抜かれ
+08:06:40     · bam tab Analytics @(101,380)
+08:06:46     · bam tab Reach @(410,178)
+08:06:53   chay luong 2: JordaneLaetitia694@gmail.com | tabs=['Lane-Q']
+08:06:53     · mo profile tiep theo: nghi 1.1s
+08:06:54 ===== BAT DAU (DRY-RUN) tay =====
+08:06:56 --- attach vao profile da mo san: ws://localhost:64788/devtools/browser/c0294745-da0d-4c85-83b...
+08:06:56 --- tab se doc: ['Lane-Q']
+08:07:06     · chuyen video: nghi 2.9s
+08:07:10     · bam Content @(97,332)
+08:07:13     · bam video dhjDEazNOy0 @(712,483)
+08:07:16     · mo duoc video: 中国「日本の水産業を潰してやる！」→日本産ホタテが劇的復活！中国の水産加工工場が次々と倒
+08:07:16     · bam tab Analytics @(101,380)
+08:07:20     · bam tab Reach @(410,178)
+08:07:26     · doc so xong: nghi 0.2s
+08:07:27     · bam nhan khoang ngay @(1328,102)
+08:07:30     · bam Custom @(1326,545)
+08:07:33     · bam o ngay 2026-10-19 @(1304,108)
+08:07:36     · bam o ngay 2026-10-19 @(1436,108)
+08:07:40     · trang Reach khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan
+08:07:40     · Studio bao loi, doi lau: nghi 3.9s
+08:07:40     · bam Apply @(1454,452)
+08:07:44     · khoang ngay da doi sang Oct 19, 2026
+08:07:45     · bam tab Reach @(410,178)
+08:07:48     · doc so xong: nghi 0.3s
+08:07:48 [Lane-Q] dong 2 dhjDEazNOy0: N=5 O=506 P=3,9% Q=4,0% imp24h=5900.0 | ok | K=142h · 506 view · CTR tổng 3,9% · CTR 24h 4,0% · 5.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:07:48     · chuyen video: nghi 2.1s
+08:07:50     · chua san sang (url=https://studio.youtube.com/video/dhjDEazNOy0/analytics/tab-r, menu=co) -> chuyen lai
+08:08:04     · bam Content @(97,332)
+08:08:07     · bam video f7xhMrUmFug @(712,399)
+08:08:10     · mo duoc video: 中国「日本便を全部止めろ！」→結果、自国の航空会社3社が赤字で沈むｗ【海外の反応・ゆっく
+08:08:10     · bam tab Analytics @(101,380)
+08:08:14     · bam tab Reach @(410,178)
+08:08:20     · doc so xong: nghi 0.3s
+08:08:21     · bam nhan khoang ngay @(1328,155)
+08:08:24     · bam Custom @(1326,598)
+08:08:27     · bam o ngay 2026-10-19 @(1304,161)
+08:08:30     · bam o ngay 2026-10-19 @(1436,161)
+08:08:34     · bam Apply @(1454,505)
+08:08:39     · khoang ngay da doi sang Oct 19, 2026
+08:08:42     · doc so xong: nghi 0.3s
+08:08:42     · doc so xong: nghi 0.1s
+08:08:42     · Studio bao loi, doi lau: nghi 5.1s
+08:08:43     · doc so xong: nghi 0.2s
+08:08:44 [Lane-Q] dong 4 f7xhMrUmFug: N=4 O=20 P=3,7% Q=3,8% imp24h=288.0 | ok | K=107h · 20 view · CTR tổng 3,7% · CTR 24h 3,8% · 288 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:08:44     · chuyen video: nghi 2.5s
+08:08:46     · chua san sang (url=https://studio.youtube.com/video/f7xhMrUmFug/analytics/tab-r, menu=co) -> chuyen lai
+08:08:56     · bam Content @(97,332)
+08:08:56     · KHONG thay 'Content' de bam
+08:08:57     · bam Channel content @(130,92)
+08:08:59     · bam video ZJauO_vPW9E @(712,567)
+08:08:59     · bam video v9WZx9l0O64 @(712,567)
+08:09:01     · mo duoc video: 【漫画】「それ、私の担当じゃないんで」が口ぐせの薬剤師。主任を決める面談ですべて見抜かれ
+08:09:01     · mo duoc video: 中国「張本は口だけｗ」→結果、ブーイングした中国が世界ランクから消えるｗ【海外の反応・ゆ
+08:09:02     · bam tab Analytics @(101,380)
+08:09:02     · bam tab Analytics @(101,380)
+08:09:05     · bam tab Reach @(410,178)
+08:09:06     · bam tab Reach @(410,178)
+08:09:11     · doc so xong: nghi 0.2s
+08:09:12     · bam nhan khoang ngay @(1328,155)
+08:09:15     · bam Custom @(1326,598)
+08:09:18     · bam o ngay 2026-10-19 @(1304,161)
+08:09:22     · bam o ngay 2026-10-19 @(1436,161)
+08:09:25     · bam Apply @(1454,505)
+08:09:30     · khoang ngay da doi sang Oct 19, 2026
+08:09:34     · doc so xong: nghi 0.3s
+08:09:35 [Lane-Q] dong 6 ZJauO_vPW9E: N=9 O=77 P=3,5% Q=3,5% imp24h=688.0 | ok | K=216h · 77 view · CTR tổng 3,5% · CTR 24h 3,5% · 688 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:09:35     · chuyen video: nghi 4.1s
+08:09:39     · chua san sang (url=https://studio.youtube.com/video/ZJauO_vPW9E/analytics/tab-r, menu=co) -> chuyen lai
+08:09:50     · bam Content @(97,332)
+08:09:53     · bam video HlC_ibnbsFs @(712,315)
+08:09:55     · mo duoc video: 中国「日本の観光はもう終わりだ！世界一は中国だ！」→結果、中国の偽物の古い町並みはガラガ
+08:09:56     · bam tab Analytics @(101,380)
+08:09:59     · bam tab Reach @(410,178)
+08:10:00     · trang Reach khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan
+08:10:00     · Studio bao loi, doi lau: nghi 9.1s
+08:10:05     · doc so xong: nghi 0.3s
+08:10:06     · bam nhan khoang ngay @(1328,88)
+08:10:08     · bam Custom @(1326,531)
+08:10:10     · bam tab Reach @(410,178)
+08:10:12     · bam o ngay 2026-10-19 @(1304,94)
+08:10:16     · bam o ngay 2026-10-19 @(1436,94)
+08:10:20     · bam Apply @(1454,438)
+08:10:26     · khoang ngay da doi sang Oct 19, 2026
+08:10:30     · doc so xong: nghi 0.2s
+08:10:30 [Lane-Q] dong 7 HlC_ibnbsFs: N=0 O=3 P=20,0% Q=20,0% imp24h=7.0 | ok | K=21h · 3 view · CTR tổng 20,0% · CTR 24h 20,0% · 7 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:10:30 [Lane-Q] DRY-RUN: 4 dong, KHONG ghi sheet
+08:10:30     · chuyen tab: nghi 1.6s
+08:10:32 ===== XONG: 4 video · 0 dòng vàng · lỗi 0 video · lane bỏ qua: không · 3 phút
+08:11:05     · doc so xong: nghi 0.2s
+08:11:06     · doc so xong: nghi 0.1s
+08:11:06 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+08:11:06     · chuyen video: nghi 3.0s
+08:11:09     · chua san sang (url=https://studio.youtube.com/video/v9WZx9l0O64/analytics/tab-r, menu=co) -> chuyen lai
+08:11:24     · bam Content @(97,332)
+08:11:26     · bam video GVqpSJwYQb4 @(712,483)
+08:11:28     · mo duoc video: 【漫画】「前の店ではこうでした」が口ぐせの薬剤師。3か月後、みんなが気づいたこと…
+08:11:29     · bam tab Analytics @(101,380)
+08:11:32     · bam tab Reach @(410,178)
+08:12:26     · trang Reach khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan
+08:12:26     · Studio bao loi, doi lau: nghi 7.8s
+08:12:34     · bam tab Reach @(410,178)
+08:13:29     · doc so xong: nghi 0.1s
+08:13:29     · doc so xong: nghi 0.3s
+08:13:30     · Studio bao loi, doi lau: nghi 9.4s
+08:13:48     · KHONG thay 'Content' de bam
+08:13:49     · bam Channel content @(130,92)
+08:13:52     · bam video GVqpSJwYQb4 @(712,483)
+08:13:54     · mo duoc video: 【漫画】「前の店ではこうでした」が口ぐせの薬剤師。3か月後、みんなが気づいたこと…
+08:13:55     · bam tab Analytics @(101,380)
+08:13:58     · bam tab Reach @(410,178)
+08:14:52     · trang Reach khong ra so (Oops/trang trong) -> doi lau roi thu lai 1 lan
+08:14:52     · Studio bao loi, doi lau: nghi 6.4s
+08:14:59     · bam tab Reach @(410,178)
+08:15:54     · doc so xong: nghi 0.1s
+08:15:54     · doc so xong: nghi 0.2s
+08:15:54 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+08:15:54     · chuyen video: nghi 4.4s
+08:15:59 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+08:15:59     · chuyen video: nghi 1.6s
+08:16:00     · chua san sang (url=https://studio.youtube.com/video/GVqpSJwYQb4/analytics/tab-r, menu=co) -> chuyen lai
+08:16:11     · bam Content @(97,332)
+08:16:14     · bam video wqwFUzXwNec @(712,315)
+08:16:16     · mo duoc video: 【漫画】「事務さんがやればいいでしょ」が口ぐせの薬剤師。事務さん不在4日目、電話に出た結
+08:16:18     · bam tab Analytics @(101,380)
+08:16:22     · bam tab Reach @(410,178)
+08:16:28     · doc so xong: nghi 0.3s
+08:16:29     · bam nhan khoang ngay @(1329,155)
+08:16:32     · bam Custom @(1326,598)
+08:16:36     · bam o ngay 2026-10-19 @(1304,161)
+08:16:39     · bam o ngay 2026-10-19 @(1436,161)
+08:16:43     · bam Apply @(1454,505)
+08:16:49     · khoang ngay da doi sang Oct 19, 2026
+08:16:54     · doc so xong: nghi 0.2s
+08:16:55 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: N=21 O=15 P=6,2% Q=6,2% imp24h=145.0 | ok | K=518h · 15 view · CTR tổng 6,2% · CTR 24h 6,2% · 145 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:16:55 [K-yakkyoku-sukatto] DRY-RUN: 1 dong, KHONG ghi sheet
+08:16:55     · chuyen tab: nghi 1.1s
+08:16:56 ===== XONG: 1 video · 0 dòng vàng · lỗi 2 video · lane bỏ qua: không · 10 phút
+08:16:56   luong rosellagreysonbk920@gmail.com xong (exit 0)
+08:16:56   dong profile rosellagreysonbk920@gmail.com
+08:16:56   luong JordaneLaetitia694@gmail.com xong (exit 0)
+08:16:56   dong profile JordaneLaetitia694@gmail.com
+08:16:56 ===== XONG DA LUONG: 11 phut (2 profile cung luc)

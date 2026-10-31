@@ -1,7 +1,7 @@
 """llm.py — wrapper MỎNG gọi router có sẵn của h2dev (không viết router thứ hai — spec mục N/62).
 
   classify : llm_client.chat(provider, model)  chain gemini-3.8-flash ramclouds → ns24 → deepseek   temperature 0.1
-  generate : strong = claude_p_bridge.ask(model=claude-opus-5-5) → sol_client → gemini ; cheap = gemini 0.3
+  generate : strong = [claude_p_bridge nếu generate_use_claude] → sol_client → gemini ; cheap = gemini 0.3
   judge    : sol_client (gpt-5.6-sol) nếu generator KHÔNG phải sol, ngược lại gemini  (khác họ với người viết)
 """
 import json
@@ -106,10 +106,11 @@ class LLM:
     def generate(self, system, user, tier="strong", comment_id=None) -> LLMOut:
         errs = []
         if tier == "strong":
-            try:
-                return self._claude(system, user, "generate", comment_id)
-            except Exception as e:  # noqa: BLE001
-                errs.append(f"claude {type(e).__name__} {str(e)[:80]}")
+            if self.s.get("generate_use_claude", True):   # settings.yaml: false = bỏ hẳn claude -p (anh hết quota 2026-10-22)
+                try:
+                    return self._claude(system, user, "generate", comment_id)
+                except Exception as e:  # noqa: BLE001
+                    errs.append(f"claude {type(e).__name__} {str(e)[:80]}")
             try:
                 return self._sol(system, user, 600, "generate", comment_id)
             except Exception as e:  # noqa: BLE001

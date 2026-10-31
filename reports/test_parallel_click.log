@@ -1,0 +1,85 @@
+06:50:10 ===== DA LUONG 2 profile cung luc | 2 nhom | 2 tab (DRY-RUN) =====
+06:50:10   luong 1: ['rosellagreysonbk920@gmail.com']
+06:50:10   luong 2: ['JordaneLaetitia694@gmail.com']
+06:50:10 --no-lock: BO QUA khoa run.lock (chi dung de test)
+06:50:10   mo profile luong 1: gpm rosellagreysonbk920@gmail.com
+06:50:53   chay luong 1: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto']
+06:50:53     · mo profile tiep theo: nghi 0.8s
+06:50:53 ===== BAT DAU (DRY-RUN) tay =====
+06:50:53   mo profile luong 2: gpm JordaneLaetitia694@gmail.com
+06:50:55 --- attach vao profile da mo san: ws://localhost:54216/devtools/browser/bd7b5697-5412-4eda-90c...
+06:50:55 --- tab se doc: ['K-yakkyoku-sukatto']
+06:51:05     · chuyen video: nghi 4.1s
+06:51:18     · KHONG thay 'Content' de bam
+06:51:18     · khong mo duoc danh sach video -> bo qua video nay
+06:51:18     · Studio bao loi, doi lau: nghi 9.3s
+06:51:35   chay luong 2: JordaneLaetitia694@gmail.com | tabs=['Lane-Q']
+06:51:35     · mo profile tiep theo: nghi 1.1s
+06:51:35 ===== BAT DAU (DRY-RUN) tay =====
+06:51:37     · KHONG thay 'Content' de bam
+06:51:37     · khong mo duoc danh sach video -> bo qua video nay
+06:51:37 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+06:51:37     · chuyen video: nghi 2.4s
+06:51:37 --- attach vao profile da mo san: ws://localhost:54417/devtools/browser/2dbc3edc-f976-4698-b3a...
+06:51:37 --- tab se doc: ['Lane-Q']
+06:51:48     · KHONG thay 'Content' de bam
+06:51:48     · khong mo duoc danh sach video -> bo qua video nay
+06:51:48     · Studio bao loi, doi lau: nghi 8.9s
+06:51:48     · chuyen video: nghi 2.9s
+06:51:52     · bam Content @(97,332)
+06:51:54     · bam video dhjDEazNOy0 @(712,483)
+06:51:56     · mo duoc video: 中国「日本の水産業を潰してやる！」→日本産ホタテが劇的復活！中国の水産加工工場が次々と倒
+06:51:57     · bam tab Analytics @(101,380)
+06:52:02     · bam tab Reach @(410,178)
+06:52:06     · KHONG thay 'Content' de bam
+06:52:06     · khong mo duoc danh sach video -> bo qua video nay
+06:52:06 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+06:52:06     · chuyen video: nghi 2.1s
+06:52:08 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+06:52:08     · chuyen video: nghi 5.0s
+06:52:10     · doc so xong: nghi 0.2s
+06:52:11     · bam nhan khoang ngay @(1328,155)
+06:52:14     · bam Custom @(1326,598)
+06:52:17     · bam o ngay 2026-10-19 @(1304,161)
+06:52:21     · bam o ngay 2026-10-19 @(1436,161)
+06:52:23     · KHONG thay 'Content' de bam
+06:52:23     · khong mo duoc danh sach video -> bo qua video nay
+06:52:23     · Studio bao loi, doi lau: nghi 8.1s
+06:52:25     · bam Apply @(1454,505)
+06:52:35     · doc so xong: nghi 0.3s
+06:52:35 [Lane-Q] dong 2 dhjDEazNOy0: N=5 O=505 P=3,9% Q=4,0% imp24h=5900.0 | ok | K=141h · 505 view · CTR tổng 3,9% · CTR 24h 4,0% · 5.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+06:52:35     · chuyen video: nghi 4.6s
+06:52:40     · KHONG thay 'Content' de bam
+06:52:40     · khong mo duoc danh sach video -> bo qua video nay
+06:52:40 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: khong doc duoc trang Reach 24h -> bo qua
+06:52:40 [K-yakkyoku-sukatto] DRY-RUN: 0 dong, KHONG ghi sheet
+06:52:40     · chuyen tab: nghi 1.1s
+06:52:41 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 1 phút
+06:52:42   luong rosellagreysonbk920@gmail.com xong (exit 0)
+06:52:42   dong profile rosellagreysonbk920@gmail.com
+06:52:49     · KHONG thay 'Content' de bam
+06:52:49     · khong mo duoc danh sach video -> bo qua video nay
+06:52:49     · Studio bao loi, doi lau: nghi 6.6s
+06:53:05     · KHONG thay 'Content' de bam
+06:53:05     · khong mo duoc danh sach video -> bo qua video nay
+06:53:05 [Lane-Q] dong 4 f7xhMrUmFug: khong doc duoc trang Reach 24h -> bo qua
+06:53:05     · chuyen video: nghi 2.8s
+06:53:17     · KHONG thay 'Content' de bam
+06:53:17     · khong mo duoc danh sach video -> bo qua video nay
+06:53:17     · Studio bao loi, doi lau: nghi 9.3s
+06:53:36     · KHONG thay 'Content' de bam
+06:53:36     · khong mo duoc danh sach video -> bo qua video nay
+06:53:36 [Lane-Q] dong 6 ZJauO_vPW9E: khong doc duoc trang Reach 24h -> bo qua
+06:53:36     · chuyen video: nghi 3.1s
+06:53:48     · KHONG thay 'Content' de bam
+06:53:48     · khong mo duoc danh sach video -> bo qua video nay
+06:53:48     · Studio bao loi, doi lau: nghi 11.4s
+06:54:09     · KHONG thay 'Content' de bam
+06:54:09     · khong mo duoc danh sach video -> bo qua video nay
+06:54:09 [Lane-Q] dong 7 HlC_ibnbsFs: khong doc duoc trang Reach 24h -> bo qua
+06:54:09 [Lane-Q] DRY-RUN: 1 dong, KHONG ghi sheet
+06:54:09     · chuyen tab: nghi 1.1s
+06:54:10 ===== XONG: 1 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 2 phút
+06:54:10   luong JordaneLaetitia694@gmail.com xong (exit 0)
+06:54:10   dong profile JordaneLaetitia694@gmail.com
+06:54:10 ===== XONG DA LUONG: 4 phut (2 profile cung luc)

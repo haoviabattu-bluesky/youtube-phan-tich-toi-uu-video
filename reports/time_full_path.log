@@ -1,0 +1,14 @@
+mo profile + chuyen kenh: 51s
+
+video          read_video   daily    TONG  ok
+pTmVyc6Z2W4         48.6s   62.7s  111.2s  True NO_DAILY_DATA
+vy7ucq5Zy64         85.8s   62.0s  147.8s  False NO_DAILY_DATA
+ctRisa4AEH4        229.1s   62.0s  291.1s  False NO_DAILY_DATA
+qfg_YVoo9RA        229.5s   21.3s  250.9s  False EARLY_TEST
+6woJHXK_x7M        229.8s    8.7s  238.5s  False EARLY_TEST
+
+mo profile: 51s
+trung binh/video (ca 2 buoc): 207.9s
+TONG 5 video: 1098s
+
+=> 96 video: 20486s = 341 phut

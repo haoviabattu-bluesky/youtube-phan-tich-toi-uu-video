@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS errors(id INTEGER PRIMARY KEY, run_id INTEGER, channe
 CREATE TABLE IF NOT EXISTS llm_calls(id INTEGER PRIMARY KEY, run_id INTEGER, comment_id TEXT, stage TEXT, provider TEXT, model TEXT,
   tokens_in INTEGER, tokens_out INTEGER, elapsed_s REAL, ok INTEGER, created_at TEXT);
 CREATE TABLE IF NOT EXISTS review_queue(draft_id INTEGER PRIMARY KEY, queued_at TEXT, decided_at TEXT, decision TEXT, edited_text TEXT, note TEXT);
+CREATE TABLE IF NOT EXISTS reactions(comment_id TEXT PRIMARY KEY, channel_id TEXT NOT NULL, like_status TEXT, heart_status TEXT, at TEXT);
 """
 
 
@@ -235,6 +236,16 @@ class Store:
                "edited_text=excluded.edited_text,note=excluded.note", draft_id, d["created_at"], now(), decision, edited_text, note)
         return st
 
+    # ---------------------------------------------------------------- like / tim (2026-10-22)
+    def save_reaction(self, channel_id, comment_id, rx: dict):
+        """Ghi kết quả like/tim; giữ trạng thái tốt nhất đã có (DONE/ALREADY không bị ghi đè bằng FAILED/OFF)."""
+        good = ("DONE", "ALREADY")
+        old = self.one("SELECT like_status, heart_status FROM reactions WHERE comment_id=?", comment_id) or {}
+        lk = old.get("like_status") if old.get("like_status") in good else rx.get("like")
+        ht = old.get("heart_status") if old.get("heart_status") in good else rx.get("heart")
+        self.x("INSERT INTO reactions(comment_id,channel_id,like_status,heart_status,at) VALUES(?,?,?,?,?) ON CONFLICT(comment_id) DO UPDATE SET "
+               "like_status=excluded.like_status,heart_status=excluded.heart_status,at=excluded.at", comment_id, channel_id, lk, ht, now())
+
     def audit(self, comment_id):
         return {
             "comment": self.one("SELECT * FROM comments WHERE comment_id=?", comment_id),
@@ -243,4 +254,5 @@ class Store:
             "drafts": self.q("SELECT * FROM drafts WHERE comment_id=? ORDER BY id", comment_id),
             "replies": self.q("SELECT * FROM replies WHERE comment_id=? ORDER BY id", comment_id),
             "review": self.q("SELECT r.* FROM review_queue r JOIN drafts d ON d.id=r.draft_id WHERE d.comment_id=?", comment_id),
+            "reactions": self.q("SELECT * FROM reactions WHERE comment_id=?", comment_id),
         }

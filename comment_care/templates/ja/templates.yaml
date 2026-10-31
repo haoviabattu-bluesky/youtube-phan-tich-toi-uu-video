@@ -19,28 +19,34 @@ slots:
     - またぜひ見に来てください。
 
 by_category:
+  # 2026-10-22 HUONG_DAN_HERMES: thân ≤50 ký tự, 1–2 câu → bỏ câu chúc cuối {musubi} (chúc sức khoẻ/hẹn gặp lại = giọng bot)
   GRATITUDE_SIMPLE:
-    pattern: "{kansha}{musubi}"
+    pattern: "{kansha}"
   PRAISE:
-    pattern: "{kansha}{uketome_praise}{musubi}"
+    pattern: "{kansha}{uketome_praise}"
   AGREEMENT:
-    pattern: "{kansha}{uketome_agree}{musubi}"
+    pattern: "{kansha}{uketome_agree}"
   REQUEST:
-    pattern: "リクエストをありがとうございます。今後の動画づくりの参考にさせていただきます。{musubi}"
+    pattern: "リクエストをありがとうございます。今後の参考にさせていただきます。"
   CRITICISM_CONSTRUCTIVE:
-    pattern: "ご指摘をありがとうございます。{detail_clause}今後の動画づくりの参考にさせていただきます。{musubi}"
-    detail_clause: "{detail}の点は、"          # chỉ chèn khi detail không rỗng
+    pattern: "ご指摘をありがとうございます。今後の参考にさせていただきます。"
   FINANCIAL_SPECIFIC:
-    pattern: "貴重な情報を共有していただき、ありがとうございます。実際のご経験に基づくお話は、同じ立場の方の参考になるかと思います。{musubi}"
+    pattern: "貴重なお話をありがとうございます。同じ立場の方の参考になると思います。"
+  # 2026-10-22: khó/không chắc, hỏi lương hưu/thuế/luật/thuốc → CHỈ cảm ơn (không CTA)
+  THANKS:
+    fixed: "コメントありがとうございます。"
   HOSTILE:
-    fixed: "ご意見をお寄せいただき、ありがとうございます。"
+    fixed: "はい、ご意見ありがとうございます。"
+  # anh chốt 2026-10-15: MỌI câu nhạy cảm không trả lời được (chính trị/xã hội/giới, gay gắt, mỉa mai) = "Vâng, cám ơn bạn đã góp ý"
+  SENSITIVE:
+    fixed: "はい、ご意見ありがとうございます。"
 
 # Footer (CTA) — spec mục M. Kênh footer_policy A/C: luôn gắn; B/BC: bỏ theo policy_table.footer=no.
 # C/BC: luân phiên variants theo video; `full` chỉ dùng cho reply ĐẦU TIÊN của mỗi video.
 footer:
   # Anh chốt 2026-10-08: ngắn, chữ đơn giản như người thật, MỌI reply xin 1 like + 1 đăng ký (trừ grief/sức khoẻ/hostile).
   full: よかったら高評価とチャンネル登録、お願いします。
+  # 2026-10-22: đúng 3 câu trong HUONG_DAN_HERMES 4.2 (bỏ câu "励みになります")
   variants:
     - よければ高評価とチャンネル登録もお願いします。
-    - 高評価とチャンネル登録をいただけると、とても励みになります。
     - よかったらチャンネル登録と高評価、よろしくお願いします。

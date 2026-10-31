@@ -43,20 +43,32 @@ class TestPolicy(unittest.TestCase):
         d = POL.decide(cls("UNCLEAR", 0.3, 0.3), "top", "L3", 0, CH)
         self.assertEqual(d.decision, "SKIP")
 
-    def test_low_confidence_skips(self):
+    def test_low_confidence_thanks_only(self):
+        # 2026-10-22 HUONG_DAN_HERMES: khó/không chắc → CHỈ cảm ơn (không bỏ qua), không footer
         d = POL.decide(cls("EXPERIENCE_SHARING", 0.6, 0.9), "top", "L3", 0, CH)
-        self.assertEqual(d.decision, "SKIP")
+        self.assertEqual((d.decision, d.template_key, d.footer), ("REPLY", "THANKS", "no"))
         self.assertIn("low_confidence", d.reason)
+        self.assertEqual(TPL.render(d.template_key)[0], "コメントありがとうございます。")
 
     def test_case3_hostile_template_no_footer(self):
         d = POL.decide(cls("HOSTILE"), "top", "L3", 0, CH)
         self.assertEqual((d.decision, d.generator, d.footer), ("REPLY", "TEMPLATE", "no"))
-        self.assertEqual(TPL.render("HOSTILE")[0], "ご意見をお寄せいただき、ありがとうございます。")
+        self.assertEqual(TPL.render(d.template_key)[0], "はい、ご意見ありがとうございます。")
 
-    def test_case4_factual_skip(self):
-        self.assertEqual(POL.decide(cls("QUESTION_FACTUAL"), "top", "L3", 0, CH).decision, "SKIP")
-        d = POL.decide(cls("EXPERIENCE_SHARING", flags={"asks_question_factual": True}), "top", "L3", 0, CH)
-        self.assertEqual(d.decision, "SKIP")
+    def test_sensitive_fixed_reply(self):
+        # anh chốt 2026-10-15: câu nhạy cảm không trả lời được → câu cố định "Vâng, cám ơn bạn đã góp ý", không footer
+        for args in (("POLITICAL_SOCIAL",), ("HOSTILE", 0.95, 0.5), ("CRITICISM_CONSTRUCTIVE", 0.85, 0.6), ("HOSTILE", 0.9, 0.95, )):
+            d = POL.decide(cls(*args), "top", "L3", 0, CH)
+            self.assertEqual((d.decision, d.generator, d.footer, d.template_key), ("REPLY", "TEMPLATE", "no", "SENSITIVE"), args)
+            self.assertEqual(TPL.render(d.template_key)[0], "はい、ご意見ありがとうございます。")
+        # nhóm không nhạy cảm, độ tin thấp vẫn SKIP
+        self.assertEqual(POL.decide(cls("UNCLEAR", 0.95, 0.1), "top", "L3", 0, CH).decision, "SKIP")
+
+    def test_case4_factual_thanks_only(self):
+        # hỏi lương hưu/thuế/luật/thuốc → chỉ cảm ơn, không trả lời nội dung
+        for d in (POL.decide(cls("QUESTION_FACTUAL"), "top", "L3", 0, CH),
+                  POL.decide(cls("EXPERIENCE_SHARING", flags={"asks_question_factual": True}), "top", "L3", 0, CH)):
+            self.assertEqual((d.decision, d.generator, d.template_key, d.footer), ("REPLY", "TEMPLATE", "THANKS", "no"))
 
     def test_crisis_escalates_even_as_secondary(self):
         self.assertEqual(POL.decide(cls("CRISIS"), "top", "L3", 0, CH).decision, "ESCALATE")
@@ -106,8 +118,20 @@ class TestQC(unittest.TestCase):
         self.assertTrue(any(x.startswith("blocklist") for x in f))
 
     def test_good_reply_passes(self):
-        body = "お話を聞かせていただき、ありがとうございます。再雇用で三年間働かれたご経験、とても考えさせられました。無理のない働き方を見つけられたとのこと、何よりかと思います。どうかお身体を大切にお過ごしください。"
+        body = "大変な中、続けてこられたのですね。お話ししてくださりありがとうございます。"
         self.assertEqual(QC.check(body, "", self.dec(), TPL.all_footer_texts(), []), [])
+
+    def test_long_reply_fails(self):
+        body = "お話を聞かせていただき、ありがとうございます。再雇用で三年間働かれたご経験、とても考えさせられました。無理のない働き方を見つけられたとのこと、何よりかと思います。"
+        self.assertTrue(any(x.startswith("too_long") for x in QC.check(body, "", self.dec(), [], [])))
+
+    def test_quote_number_self_blocked(self):
+        com = "隠す方がダサいと思うんですよね、正直なところ"
+        f = QC.check("隠す方がダサいと思うというのはその通りです。ありがとうございます。", "", self.dec(), [], [], com)
+        self.assertTrue(any(x.startswith("quote_comment") for x in f), f)
+        self.assertIn("quote_marks「」", QC.check("「その通り」ですね。ありがとうございます。", "", self.dec(), [], []))
+        self.assertIn("number", QC.check("年金は65歳からですね。ありがとうございます。", "", self.dec(), [], []))
+        self.assertIn("owner_self_talk", QC.check("私も同じ経験があります。ありがとうございます。", "", self.dec(), [], []))
 
     def test_other_channel_name_blocked(self):
         f = QC.check("人生の夕暮れをご覧いただきありがとうございます。穏やかな日々が続きますように。", "", self.dec("PRAISE"), [], [])
@@ -122,10 +146,10 @@ class TestTemplates(unittest.TestCase):
     def test_case14_no_repeat_combo(self):
         seen = []
         for _ in range(12):
-            t, combo = TPL.render("GRATITUDE_SIMPLE", avoid_combos=seen)
+            t, combo = TPL.render("PRAISE", avoid_combos=seen)
             self.assertNotIn(combo, seen)
             seen.append(combo)
-            self.assertEqual(QC.check(t, "", POL.decide(cls("GRATITUDE_SIMPLE"), "top", "L1", 0, CH), [], []), [])
+            self.assertEqual(QC.check(t, "", POL.decide(cls("PRAISE"), "top", "L1", 0, CH), [], []), [])
 
     def test_footer_policy_matrix(self):
         self.assertEqual(TPL.footer("BC", "no", "vid", False), "")
@@ -133,11 +157,27 @@ class TestTemplates(unittest.TestCase):
         self.assertIn("チャンネル登録", TPL.footer("BC", "yes", "vid", True))
         self.assertIn("高評価", TPL.footer("A", "no", "vid", False))
 
-    def test_criticism_detail_slot(self):
-        t, _ = TPL.render("CRITICISM_CONSTRUCTIVE", detail="音声の聞き取りづらさ")
-        self.assertIn("音声の聞き取りづらさの点は、", t)
-        t2, _ = TPL.render("CRITICISM_CONSTRUCTIVE", detail="")
-        self.assertNotIn("の点は、", t2)
+    def test_all_templates_short(self):
+        # 2026-10-22: mọi câu mẫu ≤50 ký tự và qua luật reply ngắn
+        from comment_care.reply_rules import body_fails
+        for cat in ("GRATITUDE_SIMPLE", "PRAISE", "AGREEMENT", "REQUEST", "CRITICISM_CONSTRUCTIVE", "FINANCIAL_SPECIFIC", "THANKS", "SENSITIVE"):
+            for _ in range(10):
+                t, _c = TPL.render(cat, detail="音声の聞き取りづらさ")
+                self.assertEqual(body_fails(t), [], (cat, t))
+        self.assertEqual(len(TPL.all_footer_texts()), 3)
+
+
+class TestReplyRules(unittest.TestCase):
+    def test_edit_line(self):
+        from comment_care.reply_rules import final_fails
+        ok = "本当にそうですね。コメントありがとうございます。よかったら高評価とチャンネル登録、お願いします。"
+        self.assertEqual(final_fails(ok), [])
+        self.assertEqual(final_fails("大変でしたね。お話ししてくださりありがとうございます。"), [])
+        self.assertEqual(final_fails("はい、ご意見ありがとうございます。"), [])
+        two = ok + "よければ高評価とチャンネル登録もお願いします。"
+        self.assertIn("cta_x2", final_fails(two))
+        self.assertIn("no_thanks", final_fails("本当にそうですね。"))
+        self.assertIn("emoji", final_fails("ありがとうございます😊"))
 
 
 class TestPrefilter(unittest.TestCase):

@@ -1,0 +1,50 @@
+# Policy Engine — bảng luật deterministic (spec mục F/G/I). Model KHÔNG ghi đè được bảng này.
+# decision: REPLY | SKIP | ESCALATE | NO_REPLY_NEEDED
+# generator: TEMPLATE | LLM_STRONG | LLM_CHEAP | NONE
+# footer: yes | no        (chỉ có hiệu lực khi footer_policy của kênh là B/BC; A = luôn yes, C = luôn yes nhưng rotate)
+# auto_phase: pha sớm nhất được phép gửi tự động (4 = LOW, 5 = MEDIUM, 99 = không bao giờ trong V1)
+# length: [min, max] ký tự Nhật của phần thân (không tính footer)
+policy_version: v1
+
+thresholds:
+  skip_below: 0.70            # classification_conf hoặc understanding_conf dưới mức này → SKIP + UNRESOLVED
+  auto_low: 0.85
+  auto_medium: 0.90
+  hostile_template_min: 0.70  # dưới mức này HOSTILE vẫn template nhưng chỉ DRAFT (không auto)
+
+categories:
+  GRATITUDE_SIMPLE:        {decision: REPLY, risk: LOW,    generator: TEMPLATE,   footer: yes, auto_phase: 4,  length: [10, 90]}
+  PRAISE:                  {decision: REPLY, risk: LOW,    generator: TEMPLATE,   footer: yes, auto_phase: 4,  length: [10, 80]}
+  EXPERIENCE_SHARING:      {decision: REPLY, risk: LOW,    generator: LLM_STRONG, footer: yes, auto_phase: 4,  length: [20, 110]}
+  EMOTIONAL_SHARING:       {decision: REPLY, risk: MEDIUM, generator: LLM_STRONG, footer: yes, auto_phase: 5,  length: [20, 110]}
+  GRIEF_LOSS:              {decision: REPLY, risk: HIGH,   generator: LLM_STRONG, footer: no,  auto_phase: 99, length: [20, 100], double_judge: true}
+  AGREEMENT:               {decision: REPLY, risk: LOW,    generator: TEMPLATE,   footer: yes, auto_phase: 4,  length: [10, 80]}
+  DISAGREEMENT_POLITE:     {decision: REPLY, risk: MEDIUM, generator: LLM_STRONG, footer: yes, auto_phase: 5,  length: [20, 100]}
+  CRITICISM_CONSTRUCTIVE:  {decision: REPLY, risk: MEDIUM, generator: TEMPLATE,   footer: yes, auto_phase: 5,  length: [20, 150]}
+  QUESTION_OPINION:        {decision: REPLY, risk: MEDIUM, generator: LLM_STRONG, footer: yes, auto_phase: 5,  length: [20, 120]}
+  QUESTION_FACTUAL:        {decision: SKIP,  risk: HIGH,   generator: NONE,       footer: no,  auto_phase: 99, reason: can_fact_check}
+  REQUEST:                 {decision: REPLY, risk: LOW,    generator: TEMPLATE,   footer: yes, auto_phase: 4,  length: [20, 110]}
+  HEALTH_SHARING:          {decision: REPLY, risk: HIGH,   generator: LLM_STRONG, footer: no,  auto_phase: 99, length: [20, 100], double_judge: true}
+  FINANCIAL_SPECIFIC:      {decision: REPLY, risk: MEDIUM, generator: TEMPLATE,   footer: yes, auto_phase: 5,  length: [30, 170]}
+  CRISIS:                  {decision: ESCALATE, risk: HIGH, generator: NONE,      footer: no,  auto_phase: 99, reason: crisis_signal}
+  POLITICAL_SOCIAL:        {decision: REPLY, risk: HIGH,   generator: TEMPLATE,   footer: no,  auto_phase: 99, length: [10, 50], template_key: SENSITIVE, reason: political_social}   # anh chốt 2026-10-15 (lần 2): câu nhạy cảm KHÔNG soạn riêng — chỉ đăng câu cố định SENSITIVE, không footer, không like/tim
+  HOSTILE:                 {decision: REPLY, risk: MEDIUM, generator: TEMPLATE,   footer: no,  auto_phase: 5,  length: [10, 50], template_key: SENSITIVE}
+  SPAM_PROMO:              {decision: NO_REPLY_NEEDED, risk: LOW, generator: NONE, footer: no, auto_phase: 99}
+  OFF_TOPIC:               {decision: NO_REPLY_NEEDED, risk: LOW, generator: NONE, footer: no, auto_phase: 99}
+  VIEWER_TO_VIEWER:        {decision: NO_REPLY_NEEDED, risk: LOW, generator: NONE, footer: no, auto_phase: 99}
+  FOLLOW_UP_TO_OWNER:      {decision: REPLY, risk: MEDIUM, generator: LLM_STRONG, footer: yes,  auto_phase: 5,  length: [10, 90], max_bot_replies_per_thread: 2}
+  UNCLEAR:                 {decision: SKIP,  risk: HIGH,   generator: NONE,       footer: no,  auto_phase: 99, reason: unclear}
+
+# Anh chốt 2026-10-15: bình luận nhạy cảm/gay gắt mà em KHÔNG trả lời được (low_confidence, sarcasm) ở các nhóm này
+# → KHÔNG bỏ qua, đăng câu cố định SENSITIVE (「はい、ご意見ありがとうございます。」 = "Vâng, cảm ơn bạn đã góp ý").
+sensitive_fallback_categories: [HOSTILE, POLITICAL_SOCIAL, CRITICISM_CONSTRUCTIVE, DISAGREEMENT_POLITE]
+
+# Flag phụ ép rủi ro / quyết định (áp sau khi tra category)
+flag_overrides:
+  not_japanese:      {decision: SKIP, reason: not_japanese}
+  sarcasm_possible:  {max_understanding_conf: 0.6}      # ép understanding_conf ≤ 0.6 → rơi xuống SKIP
+  asks_question_factual: {decision: SKIP, reason: can_fact_check}
+  contains_url:      {category_hint: SPAM_PROMO}
+
+# Secondary category nâng risk = max(primary, secondary)
+risk_order: [LOW, MEDIUM, HIGH]

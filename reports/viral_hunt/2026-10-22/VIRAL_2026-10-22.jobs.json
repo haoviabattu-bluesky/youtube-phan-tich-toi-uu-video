@@ -1,0 +1,207 @@
+{
+ "day": "2026-10-22",
+ "generated": "2026-10-22 03:03",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 1235,
+   "jobs": []
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 1235,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 14.15,
+     "source": {
+      "video_id": "LsYWJxIj1hE",
+      "title": "【漫画】軽キャンピングカーを家にした65歳…定年後「家賃0円・年金で全国を回る」暮らしの現実",
+      "channel": "日本男児のリアルな人生録",
+      "subs": 35,
+      "views": 17476,
+      "views_per_hour": 163.3,
+      "hours": 107.0,
+      "published": "2026-10-17T09:00:38Z",
+      "url": "https://www.youtube.com/watch?v=LsYWJxIj1hE"
+     },
+     "draft": {
+      "vi_sao_thang": "Nguồn thắng nhờ đánh trúng ảo tưởng 'tiết kiệm tiền nhà, sống tự do tuổi 65' rồi đập tan bằng hiện thực tàn khốc, kích hoạt nỗi sợ hãi nghèo đói và vô gia cư của người già.",
+      "de_bai": "Cựu quản lý 65 tuổi cạn tiền tiết kiệm vì nuôi con, quyết định ngủ lại trên chiếc xe van cũ để đi làm bảo vệ công trường kiếm sống qua ngày, nhưng bị đội trưởng đáng tuổi con chửi mắng và nhận ra sống trên xe tốn kém hơn thuê trọ.",
+      "khac_nguon": "Đổi từ 'đi du lịch hưởng thụ trên xe cắm trại' thành 'buộc phải ngủ trên xe để chạy việc bảo vệ ca đêm (警備)', giữ lại yếu tố tuổi 65 và hiện thực vỡ mộng của việc sống trên xe ô tô.",
+      "hook_3cau": "65 tuổi, tôi bán nhà trả nợ cho con rồi chui vào chiếc xe van cũ kỹ ngủ tạm để làm bảo vệ đêm. Cứ ngỡ tiết kiệm được tiền thuê nhà thì mỗi tháng dư ra chút đỉnh, ai ngờ tiền bãi đỗ và tiền xăng còn nuốt trọn cả lương làm thêm. 38 năm làm trưởng phòng kinh doanh, giờ đây tôi bị đứa bảo vệ 25 tuổi dí đèn pin vào mặt mắng như con.",
+      "title_jp": "【漫画】65歳車中泊で警備員…「家賃0円」の甘い罠と手取り8万の地獄",
+      "thumbnail_jp": "65歳車中泊警備の地獄",
+      "so_lieu_can": [
+       "Tuổi nhân vật: 65 tuổi (lấy từ nguồn)",
+       "Năm cống hiến ở công ty cũ: [SỐ CẦN KIỂM]",
+       "Lương hưu thực tế mỗi tháng: [SỐ CẦN KIỂM]",
+       "Tiền thiếu hụt mỗi tháng buộc phải đi làm thêm: [SỐ CẦN KIỂM]",
+       "Lương làm thêm bảo vệ mỗi tháng: [SỐ CẦN KIỂM]",
+       "Chi phí bãi đỗ xe và bảo trì xe mỗi tháng: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後の車中泊生活や警備の仕事について、皆様はどう思われますか？コメント欄で教えてください。",
+      "rui_ro": "Dễ bị trôi dạt sang mảng bi kịch vô gia cư thuần túy nếu không tập trung đào sâu vào chi tiết công việc bảo vệ và sự va chạm nghề nghiệp giữa kinh nghiệm cũ với thực tế làm thêm.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "C",
+     "score": 13.99,
+     "source": {
+      "video_id": "gBtErdypKo8",
+      "title": "【漫画】「年金22万円あれば大丈夫」と思っていた66歳の夫。妻の家計簿で知った老後の現実と、夫婦が選んだ道【老後の分かれ道】",
+      "channel": "漫画で読む 老後の分かれ道",
+      "subs": 49,
+      "views": 41308,
+      "views_per_hour": 504.7,
+      "hours": 81.8,
+      "published": "2026-10-18T10:14:25Z",
+      "url": "https://www.youtube.com/watch?v=gBtErdypKo8"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng ảo tưởng 'lương hưu 22 vạn là đủ sống an nhàn' bị sụp đổ trước sổ chi tiêu thực tế, tạo cú sốc tài chính sát sườn người 60+.",
+      "de_bai": "Cựu trưởng phòng 66 tuổi ngỡ lương hưu 22 vạn yên đã đủ an dưỡng, cho đến khi thấy gia cảnh thiếu [SỐ CẦN KIỂM] yên mỗi tháng và phải cúi đầu làm bảo vệ ca đêm (警備) chịu sự sai bảo của quản lý trẻ.",
+      "khac_nguon": "Đổi từ câu chuyện tâm sự chi tiêu gia đình/lối đi chung của hai vợ chồng sang bi kịch va chạm thực tế khi người chồng 66 tuổi tự bươn chải làm nghề bảo vệ (警備) với 40 năm kinh nghiệm bị coi là số không.",
+      "hook_3cau": "'22 vạn yên lương hưu mỗi tháng, tôi từng nghĩ tuổi già thế là đã đủ an nhàn.' 'Thế nhưng, cuốn sổ chi tiêu của vợ chỉ ra khoản âm [SỐ CẦN KIỂM] yên mỗi tháng, đẩy tôi ở tuổi 66 ra đứng gác giữa đêm lạnh.' 'Bốn mươi năm làm quản lý văn phòng giờ đây không đổi nổi một ánh nhìn tôn trọng từ cậu đội trưởng 25 tuổi.'",
+      "title_jp": "年金22万で安泰のはずが月[SỐ CẦN KIỂM]万赤字…66歳元部長が夜間警備で浴びた罵声",
+      "thumbnail_jp": "年金22万の崩壊",
+      "so_lieu_can": [
+       "Tuổi nhân vật: 66 tuổi (nguồn: 66歳)",
+       "Tiền lương hưu: 22 vạn yên/tháng (nguồn: 年金22万円)",
+       "Khoản thâm hụt hàng tháng: [SỐ CẦN KIỂM]",
+       "Lương giờ hoặc thu nhập từ nghề bảo vệ: [SỐ CẦN KIỂM]",
+       "Số năm cống hiến ở công ty cũ: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "月22万円の年金でも足りない現実、あなたなら65歳を過ぎて警備や清掃の仕事を始められますか？",
+      "rui_ro": "Dễ sa đà vào việc phân tích sổ chi tiêu gia đình và mâu thuẫn vợ chồng nếu không đẩy nhân vật vào ngay hiện trường làm việc bảo vệ từ phút thứ 3.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 1235,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 9.35,
+     "source": {
+      "video_id": "tDo4Dw3oF_4",
+      "title": "【漫画】同僚「お前は留守番なw」と海外リゾートへ→俺「50億の商談、今日だぞ？」取引先が激怒し、同僚の失態が発覚…【恋愛マンガ動画】",
+      "channel": "逆転ときめき漫画",
+      "subs": 997,
+      "views": 16465,
+      "views_per_hour": 194.3,
+      "hours": 84.7,
+      "published": "2026-10-18T07:18:48Z",
+      "url": "https://www.youtube.com/watch?v=tDo4Dw3oF_4"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn ăn khách nhờ mô-típ đồng nghiệp ngang hàng tự đắc đẩy hết trách nhiệm ở lại trực cho người khác để đi hưởng thụ, để rồi tự chuốc họa vì bỏ quên một sự kiện quan trọng.",
+      "de_bai": "Đồng nghiệp cùng ca trực viện dưỡng lão luôn miệng nói 'Đấy không phải ca của tôi' rồi đẩy việc trực theo dõi cụ khó tính cho bạn để về sớm; cái giá lộ ra khi biên bản kiểm tra đột xuất ghi nhận sai sót bỏ vị trí ngay trong 15 phút trước giờ giao ca.",
+      "khac_nguon": "Đổi từ thương trường kinh doanh sang ca trực hộ lý viện dưỡng lão, bỏ hợp đồng 50 ức sang việc theo dõi y tế cụ bà nguy kịch; giữ cơ chế kẻ trốn việc đùn đẩy cho người hiền rồi nhận hậu quả ngay tại chỗ.",
+      "hook_3cau": "Đồng nghiệp cười khẩy ném lại tập hồ sơ rồi bảo 'Đấy đâu phải việc của tôi' trước giờ tan ca đúng [SỐ CẦN KIỂM] phút. Tôi không cãi một lời, lẳng lặng nhận lấy phần đo sinh hiệu cho cụ bà phòng [SỐ CẦN KIỂM]. Đến sáng hôm sau, tên của cô ta chính thức biến mất khỏi bảng phân ca tháng tới.",
+      "title_jp": "同僚「それ私の担当外なんで」と丸投げ→結果、15分前の記録で全てバレた話",
+      "thumbnail_jp": "それ担当外です",
+      "so_lieu_can": [
+       "Số 50 ức (50億) có trong tiêu đề nguồn nhưng không khả thi trong ngách điều dưỡng nên loại bỏ",
+       "Số phút trước khi hết ca: [SỐ CẦN KIỂM]",
+       "Số phòng bệnh nhân: [SỐ CẦN KIỂM]",
+       "Số lần vi phạm bàn giao: [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "あなたの職場にも『それ私の仕事じゃないんで』と押し付ける同僚はいますか？",
+      "rui_ro": "Dễ bị trượt sang xung đột cãi vã to tiếng nếu không giữ được nét mặt bình thản, lặng lẽ gánh việc của nhân vật chính.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 1235,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 8.79,
+     "source": {
+      "video_id": "aPsK8hNxB28",
+      "title": "【漫画】65歳で山小屋スタッフになるとどうなるのか？元市役所職員が標高2700mで知った現実…嵐の夜、台帳の最後の一行",
+      "channel": "はたらく横顔",
+      "subs": 615,
+      "views": 16643,
+      "views_per_hour": 101.8,
+      "hours": 163.4,
+      "published": "2026-10-15T00:36:08Z",
+      "url": "https://www.youtube.com/watch?v=aPsK8hNxB28"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng tâm lý vỡ mộng của người 65 tuổi (cựu công chức) khi tìm việc hậu nghỉ hưu tưởng nhàn nhã nhưng đầy khắc nghiệt, chạm vào phẩm giá và sự thích nghi tuổi già.",
+      "de_bai": "Cựu trưởng phòng 65 tuổi bị công ty cũ hạ nhục bằng hợp đồng tái tuyển dụng cắt giảm ca khiến thu nhập mất một nửa, quyết định dứt áo ra đi tìm việc quản lý cơ sở lưu trú ngoại ô để lấy lại phẩm giá và thu nhập ổn định.",
+      "khac_nguon": "Đổi bối cảnh từ nhân viên chòi núi mạo hiểm 2700m sang việc quản trị khu lưu trú/ký túc xá thực tế; đổi xung đột từ thiên nhiên khắc nghiệt sang bẫy cắt giảm ca hợp đồng (シフト削減) và luật lương hưu của Lane M.",
+      "hook_3cau": "65 tuổi, cống hiến 30 năm nhưng trên bàn hợp đồng mới chỉ vỏn vẹn con số lương bị chém đứt một nửa và lịch làm việc bị bớt xén không thương tiếc. Người quản lý trẻ bảo tôi 'ở tuổi này có chỗ nhận là may rồi', giẫm đạp hoàn toàn lòng tự trọng của một cựu trưởng phòng. Nhưng thay vì cúi đầu cam chịu, tôi đã chọn một lối rẽ hoàn toàn khác để vừa giữ trọn lương hưu, vừa lấy lại phẩm giá của mình.",
+      "title_jp": "65歳再雇用の屈辱…手取り半減から選んだ逆転の穴場職種7選",
+      "thumbnail_jp": "時給激減の屈辱",
+      "so_lieu_can": [
+       "65 tuổi (lấy từ video nguồn)",
+       "Mức lương trước và sau khi bị ép giảm ca: [SỐ CẦN KIỂM] vạn yên xuống [SỐ CẦN KIỂM] vạn yên",
+       "Mức trần thu nhập tránh bị trừ lương hưu 在職老齢年金: 50 vạn yên (theo luật hiện hành) [SỐ CẦN KIỂM]"
+      ],
+      "cau_hoi_cuoi": "定年後の再雇用で理不尽なシフト削減を提示されたら、あなたはその場に残りますか？それとも新しい職場を探しますか？",
+      "rui_ro": "Dễ trượt sang kể chuyện tâm sự cá nhân đơn thuần nếu không neo chặt vào bẫy số liệu cắt giảm giờ làm (シフト削減) và danh sách 7 tiêu chí chọn việc穴場 của format kênh.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    },
+    {
+     "grade": "E",
+     "score": 7.54,
+     "source": {
+      "video_id": "TaUguaycN14",
+      "title": "【漫画】60歳、定年後に軽貨物で独立。「1個150円」の配達で、手元にいくら残ったのか",
+      "channel": "マンガ人生ラボ",
+      "subs": 1790,
+      "views": 15514,
+      "views_per_hour": 143.6,
+      "hours": 108.0,
+      "published": "2026-10-17T08:00:08Z",
+      "url": "https://www.youtube.com/watch?v=TaUguaycN14"
+     },
+     "draft": {
+      "vi_sao_thang": "Video nguồn thắng nhờ đánh trúng nỗi sợ vỡ mộng của người 60 tuổi khi nghĩ rằng tự làm giao hàng sẽ tự do, đối chiếu trực diện con số bèo bọt '1 cái 150 yên' với số tiền thực nhận cay đắng.",
+      "de_bai": "Một cựu nhân viên văn phòng 60 tuổi bị công ty cũ ép tái tuyển dụng với mức lương đáy và công việc sai vặt mất thể diện, quyết định từ chối bẫy 'tự do giả tạo' để chọn đúng 7 công việc giữ được phẩm giá và thu nhập thật.",
+      "khac_nguon": "Đổi nghề từ tài xế xe tải nhẹ (軽貨物) sang bối cảnh đàm phán tái tuyển dụng (再雇用) tại công ty cũ, đổi cái kết từ than vãn vỡ mộng sang format 7 lối thoát giữ thể diện và bảo toàn tiền hưu.",
+      "hook_3cau": "'Này, từ tháng sau tiền lương của anh giảm xuống mức này nhé.' Tờ giấy tái tuyển dụng ghi mức thù lao chẳng khác nào coi tôi như kẻ vô dụng. Ở tuổi 60, nếu chấp nhận điều này chỉ để có việc, bạn đang tự vứt bỏ phẩm giá lẫn số tiền hưu lẽ ra thuộc về mình.",
+      "title_jp": "60歳再雇用で月給[SỐ CẦN KIỂM]万減？尊厳を守る定年後の穴場仕事7選",
+      "thumbnail_jp": "時給[SỐ CẦN KIỂM]円の屈辱",
+      "so_lieu_can": [
+       "Tuổi nhân vật: 60 tuổi (lấy từ nguồn)",
+       "Đơn giá bóc lột tham chiếu nghề cũ: 150 yên/kiện (lấy từ nguồn)",
+       "Mức lương bị cắt giảm khi tái tuyển dụng: [SỐ CẦN KIỂM] vạn yên/tháng",
+       "Mức trần thu nhập tránh bị giảm lương hưu (在職老齢年金): [SỐ CẦN KIỂM] vạn yên"
+      ],
+      "cau_hoi_cuoi": "定年後の再雇用提示額、皆さんは納得してサインしましたか？",
+      "rui_ro": "Dễ trượt sang liệt kê công việc điều kiện chung chung nếu không nhấn mạnh rõ cảm giác nhục nhã vì bị ép giá và mâu thuẫn mất tiền lương hưu ở phần đầu.",
+      "nguon": "llm:gemini-3.8-flash"
+     }
+    }
+   ]
+  }
+ }
+}

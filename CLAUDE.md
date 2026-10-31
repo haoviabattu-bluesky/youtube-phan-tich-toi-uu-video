@@ -109,7 +109,7 @@ Ghi nối tiếp vào `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpubl
 | Lane | **Tab hiện tại** (tên cũ) | Mail = tên profile GPM | Channel | Video đã đăng |
 |---|---|---|---|---|
 | Satori (人生の夕暮れ) | `Satori-Lopezzapa68` (cũ: `Lopezzapa68`) | LopezzapataHilla@gmail.com | UC9huXCiBIXBfUh11D7ZsFSA | 11 |
-| A — vũ trụ (深夜の資料室) | `A-shinya_shiryoshitsu` (cũ: không tên riêng) | haoviabattu (không đuôi @gmail) | ? — **profile GPM chưa đăng nhập** | ≥2 |
+| A — vũ trụ (深夜の資料室) | `A-shinya_shiryoshitsu` (cũ: `shinya_shiryoshitsu`) | haoviabattu@gmail.com — **KHÔNG qua GPM**, Chrome riêng cổng 9222 (xem "Ngoại lệ kênh shinya" dưới) | UCYhbfP8greeTOL-0B_-OqLQ | ≥2 (sheet 23/09 ghi 4) |
 | E (健康の知恵袋) | `E-70dai-kenko` (cũ: `70dai-kenko`) | normaneileenpm218@gmail.com | UCwdrP4WLHmmtYqf8QcxcFKg (@70dai-kenko) | 1 (ep01, lịch 24/09) |
 | F (定年後のリアル) | `F-teinengo-real` (cũ: `teinengo-real`) | VirgiliTraino95@gmail.com | @teinengo-real | 0 (2 tập ghi "CẦN THAY" — mới xong packaging, chưa chắc đã đăng) |
 | G (定年後の楽しみ方) | `G-teinengo-tanoshimi` (cũ: `teinengo-tanoshimi`) | cobbytheona159@gmail.com | @teinengo-tanoshimi | 1 (ep01, lịch 25/09) |
@@ -128,6 +128,18 @@ nào nữa (đã bỏ khỏi `LANES` trong `scan_channels.py`).
 Nguồn: `list_sheets` + tab GMAIL đọc lại 2026-09-25. Quét lại kênh/video bất cứ lúc nào:
 `py -3.13 E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\scan_channels.py` (đã sửa `LANES` trỏ
 đúng TÊN TAB MỚI 2026-09-25, bỏ lane D).
+
+**Ngoại lệ kênh shinya (`haoviabattu@gmail.com`, kiểm 2026-09-23):** mail này KHÔNG login được
+trong GPM (bảo mật) nên dùng **Chrome profile riêng** do dự án `E:\CLAUDE\YOUTUBE\AUTO_LIST` lập
+(`project\config.json` → `channels.shinya_shiryoshitsu`, `via: local`). scan_channels.py quét GPM
+nên sẽ báo "chưa đăng nhập" — đó là báo OAN, không phải lỗi.
+
+- Thư mục profile: `E:\CLAUDE\YOUTUBE\HAOVIABATTU_PROFILE` · cổng CDP cố định **9222**
+- Mở (đúng lệnh cũ, chạy nền, không tạo profile mới):
+  `chrome.exe --user-data-dir=E:\CLAUDE\YOUTUBE\HAOVIABATTU_PROFILE --remote-debugging-port=9222 --no-first-run`
+- Thu số: `py -3.13 tools\studio_collect.py --port 9222 --channel UCYhbfP8greeTOL-0B_-OqLQ --lane toshi-densetsu-jp`
+- Profile này dùng chung với AUTO_LIST (upload/đặt lịch) → trước khi mở kiểm cổng 9222; đang có
+  Chrome của nó chạy thì chỉ attach, KHÔNG đóng (có thể AUTO_LIST đang upload dở).
 
 ## Quan hệ với các dự án YouTube khác cùng máy
 
@@ -178,7 +190,23 @@ có giá trị, tự rotate O→R/Q→S, tự ghi N–Q mới. Cờ `--only id1,
 khác hẳn `Satori-Lopezzapa68`/`A-shinya_shiryoshitsu` có L1="ID" tường minh. Đọc video_id theo
 **vị trí cột (index 11 = L)**, không đọc theo nhãn header.
 
-### Luật đánh dấu (anh chốt, thay cho ngưỡng CTR mềm ở mục 6 của SOP)
+### ⛔ LUẬT ĐÁNH DẤU MỚI — CHỈ CỘT K, TÔ VÀNG (anh chốt 2026-10-14, THAY cách ghi E/G bên dưới)
+
+```
+Video ≥ 48h, CTR 24h < 2,5%
+  → ghi vào cột K (GHI CHÚ) của đúng dòng đó ĐÚNG chuỗi:  CTR 24h< 2.5- Yêu cầu thay đổi
+  → tô nền ô K màu VÀNG (backgroundColor 1,1,0)
+  → KHÔNG ghi "CẦN THAY ĐỔI" vào E/G nữa, KHÔNG đụng cột nào khác
+```
+- "CTR 24h" để xét = CTR của **ngày đủ số gần nhất** trong bảng theo ngày của Studio (cột `ctr_last_24h`
+  do `studio_collect.py` thu, vd ep02 lane M ngày 12/10 = 1,7%). Cột Q (24h TRƯỢT now-24h..now) là
+  khoảng thời gian KHÁC, có thể lệch hẳn (cùng video đó Q = 3,4%) — Q chỉ để xem, không dùng để đánh dấu.
+  (Anh chưa chốt tường minh định nghĩa này — nếu anh nói khác thì sửa dòng này.)
+- Cột K thường đang có ghi chú của anh ("TIÊU ĐỀ MÔ TẢ + THUMB ĐÃ SỬA XONG 8/10"…) → sao lưu sang
+  `reports/backup_sheet_<tab>_<ngày>_truoc_ghi_K<dòng>.json` TRƯỚC khi ghi đè.
+- Các ngoại lệ cũ vẫn giữ: tổng view > 1000 thì chưa xét; CTR `—` coi như 0 (vẫn đánh dấu).
+
+### Luật đánh dấu (cũ — phần CÁCH GHI vào E/G đã bị thay bằng luật cột K ở trên)
 
 ```
 Video đã đăng ≥ 48h:
@@ -210,6 +238,47 @@ IF video ≥ 48h VÀ (O == R  [không tăng view nào kể từ lần kiểm tr�
 Điều kiện `O == R` chỉ áp dụng khi R **không rỗng** (đã có ít nhất 1 lần chạy trước để so sánh
 — lần chạy ĐẦU TIÊN của một dòng thì R rỗng, bỏ qua điều kiện này, chỉ xét theo P như luật cũ).
 
+**24h gần nhất 0 VIEW ⇒ CHỈ ghi "CẦN THAY ĐỔI" vào cột G (THUMBNAIL), cột E (tiêu đề) GIỮ
+NGUYÊN** (anh chốt 2026-09-23). Luật này ưu tiên hơn luật CTR ở trên. Tóm lại, với video ≥48h:
+
+| 24h gần nhất | Ghi vào | `mark_needed` |
+|---|---|---|
+| (bất kể) tổng view lifetime **> 1000** | KHÔNG ghi — tạm chưa xét, anh sẽ nhắc khi cần (chốt 2026-09-23) | `BO_QUA_1000` |
+| 0 view | chỉ G | `THUMB` |
+| có view, CTR < 2,5% hoặc `—` | E + G | `TITLE+THUMB` |
+| CTR ≥ 2,5% | không ghi | `NO` |
+
+**CTR TỔNG < 2,5% nhưng CTR 24H ≥ 2,5% ⇒ GIỮ, không cần thay** (anh chốt 2026-09-23). Nếu ô
+đang ghi "CẦN THAY ĐỔI" từ lượt trước thì trả E/G về tiêu đề + link thumbnail cũ (lấy từ file backup,
+đối chiếu tiêu đề live trước khi ghi). Cách xử lý này chỉ áp cho trường hợp đó; mọi trường hợp khác
+vẫn không tự xoá dấu. **Ô nào anh đã tự ghi chữ khác (vd E8 "ok không cần thay") thì KHÔNG ghi đè**;
+trước khi ghi luôn kiểm ô vẫn đúng là "CẦN THAY ĐỔI".
+
+"View" ở đây là tổng view của ngày (cột Views trong bảng theo ngày), không phải view tính từ impressions.
+
+**CTR hiện `—` (chưa có dữ liệu / ít impressions) = CTR 0 ⇒ VẪN ĐÁNH DẤU** (anh chốt 2026-09-23).
+Luật `NOT_TESTED` / "impressions < 100 thì không kết luận thumbnail" của SOP CHỈ áp cho phần
+phân tích trong báo cáo, KHÔNG được dùng để bỏ qua việc đánh dấu sheet. Video ≥48h mà CTR `—`
+hoặc < 2,5% là ghi "CẦN THAY ĐỔI", không ngoại lệ.
+
+**CTR để xét là CTR 24H GẦN NHẤT, KHÔNG PHẢI CTR LIFETIME** (anh chốt 2026-09-23, theo
+`YOUTUBE_24H_48H_72H_RECOVERY_SOP.txt`). Vết xe đổ: Valentich có CTR lifetime 2,6% trông như đạt,
+nhưng từ 17/09 trở đi mỗi ngày chỉ 1–3 impressions, CTR 0%, 0 view — video đã chết mà em không đánh dấu.
+Số theo ngày lấy ở Advanced mode, chia theo ngày (đọc bằng DEEP, bảng xếp ngày mới nhất trước):
+`https://studio.youtube.com/video/<ID>/analytics/tab-reach_viewers/period-default/explore?entity_type=VIDEO&entity_id=<ID>&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=VIDEO_THUMBNAIL_IMPRESSIONS&granularity=DAY&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&t_metrics=EXTERNAL_VIEWS&dimension=DAY&o_column=DAY&o_direction=ANALYTICS_ORDER_DIRECTION_DESC`
+Ngày hôm nay Studio chưa có số ("still processing") → "24h gần nhất" = ngày ĐỦ số mới nhất.
+Mỗi video phải báo cả LIFETIME_DIAGNOSIS lẫn CURRENT_HEALTH (last 24h / previous 24h / 48h / 72h).
+`studio_collect.py` đã tự thu số này (module `tools/studio_daily.py`) và ghi thêm các cột `*_last_24h`,
+`*_previous_24h`, `*_last_48h`, `*_last_72h`, `distribution_change_pct`, `current_distribution_status`,
+`mark_needed`, `daily_series`. Hai bẫy trong bảng số theo ngày:
+- **Ngày có 0 impression bị Studio BỎ KHỎI BẢNG.** Phải lấy ngày chốt số theo khoảng ngày
+  ghi ở đầu báo cáo ("Aug 26 – Sep 22, 2026"), không lấy theo dòng cuối có trong bảng
+  (`report_end_day`). Nếu không, video im lặng hôm qua sẽ bị tính "24h gần nhất" là hôm kia.
+- **`hours_since_publish` tính từ 00:00 của NGÀY đăng** (Studio chỉ cho biết ngày) nên có thể
+  cao hơn thật tới 17,5h. Trước khi ghi sheet, luôn kiểm mốc 48h bằng giờ đăng thật trong cột K
+  ("17:30 ngày dd/mm").
+- Video đã ghi "CẦN THAY ĐỔI" mà CTR 24h sau đó > 2,5% thì KHÔNG tự xoá dấu, chỉ báo cho anh.
+
 **Cách ghi — ô chỉ chứa ĐÚNG chữ `CẦN THAY ĐỔI`, không thêm gì.** Anh chốt 2026-09-23: không
 ghi kèm lý do, số liệu hay ngày giờ vào ô — ghi đè thẳng cột E và G bằng đúng 4 chữ đó. Số liệu và
 lý do để trong `youtube_postpublish_metrics.csv` + báo cáo, KHÔNG nhét vào sheet. Nội dung cũ của ô
@@ -228,6 +297,12 @@ Sheet: `1xu4iNudIPanWrUxlTODqIySGf9YxLy7rpTq9OtXDMOU` · tab = tên đã đổi 
 A=STT, E=TITLE-DESCREPTION, G=THUMBNAIL, J=ĐÃ ĐĂNG, K=GHI CHÚ, L=ID (một số tab không ghi rõ
 nhãn "ID" ở L1 nhưng dữ liệu từ dòng 2 vẫn luôn đặt video_id ở đúng cột L) · N–S = chỉ số
 (xem mục "Cột chỉ số N–S" ngay trên).
+
+Cách điền khi thu số bằng `studio_collect.py` (2026-09-23):
+N = số ngày từ lúc đăng, làm tròn (giờ đăng lấy ở K "17:30 ngày dd/mm"; K đã bị ghi đè thì ngày đăng
+Studio + 17:30); O = view lifetime Studio hiện; P = CTR lifetime (Studio để `—` thì tính từ
+`daily_series` = tổng click / tổng impressions); Q = `ctr_last_24h` (0 impression ⇒ 0%).
+Ghi dạng số thập phân (0.074) rồi định dạng `0.0%` — sheet dùng locale VN (dấu phẩy thập phân).
 
 ## Định dạng báo cáo
 
@@ -248,10 +323,21 @@ Luật riêng của module (không mâu thuẫn mục "⛔ VAI TRÒ" ở trên v
 - Gửi reply thật chỉ khi đủ 3 kill switch (env `COMMENT_CARE_AUTO_REPLY=1` + `mode: auto_*` trong `comment_care\config\channels.yaml` +
   cờ `--send`) **và** có token OAuth `youtube.force-ssl` của đúng Gmail kênh tại `D:\CLAUDE\credentials\youtube_oauth\<channel_id>.json`.
   Hiện CHƯA có token nào → tool chỉ soạn nháp. Anh là người authorize; Claude không tự tạo/đổi OAuth.
-- HOSTILE luôn là template cố định 「ご意見をお寄せいただき、ありがとうございます。」, không footer, không LLM.
+- **CÂU NHẠY CẢM KHÔNG TRẢ LỜI ĐƯỢC → 「はい、ご意見ありがとうございます。」 ("Vâng, cám ơn bạn đã góp ý") — anh chốt 2026-10-15
+  (THAY luật "soạn trung lập + chờ anh duyệt" cùng ngày):** áp cho POLITICAL_SOCIAL (chính trị/xã hội/nam-nữ, kể cả phân biệt giới nặng),
+  HOSTILE, và các nhóm HOSTILE/POLITICAL_SOCIAL/CRITICISM_CONSTRUCTIVE/DISAGREEMENT_POLITE khi độ tin thấp (mỉa mai, hiểu không chắc).
+  Không bỏ qua, không soạn câu riêng, không footer, không chờ anh duyệt — đăng luôn rồi làm bình luận khác. Không like/tim các
+  bình luận này (tim lên câu phân biệt giới/mỉa mai = kênh đồng tình). Code: `template_key: SENSITIVE` + `sensitive_fallback_categories`
+  trong `policy_table.yaml`, QC miễn `duplicate_text` cho câu này. UNCLEAR (vô nghĩa) và không phải tiếng Nhật vẫn SKIP.
 - Không có context video (không map được tập) → mọi category cần LLM bị SKIP, chỉ template được phép.
 - Comment của chính kênh (câu hỏi ghim 👇) không bao giờ vào LLM. Mỗi thread bot reply tối đa 1 lần.
 - Kênh Satori `UC9huXCiBIXBfUh11D7ZsFSA` **đã bị Google đình chỉ** (phát hiện 2026-10-05) → `enabled: false`; pilot là lane F.
+- **2026-10-22 — giao cho Hermes** theo `comment_care\HUONG_DAN_HERMES.md` (lane F, L, N, O, P, Q; M tắt). Luật mới trong code:
+  KHÔNG gọi Claude (`generate_use_claude: false`, soạn bằng sol→gemini); thân reply ≤50 ký tự, 1–2 câu, cấm trích dẫn lời khách/tiêu
+  đề, cấm số, cấm "私も" (`reply_rules.py`, dùng chung QC + `review` từ chối câu EDIT sai luật); hỏi chế độ/không chắc/LLM lỗi →
+  `コメントありがとうございます。` (template THANKS); `post-browser` tự like/tim (không like nhóm nhạy cảm) + chặn ngoài 08–22h JST
+  + tự chuyển kênh cho mail chung K/O rồi chuyển về; lệnh mới `react-browser`, `thank`; `tools\verify_replies.py`
+  (đối chiếu bằng API key), `tools\viet_reply.py`, `tools\keep_visible.ps1` (chạy bằng `powershell`, máy không có `pwsh`).
 
 ### Lệnh "vào lane X kiểm tra và bình luận" (anh chốt 2026-10-05)
 Nghĩa là chạy trọn quy trình, không hỏi lại từng bước: (1) `cc.py run --channel X --mode draft_only` → (2) báo tiếng Việt: bảng số lượng +
@@ -260,3 +346,39 @@ cảm) + draft nào em nghi ngờ → (3) ~~chờ anh duyệt~~ — anh chốt 2
 profile GPM = mail kênh, gõ chậm như người, **đăng xong lane nào TẮT profile lane đó ngay** (GPM `profiles/stop/<id>` đúng profile của kênh — anh chốt 2026-10-08, để người khác dùng; tool mặc định tắt, `--keep-open` mới giữ) → (5) đối chiếu TỪNG reply bằng Data API `comments.list?parentId=` trước khi báo đã đăng, ghi
 `youtube_reply_id` → (6) báo bảng video/bình luận/reply + UNRESOLVED còn chờ. Kênh mới: tra channel_id THẬT từ video_id trong sheet (K, L từng
 sai vì CLAUDE.md ghi id kênh mẫu). Câu mơ hồ ai là thủ phạm/nạn nhân → không đăng, đề xuất câu trung lập cho anh chọn.
+
+**Lane O dùng chung mail/profile GPM với lane K** (rosellagreysonbk920): profile hay đang đứng ở kênh K → post-browser báo
+`IDENTITY_MISMATCH` (đúng, chặn đăng nhầm). Cách làm (2026-10-15): mở `youtube.com/channel_switcher` bấm chữ 「人生のつづき」 → đăng →
+chuyển về 「薬局スカッと帳」 rồi mới tắt profile. Script mẫu đã chạy được: chuyển kênh + `browser_poster._run` + chuyển về.
+
+**Lane M (và A) = mail haoviabattu → KHÔNG qua GPM** (2026-10-14): mở Chrome `HAOVIABATTU_PROFILE` cổng 9222 rồi
+`cc.py post-browser --channel M --cdp-port 9222 [--like 1,2 --heart 1]`. Mail có 2 kênh (A+M) → kiểm `youtube.com/account_advanced`
+ghi đúng tên kênh M trước khi đăng. Like/tim: module `reactions.py`, chỉ bấm khi nút đang TẮT (bấm lại là gỡ). Bẫy: tab NỀN của
+Chrome không ăn chuột ổn định (like FAILED, ô reply không hiện) → poster mở tab mới + `bring_to_front()`. Kịch bản các tập nằm ở
+`E:\CLAUDE\YOUTUBE\FlowHandoff_local\jobs\<tab>\<ep>\script.txt` (không phải trong h2dev) — câu hỏi A/B/C giữa video nằm trong đó.
+
+## Module `view_spike` — báo video mới đăng ≥1000 view/giờ (anh duyệt 2026-10-15)
+
+Thư mục `view_spike\` (README trong đó; plan `plans\261015-1647-view-spike-alert\`). Task Scheduler
+`ViewSpikeWatch` chạy `pythonw spike_watch.py` mỗi 15 phút. Mỗi lane chỉ 2 video MỚI NHẤT còn ≤72h
+(anh chốt). Tầng 1 API (1 unit/vòng, 0 token LLM) ≥300 view/giờ công khai ⇒ tầng 2 mở Studio đọc thẻ
+Realtime ≥1000 ⇒ toast góc màn hình + `view_spike\state\alerts.jsonl`. Báo tạm bằng toast (anh chốt).
+- **Số công khai (API/trang xem) THẤP hơn Studio ~26%** (đo 2 lần 2026-10-15) — đừng nâng ngưỡng tầng 1 lên 1000.
+- Thẻ Realtime: số từng cột KHÔNG có trong DOM → phải rê chuột `yta-realtime-chart`, bước ≤2px.
+- ⚠️ **Tên tab đã đổi lần nữa (đo 2026-10-15)**: `G` (cũ G-teinengo-tanoshimi), `teinengo-fuufu` không còn,
+  thêm `Lane-J/N/O/P/Q`. Map tab→mail ở `view_spike\config.json`, đối chiếu bằng channelId của video qua API
+  (không tin ghi chú). Lane-J/N không có profile GPM, Lane-O chưa rõ mail → tầng 2 chỉ báo "nghi đang lên".
+
+## Module `niche_watch` — nuôi ngách 10 lane mỗi tối 18:00–21:00 (anh duyệt 2026-10-22)
+
+Thư mục `niche_watch\` (README trong đó; plan `plans\261022-1900-niche-watch\`). Lane E,H,F,L,M,O,N,Q,P,X
+xoay vòng 3–4 profile/lượt; gõ tìm theo sheet (E tiêu đề/hashtag, F cặp tag) → 1 lệnh vision lọc (tiêu đề +
+dải thumbnail 1 cột) → xem video đạt nhiều view nhất 10–15' (like/sub ngẫu nhiên) → đi theo đề xuất → ĐÓNG profile.
+- **Vision trả 2 danh sách riêng `real` + `topic`, code tự trừ** — gộp vào 1 danh sách "ok" thì model lúc
+  nhận video bác sĩ thật, lúc nhận sai chủ đề (đo thật). Lưới 2 cột làm model gán nhầm số → dùng 1 cột dọc.
+- Trang xem khi đăng nhập có **3 phần tử `#secondary`, cái đầu rỗng**; sau Enter phải chờ `**/results?**`
+  (trang chủ cũng có thẻ video → đọc nhầm feed). Lượt xem giao diện 2026 chỉ in `1万` trên 1 dòng riêng.
+- Đóng không phụ thuộc GPM: id profile cache ở `state/gpm_ids.json`, `taskkill` không ăn thì `Stop-Process`
+  (2026-10-22 máy hết RAM do 1 ffmpeg 22 GB → GPM Not Responding → API treo, taskkill báo "no running instance").
+- Chạy theo lịch (`--force-busy`) mới được tự đóng profile bận; chạy tay giữ bẫy #9.
+- view_spike tầng 2 bỏ qua profile đang nuôi ngách (`niche_watch\state\active_<lane>.json`).

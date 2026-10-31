@@ -1,0 +1,389 @@
+05:00:02 ===== DA LUONG 3 profile cung luc | 11 nhom | tat ca tab  =====
+05:00:02   luong 1: ['cdp9222', 'normaneileenpm218@gmail.com', 'SyedualiBajwa92@gmail.com', 'tiffanyhenrietta3@gmail.com']
+05:00:02   luong 2: ['rosellagreysonbk920@gmail.com', 'VirgiliTraino95@gmail.com', 'FuentesMitsy202@gmail.com', 'JordaneLaetitia694@gmail.com']
+05:00:02   luong 3: ['AldenorRodrigues626@gmail.com', 'cobbytheona159@gmail.com', 'thienduongly7890@gmail.com']
+05:00:02   mo profile luong 1: cdp cdp9222
+05:00:04   cong 9222 trong -> mo Chrome dung lenh cu (--user-data-dir E:\CLAUDE\YOUTUBE\HAOVIABATTU_PROFILE)
+05:00:07   chay luong 1: cdp9222 | tabs=['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+05:00:07     · mo profile tiep theo: nghi 8.6s
+05:00:10 ===== BAT DAU tay =====
+05:00:13 --- attach vao profile da mo san: http://127.0.0.1:9222...
+05:00:13 --- tab se doc: ['A-shinya_shiryoshitsu', 'M-teinengo-anaba']
+05:00:16   mo profile luong 2: gpm rosellagreysonbk920@gmail.com
+05:00:18   GPMLogin chua bat -> tu mo C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe
+05:00:32     · chuyen video: nghi 24.3s
+05:00:56     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:01:08     · chua render menu sau goto (lan 1) -> reload
+05:01:20   LOI mo profile rosellagreysonbk920@gmail.com: HTTPConnectionPool(host='127.0.0.1', port=9495): Read timed out. (read timeout=30) -> bo qua luong 2
+05:01:20     · mo profile tiep theo: nghi 10.0s
+05:01:27     · chua render menu sau goto (lan 2) -> reload
+05:01:30   mo profile luong 3: gpm AldenorRodrigues626@gmail.com
+05:01:45     · chua render menu sau goto (lan 3) -> reload
+05:01:55     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:01:55     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video itNs2a3zJmQ (tranh ghi nham kenh)
+05:01:55     · Studio bao loi, doi lau: nghi 53.7s
+05:02:26   chay luong 3: AldenorRodrigues626@gmail.com | tabs=['sengoku-uragawa', 'Lane-J']
+05:02:26     · mo profile tiep theo: nghi 8.1s
+05:02:26 ===== BAT DAU tay =====
+05:02:28 --- attach vao profile da mo san: ws://localhost:57294/devtools/browser/903f707c-f353-419f-959...
+05:02:28 --- tab se doc: ['sengoku-uragawa', 'Lane-J']
+05:02:30 [sengoku-uragawa] khong co video_id o cot L -> bo qua
+05:02:30     · chuyen tab: nghi 19.6s
+05:02:49     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:02:59     · chua render menu sau goto (lan 1) -> reload
+05:03:06     · chuyen video: nghi 33.8s
+05:03:18     · chua render menu sau goto (lan 2) -> reload
+05:03:40     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:03:41     · chua render menu sau goto (lan 3) -> reload
+05:03:49     · chua render menu sau goto (lan 1) -> reload
+05:03:50     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:03:50     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video itNs2a3zJmQ (tranh ghi nham kenh)
+05:03:50 [A-shinya_shiryoshitsu] dong 2 itNs2a3zJmQ: khong doc duoc trang Reach 24h -> bo qua
+05:03:50     · chuyen video: nghi 42.6s
+05:04:10     · chua render menu sau goto (lan 2) -> reload
+05:04:31     · chua render menu sau goto (lan 3) -> reload
+05:04:33     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:04:39     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:04:39     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video nClSdd439gc (tranh ghi nham kenh)
+05:04:39     · Studio bao loi, doi lau: nghi 56.2s
+05:04:44     · chua render menu sau goto (lan 1) -> reload
+05:05:05     · chua render menu sau goto (lan 2) -> reload
+05:05:27     · chua render menu sau goto (lan 3) -> reload
+05:05:35     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:05:36     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:05:36     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video oRXPrmO2eY8 (tranh ghi nham kenh)
+05:05:36     · Studio bao loi, doi lau: nghi 60.3s
+05:05:48     · chua render menu sau goto (lan 1) -> reload
+05:06:07     · chua render menu sau goto (lan 2) -> reload
+05:06:27     · chua render menu sau goto (lan 3) -> reload
+05:06:35     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:06:35     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video nClSdd439gc (tranh ghi nham kenh)
+05:06:35 [Lane-J] dong 3 nClSdd439gc: khong doc duoc trang Reach 24h -> bo qua
+05:06:35     · chuyen video: nghi 31.7s
+05:06:36     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:06:50     · chua render menu sau goto (lan 1) -> reload
+05:07:07     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:07:11     · chua render menu sau goto (lan 2) -> reload
+05:07:19     · chua render menu sau goto (lan 1) -> reload
+05:07:31     · chua render menu sau goto (lan 3) -> reload
+05:07:36     · chua render menu sau goto (lan 2) -> reload
+05:07:38     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:07:38     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video oRXPrmO2eY8 (tranh ghi nham kenh)
+05:07:38 [A-shinya_shiryoshitsu] dong 3 oRXPrmO2eY8: khong doc duoc trang Reach 24h -> bo qua
+05:07:38     · chuyen video: nghi 41.9s
+05:07:54     · chua render menu sau goto (lan 3) -> reload
+05:08:03     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:08:03     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video lO4srVZbA_M (tranh ghi nham kenh)
+05:08:03     · Studio bao loi, doi lau: nghi 99.3s
+05:08:20     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:08:30     · chua render menu sau goto (lan 1) -> reload
+05:08:51     · chua render menu sau goto (lan 2) -> reload
+05:09:10     · chua render menu sau goto (lan 3) -> reload
+05:09:18     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:09:18     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video VALYwHZIlRw (tranh ghi nham kenh)
+05:09:18     · Studio bao loi, doi lau: nghi 112.9s
+05:09:43     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:09:55     · chua render menu sau goto (lan 1) -> reload
+05:10:13     · chua render menu sau goto (lan 2) -> reload
+05:10:32     · chua render menu sau goto (lan 3) -> reload
+05:10:42     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:10:42     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video lO4srVZbA_M (tranh ghi nham kenh)
+05:10:42 [Lane-J] dong 4 lO4srVZbA_M: khong doc duoc trang Reach 24h -> bo qua
+05:10:42     · chuyen video: nghi 36.9s
+05:11:11     · chua san sang (url=https://studio.youtube.com/channel/UCYhbfP8greeTOL-0B_-OqLQ, menu=KHONG) -> chuyen lai
+05:11:19     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:11:23     · chua render menu sau goto (lan 1) -> reload
+05:11:30     · chua render menu sau goto (lan 1) -> reload
+05:11:42     · chua render menu sau goto (lan 2) -> reload
+05:11:51     · chua render menu sau goto (lan 2) -> reload
+05:12:05     · chua render menu sau goto (lan 3) -> reload
+05:12:12     · chua render menu sau goto (lan 3) -> reload
+05:12:14     · KHONG chuyen duoc sang kenh UCYhbfP8greeTOL-0B_-OqLQ
+05:12:14     · khong o duoc kenh UCYhbfP8greeTOL-0B_-OqLQ -> bo qua video VALYwHZIlRw (tranh ghi nham kenh)
+05:12:14 [A-shinya_shiryoshitsu] dong 4 VALYwHZIlRw: khong doc duoc trang Reach 24h -> bo qua
+05:12:14 [A-shinya_shiryoshitsu] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+05:12:14     · chuyen tab: nghi 22.0s
+05:12:20     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:12:20     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video _Vb0ji6vCA4 (tranh ghi nham kenh)
+05:12:20     · Studio bao loi, doi lau: nghi 116.9s
+05:12:52     · chuyen video: nghi 21.4s
+05:13:18     · bam Content @(97,332)
+05:13:25     · bam video 6rM_7jwLs2k @(710,1239)
+05:14:05     · Studio bao loi, doi lau: nghi 79.2s
+05:14:17     · chua san sang (url=https://studio.youtube.com/channel/UCvLpzQtsS8gFAlthT-8YVlQ, menu=KHONG) -> chuyen lai
+05:14:25     · chua render menu sau goto (lan 1) -> reload
+05:14:43     · chua render menu sau goto (lan 2) -> reload
+05:15:05     · chua render menu sau goto (lan 3) -> reload
+05:15:12     · KHONG chuyen duoc sang kenh UCvLpzQtsS8gFAlthT-8YVlQ
+05:15:12     · khong o duoc kenh UCvLpzQtsS8gFAlthT-8YVlQ -> bo qua video _Vb0ji6vCA4 (tranh ghi nham kenh)
+05:15:12 [Lane-J] dong 5 _Vb0ji6vCA4: khong doc duoc trang Reach 24h -> bo qua
+05:15:12 [Lane-J] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+05:15:12     · chuyen tab: nghi 17.9s
+05:15:29     · bam video 6rM_7jwLs2k @(710,1239)
+05:15:30 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: Lane-J · 13 phút
+05:16:09 [M-teinengo-anaba] dong 2 6rM_7jwLs2k: khong doc duoc trang Reach 24h -> bo qua
+05:16:09     · chuyen video: nghi 36.1s
+05:16:49     · bam video 7hnpdufAVHg @(706,1323)
+05:17:31     · Studio bao loi, doi lau: nghi 88.5s
+05:19:05     · bam video 7hnpdufAVHg @(706,1323)
+05:19:44 [M-teinengo-anaba] dong 3 7hnpdufAVHg: khong doc duoc trang Reach 24h -> bo qua
+05:19:44     · chuyen video: nghi 33.0s
+05:20:20     · bam video VFdj45ytUaI @(710,1155)
+05:21:01     · Studio bao loi, doi lau: nghi 71.1s
+05:22:18     · bam video VFdj45ytUaI @(710,1155)
+05:22:59 [M-teinengo-anaba] dong 4 VFdj45ytUaI: khong doc duoc trang Reach 24h -> bo qua
+05:22:59 [M-teinengo-anaba] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+05:22:59     · chuyen tab: nghi 11.4s
+05:23:11 ===== XONG: 0 video · 0 dòng vàng · lỗi 6 video · lane bỏ qua: A-shinya_shiryoshitsu, M-teinengo-anaba · 23 phút
+05:23:11   luong cdp9222 xong (exit 0)
+05:23:11   dong profile cdp9222
+05:23:11     · mo profile tiep theo: nghi 14.6s
+05:24:19   chay tiep: normaneileenpm218@gmail.com | tabs=['E-70dai-kenko']
+05:24:20 ===== BAT DAU tay =====
+05:24:24 --- attach vao profile da mo san: ws://localhost:57842/devtools/browser/d518c1fb-8e83-49dd-ba6...
+05:24:24 --- tab se doc: ['E-70dai-kenko']
+05:24:40     · chuyen video: nghi 27.0s
+05:25:10     · bam Content @(97,332)
+05:25:17     · bam video 8TKymA4xA9w @(712,399)
+05:25:21     · mo duoc video: 立ち上がるとき両手をつく方へ：筋肉の衰えに気づく5つのサイン——自宅で確認できます
+05:25:24     · bam tab Analytics @(101,380)
+05:25:30     · bam tab Reach @(410,178)
+05:25:38     · doc so xong: nghi 1.7s
+05:25:42     · bam nhan khoang ngay @(1329,149)
+05:25:47     · bam Custom @(1326,592)
+05:25:50     · bam o ngay 2026-10-20 @(1304,155)
+05:25:53     · bam o ngay 2026-10-20 @(1436,155)
+05:25:59     · bam Apply @(1454,499)
+05:26:03     · khoang ngay da doi sang Oct 20, 2026
+05:26:06     · doc so xong: nghi 3.1s
+05:26:09 [E-70dai-kenko] dong 3 8TKymA4xA9w: N=24 O=3 P=4,6% Q=4,6% imp24h=22.0 | ok | K=587h · 3 view · CTR tổng 4,6% · CTR 24h 4,6% · 22 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:26:09     · chuyen video: nghi 31.0s
+05:26:40     · chua san sang (url=https://studio.youtube.com/video/8TKymA4xA9w/analytics/tab-r, menu=co) -> chuyen lai
+05:27:01     · bam Content @(97,332)
+05:27:07     · bam video 3rI4iCQDzm8 @(712,483)
+05:27:12     · mo duoc video: 高齢者の方へ：血圧は下がったのに足腰が弱る——体にいいはずの5つの食習慣の落とし穴
+05:27:15     · bam tab Analytics @(101,380)
+05:27:20     · bam tab Reach @(410,178)
+05:27:26     · doc so xong: nghi 4.1s
+05:27:34     · bam nhan khoang ngay @(1329,155)
+05:27:39     · bam Custom @(1326,598)
+05:27:42     · bam o ngay 2026-10-20 @(1304,161)
+05:27:46     · bam o ngay 2026-10-20 @(1436,161)
+05:27:52     · bam Apply @(1454,505)
+05:27:57     · khoang ngay da doi sang Oct 20, 2026
+05:28:01     · doc so xong: nghi 3.8s
+05:28:05 [E-70dai-kenko] dong 4 3rI4iCQDzm8: N=25 O=0 P= Q=— imp24h=10.0 | VANG | K=CTR 24h=— (10 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:28:05     · chuyen video: nghi 51.8s
+05:28:57     · chua san sang (url=https://studio.youtube.com/video/3rI4iCQDzm8/analytics/tab-r, menu=co) -> chuyen lai
+05:29:17     · bam Content @(97,332)
+05:29:22     · bam video ZG4IcNAVumk @(712,315)
+05:29:26     · mo duoc video: 少し歩くとふくらはぎが痛む方へ：血管や神経の異変が隠れることもある足のサイン5つ、自宅で
+05:29:28     · bam tab Analytics @(101,380)
+05:29:34     · bam tab Reach @(410,178)
+05:29:40     · doc so xong: nghi 1.9s
+05:29:45     · bam nhan khoang ngay @(1329,155)
+05:29:49     · bam Custom @(1326,598)
+05:29:52     · bam o ngay 2026-10-20 @(1304,161)
+05:29:55     · bam o ngay 2026-10-20 @(1436,161)
+05:30:00     · bam Apply @(1454,505)
+05:30:05     · khoang ngay da doi sang Oct 20, 2026
+05:30:08     · doc so xong: nghi 2.2s
+05:30:11 [E-70dai-kenko] dong 5 ZG4IcNAVumk: N=23 O=1 P= Q=— imp24h=14.0 | VANG | K=CTR 24h=— (14 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+05:30:14 [E-70dai-kenko] DA GHI 3 dong
+05:30:14 [E-70dai-kenko] TONGHOP TONGHOP khong co cot E-70dai-kenko
+05:30:14     · chuyen tab: nghi 19.0s
+05:30:33 ===== XONG: 3 video · 2 dòng vàng · lỗi 0 video · lane bỏ qua: không · 6 phút
+05:30:33   normaneileenpm218@gmail.com xong (exit 0)
+05:30:33   dong profile normaneileenpm218@gmail.com
+05:30:33     · mo profile tiep theo: nghi 14.2s
+05:32:06   GPM start lan 1: {'profile_id': '51f9048f-22bb-4ee8-b2eb-562838903b37', 'driver_path': 'C:\\Users\\xxx\\AppData\\Roaming\\GPMLoginGlobal\ -> stop + dong chrome cua profile roi thu lai
+05:32:16   da dong 1 tien trinh chrome cua profile 51f9048f (theo PID [8568])
+05:32:22   GPM start lan 2: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+05:32:38   da dong 0 tien trinh chrome cua profile 51f9048f (theo PID [])
+05:32:53   GPM start lan 3: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+05:33:16   da dong 0 tien trinh chrome cua profile 51f9048f (theo PID [])
+05:33:31   GPM start lan 4: ProfileInUse -> stop + dong chrome cua profile roi thu lai
+05:34:01   da dong 0 tien trinh chrome cua profile 51f9048f (theo PID [])
+05:34:16   LOI SyedualiBajwa92@gmail.com: GPM khong mo duoc profile sau 4 lan: ProfileInUse
+05:34:16     · mo profile tiep theo: nghi 9.0s
+05:35:25   chay tiep: tiffanyhenrietta3@gmail.com | tabs=['Lane-P']
+05:35:25 ===== BAT DAU tay =====
+05:35:28 --- attach vao profile da mo san: ws://localhost:58305/devtools/browser/2818c98e-9014-49f0-aa3...
+05:35:28 --- tab se doc: ['Lane-P']
+05:35:44     · chuyen video: nghi 33.8s
+05:36:22     · bam Content @(97,332)
+05:36:29     · bam video Y7TiikwCrtU @(710,735)
+05:36:35     · mo duoc video: 中国「日本はドアノブまで時代遅れｗ ウチの隠しハンドルを見習え！」→結果、中国が自ら禁止
+05:36:38     · bam tab Analytics @(101,380)
+05:36:43     · bam tab Reach @(410,178)
+05:36:50     · doc so xong: nghi 3.0s
+05:36:56     · bam nhan khoang ngay @(1328,112)
+05:37:02     · bam Custom @(1326,555)
+05:37:06     · bam o ngay 2026-10-20 @(1304,118)
+05:37:09     · bam o ngay 2026-10-20 @(1436,118)
+05:37:14     · bam Apply @(1454,462)
+05:37:18     · khoang ngay da doi sang Oct 20, 2026
+05:37:21     · doc so xong: nghi 4.4s
+05:37:25 [Lane-P] dong 3 Y7TiikwCrtU: N=6 O=47700 P=6,8% Q=6,9% imp24h=188600.0 | ok | K=156h · 47.700 view · CTR tổng 6,8% · CTR 24h 6,9% · 188.600 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:37:25     · chuyen video: nghi 41.8s
+05:38:07     · chua san sang (url=https://studio.youtube.com/video/Y7TiikwCrtU/analytics/tab-r, menu=co) -> chuyen lai
+05:38:29     · bam Content @(97,332)
+05:38:36     · bam video yGb_Dd97NjE @(710,651)
+05:38:41     · mo duoc video: 中国「ファスナーなんてたった3角で作れる！日本はもう終わりだ！ハハハ！」→中国の高級ファ
+05:38:44     · bam tab Analytics @(101,380)
+05:38:49     · bam tab Reach @(410,178)
+05:38:55     · doc so xong: nghi 4.1s
+05:39:03     · bam nhan khoang ngay @(1328,88)
+05:39:08     · bam Custom @(1326,531)
+05:39:12     · bam o ngay 2026-10-20 @(1304,94)
+05:39:15     · bam o ngay 2026-10-20 @(1436,94)
+05:39:20     · bam Apply @(1454,438)
+05:39:26     · khoang ngay da doi sang Oct 20, 2026
+05:39:29     · doc so xong: nghi 4.5s
+05:39:33 [Lane-P] dong 5 yGb_Dd97NjE: N=4 O=1400 P=4,2% Q=4,2% imp24h=7300.0 | ok | K=118h · 1.400 view · CTR tổng 4,2% · CTR 24h 4,2% · 7.300 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:39:33     · chuyen video: nghi 33.1s
+05:40:06     · chua san sang (url=https://studio.youtube.com/video/yGb_Dd97NjE/analytics/tab-r, menu=co) -> chuyen lai
+05:40:25     · bam Content @(97,332)
+05:40:31     · bam video P8MvoMgUa74 @(710,567)
+05:40:37     · mo duoc video: 中国「日本のドーナツなんて食えたもんじゃないｗ 客に見捨てられて潰れて当然だ、ハハハ！」
+05:40:41     · bam tab Analytics @(101,380)
+05:40:46     · bam tab Reach @(410,178)
+05:40:51     · doc so xong: nghi 3.6s
+05:40:56     · bam nhan khoang ngay @(1328,155)
+05:41:00     · bam Custom @(1326,598)
+05:41:03     · bam o ngay 2026-10-20 @(1304,161)
+05:41:06     · bam o ngay 2026-10-20 @(1436,161)
+05:41:12     · bam Apply @(1454,505)
+05:41:16     · khoang ngay da doi sang Oct 20, 2026
+05:41:20     · doc so xong: nghi 3.2s
+05:41:23 [Lane-P] dong 6 P8MvoMgUa74: N=3 O=99 P=4,0% Q=4,1% imp24h=850.0 | ok | K=85h · 99 view · CTR tổng 4,0% · CTR 24h 4,1% · 850 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:41:23     · chuyen video: nghi 47.8s
+05:42:11     · chua san sang (url=https://studio.youtube.com/video/P8MvoMgUa74/analytics/tab-r, menu=co) -> chuyen lai
+05:42:31     · bam Content @(97,332)
+05:42:37     · bam video NULQOgz-W0U @(710,399)
+05:42:41     · mo duoc video: 中国「日本がチップを作るだと？笑わせるな！」→結果、味の素がABFを独占、中国のニューフ
+05:42:45     · bam tab Analytics @(101,380)
+05:42:51     · bam tab Reach @(410,178)
+05:42:56     · doc so xong: nghi 3.1s
+05:43:01     · bam nhan khoang ngay @(1328,155)
+05:43:06     · bam Custom @(1326,598)
+05:43:08     · bam o ngay 2026-10-20 @(1304,161)
+05:43:12     · bam o ngay 2026-10-20 @(1436,161)
+05:43:19     · bam Apply @(1454,505)
+05:43:24     · khoang ngay da doi sang Oct 20, 2026
+05:43:27     · doc so xong: nghi 2.9s
+05:43:30 [Lane-P] dong 7 NULQOgz-W0U: N=1 O=144 P=2,7% Q=2,8% imp24h=2700.0 | ok | K=37h · 144 view · CTR tổng 2,7% · CTR 24h 2,8% · 2.700 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:43:30     · chuyen video: nghi 42.8s
+05:44:13     · chua san sang (url=https://studio.youtube.com/video/NULQOgz-W0U/analytics/tab-r, menu=co) -> chuyen lai
+05:44:34     · bam Content @(97,332)
+05:44:42     · bam video dlD3KB_hNys @(710,315)
+05:44:48     · mo duoc video: 中国「日本ごときが丸型で追いつけるものかｗ」→結果、2027年から自国で半幅が事実上禁止
+05:44:51     · bam tab Analytics @(101,380)
+05:44:57     · bam tab Reach @(410,178)
+05:45:02     · doc so xong: nghi 2.3s
+05:45:07     · bam nhan khoang ngay @(1328,155)
+05:45:12     · bam Custom @(1326,598)
+05:45:14     · hop Custom chi co 0 o ngay -> thu lai
+05:45:19     · bam nhan khoang ngay @(1328,155)
+05:45:24     · bam Custom @(1326,598)
+05:45:27     · hop Custom chi co 0 o ngay -> thu lai
+05:45:33     · bam nhan khoang ngay @(1328,155)
+05:45:37     · bam Custom @(1326,598)
+05:45:39     · hop Custom chi co 0 o ngay -> thu lai
+05:45:41     · KHONG doi duoc khoang ngay -> CTR 24h de TRONG (khong lay so tron doi)
+05:45:41     · doc so xong: nghi 2.5s
+05:45:44 [Lane-P] dong 10 dlD3KB_hNys: N=0 O=31 P=2,7% Q=2,7% imp24h=None | ok | K=12h · 31 view · CTR tổng 2,7% · CTR 24h 2,7% · — lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+05:45:46 [Lane-P] DA GHI 5 dong
+05:45:46     · chuyen tab: nghi 24.0s
+05:46:10 ===== XONG: 5 video · 0 dòng vàng · lỗi 0 video · lane bỏ qua: không · 10 phút
+05:46:11   tiffanyhenrietta3@gmail.com xong (exit 0)
+05:46:11   dong profile tiffanyhenrietta3@gmail.com
+05:46:11   luong AldenorRodrigues626@gmail.com xong (exit 0)
+05:46:11   dong profile AldenorRodrigues626@gmail.com
+05:46:11     · mo profile tiep theo: nghi 9.8s
+05:47:17   chay tiep: cobbytheona159@gmail.com | tabs=['G']
+05:47:18 ===== BAT DAU tay =====
+05:47:20 --- attach vao profile da mo san: ws://localhost:58728/devtools/browser/1af7e2f5-edc4-495d-9cc...
+05:47:20 --- tab se doc: ['G']
+05:47:37     · chuyen video: nghi 31.5s
+05:48:12     · bam Content @(97,332)
+05:48:52     · khong mo duoc danh sach video -> bo qua video nay
+05:48:52     · Studio bao loi, doi lau: nghi 61.9s
+05:49:57     · bam Content @(97,332)
+05:50:39     · khong mo duoc danh sach video -> bo qua video nay
+05:50:39 [G] dong 2 tdmVOys-r9U: khong doc duoc trang Reach 24h -> bo qua
+05:50:39     · chuyen video: nghi 35.3s
+05:51:18     · bam Content @(97,332)
+05:51:57     · khong mo duoc danh sach video -> bo qua video nay
+05:51:57     · Studio bao loi, doi lau: nghi 108.3s
+05:53:50     · bam Content @(97,332)
+05:54:31     · khong mo duoc danh sach video -> bo qua video nay
+05:54:31 [G] dong 3 fimMUWtL6cE: khong doc duoc trang Reach 24h -> bo qua
+05:54:31     · chuyen video: nghi 20.4s
+05:54:55     · bam Content @(97,332)
+05:55:36     · khong mo duoc danh sach video -> bo qua video nay
+05:55:36     · Studio bao loi, doi lau: nghi 99.2s
+05:57:19     · bam Content @(97,332)
+05:58:01     · khong mo duoc danh sach video -> bo qua video nay
+05:58:01 [G] dong 4 HNt29CYLlI4: khong doc duoc trang Reach 24h -> bo qua
+05:58:01 [G] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+05:58:01     · chuyen tab: nghi 16.4s
+05:58:17 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: G · 10 phút
+05:58:18   cobbytheona159@gmail.com xong (exit 0)
+05:58:18   dong profile cobbytheona159@gmail.com
+05:58:18     · mo profile tiep theo: nghi 14.8s
+05:58:39   chay tiep: thienduongly7890@gmail.com | tabs=['Lane-N']
+05:58:40 ===== BAT DAU tay =====
+05:58:44 --- attach vao profile da mo san: ws://127.0.0.1:58963/devtools/browser/5ba32f9a-3850-41ec-a0e...
+05:58:44 --- tab se doc: ['Lane-N']
+05:59:01     · chuyen video: nghi 34.9s
+05:59:36     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+05:59:48     · chua render menu sau goto (lan 1) -> reload
+06:00:13     · chua render menu sau goto (lan 2) -> reload
+06:00:36     · chua render menu sau goto (lan 3) -> reload
+06:00:44     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:00:44     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video EvdfvywqDc8 (tranh ghi nham kenh)
+06:00:44     · Studio bao loi, doi lau: nghi 71.0s
+06:01:55     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+06:02:10     · chua render menu sau goto (lan 1) -> reload
+06:02:36     · chua render menu sau goto (lan 2) -> reload
+06:03:04     · chua render menu sau goto (lan 3) -> reload
+06:03:16     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:03:16     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video EvdfvywqDc8 (tranh ghi nham kenh)
+06:03:16 [Lane-N] dong 2 EvdfvywqDc8: khong doc duoc trang Reach 24h -> bo qua
+06:03:16     · chuyen video: nghi 41.1s
+06:03:57     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+06:04:10     · chua render menu sau goto (lan 1) -> reload
+06:04:33     · chua render menu sau goto (lan 2) -> reload
+06:04:55     · chua render menu sau goto (lan 3) -> reload
+06:05:05     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:05:05     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video 0zh3rnxHRic (tranh ghi nham kenh)
+06:05:05     · Studio bao loi, doi lau: nghi 96.2s
+06:06:41     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+06:06:52     · chua render menu sau goto (lan 1) -> reload
+06:07:15     · chua render menu sau goto (lan 2) -> reload
+06:07:37     · chua render menu sau goto (lan 3) -> reload
+06:07:47     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:07:47     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video 0zh3rnxHRic (tranh ghi nham kenh)
+06:07:47 [Lane-N] dong 3 0zh3rnxHRic: khong doc duoc trang Reach 24h -> bo qua
+06:07:47     · chuyen video: nghi 42.4s
+06:08:30     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+06:08:45     · chua render menu sau goto (lan 1) -> reload
+06:09:07     · chua render menu sau goto (lan 2) -> reload
+06:09:33     · chua render menu sau goto (lan 3) -> reload
+06:09:44     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:09:44     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video Jc7l8TYs4_Q (tranh ghi nham kenh)
+06:09:44     · Studio bao loi, doi lau: nghi 95.0s
+06:11:19     · chua san sang (url=https://studio.youtube.com/channel/UCqXxSE88mHQiZMvzCdlmk3w, menu=KHONG) -> chuyen lai
+06:11:33     · chua render menu sau goto (lan 1) -> reload
+06:11:54     · chua render menu sau goto (lan 2) -> reload
+06:12:21     · chua render menu sau goto (lan 3) -> reload
+06:12:32     · KHONG chuyen duoc sang kenh UCqXxSE88mHQiZMvzCdlmk3w
+06:12:32     · khong o duoc kenh UCqXxSE88mHQiZMvzCdlmk3w -> bo qua video Jc7l8TYs4_Q (tranh ghi nham kenh)
+06:12:32 [Lane-N] dong 4 Jc7l8TYs4_Q: khong doc duoc trang Reach 24h -> bo qua
+06:12:32 [Lane-N] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+06:12:32     · chuyen tab: nghi 18.5s
+06:12:50 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: Lane-N · 14 phút
+06:12:50   thienduongly7890@gmail.com xong (exit 0)
+06:12:50   dong profile thienduongly7890@gmail.com
+06:12:50 ===== XONG DA LUONG: 72 phut (3 profile cung luc)

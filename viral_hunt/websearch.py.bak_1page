@@ -1,0 +1,140 @@
+# -*- coding: utf-8 -*-
+"""websearch.py — quét YouTube qua trang kết quả web, KHÔNG tốn quota API.
+
+VÌ SAO (đo thật 2026-10-18): `search.list` = 100 unit/call **và** có hạn mức RIÊNG
+"Search Queries per day" — quét 38 từ khoá là ăn HTTP 429, chết cả ngày. Nhưng trang
+`youtube.com/results` trả về đúng thứ cần, miễn phí:
+
+    sp = CAMSBAgDEAE%3D   →  sort by VIEW COUNT + upload date: this week + type: video
+
+Mỗi `videoRenderer` có: videoId, title, publishedTimeText ("6 日前"), viewCountText
+("146,940回視聴"), ownerText. Đủ để lọc ≤5 ngày + >100k view TRƯỚC khi gọi API.
+Sau đó API chỉ dùng cho ~50 video cuối (videos.list 1 unit + channels.list 1 unit).
+
+Bẫy đã trả giá:
+  * `ytInitialData` phải bóc bằng regex `ytInitialData\\s*=\\s*(\\{.*?\\});` với re.S —
+    không có re.S thì không khớp và ta tưởng "YouTube chặn".
+  * Không dùng `"videoId":"..."` regex trên cả trang: nó bắt cả id trong
+    `ytInitialPlayerResponse` và các shelf khác, ra id rác. Phải đi bộ cây JSON tìm
+    đúng key `videoRenderer`.
+  * `sp` phải URL-encode (`%3D`), để nguyên dấu `=` thì YouTube bỏ qua filter và trả
+    kết quả sort relevance, trông vẫn "có video" nên rất dễ tưởng đang lọc đúng.
+  * publishedTimeText tiếng Nhật: 秒/分/時間/日/週間/か月/年 — đọc đủ 7 đơn vị.
+"""
+import json
+import random
+import re
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+
+UA_POOL = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36",
+]
+SP_VIEW_WEEK = "CAMSBAgDEAE%3D"      # sort view count + this week + type video
+SP_VIEW_MONTH = "CAMSBAgEEAE%3D"     # sort view count + this month + type video
+
+
+def _num(s):
+    """'146,940回視聴' -> 146940 ; '1.2万回視聴' -> 12000 ; '視聴回数なし' -> 0"""
+    if not s:
+        return 0
+    s = s.replace(",", "").replace("，", "")
+    m = re.search(r"([\d.]+)\s*万", s)
+    if m:
+        return int(float(m.group(1)) * 10000)
+    m = re.search(r"([\d.]+)", s)
+    return int(float(m.group(1))) if m else 0
+
+
+def age_days(txt):
+    """'6 日前' -> 6.0 ; '1 時間前' -> 0.04 ; '2 週間前' -> 14 ; '3 か月前' -> 90 ; '2 年前' -> 730"""
+    if not txt:
+        return 9999.0
+    t = txt.replace(" ", "")
+    m = re.search(r"([\d.]+)", t)
+    if not m:
+        return 9999.0
+    n = float(m.group(1))
+    if "秒" in t:
+        return n / 86400
+    if "分" in t:
+        return n / 1440
+    if "時間" in t:
+        return n / 24
+    if "日" in t:
+        return n
+    if "週間" in t or "週" in t:
+        return n * 7
+    if "か月" in t or "ヶ月" in t or "カ月" in t:
+        return n * 30
+    if "年" in t:
+        return n * 365
+    return 9999.0
+
+
+def _walk(node, key, out):
+    if isinstance(node, dict):
+        if key in node:
+            out.append(node[key])
+        for v in node.values():
+            _walk(v, key, out)
+    elif isinstance(node, list):
+        for v in node:
+            _walk(v, key, out)
+
+
+def search_web(query, sp=SP_VIEW_WEEK, timeout=25, retries=2):
+    """Trả [{'video_id','title','channel','age_days','views_text','views'}] — 0 unit quota."""
+    url = "https://www.youtube.com/results?" + urllib.parse.urlencode(
+        {"search_query": query, "sp": sp})
+    last = None
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": random.choice(UA_POOL),
+                "Accept-Language": "ja-JP,ja;q=0.9,en;q=0.8",
+                "Accept": "text/html,application/xhtml+xml",
+            })
+            html = urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "replace")
+            m = re.search(r"ytInitialData\s*=\s*(\{.*?\});", html, re.S)
+            if not m:
+                last = "không thấy ytInitialData"
+                time.sleep(2 * attempt)
+                continue
+            data = json.loads(m.group(1))
+            renderers = []
+            _walk(data, "videoRenderer", renderers)
+            out, seen = [], set()
+            for r in renderers:
+                vid = r.get("videoId")
+                if not vid or vid in seen:
+                    continue
+                seen.add(vid)
+                title = "".join(x.get("text", "") for x in
+                                (r.get("title") or {}).get("runs", []))
+                owner = "".join(x.get("text", "") for x in
+                                (r.get("ownerText") or {}).get("runs", []))
+                pub = ((r.get("publishedTimeText") or {}).get("simpleText")
+                       or (r.get("publishedTimeText") or {}).get("runs", [{}])[0].get("text", ""))
+                vt = ((r.get("viewCountText") or {}).get("simpleText")
+                      or (r.get("viewCountText") or {}).get("runs", [{}])[0].get("text", ""))
+                out.append({
+                    "video_id": vid, "title": title, "channel": owner,
+                    "age_days": round(age_days(pub), 2), "age_text": pub,
+                    "views": _num(vt), "views_text": vt,
+                })
+            return out
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
+            last = f"{type(e).__name__} {e}"
+            time.sleep(2 * attempt)
+        except json.JSONDecodeError as e:
+            last = f"JSON lỗi: {e}"
+            time.sleep(2 * attempt)
+    return {"_error": last} if last else []

@@ -84,14 +84,26 @@ def run(keys: list[str], mode: str | None, limit: int, only_video: str | None, d
         for c in pending:
             if max_llm is not None and n_llm >= max_llm:
                 break
-            it = process_one(c, ch_mode, m, store, run_id, llm, pol, tpls, qc, style, sys_cls, sys_gen, sys_judge, settings, dry_run, cli_send, log)
+            try:
+                it = process_one(c, ch_mode, m, store, run_id, llm, pol, tpls, qc, style, sys_cls, sys_gen, sys_judge, settings, dry_run, cli_send, log)
+            except Exception as e:  # 1 comment lỗi (vd không phân loại được) → BỎ QUA, làm comment khác (anh chốt 2026-10-15)
+                store.log_error(run_id, ch.channel_id, c.get("comment_id"), "process", e)
+                log(f"  ! bỏ qua {c.get('comment_id', '?')[-8:]}: {type(e).__name__} {e}")
+                errs.append(f"{c.get('comment_id')}: {type(e).__name__} {e}")
+                continue
             n_llm += 1
             items.append(it)
         # DRAFT_REVIEW/UNRESOLVED là file tích luỹ: gộp thêm mọi draft/skip còn chờ anh từ các run trước (ưu tiên item của run này)
         seen = {i["comment_id"] for i in items}
         merged = items + [o for o in store.outstanding_items(ch.channel_id) if o["comment_id"] not in seen]
         translate_items(merged, store, llm or LLM(settings, store, run_id), log)
-        paths = report.write_reports(_with_tab(ch_mode), run_id, m, merged, yt.quota_used, errs, Path(settings["paths"]["reports_dir"]))
+        try:
+            paths = report.write_reports(_with_tab(ch_mode), run_id, m, merged, yt.quota_used, errs, Path(settings["paths"]["reports_dir"]))
+        except Exception as e:  # lỗi ghi báo cáo không được chặn các kênh sau
+            store.log_error(run_id, ch.channel_id, None, "report", e)
+            log(f"  ! lỗi ghi báo cáo {type(e).__name__} {e} — bỏ qua, sang kênh khác")
+            summaries.append({"lane": ch.lane, "items": len(items), "error": f"report: {e}"})
+            continue
         log(f"  report: {paths['report']}")
         if paths["n_unresolved"]:
             log(f"  Có {paths['n_unresolved']} bình luận chưa được trả lời. Xem tại:\n  {paths['unresolved']}")
@@ -107,7 +119,11 @@ def translate_items(items: list[dict], store, llm, log=print):
         log(f"  dịch tiếng Việt cho {len(todo)} comment/draft…")
     for i in todo:
         jr = "; ".join(i.get("judge_reasons") or [])
-        d = llm.translate_vi(i.get("text", ""), i.get("final_text", "") or "", jr, comment_id=i["comment_id"])
+        try:
+            d = llm.translate_vi(i.get("text", ""), i.get("final_text", "") or "", jr, comment_id=i["comment_id"])
+        except Exception as e:  # dịch lỗi → bỏ qua item này
+            log(f"  ! dịch lỗi {i.get('comment_id', '?')[-8:]}: {type(e).__name__} — bỏ qua")
+            continue
         if d["comment_vi"] and not d["comment_vi"].startswith("(dịch lỗi"):
             store.set_comment_vi(i["comment_id"], d["comment_vi"])
         i["text_vi"] = d["comment_vi"]
@@ -178,21 +194,24 @@ def process_one(c, ch, mode, store, run_id, llm, pol, tpls, qc, style, sys_cls, 
     # ---- generate (template | LLM) + footer + rule QC + judge, regen ≤ N
     recent = store.recent_final_texts(c["video_id"])
     footer = tpls.footer(ch.footer_policy, dec.footer, c["video_id"], first_reply_of_video=not store.video_has_reply(c["video_id"]))
-    feedback, out, combo, body, jr, fails = None, None, None, "", None, []
+    feedback, out, combo, body, jr, fails, gen_error = None, None, None, "", None, [], ""
     max_try = 1 if dec.generator == "TEMPLATE" else 1 + int(settings["limits"]["judge_regen_max"])
     for attempt in range(1, max_try + 1):
         try:
             if dec.generator == "TEMPLATE":
-                body, combo = tpls.render(dec.category, cls.key_detail_ja, store.recent_template_combos(c["video_id"]))
+                body, combo = tpls.render(dec.template_key or dec.category, cls.key_detail_ja, store.recent_template_combos(c["video_id"]))
                 fam = "template"
             else:
                 body, out = generator.generate(llm, sys_gen, ch, style, vtext, cls, dec, c, thread, recent, feedback)
                 fam = out.family
         except Exception as e:  # noqa: BLE001
             store.log_error(run_id, ch.channel_id, c["comment_id"], "generate", e)
-            it.update(status="BLOCKED", qc_fails=[f"generate error {type(e).__name__}: {str(e)[:100]}"], decision="SKIP", reason="generate_error")
-            return it
-        fails = qc.check(body, footer, dec, tpls.all_footer_texts(), recent)
+            if dec.generator == "TEMPLATE":
+                it.update(status="BLOCKED", qc_fails=[f"generate error {type(e).__name__}: {str(e)[:100]}"], decision="SKIP", reason="generate_error")
+                return it
+            gen_error = f"generate error {type(e).__name__}: {str(e)[:100]}"
+            break
+        fails = qc.check(body, footer, dec, tpls.all_footer_texts(), recent, c.get("text", ""), vrow.get("title", ""))
         if fails:
             feedback = "規則違反: " + ", ".join(fails)
             if dec.generator == "TEMPLATE":
@@ -215,6 +234,12 @@ def process_one(c, ch, mode, store, run_id, llm, pol, tpls, qc, style, sys_cls, 
         if jr.passed:
             break
         feedback = (jr.fix or "") + " / " + "; ".join(jr.reasons)
+    if dec.generator != "TEMPLATE" and (gen_error or fails):
+        # 2026-10-22 HUONG_DAN_HERMES mục 0.4: sol+gemini lỗi / viết mãi vẫn sai luật → CHỈ cảm ơn, không bỏ bình luận
+        why = gen_error or ("qc: " + ", ".join(fails))
+        log(f"    ↳ fallback cảm ơn ({why[:80]})")
+        body, footer, fails, combo, out = tpls.render("THANKS")[0], "", [], "THANKS:fallback", None
+        jr = judge_mod.JudgeResult(passed=True, reply_conf=0.9, model="fallback_thanks", parse_ok=True, reasons=[f"fallback: {why[:200]}"])
     final = (body + ("\n\n" + footer if footer else "")).strip()
     judge_pass = bool(jr and jr.passed and not fails)
     status = "GENERATED" if judge_pass else ("BLOCKED" if fails else "JUDGE_FAIL")

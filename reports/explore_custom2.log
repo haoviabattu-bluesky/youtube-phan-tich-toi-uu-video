@@ -1,0 +1,14 @@
+1. channel: ube.com/channel/UC-03gNBRs14lZHus7TiKofA
+2. video rows: 13
+3. edit: ube.com/video/MLHsJKhmw84/edit
+4. analytics: /MLHsJKhmw84/analytics/tab-overview/period-default
+5. reach, co so: True
+6. nhan ngay: ['Oct 18, 2026 — Now']
+7. bam Custom...
+   Custom click: True
+
+8. text hop: ['26', '27', '28', '29', '30', '31', 'Aug 2026', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', 'Cancel', 'Apply']
+
+9. INPUT: [{'type': '', 'id': 'query-input', 'ph': 'Search across your channel', 'val': '', 'x': 632, 'y': 32}, {'type': '', 'id': '', 'ph': '', 'val': '10/18/26', 'x': 1030, 'y': 161}, {'type': '', 'id': '', 'ph': '', 'val': 'Oct 18, 2026', 'x': 1162, 'y': 161}]
+
+10. clickable (y>150): [{'t': 'Details', 'tag': 'a', 'x': 120, 'y': 340}, {'t': 'Analytics', 'tag': 'a', 'x': 120, 'y': 380}, {'t': 'Editor', 'tag': 'a', 'x': 120, 'y': 420}, {'t': 'Comments', 'tag': 'a', 'x': 120, 'y': 460}, {'t': 'Languages', 'tag': 'a', 'x': 120, 'y': 500}, {'t': 'Claims', 'tag': 'a', 'x': 120, 'y': 540}, {'t': 'Clips and Shorts', 'tag': 'a', 'x': 120, 'y': 580}, {'t': 'Settings', 'tag': 'tp-yt-paper-icon-item', 'x': 120, 'y': 703}, {'t': 'Send feedback', 'tag': 'tp-yt-paper-icon-item', 'x': 120, 'y': 743}, {'t': 'See more', 'tag': 'a', 'x': 331, 'y': 617}, {'t': 'See more', 'tag': 'ytcp-button', 'x': 343, 'y': 618}, {'t': 'See more', 'tag': 'button', 'x': 343, 'y': 618}, {'t': 'Browse features', 'tag': 'a', 'x': 409, 'y': 938}, {'t': 'Suggested videos', 'tag': 'a', 'x': 409, 'y': 978}, {'t': 'YouTube search', 'tag': 'a', 'x': 409, 'y': 1018}, {'t': 'Other YouTube features', 'tag': 'a', 'x': 409, 'y': 1058}, {'t': 'End screens', 'tag': 'a', 'x': 409, 'y': 1098}, {'t': 'Others', 'tag': 'a', 'x': 409, 'y': 1138}, {'t': 'See more', 'tag': 'a', 'x': 331, 'y': 1199}, {'t': 'See more', 'tag': 'ytcp-button', 'x': 343, 'y': 1200}]

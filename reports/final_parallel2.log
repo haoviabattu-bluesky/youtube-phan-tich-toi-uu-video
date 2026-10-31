@@ -1,0 +1,125 @@
+07:57:44 ===== DA LUONG 2 profile cung luc | 2 nhom | 2 tab (DRY-RUN) =====
+07:57:44   luong 1: ['rosellagreysonbk920@gmail.com']
+07:57:44   luong 2: ['JordaneLaetitia694@gmail.com']
+07:57:44 --no-lock: BO QUA khoa run.lock (chi dung de test)
+07:57:44   mo profile luong 1: gpm rosellagreysonbk920@gmail.com
+07:57:47   GPMLogin chua bat -> tu mo C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe
+07:59:16   chay luong 1: rosellagreysonbk920@gmail.com | tabs=['K-yakkyoku-sukatto']
+07:59:16     · mo profile tiep theo: nghi 0.7s
+07:59:16   mo profile luong 2: gpm JordaneLaetitia694@gmail.com
+07:59:17 ===== BAT DAU (DRY-RUN) tay =====
+07:59:19 --- attach vao profile da mo san: ws://localhost:63994/devtools/browser/d89f0ea9-1968-4177-898...
+07:59:19 --- tab se doc: ['K-yakkyoku-sukatto']
+07:59:28     · chuyen video: nghi 2.7s
+07:59:32     · bam Content @(97,332)
+07:59:36     · bam video v9WZx9l0O64 @(712,567)
+07:59:38     · mo duoc video: 【漫画】「それ、私の担当じゃないんで」が口ぐせの薬剤師。主任を決める面談ですべて見抜かれ
+07:59:39     · bam tab Analytics @(101,380)
+07:59:43     · bam tab Reach @(410,178)
+07:59:49     · doc so xong: nghi 0.3s
+07:59:50     · bam nhan khoang ngay @(1329,155)
+07:59:54     · bam Custom @(1326,598)
+07:59:57     · bam o ngay 2026-10-19 @(1304,161)
+08:00:01     · bam o ngay 2026-10-19 @(1436,161)
+08:00:03   chay luong 2: JordaneLaetitia694@gmail.com | tabs=['Lane-Q']
+08:00:03     · mo profile tiep theo: nghi 0.7s
+08:00:04 ===== BAT DAU (DRY-RUN) tay =====
+08:00:04     · bam Apply @(1454,505)
+08:00:06 --- attach vao profile da mo san: ws://localhost:64255/devtools/browser/9a9997ab-b0f5-4e0d-922...
+08:00:06 --- tab se doc: ['Lane-Q']
+08:00:09 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+08:00:09     · Studio bao loi, doi lau: nghi 6.9s
+08:00:16 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+08:00:16 [K-yakkyoku-sukatto] dong 2 v9WZx9l0O64: khong doc duoc trang Reach 24h -> bo qua
+08:00:16     · chuyen video: nghi 3.2s
+08:00:17     · chuyen video: nghi 4.0s
+08:00:19     · chua san sang (url=https://studio.youtube.com/video/v9WZx9l0O64/analytics/tab-r, menu=KHONG) -> chuyen lai
+08:00:19 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: LOI doc Studio Page.goto: Target page, context or browser has been closed
+08:00:19     · Studio bao loi, doi lau: nghi 6.5s
+08:00:22     · bam Content @(97,332)
+08:00:25     · bam video dhjDEazNOy0 @(712,483)
+08:00:26     · chua san sang (url=https://studio.youtube.com/video/v9WZx9l0O64/analytics/tab-r, menu=KHONG) -> chuyen lai
+08:00:26 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: LOI doc Studio Page.goto: Target page, context or browser has been closed
+08:00:26 [K-yakkyoku-sukatto] dong 3 GVqpSJwYQb4: khong doc duoc trang Reach 24h -> bo qua
+08:00:26     · chuyen video: nghi 1.9s
+08:00:27     · mo duoc video: 中国「日本の水産業を潰してやる！」→日本産ホタテが劇的復活！中国の水産加工工場が次々と倒
+08:00:28 [K-yakkyoku-sukatto] dong 4 4XUl15brp0c: API khong co (chua cong khai?) -> bo qua
+08:00:28     · chuyen video: nghi 2.6s
+08:00:28     · bam tab Analytics @(101,380)
+08:00:31     · chua san sang (url=https://studio.youtube.com/video/v9WZx9l0O64/analytics/tab-r, menu=KHONG) -> chuyen lai
+08:00:31 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: LOI doc Studio Page.goto: Target page, context or browser has been closed
+08:00:31     · Studio bao loi, doi lau: nghi 3.6s
+08:00:32     · bam tab Reach @(410,178)
+08:00:35     · chua san sang (url=https://studio.youtube.com/video/v9WZx9l0O64/analytics/tab-r, menu=KHONG) -> chuyen lai
+08:00:35 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: LOI doc Studio Page.goto: Target page, context or browser has been closed
+08:00:35 [K-yakkyoku-sukatto] dong 5 wqwFUzXwNec: khong doc duoc trang Reach 24h -> bo qua
+08:00:35 [K-yakkyoku-sukatto] DRY-RUN: 0 dong, KHONG ghi sheet
+08:00:35     · chuyen tab: nghi 1.9s
+08:00:37 ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lane bỏ qua: không · 1 phút
+08:00:37   luong rosellagreysonbk920@gmail.com xong (exit 0)
+08:00:37   dong profile rosellagreysonbk920@gmail.com
+08:00:38     · doc so xong: nghi 0.3s
+08:00:39     · bam nhan khoang ngay @(1328,155)
+08:00:41     · bam Custom @(1326,598)
+08:00:45     · bam o ngay 2026-10-19 @(1304,161)
+08:00:48     · bam o ngay 2026-10-19 @(1436,161)
+08:00:52     · bam Apply @(1454,505)
+08:00:58     · khoang ngay da doi sang Oct 19, 2026
+08:01:02     · doc so xong: nghi 0.2s
+08:01:02 [Lane-Q] dong 2 dhjDEazNOy0: N=5 O=506 P=3,9% Q=4,0% imp24h=5900.0 | ok | K=142h · 506 view · CTR tổng 3,9% · CTR 24h 4,0% · 5.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:01:02     · chuyen video: nghi 4.3s
+08:01:06     · chua san sang (url=https://studio.youtube.com/video/dhjDEazNOy0/analytics/tab-r, menu=co) -> chuyen lai
+08:01:23     · bam Content @(97,332)
+08:01:26     · bam video f7xhMrUmFug @(712,399)
+08:01:28     · mo duoc video: 中国「日本便を全部止めろ！」→結果、自国の航空会社3社が赤字で沈むｗ【海外の反応・ゆっく
+08:01:29     · bam tab Analytics @(101,380)
+08:01:32     · bam tab Reach @(410,178)
+08:01:39     · doc so xong: nghi 0.2s
+08:01:40     · bam nhan khoang ngay @(1328,155)
+08:01:43     · bam Custom @(1326,598)
+08:01:47     · bam o ngay 2026-10-19 @(1304,161)
+08:01:50     · bam o ngay 2026-10-19 @(1436,161)
+08:01:54     · bam Apply @(1454,505)
+08:02:00     · khoang ngay da doi sang Oct 19, 2026
+08:02:04     · doc so xong: nghi 0.2s
+08:02:04 [Lane-Q] dong 4 f7xhMrUmFug: N=4 O=20 P=3,7% Q=3,8% imp24h=288.0 | ok | K=106h · 20 view · CTR tổng 3,7% · CTR 24h 3,8% · 288 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:02:04     · chuyen video: nghi 3.5s
+08:02:08     · chua san sang (url=https://studio.youtube.com/video/f7xhMrUmFug/analytics/tab-r, menu=co) -> chuyen lai
+08:02:20     · bam Content @(97,332)
+08:02:23     · bam video ZJauO_vPW9E @(712,567)
+08:02:26     · mo duoc video: 中国「張本は口だけｗ」→結果、ブーイングした中国が世界ランクから消えるｗ【海外の反応・ゆ
+08:02:27     · bam tab Analytics @(101,380)
+08:02:31     · bam tab Reach @(410,178)
+08:02:36     · doc so xong: nghi 0.1s
+08:02:38     · bam nhan khoang ngay @(1328,155)
+08:02:41     · bam Custom @(1326,598)
+08:02:45     · bam o ngay 2026-10-19 @(1304,161)
+08:02:48     · bam o ngay 2026-10-19 @(1436,161)
+08:02:52     · bam Apply @(1454,505)
+08:02:58     · khoang ngay da doi sang Oct 19, 2026
+08:03:02     · doc so xong: nghi 0.1s
+08:03:02 [Lane-Q] dong 6 ZJauO_vPW9E: N=9 O=77 P=3,5% Q=3,5% imp24h=688.0 | ok | K=216h · 77 view · CTR tổng 3,5% · CTR 24h 3,5% · 688 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+08:03:02     · chuyen video: nghi 2.4s
+08:03:05     · chua san sang (url=https://studio.youtube.com/video/ZJauO_vPW9E/analytics/tab-r, menu=co) -> chuyen lai
+08:03:17     · bam Content @(97,332)
+08:03:18     · bam video HlC_ibnbsFs @(712,315)
+08:03:20     · mo duoc video: 中国「日本の観光はもう終わりだ！世界一は中国だ！」→結果、中国の偽物の古い町並みはガラガ
+08:03:21     · bam tab Analytics @(101,380)
+08:03:25     · bam tab Reach @(410,178)
+08:03:32     · doc so xong: nghi 0.2s
+08:03:33     · bam nhan khoang ngay @(1328,155)
+08:03:36     · bam Custom @(1326,598)
+08:03:40     · bam o ngay 2026-10-19 @(1304,161)
+08:03:43     · bam o ngay 2026-10-19 @(1436,161)
+08:03:48     · bam Apply @(1454,505)
+08:03:52     · khoang ngay da doi sang Oct 19, 2026
+08:03:54 [Lane-Q] dong 7 HlC_ibnbsFs: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+08:03:54     · Studio bao loi, doi lau: nghi 4.5s
+08:03:59 [Lane-Q] dong 7 HlC_ibnbsFs: LOI doc Studio Page.evaluate: Target page, context or browser has been closed
+08:03:59 [Lane-Q] dong 7 HlC_ibnbsFs: khong doc duoc trang Reach 24h -> bo qua
+08:03:59 [Lane-Q] DRY-RUN: 3 dong, KHONG ghi sheet
+08:03:59     · chuyen tab: nghi 1.4s
+08:04:00 ===== XONG: 3 video · 0 dòng vàng · lỗi 1 video · lane bỏ qua: không · 3 phút
+08:04:00   luong JordaneLaetitia694@gmail.com xong (exit 0)
+08:04:00   dong profile JordaneLaetitia694@gmail.com
+08:04:00 ===== XONG DA LUONG: 6 phut (2 profile cung luc)

@@ -1,0 +1,270 @@
+{
+ "day": "2026-10-20",
+ "generated": "2026-10-20 03:02",
+ "thresholds": {
+  "max_days": 5,
+  "views_A": 100000,
+  "views_B": 50000,
+  "views_C": 30000,
+  "max_subs": 10000,
+  "manga": true
+ },
+ "lanes": {
+  "L": {
+   "channel": "社会のなぜ研究室",
+   "tab": "L-shakai-no-naze",
+   "win_one_line": "「một NHÓM NGƯỜI cụ thể làm một HÀNH VI trái lẽ thường」 × 「cơ chế vô hình khiến lỗi không thuộc về họ, có tên + có số」 × 「trục đối lập ai cũng muốn nói một câu (nam–nữ, quản lý–nhân viên, thế hệ)」",
+   "scanned": 824,
+   "jobs": [
+    {
+     "grade": "D",
+     "score": 11.0,
+     "source": {
+      "video_id": "ZptRMjdnIF8",
+      "title": "【スカッと】何でも通報するZ世代新人「発注の手順だけど…」「細かい指導はパ〇ハラ通報する」→「良かったありがとう」「え?」結果【漫画】【アニメ】【スカッとする話】【2ch】",
+      "channel": "トラブルバスターズ",
+      "subs": 0,
+      "views": 532875,
+      "views_per_hour": 3700.5,
+      "hours": 144.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=ZptRMjdnIF8"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 532,875 view / 144 giờ (3,700 view/giờ), kênh 0 sub. Điểm khớp công thức lane L: 11.0.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Tiêu đề 1 vế ≤30 ký tự, dạng 「[nhóm người] が [hành vi lạ] 理由【漫画】」. Hook 3 câu đầu: thoại của người có quyền/chuyên gia lật giả định + 1 con số (「問題は○○じゃないんです」「今月も、お申し込みは0件」). Đáp án phải là CƠ CHẾ HỆ THỐNG có tên + có số, không phải lời khuyên tâm lý. Thumbnail chia đôi A ↔ B có số (0件 / ここにいたのに). Cuối tập để câu hỏi 2 phe để mời bình luận."
+     }
+    },
+    {
+     "grade": "E",
+     "score": 9.2,
+     "source": {
+      "video_id": "tFH2SVOkcUY",
+      "title": "【漫画】幸せをサポートする仕事？結婚相談所勤務で働いてみたら、思ってたのと違う…。",
+      "channel": "社会観測所",
+      "subs": 8770,
+      "views": 16096,
+      "views_per_hour": 335.3,
+      "hours": 48.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=tFH2SVOkcUY"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 16,096 view / 48 giờ (335 view/giờ), kênh 8,770 sub. Điểm khớp công thức lane L: 9.2.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Tiêu đề 1 vế ≤30 ký tự, dạng 「[nhóm người] が [hành vi lạ] 理由【漫画】」. Hook 3 câu đầu: thoại của người có quyền/chuyên gia lật giả định + 1 con số (「問題は○○じゃないんです」「今月も、お申し込みは0件」). Đáp án phải là CƠ CHẾ HỆ THỐNG có tên + có số, không phải lời khuyên tâm lý. Thumbnail chia đôi A ↔ B có số (0件 / ここにいたのに). Cuối tập để câu hỏi 2 phe để mời bình luận."
+     }
+    }
+   ]
+  },
+  "N": {
+   "channel": "シニアのこれから",
+   "tab": "Lane-N",
+   "win_one_line": "「定年後の仕事」× 「thiếu tiền CỤ THỂ mỗi tháng」× 「nghề cũ 38–40 năm bị chỗ làm mới coi là số 0」— mỗi tập = MỘT nghề làm thêm có thật mà người 60+ đang cân nhắc (工場ライン, 清掃, 警備, 配送, 交通誘導, ホテル, 品出し, マンション管理人, 介護補助, スキマバイト)",
+   "scanned": 824,
+   "jobs": [
+    {
+     "grade": "B",
+     "score": 15.26,
+     "source": {
+      "video_id": "Yux4U5TkBrI",
+      "title": "【漫画】67歳で定年退職した俺が人生初の清掃員に→初出勤で43歳女性の部屋に間違えて入ってしまった結果…",
+      "channel": "俺はドクシン、独身男の人生マンガ",
+      "subs": 0,
+      "views": 70643,
+      "views_per_hour": 735.9,
+      "hours": 96.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=Yux4U5TkBrI"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 70,643 view / 96 giờ (736 view/giờ), kênh 0 sub. Điểm khớp công thức lane N: 15.26.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Đề = 定年後、［số tiền thiếu cụ thể］で［nghề mới cụ thể］を始めた［tuổi］の元［nghề cũ + số năm］. Tiêu đề nêu nghề + tuổi + tiền, kết bằng câu hỏi kết quả — KHÔNG dùng dạng 「3つの落とし穴／3つの盲点」. Hook giây 1: câu sỉ nhục về NĂNG LỰC LÀM VIỆC (「旗振るしか能がない」「元水道課なのに、水漏れひとつ直せないんですか？」). Thumbnail 2 khung trước/sau + đạo cụ nghề (求人票, cờ giao thông, mũ bảo hộ) + 1 con số tiền + 1 câu hỏi ≤10 chữ. Thân bài: mỗi nghề có 時給/giờ/độ mệt/ai hợp + 1 nhân vật đồng hành xuyên suốt (điểm yếu hiện tại APV 21,8%)."
+     }
+    },
+    {
+     "grade": "E",
+     "score": 14.9,
+     "source": {
+      "video_id": "Mrrg0GVNMhg",
+      "title": "知らなきゃ大損！定年後に\"ラクに稼げる\"最強バイトTOP5【漫画】",
+      "channel": "縁側の知恵",
+      "subs": 1310,
+      "views": 28122,
+      "views_per_hour": 585.9,
+      "hours": 48.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=Mrrg0GVNMhg"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 28,122 view / 48 giờ (586 view/giờ), kênh 1,310 sub. Điểm khớp công thức lane N: 14.9.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Đề = 定年後、［số tiền thiếu cụ thể］で［nghề mới cụ thể］を始めた［tuổi］の元［nghề cũ + số năm］. Tiêu đề nêu nghề + tuổi + tiền, kết bằng câu hỏi kết quả — KHÔNG dùng dạng 「3つの落とし穴／3つの盲点」. Hook giây 1: câu sỉ nhục về NĂNG LỰC LÀM VIỆC (「旗振るしか能がない」「元水道課なのに、水漏れひとつ直せないんですか？」). Thumbnail 2 khung trước/sau + đạo cụ nghề (求人票, cờ giao thông, mũ bảo hộ) + 1 con số tiền + 1 câu hỏi ≤10 chữ. Thân bài: mỗi nghề có 時給/giờ/độ mệt/ai hợp + 1 nhân vật đồng hành xuyên suốt (điểm yếu hiện tại APV 21,8%)."
+     }
+    }
+   ]
+  },
+  "O": {
+   "channel": "人生のつづき",
+   "tab": "Lane-O",
+   "win_one_line": "「介護士 NGANG HÀNG có CÂU CỬA MIỆNG nghe rất hợp lý để né việc / tự đề cao」× 「một người hiền LẶNG LẼ GÁNH THAY, người xem thấy cái giá trước nhân vật」× 「hậu quả là MỘT HÌNH ẢNH NHỎ CỤ THỂ (tên biến khỏi bảng phân công, lần thứ 3, 12 phút trước giờ về)」",
+   "scanned": 824,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 9.18,
+     "source": {
+      "video_id": "zxjfk4fEN7o",
+      "title": "【漫画】職場の万能な事務員さんを「地味でブス」と笑うイケメン転職者→俺だけが知っている、彼女の本当の姿",
+      "channel": "それ、俺だけど ?【スカッと漫画】",
+      "subs": 220,
+      "views": 15810,
+      "views_per_hour": 329.4,
+      "hours": 48.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=zxjfk4fEN7o"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 15,810 view / 48 giờ (329 view/giờ), kênh 220 sub. Điểm khớp công thức lane O: 9.18.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Tiêu đề = 【漫画】「câu cửa miệng」が口ぐせの介護士 + (…/が、) + cảnh/con số cụ thể + 結果…/いた. 10 giây đầu là CÂU CỬA MIỆNG hoặc CẢNH HẬU QUẢ, không giới thiệu cơ sở trước. Thân: câu cửa miệng lặp 3 lần ở 3 bối cảnh, mỗi lần cái giá người khác trả tăng lên. Kết: (1) cho thấy RÕ nhân vật chính rốt cuộc ra sao — khán giả đòi; (2) câu đảo nghĩa câu cửa miệng từ miệng người khác; (3) 1 câu xin 高評価・チャンネル登録 + câu hỏi 「あなたの職場にもいましたか？」."
+     }
+    },
+    {
+     "grade": "E",
+     "score": 8.98,
+     "source": {
+      "video_id": "FccxGhjH-C0",
+      "title": "【漫画】大手百貨店部長「AIが査定しました。御社の四十年は〇円です。仕立屋は要りません」→私「わかりました。型紙、お返しします」→「え」…秋の叙勲の朝、会長の背中が裂け、頭を下げに来たのは【スカッと】",
+      "channel": "職場トラブルAI漫画【問題の裏側】",
+      "subs": 1030,
+      "views": 18194,
+      "views_per_hour": 151.6,
+      "hours": 120.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=FccxGhjH-C0"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 18,194 view / 120 giờ (152 view/giờ), kênh 1,030 sub. Điểm khớp công thức lane O: 8.98.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Tiêu đề = 【漫画】「câu cửa miệng」が口ぐせの介護士 + (…/が、) + cảnh/con số cụ thể + 結果…/いた. 10 giây đầu là CÂU CỬA MIỆNG hoặc CẢNH HẬU QUẢ, không giới thiệu cơ sở trước. Thân: câu cửa miệng lặp 3 lần ở 3 bối cảnh, mỗi lần cái giá người khác trả tăng lên. Kết: (1) cho thấy RÕ nhân vật chính rốt cuộc ra sao — khán giả đòi; (2) câu đảo nghĩa câu cửa miệng từ miệng người khác; (3) 1 câu xin 高評価・チャンネル登録 + câu hỏi 「あなたの職場にもいましたか？」."
+     }
+    }
+   ]
+  },
+  "M": {
+   "channel": "定年後の穴場ノート",
+   "tab": "M-teinengo-anaba",
+   "win_one_line": "「TIỀN bị cắt + PHẨM GIÁ bị chạm + MỘT QUYẾT ĐỊNH」: người 60+ bị chỗ làm lặng lẽ hạ giá theo tuổi, thể hiện bằng MỘT CON SỐ BỊ MẤT (ngày ca, điều kiện tái tuyển, lương hưu), rồi giữ phẩm giá bằng cách chọn đúng việc — format 7 hạng",
+   "scanned": 824,
+   "jobs": [
+    {
+     "grade": "E",
+     "score": 11.96,
+     "source": {
+      "video_id": "y8iPHPXVWtI",
+      "title": "【漫画】65歳まで働かず、60歳で辞めた夫婦のリアル…76日で知った現実とは？",
+      "channel": "老後のこたえ帖【漫画】",
+      "subs": 3280,
+      "views": 23583,
+      "views_per_hour": 1384.0,
+      "hours": 17.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=y8iPHPXVWtI"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 23,583 view / 17 giờ (1,384 view/giờ), kênh 3,280 sub. Điểm khớp công thức lane M: 11.96.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Hook 0–30s: câu 1 là THOẠI của người có quyền (trẻ hơn, lịch sự) + con số mới; câu 2 cảnh (nhìn tablet/đồng hồ, không nhìn mặt); câu 3 田島 nêu con số cũ; câu 4 câu sỉ nhục lịch sự liên quan tuổi/lương hưu; câu 5 nội tâm có con số (年金まであと2年). Cú lật trước giây 60, hạng 7 bắt đầu trước ký tự ~900. Title: tuổi + quyết định + con số + 7選 (「再雇用を断った63歳が見つけた穴場の仕事7選」). Thumbnail: con số trước→sau (先月18日→来月11日) + 1 câu thoại sỉ nhục + mặt 田島; chữ trên thumbnail phải xuất hiện y nguyên trong kịch bản."
+     }
+    },
+    {
+     "grade": "E",
+     "score": 11.48,
+     "source": {
+      "video_id": "uxVwiYD3HmI",
+      "title": "【漫画】定年後、夫が毎日家にいるとどうなる？妻が倒れた「夫源病」…65歳夫婦のリアル…",
+      "channel": "あの人の暮らし【アノクラ】",
+      "subs": 93,
+      "views": 18181,
+      "views_per_hour": 151.5,
+      "hours": 120.0,
+      "published": "",
+      "url": "https://www.youtube.com/watch?v=uxVwiYD3HmI"
+     },
+     "draft": {
+      "nguon": "khung_xuong",
+      "loi": "AttributeError: 'NoneType' object has no attribute 'reconfigure'",
+      "vi_sao_thang": "Nguồn: 18,181 view / 120 giờ (152 view/giờ), kênh 93 sub. Điểm khớp công thức lane M: 11.48.",
+      "de_bai": "[CHƯA SINH — LLM lỗi. Đọc công thức WIN của lane rồi tự chọn đề.]",
+      "khac_nguon": "[CHƯA SINH]",
+      "hook_3cau": "[CHƯA SINH]",
+      "title_jp": "[CHƯA SINH]",
+      "thumbnail_jp": "[CHƯA SINH]",
+      "so_lieu_can": [],
+      "cau_hoi_cuoi": "[CHƯA SINH]",
+      "rui_ro": "Hook 0–30s: câu 1 là THOẠI của người có quyền (trẻ hơn, lịch sự) + con số mới; câu 2 cảnh (nhìn tablet/đồng hồ, không nhìn mặt); câu 3 田島 nêu con số cũ; câu 4 câu sỉ nhục lịch sự liên quan tuổi/lương hưu; câu 5 nội tâm có con số (年金まであと2年). Cú lật trước giây 60, hạng 7 bắt đầu trước ký tự ~900. Title: tuổi + quyết định + con số + 7選 (「再雇用を断った63歳が見つけた穴場の仕事7選」). Thumbnail: con số trước→sau (先月18日→来月11日) + 1 câu thoại sỉ nhục + mặt 田島; chữ trên thumbnail phải xuất hiện y nguyên trong kịch bản."
+     }
+    }
+   ]
+  }
+ }
+}
