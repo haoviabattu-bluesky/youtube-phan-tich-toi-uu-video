@@ -1,0 +1,337 @@
+API: 8 video
+    · phong to cua so: 1920px
+  == 8ZNy6vD1uls tab-reach_viewers oops=False lines=66
+     * Oct 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ —
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ — ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ — ¦ Thumbnail click-through rate ¦ — ¦ Views
+     * Thumbnail click-through rate ¦ — ¦ Views ¦ — ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ — ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ —
+     * 1 ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+     * Not enough traffic data to show this report ¦ See more ¦ External sites or apps ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report
+     * See more ¦ External sites or apps ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+     * Not enough traffic data to show this report ¦ See more ¦ Content suggesting this video ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report
+     * See more ¦ Content suggesting this video ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+     * Not enough traffic data to show this report ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+     * Not enough traffic data to show this report ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 30, 2026 (1 days) ¦ Not enough impressions data to show this report.
+     * Impressions and how they led to watch time ¦ Data available Oct 30, 2026 (1 days) ¦ Not enough impressions data to show this report. ¦ YouTube search terms ¦ Views · Oct 30, 2026
+     * Data available Oct 30, 2026 (1 days) ¦ Not enough impressions data to show this report. ¦ YouTube search terms ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report
+     * Not enough impressions data to show this report. ¦ YouTube search terms ¦ Views · Oct 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+  == 8ZNy6vD1uls tab-overview oops=False lines=67
+     * Oct 30, 2026 ¦ Custom ¦ This video didn’t get any views during the selected dates ¦ Views ¦ Views
+     * Custom ¦ This video didn’t get any views during the selected dates ¦ Views ¦ Views ¦ —
+     * This video didn’t get any views during the selected dates ¦ Views ¦ Views ¦ — ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ — ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ —
+     * — ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ — ¦ Estimated total hours of viewing time of your content from your audience.
+     * 1 ¦ 0 ¦ Views ¦ See more ¦ Audience retention
+     * Updating live ¦ 2,399 ¦ Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  2,399.
+     * Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  2,399. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  2,399. ¦ Views ¦ Browse features ¦ 90.7%
+     * Latest activity, Views: Last 48 hours,  2,399. ¦ Views ¦ Browse features ¦ 90.7% ¦ Suggested videos
+     * Browse features ¦ 90.7% ¦ Suggested videos ¦ 5.9% ¦ Other YouTube features
+     * Suggested videos ¦ 5.9% ¦ Other YouTube features ¦ 1.2% ¦ Channel pages
+     * Other YouTube features ¦ 1.2% ¦ Channel pages ¦ 0.8% ¦ YouTube search
+     * Channel pages ¦ 0.8% ¦ YouTube search ¦ 0.8% ¦ See more
+  == OGrlW37QTcg tab-reach_viewers oops=False lines=113
+     * Oct 28 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 18.4K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 18.4K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 18.4K ¦ Thumbnail click-through rate ¦ 3.4% ¦ Views
+     * Thumbnail click-through rate ¦ 3.4% ¦ Views ¦ 2.7K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 2.7K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 729
+     * 5K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 28 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 28 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 86.4% ¦ Suggested videos
+     * Browse features ¦ 86.4% ¦ Suggested videos ¦ 4.7% ¦ Channel pages
+     * Suggested videos ¦ 4.7% ¦ Channel pages ¦ 3.1% ¦ YouTube search
+     * Channel pages ¦ 3.1% ¦ YouTube search ¦ 2.0% ¦ Direct or unknown
+     * YouTube search ¦ 2.0% ¦ Direct or unknown ¦ 1.3% ¦ Others
+     * Direct or unknown ¦ 1.3% ¦ Others ¦ 2.6% ¦ See more
+     * 2.6% ¦ See more ¦ External sites or apps ¦ Views · Oct 28 – 30, 2026 ¦ Not enough traffic data to show this report
+     * See more ¦ External sites or apps ¦ Views · Oct 28 – 30, 2026 ¦ Not enough traffic data to show this report ¦ See more
+     * Not enough traffic data to show this report ¦ See more ¦ Content suggesting this video ¦ Views · Oct 28 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 28 – 30, 2026 ¦ Proportion of your total traffic: ¦ 4.7%
+     * 1.6% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 28 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 28 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.3%
+     * 14.3% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 28 – 30, 2026 (3 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 28 – 30, 2026 (3 days) ¦ Thumbnail impressions ¦ 18.4K ¦ 91.3% from YouTube recommending your content
+     * 18.4K ¦ 91.3% from YouTube recommending your content ¦ 3.4% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 629
+     * 91.3% from YouTube recommending your content ¦ 3.4% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 629 ¦ 11:08 average view duration
+     * Engaged views from impressions ¦ 629 ¦ 11:08 average view duration ¦ Watch time from impressions ¦ 116.81
+     * 629 ¦ 11:08 average view duration ¦ Watch time from impressions ¦ 116.81 ¦ YouTube search terms
+  == OGrlW37QTcg tab-overview oops=False lines=87
+     * Custom ¦ People watched this video 2,692 times during the selected dates ¦ Views ¦ Views ¦ 2.7K
+     * People watched this video 2,692 times during the selected dates ¦ Views ¦ Views ¦ 2.7K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 2.7K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 150.9
+     * 2.7K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 150.9 ¦ Estimated total hours of viewing time of your content from your audience.
+     * 600 ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Key moments for audience retention ¦ Intro ¦ Average view duration ¦ 10:17 ¦ Average percentage viewed
+     * Average view duration ¦ 10:17 ¦ Average percentage viewed ¦ 41.5% ¦ 00:00 / 24:49
+     * 33% ¦ 0% ¦ 68% of viewers are still watching at around the 0:30 mark, which is typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 1,487 ¦ Views · Last 48 hours ¦ -48h ¦ Now
+     * -48h ¦ Now ¦ Latest activity, Views: Last 48 hours,  1,487. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  1,487. ¦ Views ¦ Browse features ¦ 90.7%
+     * Latest activity, Views: Last 48 hours,  1,487. ¦ Views ¦ Browse features ¦ 90.7% ¦ Channel pages
+     * Browse features ¦ 90.7% ¦ Channel pages ¦ 3.4% ¦ Suggested videos
+     * Channel pages ¦ 3.4% ¦ Suggested videos ¦ 1.2% ¦ Direct or unknown
+     * Suggested videos ¦ 1.2% ¦ Direct or unknown ¦ 1.1% ¦ YouTube search
+     * Direct or unknown ¦ 1.1% ¦ YouTube search ¦ 1.1% ¦ See more
+  == QSdhgQVmNFI tab-reach_viewers oops=False lines=116
+     * Oct 27 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 36.6K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 36.6K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 36.6K ¦ Thumbnail click-through rate ¦ 4.2% ¦ Views
+     * Thumbnail click-through rate ¦ 4.2% ¦ Views ¦ 5.4K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 5.4K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 1.8K
+     * 10K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 27 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 27 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 84.1% ¦ Suggested videos
+     * Browse features ¦ 84.1% ¦ Suggested videos ¦ 9.3% ¦ Channel pages
+     * Suggested videos ¦ 9.3% ¦ Channel pages ¦ 2.1% ¦ YouTube search
+     * Channel pages ¦ 2.1% ¦ YouTube search ¦ 1.7% ¦ Direct or unknown
+     * YouTube search ¦ 1.7% ¦ Direct or unknown ¦ 1.2% ¦ Others
+     * Direct or unknown ¦ 1.2% ¦ Others ¦ 1.6% ¦ See more
+     * 1.6% ¦ See more ¦ External sites or apps ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * Not enough traffic data to show this report ¦ See more ¦ Content suggesting this video ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic: ¦ 9.3%
+     * 1.6% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 27 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.2%
+     * 25.0% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 27 – 30, 2026 (4 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 27 – 30, 2026 (4 days) ¦ Thumbnail impressions ¦ 36.6K ¦ 93.7% from YouTube recommending your content
+     * 36.6K ¦ 93.7% from YouTube recommending your content ¦ 4.2% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 1.5K
+     * 93.7% from YouTube recommending your content ¦ 4.2% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 1.5K ¦ 10:47 average view duration
+     * Engaged views from impressions ¦ 1.5K ¦ 10:47 average view duration ¦ Watch time from impressions ¦ 273.94
+     * 1.5K ¦ 10:47 average view duration ¦ Watch time from impressions ¦ 273.94 ¦ YouTube search terms
+  == QSdhgQVmNFI tab-overview oops=False lines=87
+     * Custom ¦ People watched this video 5,418 times during the selected dates ¦ Views ¦ Views ¦ 5.4K
+     * People watched this video 5,418 times during the selected dates ¦ Views ¦ Views ¦ 5.4K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 5.4K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 336.3
+     * 5.4K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 336.3 ¦ Estimated total hours of viewing time of your content from your audience.
+     * 1.5K ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Key moments for audience retention ¦ Intro ¦ Average view duration ¦ 9:35 ¦ Average percentage viewed
+     * Average view duration ¦ 9:35 ¦ Average percentage viewed ¦ 39.8% ¦ 00:00 / 24:06
+     * 33% ¦ 0% ¦ 70% of viewers are still watching at around the 0:30 mark, which is typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 691 ¦ Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  691.
+     * Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  691. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  691. ¦ Views ¦ Browse features ¦ 76.4%
+     * Latest activity, Views: Last 48 hours,  691. ¦ Views ¦ Browse features ¦ 76.4% ¦ Suggested videos
+     * Browse features ¦ 76.4% ¦ Suggested videos ¦ 11.9% ¦ Channel pages
+     * Suggested videos ¦ 11.9% ¦ Channel pages ¦ 4.2% ¦ Other YouTube features
+     * Channel pages ¦ 4.2% ¦ Other YouTube features ¦ 2.2% ¦ Direct or unknown
+     * Other YouTube features ¦ 2.2% ¦ Direct or unknown ¦ 1.9% ¦ See more
+  == _c-opbU36dU tab-reach_viewers oops=False lines=125
+     * Oct 25 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 51.1K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 51.1K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 51.1K ¦ Thumbnail click-through rate ¦ 3.1% ¦ Views
+     * Thumbnail click-through rate ¦ 3.1% ¦ Views ¦ 6K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 6K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 2.6K
+     * 15K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 25 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 25 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 64.8% ¦ Suggested videos
+     * Browse features ¦ 64.8% ¦ Suggested videos ¦ 25.2% ¦ Channel pages
+     * Suggested videos ¦ 25.2% ¦ Channel pages ¦ 4.2% ¦ YouTube search
+     * Channel pages ¦ 4.2% ¦ YouTube search ¦ 2.1% ¦ Direct or unknown
+     * YouTube search ¦ 2.1% ¦ Direct or unknown ¦ 1.1% ¦ Others
+     * Direct or unknown ¦ 1.1% ¦ Others ¦ 2.6% ¦ See more
+     * 2.6% ¦ See more ¦ External sites or apps ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * 14.3% ¦ See more ¦ Content suggesting this video ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic: ¦ 25.2%
+     * 1.0% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 25 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.2%
+     * 38.5% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 25 – 30, 2026 (6 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 25 – 30, 2026 (6 days) ¦ Thumbnail impressions ¦ 51.1K ¦ 92.2% from YouTube recommending your content
+     * 51.1K ¦ 92.2% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 1.6K
+     * 92.2% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 1.6K ¦ 10:11 average view duration
+     * Engaged views from impressions ¦ 1.6K ¦ 10:11 average view duration ¦ Watch time from impressions ¦ 270.9
+     * 1.6K ¦ 10:11 average view duration ¦ Watch time from impressions ¦ 270.9 ¦ YouTube search terms
+  == _c-opbU36dU tab-overview oops=False lines=91
+     * Custom ¦ People watched this video 5,980 times during the selected dates ¦ Views ¦ Views ¦ 6K
+     * People watched this video 5,980 times during the selected dates ¦ Views ¦ Views ¦ 6K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 6K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 524.8
+     * 6K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 524.8 ¦ Estimated total hours of viewing time of your content from your audience.
+     * 2K ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Intro ¦ Top moment ¦ Average view duration ¦ 10:26 ¦ Average percentage viewed
+     * Average view duration ¦ 10:26 ¦ Average percentage viewed ¦ 43.7% ¦ 00:00 / 23:54
+     * 33% ¦ 0% ¦ 71% of viewers are still watching at around the 0:30 mark, which is above typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 757 ¦ Views · Last 48 hours ¦ -48h ¦ Now
+     * -48h ¦ Now ¦ Latest activity, Views: Last 48 hours,  757. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  757. ¦ Views ¦ Browse features ¦ 76.0%
+     * Latest activity, Views: Last 48 hours,  757. ¦ Views ¦ Browse features ¦ 76.0% ¦ Suggested videos
+     * Browse features ¦ 76.0% ¦ Suggested videos ¦ 14.0% ¦ Channel pages
+     * Suggested videos ¦ 14.0% ¦ Channel pages ¦ 3.2% ¦ Direct or unknown
+     * Channel pages ¦ 3.2% ¦ Direct or unknown ¦ 2.9% ¦ YouTube search
+     * Direct or unknown ¦ 2.9% ¦ YouTube search ¦ 2.1% ¦ See more
+  == t_7hE3EJhvM tab-reach_viewers oops=False lines=127
+     * Oct 20 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 756.5K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 756.5K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 756.5K ¦ Thumbnail click-through rate ¦ 3.1% ¦ Views
+     * Thumbnail click-through rate ¦ 3.1% ¦ Views ¦ 78.9K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 78.9K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 28.7K
+     * 75K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 20 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 20 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 80.6% ¦ Suggested videos
+     * Browse features ¦ 80.6% ¦ Suggested videos ¦ 14.9% ¦ Channel pages
+     * Suggested videos ¦ 14.9% ¦ Channel pages ¦ 1.2% ¦ YouTube search
+     * Channel pages ¦ 1.2% ¦ YouTube search ¦ 1.1% ¦ Direct or unknown
+     * YouTube search ¦ 1.1% ¦ Direct or unknown ¦ 0.9% ¦ Others
+     * Direct or unknown ¦ 0.9% ¦ Others ¦ 1.3% ¦ See more
+     * 1.3% ¦ See more ¦ External sites or apps ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * 1.9% ¦ See more ¦ Content suggesting this video ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic: ¦ 14.9%
+     * 0.9% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 20 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * Not enough traffic data to show this report ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 20 – 30, 2026 (11 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 20 – 30, 2026 (11 days) ¦ Thumbnail impressions ¦ 756.5K ¦ 98.1% from YouTube recommending your content
+     * 756.5K ¦ 98.1% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 23.7K
+     * 98.1% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 23.7K ¦ 12:16 average view duration
+     * Engaged views from impressions ¦ 23.7K ¦ 12:16 average view duration ¦ Watch time from impressions ¦ 4.8K
+     * 23.7K ¦ 12:16 average view duration ¦ Watch time from impressions ¦ 4.8K ¦ YouTube search terms
+  == t_7hE3EJhvM tab-overview oops=False lines=91
+     * Custom ¦ People watched this video 78,934 times during the selected dates ¦ Views ¦ Views ¦ 78.9K
+     * People watched this video 78,934 times during the selected dates ¦ Views ¦ Views ¦ 78.9K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 78.9K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 6.1K
+     * 78.9K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 6.1K ¦ Estimated total hours of viewing time of your content from your audience.
+     * 8K ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Intro ¦ Top moment ¦ Average view duration ¦ 10:49 ¦ Average percentage viewed
+     * Average view duration ¦ 10:49 ¦ Average percentage viewed ¦ 44.0% ¦ 00:00 / 24:36
+     * 33% ¦ 0% ¦ 69% of viewers are still watching at around the 0:30 mark, which is typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 1,884 ¦ Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  1,884.
+     * Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  1,884. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  1,884. ¦ Views ¦ Browse features ¦ 81.6%
+     * Latest activity, Views: Last 48 hours,  1,884. ¦ Views ¦ Browse features ¦ 81.6% ¦ Suggested videos
+     * Browse features ¦ 81.6% ¦ Suggested videos ¦ 10.3% ¦ YouTube search
+     * Suggested videos ¦ 10.3% ¦ YouTube search ¦ 4.3% ¦ Direct or unknown
+     * YouTube search ¦ 4.3% ¦ Direct or unknown ¦ 2.0% ¦ Channel pages
+     * Direct or unknown ¦ 2.0% ¦ Channel pages ¦ 1.1% ¦ See more
+  == IjGEOWgQOOw tab-reach_viewers oops=False lines=122
+     * Oct 19 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 76.7K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 76.7K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 76.7K ¦ Thumbnail click-through rate ¦ 2.6% ¦ Views
+     * Thumbnail click-through rate ¦ 2.6% ¦ Views ¦ 6.5K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 6.5K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 2.6K
+     * 5K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 19 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 19 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 60.4% ¦ Suggested videos
+     * Browse features ¦ 60.4% ¦ Suggested videos ¦ 19.0% ¦ Channel pages
+     * Suggested videos ¦ 19.0% ¦ Channel pages ¦ 13.5% ¦ End screens
+     * End screens ¦ 2.0% ¦ YouTube search ¦ 1.9% ¦ Others
+     * YouTube search ¦ 1.9% ¦ Others ¦ 3.2% ¦ See more
+     * 3.2% ¦ See more ¦ External sites or apps ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * 20.0% ¦ See more ¦ Content suggesting this video ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic: ¦ 19.0%
+     * 2.1% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.5%
+     * 75.9% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 19 – 30, 2026 (12 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 19 – 30, 2026 (12 days) ¦ Thumbnail impressions ¦ 76.7K ¦ 87.9% from YouTube recommending your content
+     * 76.7K ¦ 87.9% from YouTube recommending your content ¦ 2.6% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 2K
+     * 87.9% from YouTube recommending your content ¦ 2.6% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 2K ¦ 10:49 average view duration
+     * Engaged views from impressions ¦ 2K ¦ 10:49 average view duration ¦ Watch time from impressions ¦ 353.6
+     * 2K ¦ 10:49 average view duration ¦ Watch time from impressions ¦ 353.6 ¦ YouTube search terms
+     * Watch time from impressions ¦ 353.6 ¦ YouTube search terms ¦ Views · Oct 19 – 30, 2026 ¦ Proportion of your total traffic:
+  == IjGEOWgQOOw tab-overview oops=False lines=91
+     * Custom ¦ People watched this video 6,479 times during the selected dates ¦ Views ¦ Views ¦ 6.5K
+     * People watched this video 6,479 times during the selected dates ¦ Views ¦ Views ¦ 6.5K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 6.5K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 523.2
+     * 6.5K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 523.2 ¦ Estimated total hours of viewing time of your content from your audience.
+     * 400 ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Key moments for audience retention ¦ Intro ¦ Average view duration ¦ 10:26 ¦ Average percentage viewed
+     * Average view duration ¦ 10:26 ¦ Average percentage viewed ¦ 42.9% ¦ 00:00 / 24:21
+     * 33% ¦ 0% ¦ 70% of viewers are still watching at around the 0:30 mark, which is typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 237 ¦ Views · Last 48 hours ¦ -48h ¦ Now
+     * -48h ¦ Now ¦ Latest activity, Views: Last 48 hours,  237. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  237. ¦ Views ¦ Browse features ¦ 42.2%
+     * Latest activity, Views: Last 48 hours,  237. ¦ Views ¦ Browse features ¦ 42.2% ¦ Suggested videos
+     * Browse features ¦ 42.2% ¦ Suggested videos ¦ 37.1% ¦ Channel pages
+     * Suggested videos ¦ 37.1% ¦ Channel pages ¦ 7.2% ¦ YouTube search
+     * Channel pages ¦ 7.2% ¦ YouTube search ¦ 5.9% ¦ Direct or unknown
+     * YouTube search ¦ 5.9% ¦ Direct or unknown ¦ 3.8% ¦ See more
+  == CR9KU_5djOg tab-reach_viewers oops=False lines=128
+     * Oct 18 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 3.4M
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 3.4M ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 3.4M ¦ Thumbnail click-through rate ¦ 3.1% ¦ Views
+     * Thumbnail click-through rate ¦ 3.1% ¦ Views ¦ 421.2K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 421.2K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 135.4K
+     * 300K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 18 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 18 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 87.9% ¦ Suggested videos
+     * Browse features ¦ 87.9% ¦ Suggested videos ¦ 10.2% ¦ Direct or unknown
+     * Suggested videos ¦ 10.2% ¦ Direct or unknown ¦ 0.8% ¦ Other YouTube features
+     * Direct or unknown ¦ 0.8% ¦ Other YouTube features ¦ 0.4% ¦ YouTube search
+     * Other YouTube features ¦ 0.4% ¦ YouTube search ¦ 0.3% ¦ Others
+     * YouTube search ¦ 0.3% ¦ Others ¦ 0.4% ¦ See more
+     * 0.4% ¦ See more ¦ External sites or apps ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * 2.6% ¦ See more ¦ Content suggesting this video ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic: ¦ 10.2%
+     * 1.4% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 18 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.1%
+     * 11.1% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 18 – 30, 2026 (13 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 18 – 30, 2026 (13 days) ¦ Thumbnail impressions ¦ 3.4M ¦ 99.3% from YouTube recommending your content
+     * 3.4M ¦ 99.3% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 102.3K
+     * 99.3% from YouTube recommending your content ¦ 3.1% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 102.3K ¦ 11:04 average view duration
+     * Engaged views from impressions ¦ 102.3K ¦ 11:04 average view duration ¦ Watch time from impressions ¦ 18.9K
+     * 102.3K ¦ 11:04 average view duration ¦ Watch time from impressions ¦ 18.9K ¦ YouTube search terms
+  == CR9KU_5djOg tab-overview oops=False lines=91
+     * Custom ¦ People watched this video 421,238 times during the selected dates ¦ Views ¦ Views ¦ 421.2K
+     * People watched this video 421,238 times during the selected dates ¦ Views ¦ Views ¦ 421.2K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 421.2K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 25.7K
+     * 421.2K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 25.7K ¦ Estimated total hours of viewing time of your content from your audience.
+     * 50K ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Intro ¦ Top moment ¦ Average view duration ¦ 9:30 ¦ Average percentage viewed
+     * Average view duration ¦ 9:30 ¦ Average percentage viewed ¦ 39.4% ¦ 00:00 / 24:07
+     * 33% ¦ 0% ¦ 65% of viewers are still watching at around the 0:30 mark, which is typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 9,451 ¦ Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  9,451.
+     * Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  9,451. ¦ Views ¦ Browse features
+     * Now ¦ Latest activity, Views: Last 48 hours,  9,451. ¦ Views ¦ Browse features ¦ 73.6%
+     * Latest activity, Views: Last 48 hours,  9,451. ¦ Views ¦ Browse features ¦ 73.6% ¦ Suggested videos
+     * Browse features ¦ 73.6% ¦ Suggested videos ¦ 22.3% ¦ Direct or unknown
+     * Suggested videos ¦ 22.3% ¦ Direct or unknown ¦ 1.5% ¦ YouTube search
+     * Direct or unknown ¦ 1.5% ¦ YouTube search ¦ 1.3% ¦ Other YouTube features
+     * YouTube search ¦ 1.3% ¦ Other YouTube features ¦ 0.8% ¦ See more
+  == 37wgPZeeP4s tab-reach_viewers oops=False lines=128
+     * Oct 17 – 30, 2026 ¦ Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 84.7K
+     * Custom ¦ Thumbnail impressions ¦ Thumbnail impressions ¦ 84.7K ¦ Thumbnail click-through rate
+     * Thumbnail impressions ¦ 84.7K ¦ Thumbnail click-through rate ¦ 3.5% ¦ Views
+     * Thumbnail click-through rate ¦ 3.5% ¦ Views ¦ 8.8K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 8.8K ¦ Total views for the selected date range, region and other filters. ¦ Unique viewers ¦ 3.6K
+     * 5K ¦ 0 ¦ Thumbnail impressions ¦ See more ¦ How viewers find this video
+     * See more ¦ How viewers find this video ¦ Views · Oct 17 – 30, 2026 ¦ Traffic Sources ¦ Browse features
+     * Views · Oct 17 – 30, 2026 ¦ Traffic Sources ¦ Browse features ¦ 64.0% ¦ Channel pages
+     * Browse features ¦ 64.0% ¦ Channel pages ¦ 18.1% ¦ Suggested videos
+     * Channel pages ¦ 18.1% ¦ Suggested videos ¦ 12.9% ¦ Other YouTube features
+     * Suggested videos ¦ 12.9% ¦ Other YouTube features ¦ 1.8% ¦ YouTube search
+     * Other YouTube features ¦ 1.8% ¦ YouTube search ¦ 1.3% ¦ Others
+     * YouTube search ¦ 1.3% ¦ Others ¦ 1.9% ¦ See more
+     * 1.9% ¦ See more ¦ External sites or apps ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ External sites or apps ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.2%
+     * 6.7% ¦ See more ¦ Content suggesting this video ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Content suggesting this video ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic: ¦ 12.9%
+     * 1.7% ¦ See more ¦ Playlists featuring this video ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic:
+     * See more ¦ Playlists featuring this video ¦ Views · Oct 17 – 30, 2026 ¦ Proportion of your total traffic: ¦ 0.4%
+     * 61.3% ¦ See more ¦ Impressions and how they led to watch time ¦ Data available Oct 17 – 30, 2026 (14 days) ¦ Thumbnail impressions
+     * Impressions and how they led to watch time ¦ Data available Oct 17 – 30, 2026 (14 days) ¦ Thumbnail impressions ¦ 84.7K ¦ 96.3% from YouTube recommending your content
+     * 84.7K ¦ 96.3% from YouTube recommending your content ¦ 3.5% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 3K
+     * 96.3% from YouTube recommending your content ¦ 3.5% Thumbnail click-through rate ¦ Engaged views from impressions ¦ 3K ¦ 10:21 average view duration
+     * Engaged views from impressions ¦ 3K ¦ 10:21 average view duration ¦ Watch time from impressions ¦ 514.58
+     * 3K ¦ 10:21 average view duration ¦ Watch time from impressions ¦ 514.58 ¦ YouTube search terms
+  == 37wgPZeeP4s tab-overview oops=False lines=91
+     * Custom ¦ People watched this video 8,752 times during the selected dates ¦ Views ¦ Views ¦ 8.8K
+     * People watched this video 8,752 times during the selected dates ¦ Views ¦ Views ¦ 8.8K ¦ Total views for the selected date range, region and other filters.
+     * Views ¦ 8.8K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 681.2
+     * 8.8K ¦ Total views for the selected date range, region and other filters. ¦ Watch time (hours) ¦ 681.2 ¦ Estimated total hours of viewing time of your content from your audience.
+     * 1,000 ¦ 0 ¦ Views ¦ See more ¦ Interest in your content • Since published
+     * Intro ¦ Top moment ¦ Average view duration ¦ 9:43 ¦ Average percentage viewed
+     * Average view duration ¦ 9:43 ¦ Average percentage viewed ¦ 40.6% ¦ 00:00 / 23:59
+     * 33% ¦ 0% ¦ 59% of viewers are still watching at around the 0:30 mark, which is below typical. Learn more by comparing to your other videos. ¦ See more ¦ Realtime
+     * Updating live ¦ 118 ¦ Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  118.
+     * Views · Last 48 hours ¦ Now ¦ Latest activity, Views: Last 48 hours,  118. ¦ Views ¦ Suggested videos
+     * Now ¦ Latest activity, Views: Last 48 hours,  118. ¦ Views ¦ Suggested videos ¦ 30.5%
+     * Latest activity, Views: Last 48 hours,  118. ¦ Views ¦ Suggested videos ¦ 30.5% ¦ Channel pages
+     * Suggested videos ¦ 30.5% ¦ Channel pages ¦ 29.7% ¦ Browse features
+     * Channel pages ¦ 29.7% ¦ Browse features ¦ 22.9% ¦ YouTube search
+     * Browse features ¦ 22.9% ¦ YouTube search ¦ 7.6% ¦ Direct or unknown
+     * YouTube search ¦ 7.6% ¦ Direct or unknown ¦ 5.1% ¦ See more
+XONG

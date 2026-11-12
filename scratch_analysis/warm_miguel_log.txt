@@ -1,0 +1,85 @@
+15:33:54 === WARMUP miguelcarolineo0071023@gmail.com (kenh 歴史の謎をAIで解く) ===
+15:33:55 [1/3] TIM KIEM: 【440年の謎】信長の遺体はどこへ消えたのか？一次史料だけでAIに推理させたら、意外な場所が浮かび上がった
+15:34:08   8 ket qua
+15:34:08   chon video DAU TIEN: CR9KU_5djOg | 【440年の謎】信長の遺体はどこへ消えたのか？一次史料だけでAIに推理させたら、意外な場所が浮かび上がった | AI謎解き研究所
+15:34:17   > bat dau xem 1069s (dai 1446s = 24:06) buoc1
+15:34:44   . da xem 27s / 1069s
+15:39:35   . da xem 318s / 1069s
+15:44:43   . da xem 626s / 1069s
+15:49:28   . da xem 911s / 1069s
+15:49:58   . da xem 940s / 1069s
+15:52:11   LIKE -> aria-pressed=true | cùng 9.802 người khác thích video này
+15:52:36   go xong binh luan: '素晴らしい！本当に最高です！'
+15:52:38   da bam gui binh luan
+15:52:44   VERIFY comment: o nhap con '' | thay ten kenh=False
+15:52:44   => buoc 1 xong: xem 1069s | like=True | comment=False
+15:52:49 [2/3] TIM TRONG PANEL DE XUAT: 明智光秀は本当に死んだのか
+15:52:49   doc duoc 25 goi y
+15:52:53   doc duoc 25 goi y
+15:52:57   doc duoc 25 goi y
+15:53:01   doc duoc 25 goi y
+15:53:05 !! LOI: khong thay video 明智光秀 trong panel de xuat
+15:53:05 Traceback (most recent call last):
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\warm_miguel.py", line 623, in main
+    raise RuntimeError("khong thay video 明智光秀 trong panel de xuat")
+RuntimeError: khong thay video 明智光秀 trong panel de xuat
+
+15:53:05 === KET THUC: ERROR | 19.2 phut | 1 video ===
+15:55:29 
+15:55:29 === WARMUP TIEP (buoc 2+3) — 15:55:29 ===
+15:55:30 [2] mo lai video 1 de lay panel de xuat, tim: 明智光秀は本当に死んだのか
+15:56:05   ! panel khong con video do -> TIM KIEM tu khoa
+15:56:17   8 ket qua
+15:56:17   chon: t_7hE3EJhvM | 【440年の謎】明智光秀は本当に死んだのか？天海説まで5つの説をAIに1582年の記録で採点させたら、意外な結果に
+15:56:26   > bat dau xem 1011s (dai 1475s = 24:35) buoc2
+15:57:01   . da xem 35s / 1011s
+16:01:51   . da xem 325s / 1011s
+16:06:41   . da xem 615s / 1011s
+16:11:49   . da xem 924s / 1011s
+16:13:25   LIKE -> aria-pressed=true | cùng 746 người khác thích video này
+16:13:50   go xong: '素晴らしい！本当に最高です！'
+16:13:52   da bam gui
+16:14:30   VERIFY (AIHistoryJP): {"n": 22, "mine": [{"a": "@AIHistoryJP", "t": "素晴らしい！本当に最高です！"}], "hit": true}
+16:14:30   => buoc 2: xem 1015s | like=True | comment=True
+16:14:35 [3] loc goi y lane X -> xem tiep (toi da 4 video)
+16:14:36   ung vien: 【本要約】本能寺の変はなぜ起きた？お金の流れで見る戦国時代(8) | うわ…これなら映画館でもお金を払って観たい。宇宙の恐怖と謎に引き込ま(2) | 【スカッとする話】150人が集まる同窓会で頭取の娘と再会した俺。同級(1) | 【日本航空350便墜落事故】「キャプテン、やめてください！」片桐機長(1) | 【3DCG】日本海海戦 全記録|丁字戦法・夜戦・降伏まで58分(1)
+16:14:36   chon: thETMkoP0lk | 34:44 | 【本要約】本能寺の変はなぜ起きた？お金の流れで見る戦国時代 | 金融プロの本棚-お金持ちになる本要約
+16:14:51   > bat dau xem 1117s (dai 2083s = 34:43) buoc3-1
+16:15:14   . da xem 23s / 1117s
+16:16:33 
+16:16:33 === BUOC 3: LOC GOI Y LANE X -> xem tiep — 16:16:33 ===
+16:16:33 mo lai video 明智光秀 de lay panel goi y
+16:16:56   ung vien panel (20 doc duoc): 明智光秀、最後の11日間｜本能寺から山崎まで、天下はなぜ崩れたの(5) | 【幕末の英雄たちの子孫】の現在｜教科書に載らない驚きの末裔の物語(3) | 【本能寺の夜】なぜ明智軍の足軽は、信長を討つと知らなかったのか(2) | 学校では教えない歴史 200年前の日本人の姿 シーボルトや外国(2)
+16:17:05   ~ click panel khong an -> goto truc tiep
+16:17:13   chon: 1XQLcmWO24o | 21:24 | 明智光秀、最後の11日間｜本能寺から山崎まで、天下はなぜ崩れたのか【本能寺の変その後】 | 日めくり戦国
+16:17:13   > bat dau xem 1015s (dai 1283s = 21:23) buoc3-1
+16:17:37   . da xem 23s / 1015s
+16:22:26   . da xem 311s / 1015s
+16:27:18   . da xem 605s / 1015s
+16:27:46   . da xem 632s / 1015s
+16:32:45   . da xem 926s / 1015s
+16:34:14   LIKE -> aria-pressed=true | cùng 36 người khác thích video này
+16:34:14   => buoc 3.1: xem 1016s | like=True
+16:34:32   ung vien panel (20 doc duoc): 明智光秀、本能寺までの半月｜なぜ軍は西ではなく京へ向かったのか【(5) | 本能寺への13日間——光秀は、なぜ裏切ったのか【全説検証】(3) | 【若一調査隊】豪華絢爛！織田信長が最後に築いた「安土城」　幻の城(2) | 【若一調査隊】秀吉没後の暮らしは？ねねの深い愛情と祈りが息づく「(2) | 千利休｜なぜ豊臣秀吉に切腹させられたのか？！天下一の茶人の残酷す(2)
+16:34:40   ~ click panel khong an -> goto truc tiep
+16:34:48   chon: rmcVOCDNqkI | 21:46 | 明智光秀、本能寺までの半月｜なぜ軍は西ではなく京へ向かったのか【本能寺の変】 | 日めくり戦国
+16:34:48   > bat dau xem 965s (dai 1305s = 21:45) buoc3-2
+16:35:20   . da xem 31s / 965s
+16:40:19   . da xem 330s / 965s
+16:45:10   . da xem 619s / 965s
+16:49:51   . da xem 903s / 965s
+16:50:19   . da xem 930s / 965s
+16:50:58   LIKE -> aria-pressed=true | cùng 6 người khác thích video này
+16:50:58   => buoc 3.2: xem 965s | like=True
+16:51:18   ung vien panel (20 doc duoc): 本能寺の変の真実！明智光秀はなぜ織田信長を討ったのか？【豊臣兄弟(6) | 本能寺への13日間——光秀は、なぜ裏切ったのか【全説検証】(3) | 中国大返し、伝説を作ったのは秀吉本人だった｜当時の手紙でたどる1(2) | 【本能寺の夜】なぜ明智軍の足軽は、信長を討つと知らなかったのか(2) | 豊臣家がわずか2代で滅亡した『本当の理由』。秀吉が犯した最大の失(1)
+16:51:25   ~ click panel khong an -> goto truc tiep
+16:51:33   chon: NcZuouCXZyU | 35:14 | 本能寺の変の真実！明智光秀はなぜ織田信長を討ったのか？【豊臣兄弟！】 | 豊臣クロニクル
+16:51:33   > bat dau xem 1084s (dai 2114s = 35:13) buoc3-3
+16:51:58   . da xem 26s / 1084s
+16:56:45   . da xem 311s / 1084s
+16:57:10   . da xem 337s / 1084s
+17:01:50   . da xem 617s / 1084s
+17:07:01   . da xem 928s / 1084s
+17:09:41   LIKE -> aria-pressed=true | cùng 1.278 người khác thích video này
+17:09:41   => buoc 3.3: xem 1084s | like=True
+17:09:45 === KET THUC buoc 3: DONE | 53.2 phut | 3 video ===

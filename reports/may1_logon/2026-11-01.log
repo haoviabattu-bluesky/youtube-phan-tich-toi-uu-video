@@ -1,0 +1,272 @@
+10:07:26 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+10:07:26   luong 1: ['theeuxanh1@gmail.com']
+10:07:26     · luong 1 cho mo profile: nghi 0.9s
+10:07:27   luong 1 mo profile: gpm theeuxanh1@gmail.com
+10:08:26   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+10:08:26   luong 1: theeuxanh1@gmail.com xong (exit 1)
+10:08:26   luong 1: dong profile theeuxanh1@gmail.com
+10:08:26     · mo profile tiep theo: nghi 13.9s
+10:08:40 ===== XONG DA LUONG: 1 phut (1 profile cung luc)
+10:09:24 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+10:09:24   luong 1: ['theeuxanh1@gmail.com']
+10:09:24     · luong 1 cho mo profile: nghi 0.4s
+10:09:25   luong 1 mo profile: gpm theeuxanh1@gmail.com
+10:10:44   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+10:10:44 <theeuxanh1> ===== BAT DAU tay =====
+10:10:45 <theeuxanh1> --- attach vao profile da mo san: ws://localhost:50679/devtools/browser/9be450af-5297-464a-bca...
+10:10:45 <theeuxanh1> --- tab se doc: ['X']
+10:10:47 <theeuxanh1>     · phong to cua so: 1920px
+10:11:01 <theeuxanh1>     · chua vao duoc kenh sau goto (lan 1)
+10:11:23 <theeuxanh1>     · chua vao duoc kenh sau goto (lan 2)
+10:11:47 <theeuxanh1>     · bam kenh 'AI謎解き研究所' @(1011,168)
+10:11:56 <theeuxanh1> [X] LOI lane: Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigation to "https://www.youtube.com/"
+Call log:
+  - navigating to "https://studio.youtube.com/", waiting until "domc
+10:11:56 <theeuxanh1>     · chuyen tab: nghi 19.7s
+10:12:15 <theeuxanh1> ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: X · 1 phút
+10:12:15   luong 1: theeuxanh1@gmail.com xong (exit 0)
+10:12:16   luong 1: dong profile theeuxanh1@gmail.com
+10:12:16     · mo profile tiep theo: nghi 11.9s
+10:12:28 ===== XONG DA LUONG: 3 phut (1 profile cung luc)
+10:13:14 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+10:13:14   luong 1: ['theeuxanh1@gmail.com']
+10:13:14     · luong 1 cho mo profile: nghi 0.6s
+10:13:14   luong 1 mo profile: gpm theeuxanh1@gmail.com
+10:14:22   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+10:14:22 <theeuxanh1> ===== BAT DAU tay =====
+10:14:24 <theeuxanh1> --- attach vao profile da mo san: ws://localhost:64811/devtools/browser/a1bda2ce-6ff3-46c0-b79...
+10:14:24 <theeuxanh1> --- tab se doc: ['X']
+10:14:26 <theeuxanh1>     · phong to cua so: 1920px
+10:14:42 <theeuxanh1>     · chua vao duoc kenh sau goto (lan 1)
+10:15:09 <theeuxanh1>     · chua vao duoc kenh sau goto (lan 2)
+10:15:35 <theeuxanh1>     · bam kenh 'AI謎解き研究所' @(1011,168)
+10:15:43 <theeuxanh1> [X] LOI lane: Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigation to "https://www.youtube.com/"
+Call log:
+  - navigating to "https://studio.youtube.com/", waiting until "domc
+10:15:43 <theeuxanh1>     · chuyen tab: nghi 12.9s
+10:15:56 <theeuxanh1> ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: X · 1 phút
+10:15:56   luong 1: theeuxanh1@gmail.com xong (exit 0)
+10:15:57   luong 1: dong profile theeuxanh1@gmail.com
+10:15:57     · mo profile tiep theo: nghi 11.7s
+10:16:09 ===== XONG DA LUONG: 2 phut (1 profile cung luc)
+10:19:11 ===== BAT DAU tay =====
+10:19:12 --- attach vao profile da mo san: ws://localhost:59227/devtools/browser/b1000e42-3ced-40b0-a9d...
+10:19:12 --- tab se doc: ['X']
+10:19:14     · phong to cua so: 1920px
+10:19:27     · chua vao duoc kenh sau goto (lan 1)
+10:19:49     · chua vao duoc kenh sau goto (lan 2)
+10:20:14     · bam kenh 'AI謎解き研究所' @(1011,168)
+10:20:22 [X] LOI lane: Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigation to "https://www.youtube.com/"
+Call log:
+  - navigating to "https://studio.youtube.com/", waiting until "domc
+10:20:22     · chuyen tab: nghi 18.8s
+10:20:41 ===== XONG: 0 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: X · 1 phút
+10:36:01 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+10:36:01   luong 1: ['theeuxanh1@gmail.com']
+10:36:01     · luong 1 cho mo profile: nghi 0.1s
+10:36:01   luong 1 mo profile: gpm theeuxanh1@gmail.com
+10:37:37   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+10:37:38 <theeuxanh1> ===== BAT DAU tay =====
+10:37:39 <theeuxanh1> --- attach vao profile da mo san: ws://localhost:60178/devtools/browser/21b622d0-f2e7-43b6-a57...
+10:37:39 <theeuxanh1> --- tab se doc: ['X']
+10:37:41 <theeuxanh1>     · phong to cua so: 1920px
+10:37:58 <theeuxanh1>     · chuyen video: nghi 25.7s
+10:38:27 <theeuxanh1>     · bam Content @(97,332)
+10:38:33 <theeuxanh1>     · bam video IjGEOWgQOOw @(669,735)
+10:38:38 <theeuxanh1>     · mo duoc video: 【210人中199人】八甲田山の雪中行軍、運命を分けたのは天気ではなかった？AIに190
+10:38:41 <theeuxanh1>     · bam tab Analytics @(101,380)
+10:38:48 <theeuxanh1>     · bam tab Reach @(410,178)
+10:38:55 <theeuxanh1>     · doc so xong: nghi 1.9s
+10:39:00 <theeuxanh1>     · bam nhan khoang ngay @(1328,111)
+10:39:06 <theeuxanh1>     · bam Custom @(1326,554)
+10:39:09 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,117)
+10:39:14 <theeuxanh1>     · bam Apply @(1454,461)
+10:39:18 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+10:39:26 <theeuxanh1>     · doc so xong: nghi 3.2s
+10:39:29 <theeuxanh1> [X] dong 4 IjGEOWgQOOw: N=11 O=6600 P=2,6% Q=4,0% imp24h=1200.0 | ok | K=282h · 6.600 view · CTR tổng 2,6% · CTR 24h 4,0% · 1.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+10:39:29 <theeuxanh1> [X] dong 4: DA GHI SHEET
+10:39:30 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+10:39:30 <theeuxanh1>     · chuyen video: nghi 44.4s
+10:40:14 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/IjGEOWgQOOw/analytics/tab-r, menu=co) -> chuyen lai
+10:40:34 <theeuxanh1>     · bam Content @(97,332)
+10:40:40 <theeuxanh1>     · bam video t_7hE3EJhvM @(669,651)
+10:40:46 <theeuxanh1>     · mo duoc video: 【440年の謎】明智光秀は本当に死んだのか？天海説まで5つの説をAIに1582年の記録で
+10:40:49 <theeuxanh1>     · bam tab Analytics @(101,380)
+10:40:54 <theeuxanh1>     · bam tab Reach @(410,178)
+10:41:00 <theeuxanh1>     · doc so xong: nghi 1.6s
+10:41:04 <theeuxanh1>     · bam nhan khoang ngay @(1328,146)
+10:41:10 <theeuxanh1>     · bam Custom @(1326,589)
+10:41:13 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,152)
+10:41:19 <theeuxanh1>     · bam Apply @(1454,496)
+10:41:23 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+10:41:30 <theeuxanh1>     · doc so xong: nghi 2.8s
+10:41:32 <theeuxanh1> [X] dong 5 t_7hE3EJhvM: N=10 O=79800 P=3,1% Q=3,5% imp24h=7200.0 | ok | K=258h · 79.800 view · CTR tổng 3,1% · CTR 24h 3,5% · 7.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+10:41:33 <theeuxanh1> [X] dong 5: DA GHI SHEET
+10:41:33 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+10:41:33 <theeuxanh1>     · chuyen video: nghi 22.5s
+10:41:56 <theeuxanh1> [X] dong 6 wJNVCS24HPg: API khong co (chua cong khai?) -> bo qua
+10:41:56 <theeuxanh1> [X] xong lane: 2 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+10:41:56 <theeuxanh1>     · chuyen tab: nghi 21.4s
+10:42:17 <theeuxanh1> ===== XONG: 2 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 4 phút
+10:42:17   luong 1: theeuxanh1@gmail.com xong (exit 0)
+10:42:18   luong 1: dong profile theeuxanh1@gmail.com
+10:42:18     · mo profile tiep theo: nghi 10.9s
+10:42:24 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-11-01.md
+10:42:29 ===== XONG DA LUONG: 6 phut (1 profile cung luc)
+11:29:52 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-11-01.md
+11:30:19 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-11-01.md
+11:30:43 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+11:30:43   luong 1: ['theeuxanh1@gmail.com']
+11:30:43     · luong 1 cho mo profile: nghi 0.4s
+11:30:43   luong 1 mo profile: gpm theeuxanh1@gmail.com
+11:32:08   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+11:32:14 <theeuxanh1> ===== BAT DAU tay =====
+11:32:17 <theeuxanh1> --- attach vao profile da mo san: ws://localhost:54232/devtools/browser/69cf1f0f-468f-465a-a74...
+11:32:17 <theeuxanh1> --- tab se doc: ['X']
+11:32:21 <theeuxanh1>     · phong to cua so: 1920px
+11:32:40 <theeuxanh1>     · chuyen video: nghi 20.5s
+11:33:04 <theeuxanh1>     · bam Content @(97,332)
+11:33:10 <theeuxanh1>     · bam video 37wgPZeeP4s @(669,753)
+11:33:16 <theeuxanh1>     · mo duoc video: 【440年の謎】本能寺の変の黒幕をAIに一次史料だけで推理させたら、意外な人物が浮かび上
+11:33:19 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:33:24 <theeuxanh1>     · bam tab Reach @(410,178)
+11:33:30 <theeuxanh1>     · doc so xong: nghi 2.0s
+11:33:35 <theeuxanh1>     · bam nhan khoang ngay @(1328,88)
+11:33:40 <theeuxanh1>     · bam Custom @(1326,531)
+11:33:44 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,94)
+11:33:50 <theeuxanh1>     · bam Apply @(1454,438)
+11:33:55 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:34:06 <theeuxanh1>     · doc so xong: nghi 3.8s
+11:34:10 <theeuxanh1> [X] dong 2 37wgPZeeP4s: N=14 O=8800 P=3,5% Q=3,3% imp24h=605.0 | ok | K=342h · 8.800 view · CTR tổng 3,5% · CTR 24h 3,3% · 605 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:34:10 <theeuxanh1> [X] dong 2: DA GHI SHEET
+11:34:11 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:34:11 <theeuxanh1>     · chuyen video: nghi 46.2s
+11:34:57 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/37wgPZeeP4s/analytics/tab-r, menu=co) -> chuyen lai
+11:35:20 <theeuxanh1>     · bam Content @(97,332)
+11:35:27 <theeuxanh1>     · bam video CR9KU_5djOg @(669,819)
+11:35:32 <theeuxanh1>     · mo duoc video: 【440年の謎】信長の遺体はどこへ消えたのか？一次史料だけでAIに推理させたら、意外な場
+11:35:34 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:35:41 <theeuxanh1>     · bam tab Reach @(410,178)
+11:35:49 <theeuxanh1>     · doc so xong: nghi 4.2s
+11:35:56 <theeuxanh1>     · bam nhan khoang ngay @(1328,88)
+11:36:02 <theeuxanh1>     · bam Custom @(1326,531)
+11:36:04 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,94)
+11:36:10 <theeuxanh1>     · bam Apply @(1454,438)
+11:36:13 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:36:21 <theeuxanh1>     · doc so xong: nghi 1.6s
+11:36:22 <theeuxanh1> [X] dong 3 CR9KU_5djOg: N=12 O=424800 P=3,1% Q=3,0% imp24h=42100.0 | ok | K=307h · 424.800 view · CTR tổng 3,1% · CTR 24h 3,0% · 42.100 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:36:23 <theeuxanh1> [X] dong 3: DA GHI SHEET
+11:36:23 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:36:23 <theeuxanh1>     · chuyen video: nghi 31.8s
+11:36:55 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/CR9KU_5djOg/analytics/tab-r, menu=co) -> chuyen lai
+11:37:12 <theeuxanh1>     · bam Content @(97,332)
+11:37:17 <theeuxanh1>     · bam video IjGEOWgQOOw @(669,735)
+11:37:22 <theeuxanh1>     · mo duoc video: 【210人中199人】八甲田山の雪中行軍、運命を分けたのは天気ではなかった？AIに190
+11:37:24 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:37:31 <theeuxanh1>     · bam tab Reach @(410,178)
+11:37:38 <theeuxanh1>     · doc so xong: nghi 1.7s
+11:37:43 <theeuxanh1>     · bam nhan khoang ngay @(1328,98)
+11:37:49 <theeuxanh1>     · bam Custom @(1326,541)
+11:37:51 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,104)
+11:37:56 <theeuxanh1>     · bam Apply @(1454,448)
+11:38:01 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:38:08 <theeuxanh1>     · doc so xong: nghi 3.9s
+11:38:12 <theeuxanh1> [X] dong 4 IjGEOWgQOOw: N=11 O=6600 P=2,6% Q=4,0% imp24h=1200.0 | ok | K=283h · 6.600 view · CTR tổng 2,6% · CTR 24h 4,0% · 1.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:38:13 <theeuxanh1> [X] dong 4: DA GHI SHEET
+11:38:13 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:38:13 <theeuxanh1>     · chuyen video: nghi 30.2s
+11:38:43 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/IjGEOWgQOOw/analytics/tab-r, menu=co) -> chuyen lai
+11:39:01 <theeuxanh1>     · bam Content @(97,332)
+11:39:09 <theeuxanh1>     · bam video t_7hE3EJhvM @(669,651)
+11:39:14 <theeuxanh1>     · mo duoc video: 【440年の謎】明智光秀は本当に死んだのか？天海説まで5つの説をAIに1582年の記録で
+11:39:16 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:39:21 <theeuxanh1>     · bam tab Reach @(410,178)
+11:39:28 <theeuxanh1>     · doc so xong: nghi 4.2s
+11:39:36 <theeuxanh1>     · bam nhan khoang ngay @(1328,155)
+11:39:40 <theeuxanh1>     · bam Custom @(1326,598)
+11:39:44 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,161)
+11:39:50 <theeuxanh1>     · bam Apply @(1454,505)
+11:39:54 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:40:01 <theeuxanh1>     · doc so xong: nghi 3.4s
+11:40:05 <theeuxanh1> [X] dong 5 t_7hE3EJhvM: N=10 O=79900 P=3,1% Q=3,5% imp24h=7200.0 | ok | K=259h · 79.900 view · CTR tổng 3,1% · CTR 24h 3,5% · 7.200 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:40:05 <theeuxanh1> [X] dong 5: DA GHI SHEET
+11:40:06 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:40:06 <theeuxanh1>     · chuyen video: nghi 45.2s
+11:40:51 <theeuxanh1> [X] dong 6 wJNVCS24HPg: API khong co (chua cong khai?) -> bo qua
+11:40:51 <theeuxanh1>     · chuyen video: nghi 32.9s
+11:41:24 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/t_7hE3EJhvM/analytics/tab-r, menu=co) -> chuyen lai
+11:41:41 <theeuxanh1>     · bam Content @(97,332)
+11:41:49 <theeuxanh1>     · bam video _c-opbU36dU @(669,567)
+11:41:54 <theeuxanh1>     · mo duoc video: 【444年の謎】明智光秀はなぜ信長を裏切ったのか？本能寺の変を引き起こした「3つの原因」
+11:41:58 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:42:03 <theeuxanh1>     · bam tab Reach @(410,178)
+11:42:08 <theeuxanh1>     · doc so xong: nghi 1.6s
+11:42:13 <theeuxanh1>     · bam nhan khoang ngay @(1328,155)
+11:42:17 <theeuxanh1>     · bam Custom @(1326,598)
+11:42:20 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,161)
+11:42:26 <theeuxanh1>     · bam Apply @(1454,505)
+11:42:30 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:42:39 <theeuxanh1>     · doc so xong: nghi 3.5s
+11:42:43 <theeuxanh1> [X] dong 8 _c-opbU36dU: N=5 O=6400 P=3,1% Q=1,9% imp24h=3000.0 | VANG | K=CTR 24h=1,9%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+11:42:44 <theeuxanh1> [X] dong 8: DA GHI SHEET
+11:42:44 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:42:44 <theeuxanh1>     · chuyen video: nghi 40.1s
+11:43:24 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/_c-opbU36dU/analytics/tab-r, menu=co) -> chuyen lai
+11:43:44 <theeuxanh1>     · bam Content @(97,332)
+11:43:50 <theeuxanh1>     · bam video QSdhgQVmNFI @(669,483)
+11:43:54 <theeuxanh1>     · mo duoc video: 【837年の謎】源義経は本当に衣川で死んだのか？7つの謎が解き明かされた
+11:43:58 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:44:03 <theeuxanh1>     · bam tab Reach @(410,178)
+11:44:08 <theeuxanh1>     · doc so xong: nghi 2.0s
+11:44:12 <theeuxanh1>     · bam nhan khoang ngay @(1328,155)
+11:44:17 <theeuxanh1>     · bam Custom @(1326,598)
+11:44:20 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,161)
+11:44:25 <theeuxanh1>     · bam Apply @(1454,505)
+11:44:30 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:44:36 <theeuxanh1>     · doc so xong: nghi 2.3s
+11:44:39 <theeuxanh1> [X] dong 9 QSdhgQVmNFI: N=3 O=5600 P=4,2% Q=5,4% imp24h=2500.0 | ok | K=91h · 5.600 view · CTR tổng 4,2% · CTR 24h 5,4% · 2.500 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:44:39 <theeuxanh1> [X] dong 9: DA GHI SHEET
+11:44:40 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:44:40 <theeuxanh1>     · chuyen video: nghi 29.4s
+11:45:09 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/QSdhgQVmNFI/analytics/tab-r, menu=co) -> chuyen lai
+11:45:27 <theeuxanh1>     · bam Content @(97,332)
+11:45:34 <theeuxanh1>     · bam video OGrlW37QTcg @(669,399)
+11:45:39 <theeuxanh1>     · mo duoc video: 【435年の謎】千利休はなぜ切腹したのか？AIが真相を解明！ついに明かされる衝撃の真実
+11:45:43 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:45:48 <theeuxanh1>     · bam tab Reach @(410,178)
+11:45:53 <theeuxanh1>     · doc so xong: nghi 2.5s
+11:45:58 <theeuxanh1>     · bam nhan khoang ngay @(1328,155)
+11:46:03 <theeuxanh1>     · bam Custom @(1326,598)
+11:46:06 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-30 @(1304,161)
+11:46:13 <theeuxanh1>     · bam Apply @(1454,505)
+11:46:16 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-30 (URL xac nhan)
+11:46:22 <theeuxanh1>     · doc so xong: nghi 3.4s
+11:46:25 <theeuxanh1> [X] dong 10 OGrlW37QTcg: N=2 O=3000 P=3,3% Q=2,6% imp24h=5900.0 | ok | K=66h · 3.000 view · CTR tổng 3,3% · CTR 24h 2,6% · 5.900 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:46:26 <theeuxanh1> [X] dong 10: DA GHI SHEET
+11:46:26 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:46:26 <theeuxanh1>     · chuyen video: nghi 34.0s
+11:47:00 <theeuxanh1>     · chua san sang (url=https://studio.youtube.com/video/OGrlW37QTcg/analytics/tab-r, menu=co) -> chuyen lai
+11:47:20 <theeuxanh1>     · bam Content @(97,332)
+11:47:24 <theeuxanh1>     · bam video 8ZNy6vD1uls @(669,315)
+11:47:28 <theeuxanh1>     · mo duoc video: 【430年の謎】豊臣秀次はなぜ切腹したのか？秀吉の命令は本当にあったのか？AIが歴史の闇
+11:47:30 <theeuxanh1>     · bam tab Analytics @(101,380)
+11:47:36 <theeuxanh1>     · bam tab Reach @(410,178)
+11:47:42 <theeuxanh1>     · doc so xong: nghi 2.3s
+11:47:48 <theeuxanh1>     · bam nhan khoang ngay @(1328,146)
+11:47:52 <theeuxanh1>     · bam Custom @(1326,589)
+11:47:54 <theeuxanh1>     · bam o ngay bat dau -> 2026-10-31 @(1304,152)
+11:48:01 <theeuxanh1>     · bam Apply @(1454,496)
+11:48:05 <theeuxanh1>     · khoang ngay = 1 ngay 2026-10-31 (URL xac nhan)
+11:48:55 <theeuxanh1>     · so 1 ngay trung so tron doi sau 24s (URL da xac nhan 1 ngay) -> van lay
+11:48:57 <theeuxanh1>     · doc so xong: nghi 1.8s
+11:48:58 <theeuxanh1> [X] dong 12 8ZNy6vD1uls: N=0 O=2400 P=3,3% Q=3,3% imp24h=14000.0 | ok | K=19h · 2.400 view · CTR tổng 3,3% · CTR 24h 3,3% · 14.000 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:48:59 <theeuxanh1> [X] dong 12: DA GHI SHEET
+11:48:59 <theeuxanh1> [X] TONGHOP TONGHOP khong co cot X
+11:48:59 <theeuxanh1> [X] xong lane: 8 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+11:48:59 <theeuxanh1>     · chuyen tab: nghi 17.9s
+11:49:17 <theeuxanh1> ===== XONG: 8 video · 1 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 17 phút
+11:49:17   luong 1: theeuxanh1@gmail.com xong (exit 0)
+11:49:18   luong 1: dong profile theeuxanh1@gmail.com
+11:49:18     · mo profile tiep theo: nghi 13.3s
+11:49:31 ===== XONG DA LUONG: 18 phut (1 profile cung luc)
+11:50:12 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-11-01.md

@@ -126,7 +126,10 @@ def build(video_row: dict, ch, settings) -> VideoContext:
         if ch.h2dev_assets_dir:
             cands.append(Path(ch.h2dev_assets_dir))
         if tab:
-            cands.append(Path(settings["paths"]["flowhandoff_jobs"]) / tab)
+            fj = Path(settings["paths"]["flowhandoff_jobs"])
+            if not fj.exists():   # máy 1 (2026-10-31) vẫn để FlowHandoff_local trong h2dev, máy 2 để ở YOUTUBE\
+                fj = Path(r"E:\CLAUDE\YOUTUBE\h2dev\FlowHandoff_local\jobs")
+            cands.append(fj / tab)
         ep = find_by_title(vc.title, cands)
     if ep is None:
         return vc

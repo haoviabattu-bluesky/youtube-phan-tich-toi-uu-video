@@ -1,0 +1,66 @@
+19:30:09     · chua vao duoc kenh sau goto (lan 1)
+19:30:30     · chua vao duoc kenh sau goto (lan 2)
+19:30:57     · bam kenh 'AI解明ラボ' @(1309,168)
+19:31:06     · goto bi gian doan (lan 1): Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigatio
+19:31:17     · goto bi gian doan (lan 2): Page.goto: Navigation to "https://studio.youtube.com/channel/UCDSfOc6Zy36qgt66I-SQyYg" is 
+19:31:35     · chua vao duoc kenh sau goto (lan 1)
+19:31:55     · chua vao duoc kenh sau goto (lan 2)
+19:32:20     · bam kenh 'AI解明ラボ' @(1309,168)
+19:32:30     · goto bi gian doan (lan 3): Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigatio
+19:32:40     · goto bi gian doan (lan 4): Page.goto: Navigation to "https://studio.youtube.com/channel/UCDSfOc6Zy36qgt66I-SQyYg" is 
+19:33:02     · chua vao duoc kenh sau goto (lan 1)
+19:33:24     · chua vao duoc kenh sau goto (lan 2)
+19:33:49     · bam kenh 'AI解明ラボ' @(1309,168)
+19:33:58     · goto bi gian doan (lan 5): Page.goto: Navigation to "https://studio.youtube.com/" is interrupted by another navigatio
+19:34:08 [Lane-GEO] KHONG chuyen duoc sang kenh UCDSfOc6Zy36qgt66I-SQyYg (url=https://www.youtube.com/) -> bo qua lane
+19:52:24     · chuyen video: nghi 48.0s
+19:53:16     · bam Content @(97,332)
+19:53:21     · bam video ouJZAmm-Ees @(687,735)
+19:53:25     · mo duoc video: 北海道と本州になぜ橋がない？海を抜くと見えてくる青函トンネルの秘密
+19:53:28     · bam tab Analytics @(101,380)
+19:53:35     · bam tab Reach @(410,178)
+19:53:41     · doc so xong: nghi 2.2s
+19:53:47     · bam nhan khoang ngay @(1328,88)
+19:53:51     · bam Custom @(1326,531)
+19:53:55     · bam o ngay bat dau -> 2026-11-01 @(1304,94)
+19:54:01     · bam Apply @(1454,438)
+19:54:06     · khoang ngay = 1 ngay 2026-11-01 (URL xac nhan)
+19:54:13     · doc so xong: nghi 4.4s
+19:54:18 [Lane-GEO] dong 2 ouJZAmm-Ees: N=9 O=1300 P=2,6% Q=3,9% imp24h=463.0 | ok | K=219h · 1.300 view · CTR tổng 2,6% · CTR 24h 3,9% · 463 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+19:54:18 [Lane-GEO] dong 2: DA GHI SHEET
+19:54:19 [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+19:54:19     · chuyen video: nghi 41.1s
+19:55:00     · chua san sang (url=https://studio.youtube.com/video/ouJZAmm-Ees/analytics/tab-r, menu=co) -> chuyen lai
+19:55:20     · bam Content @(97,332)
+19:55:26     · bam video MCB3XOLuPJY @(656,651)
+19:55:32     · mo duoc video: 東京の荒川は人工の川なのか？全長22kmの巨大河川誕生の秘密
+19:55:35     · bam tab Analytics @(101,380)
+19:55:39     · bam tab Reach @(410,178)
+19:55:44     · doc so xong: nghi 2.6s
+19:55:50     · bam nhan khoang ngay @(1328,155)
+19:55:55     · bam Custom @(1326,598)
+19:55:59     · bam o ngay bat dau -> 2026-11-01 @(1304,161)
+19:56:04     · bam Apply @(1454,505)
+19:56:08     · khoang ngay = 1 ngay 2026-11-01 (URL xac nhan)
+19:56:16     · doc so xong: nghi 2.8s
+19:56:19 [Lane-GEO] dong 3 MCB3XOLuPJY: N=8 O=234 P=2,6% Q=5,2% imp24h=211.0 | ok | K=192h · 234 view · CTR tổng 2,6% · CTR 24h 5,2% · 211 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+19:56:19 [Lane-GEO] dong 3: DA GHI SHEET
+19:56:20 [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+19:56:20     · chuyen video: nghi 31.9s
+19:56:52     · chua san sang (url=https://studio.youtube.com/video/MCB3XOLuPJY/analytics/tab-r, menu=co) -> chuyen lai
+19:57:11     · bam Content @(97,332)
+19:57:16     · bam video 0KQC_5fTPTY @(712,567)
+19:57:23     · mo duoc video: 富士山はなぜ火山になったのか？真っ二つに切って、地下に隠された秘密を探ってみる
+19:57:26     · bam tab Analytics @(101,380)
+19:57:31     · bam tab Reach @(410,178)
+19:57:37     · doc so xong: nghi 3.0s
+19:57:44     · bam nhan khoang ngay @(1328,88)
+19:57:48     · bam Custom @(1326,531)
+19:57:51     · bam o ngay bat dau -> 2026-11-01 @(1304,94)
+19:57:56     · bam Apply @(1454,438)
+19:58:00     · khoang ngay = 1 ngay 2026-11-01 (URL xac nhan)
+19:58:09     · doc so xong: nghi 2.3s
+19:58:11 [Lane-GEO] dong 4 0KQC_5fTPTY: N=5 O=748 P=4,1% Q=4,0% imp24h=3000.0 | ok | K=122h · 748 view · CTR tổng 4,1% · CTR 24h 4,0% · 3.000 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+19:58:12 [Lane-GEO] dong 4: DA GHI SHEET
+19:58:12 [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+19:58:12 [Lane-GEO] xong lane: 3 dong da ghi sheet (ghi tung tap ngay khi doc xong)

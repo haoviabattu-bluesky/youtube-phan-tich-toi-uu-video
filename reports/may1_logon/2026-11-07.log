@@ -1,0 +1,263 @@
+06:59:38 [may1] ===== BAT DAU scheduled (mo may) | tabs=['X', 'Lane-GEO', 'Lane-P']
+06:59:39 ===== DA LUONG 3 profile cung luc | 3 nhom | 3 tab  =====
+06:59:39   luong 1: ['theeuxanh1@gmail.com']
+06:59:39   luong 2: ['normaneileenpm218@gmail.com']
+06:59:39   luong 3: ['tiffanyhenrietta3@gmail.com']
+06:59:39     · luong 1 cho mo profile: nghi 0.0s
+06:59:39     · luong 2 cho mo profile: nghi 12.4s
+06:59:39     · luong 3 cho mo profile: nghi 20.6s
+06:59:39   luong 1 mo profile: gpm theeuxanh1@gmail.com
+07:00:34   luong 1 chay: theeuxanh1@gmail.com | tabs=['X']
+07:00:34   luong 2 mo profile: gpm normaneileenpm218@gmail.com
+07:00:36 <theeuxanh1> ===== BAT DAU tay =====
+07:00:37 <theeuxanh1> --- attach vao profile da mo san: ws://localhost:51281/devtools/browser/e7356c77-dc70-4787-9ce...
+07:00:37 <theeuxanh1> --- tab se doc: ['X']
+07:00:45 <theeuxanh1>     · phong to cua so: 1920px
+07:01:04 <theeuxanh1>     · chuyen video: nghi 50.1s
+07:01:31   luong 2 chay: normaneileenpm218@gmail.com | tabs=['Lane-GEO']
+07:01:31   luong 3 mo profile: gpm tiffanyhenrietta3@gmail.com
+07:01:31 <normaneileenpm218> ===== BAT DAU tay =====
+07:01:33 <normaneileenpm218> --- attach vao profile da mo san: ws://localhost:59166/devtools/browser/060755be-9a03-4203-a18...
+07:01:33 <normaneileenpm218> --- tab se doc: ['Lane-GEO']
+07:01:35 <normaneileenpm218>     · phong to cua so: 1920px
+07:01:50 <normaneileenpm218>     · chuyen video: nghi 24.6s
+07:01:58 <theeuxanh1>     · bam Content @(97,332)
+07:02:07 <theeuxanh1>     · bam video 37wgPZeeP4s @(669,753)
+07:02:18 <normaneileenpm218>     · bam Content @(97,332)
+07:02:24   luong 3 chay: tiffanyhenrietta3@gmail.com | tabs=['Lane-P']
+07:02:24 <tiffanyhenrietta3> ===== BAT DAU tay =====
+07:02:26 <tiffanyhenrietta3> --- attach vao profile da mo san: ws://localhost:53753/devtools/browser/fbbea539-c5f9-45e5-940...
+07:02:26 <tiffanyhenrietta3> --- tab se doc: ['Lane-P']
+07:02:26 <normaneileenpm218>     · bam video ouJZAmm-Ees @(686,819)
+07:02:28 <tiffanyhenrietta3>     · phong to cua so: 1920px
+07:02:32 <normaneileenpm218>     · mo duoc video: 北海道と本州になぜ橋がない？海を抜くと見えてくる青函トンネルの秘密
+07:02:34 <normaneileenpm218>     · bam tab Analytics @(101,380)
+07:02:39 <normaneileenpm218>     · bam tab Reach @(410,178)
+07:02:42 <tiffanyhenrietta3>     · chuyen video: nghi 25.0s
+07:02:46 <normaneileenpm218>     · doc so xong: nghi 3.2s
+07:02:49 <theeuxanh1>     · Studio bao loi, doi lau: nghi 115.9s
+07:02:51 <normaneileenpm218>     · bam nhan khoang ngay @(1328,155)
+07:02:56 <normaneileenpm218>     · bam Custom @(1326,598)
+07:02:59 <normaneileenpm218>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:03:06 <normaneileenpm218>     · bam Apply @(1454,505)
+07:03:10 <normaneileenpm218>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:03:10 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:03:15 <normaneileenpm218>     · doc so xong: nghi 2.4s
+07:03:18 <normaneileenpm218> [Lane-GEO] dong 2 ouJZAmm-Ees: N=13 O=1500 P=2,7% Q=2,7% imp24h=527.0 | ok | K=326h · 1.500 view · CTR tổng 2,7% · CTR 24h 2,7% · 527 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:03:19 <normaneileenpm218> [Lane-GEO] dong 2: DA GHI SHEET
+07:03:19 <normaneileenpm218> [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+07:03:19 <normaneileenpm218>     · chuyen video: nghi 23.4s
+07:03:19 <tiffanyhenrietta3>     · bam video Y7TiikwCrtU @(710,669)
+07:03:24 <tiffanyhenrietta3>     · mo duoc video: 中国「日本はドアノブまで時代遅れｗ ウチの隠しハンドルを見習え！」→結果、中国が自ら禁止
+07:03:26 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:03:30 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:03:36 <tiffanyhenrietta3>     · doc so xong: nghi 4.3s
+07:03:42 <normaneileenpm218>     · chua san sang (url=https://studio.youtube.com/video/ouJZAmm-Ees/analytics/tab-r, menu=co) -> chuyen lai
+07:03:43 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+07:03:47 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:03:50 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:03:54 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:03:58 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:04:00 <normaneileenpm218>     · bam Content @(97,332)
+07:04:04 <tiffanyhenrietta3>     · doc so xong: nghi 1.9s
+07:04:05 <normaneileenpm218>     · bam video MCB3XOLuPJY @(656,735)
+07:04:06 <tiffanyhenrietta3> [Lane-P] dong 3 Y7TiikwCrtU: N=23 O=57400 P=6,6% Q=11,4% imp24h=44.0 | ok | K=565h · 57.400 view · CTR tổng 6,6% · CTR 24h 11,4% · 44 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:04:07 <tiffanyhenrietta3> [Lane-P] dong 3: DA GHI SHEET
+07:04:07 <tiffanyhenrietta3>     · chuyen video: nghi 33.5s
+07:04:11 <normaneileenpm218>     · mo duoc video: 東京の荒川は人工の川なのか？全長22kmの巨大河川誕生の秘密
+07:04:15 <normaneileenpm218>     · bam tab Analytics @(101,380)
+07:04:20 <normaneileenpm218>     · bam tab Reach @(410,178)
+07:04:25 <normaneileenpm218>     · doc so xong: nghi 4.2s
+07:04:32 <normaneileenpm218>     · bam nhan khoang ngay @(1328,155)
+07:04:37 <normaneileenpm218>     · bam Custom @(1326,598)
+07:04:40 <normaneileenpm218>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:04:41 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/Y7TiikwCrtU/analytics/tab-r, menu=co) -> chuyen lai
+07:04:47 <normaneileenpm218>     · bam Apply @(1454,505)
+07:04:52 <normaneileenpm218>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:04:54 <theeuxanh1>     · bam video 37wgPZeeP4s @(669,751)
+07:04:58 <normaneileenpm218>     · doc so xong: nghi 4.2s
+07:05:01 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:05:03 <normaneileenpm218> [Lane-GEO] dong 3 MCB3XOLuPJY: N=12 O=340 P=2,8% Q=7,0% imp24h=142.0 | ok | K=299h · 340 view · CTR tổng 2,8% · CTR 24h 7,0% · 142 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:05:04 <normaneileenpm218> [Lane-GEO] dong 3: DA GHI SHEET
+07:05:04 <normaneileenpm218> [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+07:05:04 <normaneileenpm218>     · chuyen video: nghi 31.5s
+07:05:07 <tiffanyhenrietta3>     · bam video yGb_Dd97NjE @(710,585)
+07:05:13 <tiffanyhenrietta3>     · mo duoc video: 中国「ファスナーなんてたった3角で作れる！日本はもう終わりだ！ハハハ！」→中国の高級ファ
+07:05:16 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:05:23 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:05:28 <tiffanyhenrietta3>     · doc so xong: nghi 4.1s
+07:05:35 <theeuxanh1> [X] dong 2 37wgPZeeP4s: khong doc duoc trang Reach 24h -> bo qua
+07:05:35 <theeuxanh1>     · chuyen video: nghi 33.7s
+07:05:36 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+07:05:36 <normaneileenpm218>     · chua san sang (url=https://studio.youtube.com/video/MCB3XOLuPJY/analytics/tab-r, menu=co) -> chuyen lai
+07:05:41 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:05:45 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:05:51 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:05:55 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:05:58 <normaneileenpm218>     · bam Content @(97,332)
+07:06:02 <tiffanyhenrietta3>     · doc so xong: nghi 4.0s
+07:06:06 <normaneileenpm218>     · bam video 0KQC_5fTPTY @(710,651)
+07:06:06 <tiffanyhenrietta3> [Lane-P] dong 5 yGb_Dd97NjE: N=22 O=1500 P=4,1% Q=— imp24h=31.0 | VANG | K=CTR 24h=— (31 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:06:07 <tiffanyhenrietta3> [Lane-P] dong 5: DA GHI SHEET
+07:06:08 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep04 H7: 'Listed' -> 'SỬA CTR'
+07:06:08 <tiffanyhenrietta3>     · chuyen video: nghi 45.4s
+07:06:10 <normaneileenpm218>     · mo duoc video: 富士山はなぜ火山になったのか？真っ二つに切って、地下に隠された秘密を探ってみる
+07:06:12 <theeuxanh1>     · bam video CR9KU_5djOg @(669,669)
+07:06:13 <normaneileenpm218>     · bam tab Analytics @(101,380)
+07:06:18 <normaneileenpm218>     · bam tab Reach @(410,178)
+07:06:23 <normaneileenpm218>     · doc so xong: nghi 4.1s
+07:06:31 <normaneileenpm218>     · bam nhan khoang ngay @(1328,88)
+07:06:36 <normaneileenpm218>     · bam Custom @(1326,531)
+07:06:39 <normaneileenpm218>     · bam o ngay bat dau -> 2026-11-05 @(1304,94)
+07:06:43 <normaneileenpm218>     · bam Apply @(1454,438)
+07:06:48 <normaneileenpm218>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:06:54 <theeuxanh1>     · Studio bao loi, doi lau: nghi 93.3s
+07:06:54 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/yGb_Dd97NjE/analytics/tab-r, menu=co) -> chuyen lai
+07:06:57 <normaneileenpm218>     · doc so xong: nghi 4.0s
+07:07:01 <normaneileenpm218> [Lane-GEO] dong 4 0KQC_5fTPTY: N=9 O=1300 P=3,9% Q=4,4% imp24h=793.0 | ok | K=230h · 1.300 view · CTR tổng 3,9% · CTR 24h 4,4% · 793 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:07:01 <normaneileenpm218> [Lane-GEO] dong 4: DA GHI SHEET
+07:07:02 <normaneileenpm218> [Lane-GEO] TONGHOP TONGHOP khong co cot Lane-GEO
+07:07:02 <normaneileenpm218> [Lane-GEO] xong lane: 3 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+07:07:02 <normaneileenpm218>     · chuyen tab: nghi 13.1s
+07:07:10 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:07:15 <normaneileenpm218> ===== XONG: 3 video · 0 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 5 phút
+07:07:15   luong 2: normaneileenpm218@gmail.com xong (exit 0)
+07:07:15   luong 2: dong profile normaneileenpm218@gmail.com
+07:07:15     · mo profile tiep theo: nghi 8.3s
+07:07:18 <tiffanyhenrietta3>     · bam video P8MvoMgUa74 @(710,501)
+07:07:22 <tiffanyhenrietta3>     · mo duoc video: 中国「日本のドーナツなんて食えたもんじゃないｗ 客に見捨てられて潰れて当然だ、ハハハ！」
+07:07:24 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:07:29 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:07:36 <tiffanyhenrietta3>     · doc so xong: nghi 3.6s
+07:07:43 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,124)
+07:07:48 <tiffanyhenrietta3>     · bam Custom @(1326,567)
+07:07:50 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,130)
+07:07:55 <tiffanyhenrietta3>     · bam Apply @(1454,474)
+07:07:58 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:08:08 <tiffanyhenrietta3>     · doc so xong: nghi 4.4s
+07:08:12 <tiffanyhenrietta3> [Lane-P] dong 6 P8MvoMgUa74: N=20 O=410 P=5,1% Q=6,7% imp24h=15.0 | ok | K=494h · 410 view · CTR tổng 5,1% · CTR 24h 6,7% · 15 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:08:13 <tiffanyhenrietta3> [Lane-P] dong 6: DA GHI SHEET
+07:08:14 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep05 H8: 'SỬA CTR' -> 'Listed'
+07:08:14 <tiffanyhenrietta3>     · chuyen video: nghi 53.1s
+07:08:29 <theeuxanh1>     · bam video CR9KU_5djOg @(669,669)
+07:09:07 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/P8MvoMgUa74/analytics/tab-r, menu=co) -> chuyen lai
+07:09:09 <theeuxanh1> [X] dong 3 CR9KU_5djOg: khong doc duoc trang Reach 24h -> bo qua
+07:09:09 <theeuxanh1>     · chuyen video: nghi 21.7s
+07:09:22 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:09:29 <tiffanyhenrietta3>     · bam video NULQOgz-W0U @(710,472)
+07:09:34 <theeuxanh1>     · bam video IjGEOWgQOOw @(669,585)
+07:09:34 <tiffanyhenrietta3>     · mo duoc video: 中国「日本がチップを作るだと？笑わせるな！」→結果、味の素がABFを独占、中国のニューフ
+07:09:38 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:09:42 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:09:48 <tiffanyhenrietta3>     · doc so xong: nghi 2.2s
+07:09:53 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+07:09:58 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:10:00 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:10:07 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:10:12 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:10:13 <theeuxanh1>     · Studio bao loi, doi lau: nghi 100.7s
+07:10:19 <tiffanyhenrietta3>     · doc so xong: nghi 4.2s
+07:10:23 <tiffanyhenrietta3> [Lane-P] dong 7 NULQOgz-W0U: N=18 O=1100 P=3,7% Q=— imp24h=6.0 | VANG | K=CTR 24h=— (6 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:10:24 <tiffanyhenrietta3> [Lane-P] dong 7: DA GHI SHEET
+07:10:25 <tiffanyhenrietta3>     · chuyen video: nghi 54.1s
+07:11:19 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/NULQOgz-W0U/analytics/tab-r, menu=co) -> chuyen lai
+07:11:33 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:11:41 <tiffanyhenrietta3>     · bam video dlD3KB_hNys @(710,472)
+07:11:47 <tiffanyhenrietta3>     · mo duoc video: 中国「日本は古臭い！今どき丸型ハンドルか？半幅こそ未来だ！ｗ」→3年後、結果は…ｗ
+07:11:50 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:11:54 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:11:56 <theeuxanh1>     · bam video IjGEOWgQOOw @(669,585)
+07:12:00 <tiffanyhenrietta3>     · doc so xong: nghi 3.9s
+07:12:07 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+07:12:12 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:12:16 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:12:21 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:12:24 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:12:31 <tiffanyhenrietta3>     · doc so xong: nghi 2.2s
+07:12:34 <tiffanyhenrietta3> [Lane-P] dong 10 dlD3KB_hNys: N=17 O=163 P=5,4% Q=— imp24h=5.0 | VANG | K=CTR 24h=— (5 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:12:34 <tiffanyhenrietta3> [Lane-P] dong 10: DA GHI SHEET
+07:12:35 <tiffanyhenrietta3>     · chuyen video: nghi 52.1s
+07:12:36 <theeuxanh1> [X] dong 4 IjGEOWgQOOw: khong doc duoc trang Reach 24h -> bo qua
+07:12:36 <theeuxanh1> [X] 3 video lien tiep khong doc duoc -> DUNG LANE nay, khong dot tiep thoi gian (Studio dang chan / kenh co van de)
+07:12:36 <theeuxanh1> [X] xong lane: 0 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+07:12:36 <theeuxanh1>     · chuyen tab: nghi 23.8s
+07:13:00 <theeuxanh1> ===== XONG: 0 video · 0 dòng vàng · lỗi 3 video · lỗi ghi sheet 0 · lane bỏ qua: X · 12 phút
+07:13:00   luong 1: theeuxanh1@gmail.com xong (exit 0)
+07:13:01   luong 1: dong profile theeuxanh1@gmail.com
+07:13:01     · mo profile tiep theo: nghi 11.6s
+07:13:27 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/dlD3KB_hNys/analytics/tab-r, menu=co) -> chuyen lai
+07:13:46 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:13:52 <tiffanyhenrietta3>     · bam video 78RVMNnFKFA @(654,819)
+07:13:55 <tiffanyhenrietta3>     · mo duoc video: 中国「自動運転は世界一！」→2週間後、100台超が一斉停止！
+07:13:59 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:14:03 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:14:09 <tiffanyhenrietta3>     · doc so xong: nghi 1.8s
+07:14:13 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,88)
+07:14:18 <tiffanyhenrietta3>     · bam Custom @(1326,531)
+07:14:21 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,94)
+07:14:27 <tiffanyhenrietta3>     · bam Apply @(1454,438)
+07:14:31 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:14:39 <tiffanyhenrietta3>     · doc so xong: nghi 3.6s
+07:14:42 <tiffanyhenrietta3> [Lane-P] dong 11 78RVMNnFKFA: N=15 O=1700 P=3,0% Q=— imp24h=7.0 | VANG | K=CTR 24h=— (7 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:14:44 <tiffanyhenrietta3> [Lane-P] dong 11: DA GHI SHEET
+07:14:44 <tiffanyhenrietta3>     · chuyen video: nghi 33.8s
+07:15:18 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/78RVMNnFKFA/analytics/tab-r, menu=co) -> chuyen lai
+07:15:33 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:15:38 <tiffanyhenrietta3>     · bam video PR47t1uEG2c @(710,735)
+07:15:42 <tiffanyhenrietta3>     · mo duoc video: 中国「2026年に全固体電池を載せるｗ トヨタごとき追いつけん！」→結果、2年後…自国最
+07:15:44 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:15:49 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:15:57 <tiffanyhenrietta3>     · doc so xong: nghi 4.0s
+07:16:04 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+07:16:07 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:16:10 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:16:15 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:16:19 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:16:25 <tiffanyhenrietta3>     · doc so xong: nghi 3.6s
+07:16:29 <tiffanyhenrietta3> [Lane-P] dong 12 PR47t1uEG2c: N=11 O=179 P=2,3% Q=— imp24h=9.0 | VANG | K=CTR 24h=— (9 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:16:30 <tiffanyhenrietta3> [Lane-P] dong 12: DA GHI SHEET
+07:16:31 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep11 H14: 'Listed' -> 'SỬA CTR'
+07:16:31 <tiffanyhenrietta3>     · chuyen video: nghi 34.5s
+07:17:05 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/PR47t1uEG2c/analytics/tab-r, menu=co) -> chuyen lai
+07:17:24 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:17:31 <tiffanyhenrietta3>     · bam video 1JK6UdsR1po @(710,399)
+07:17:36 <tiffanyhenrietta3>     · mo duoc video: 中国「日本市場ごとき楽勝だ、ハハハ！」→結果、2026年1〜9月、BYDは韓国2万台超も
+07:17:38 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:17:42 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:17:47 <tiffanyhenrietta3>     · doc so xong: nghi 4.2s
+07:17:53 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1326,155)
+07:17:59 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:18:03 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:18:09 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:18:13 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:18:19 <tiffanyhenrietta3>     · doc so xong: nghi 1.9s
+07:18:20 <tiffanyhenrietta3> [Lane-P] dong 16 1JK6UdsR1po: N=1 O=70 P=3,2% Q=3,3% imp24h=1400.0 | ok | K=37h · 70 view · CTR tổng 3,2% · CTR 24h 3,3% · 1.400 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+07:18:21 <tiffanyhenrietta3> [Lane-P] dong 16: DA GHI SHEET
+07:18:21 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep15 H18: GIU NGUYEN ghi chu cua anh 'Done'
+07:18:21 <tiffanyhenrietta3>     · chuyen video: nghi 27.0s
+07:18:48 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/1JK6UdsR1po/analytics/tab-r, menu=co) -> chuyen lai
+07:19:05 <tiffanyhenrietta3>     · bam Content @(97,332)
+07:19:11 <tiffanyhenrietta3>     · bam video dYUPzTU__XM @(710,315)
+07:19:15 <tiffanyhenrietta3>     · mo duoc video: 中国「トヨタのHVなんて化石だ、ハハハ！」→結果、2026年10月、燃費15％超を狙う新
+07:19:19 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+07:19:24 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+07:19:31 <tiffanyhenrietta3>     · doc so xong: nghi 3.0s
+07:19:36 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1326,155)
+07:19:39 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+07:19:42 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-11-05 @(1304,161)
+07:19:49 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+07:19:53 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-11-05 (URL xac nhan)
+07:19:59 <tiffanyhenrietta3>     · doc so xong: nghi 1.6s
+07:20:01 <tiffanyhenrietta3> [Lane-P] dong 17 dYUPzTU__XM: N=0 O=99 P=2,0% Q=2,0% imp24h=297.0 | VANG | K=CTR 24h=2,0%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+07:20:02 <tiffanyhenrietta3> [Lane-P] dong 17: DA GHI SHEET
+07:20:02 <tiffanyhenrietta3> [Lane-P] TONGHOP Ep16 H19: GIU NGUYEN ghi chu cua anh 'Done' (CTR 24h van thap)
+07:20:02 <tiffanyhenrietta3> [Lane-P] xong lane: 9 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+07:20:02 <tiffanyhenrietta3>     · chuyen tab: nghi 12.4s
+07:20:15 <tiffanyhenrietta3> ===== XONG: 9 video · 6 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 17 phút
+07:20:15   luong 3: tiffanyhenrietta3@gmail.com xong (exit 0)
+07:20:15   luong 3: dong profile tiffanyhenrietta3@gmail.com
+07:20:15     · mo profile tiep theo: nghi 14.8s
+07:20:30 ===== XONG DA LUONG: 20 phut (3 profile cung luc)
+07:20:30 [may1] daily_parallel exit 0
+07:20:36 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-11-07.md
+07:20:36 [may1] da goi YIE after_collector pid 22020

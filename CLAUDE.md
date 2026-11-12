@@ -104,6 +104,8 @@ Ghi nối tiếp vào `E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\youtube_postpubl
    bẫy #3, vốn là profile do CHÍNH tool mở dở từ lần chạy trước rồi bỏ dở). Gặp lỗi này thì báo
    lại cho anh, đợi anh đóng cửa sổ đó rồi chạy lại.
 
+10. **Giao diện Studio của một profile GPM có thể là TIẾNG VIỆT** (đo thật 2026-11-02, profile lane GEO `normaneileenpm218`): mọi lookup nhãn của tool đều là TIẾNG ANH (`_has_menu` đòi đúng chữ "Content"), nên lane báo `Page.goto interrupted by another navigation` / "không thấy menu" dù kênh vẫn đăng nhập bình thường và vào được Studio. Sửa: `youtube.com` → menu avatar → 「Ngôn ngữ hiển thị」 → **English (US)** (script mẫu `scratch_analysis\doi_ngon_ngu_en.py`), xong mở lại Studio là nhãn tiếng Anh. Ép header `Accept-Language` KHÔNG có tác dụng (ngôn ngữ lưu ở tài khoản, không phải trình duyệt).
+
 ### ⚠️ TAB TRONG SHEET ĐÃ ĐỔI TÊN (cập nhật 2026-09-25) — dùng bảng này, không dùng tên cũ
 
 | Lane | **Tab hiện tại** (tên cũ) | Mail = tên profile GPM | Channel | Video đã đăng |
@@ -382,3 +384,17 @@ dải thumbnail 1 cột) → xem video đạt nhiều view nhất 10–15' (like
   (2026-10-22 máy hết RAM do 1 ffmpeg 22 GB → GPM Not Responding → API treo, taskkill báo "no running instance").
 - Chạy theo lịch (`--force-busy`) mới được tự đóng profile bận; chạy tay giữ bẫy #9.
 - view_spike tầng 2 bỏ qua profile đang nuôi ngách (`niche_watch\state\active_<lane>.json`).
+
+## MÁY 1 — job chỉ số khi mở máy, chỉ lane X, GEO, P (anh chốt 2026-10-31)
+
+Máy 2 chạy job chỉ số 11 nhóm lane lúc 03:00 (`\DailyMetrics0300` → YIE orchestrator → `tools\daily_parallel.py`).
+**Máy 1 KHÔNG có job 03:00/05:00**; thay bằng task `May1DailyMetricsLogon` (tạo bằng
+`E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\create_task_may1_logon.ps1`): 5 phút sau khi anh đăng nhập Windows chạy
+`pythonw E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\tools\may1_logon_run.py --scheduled`.
+- Lane lấy từ `tools\daily_lanes_may1.json` (X = theeuxanh1, Lane-GEO = normaneileenpm218 kênh @ai-kaimei-lab
+  UCDSfOc6Zy36qgt66I-SQyYg, Lane-P = tiffanyhenrietta3). Cùng code máy 2, chỉ đổi env `DAILY_LANES_FILE` + `DAILY_REPORT_SUBDIR`
+  (không đặt env = y như máy 2). Log: `reports\may1_logon\<ngày>.log`.
+- 1 lần/ngày thành công (`reports\may1_logon\<ngày>.done.json`); lỗi thì lần mở máy sau chạy lại; `--force` chạy lại tay.
+- KHÔNG truyền `--scheduled` cho daily_parallel → giữ bẫy #9 (giờ mở máy anh có thể đang dùng profile).
+- Báo cáo cho YIE: `E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\<ngày>.md` + `.json` + `LATEST.md`.
+- ⚠️ Lane-P CÒN nằm trong `daily_lanes.json` của máy 2 → cùng ngày hai máy cùng ghi N–S tab Lane-P (R/S bị xoay 2 lần).

@@ -1,0 +1,130 @@
+11:23:46 [may1] ===== BAT DAU tay | tabs=['Lane-P']
+11:23:46 ===== DA LUONG 1 profile cung luc | 1 nhom | 1 tab  =====
+11:23:46   luong 1: ['tiffanyhenrietta3@gmail.com']
+11:23:46     · luong 1 cho mo profile: nghi 0.2s
+11:23:46   luong 1 mo profile: gpm tiffanyhenrietta3@gmail.com
+11:24:59   luong 1 chay: tiffanyhenrietta3@gmail.com | tabs=['Lane-P']
+11:25:00 <tiffanyhenrietta3> ===== BAT DAU tay =====
+11:25:01 <tiffanyhenrietta3> --- attach vao profile da mo san: ws://localhost:49983/devtools/browser/b2516938-68e0-44bf-ab0...
+11:25:01 <tiffanyhenrietta3> --- tab se doc: ['Lane-P']
+11:25:03 <tiffanyhenrietta3>     · phong to cua so: 1920px
+11:25:20 <tiffanyhenrietta3>     · chuyen video: nghi 29.2s
+11:25:51 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:26:00 <tiffanyhenrietta3>     · bam video Y7TiikwCrtU @(710,669)
+11:26:04 <tiffanyhenrietta3>     · mo duoc video: 中国「日本はドアノブまで時代遅れｗ ウチの隠しハンドルを見習え！」→結果、中国が自ら禁止
+11:26:08 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:26:12 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:26:18 <tiffanyhenrietta3>     · doc so xong: nghi 3.5s
+11:26:24 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:26:28 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:26:31 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:26:37 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:26:42 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:26:51 <tiffanyhenrietta3>     · doc so xong: nghi 4.4s
+11:26:55 <tiffanyhenrietta3> [Lane-P] dong 3 Y7TiikwCrtU: N=16 O=56800 P=6,7% Q=6,5% imp24h=3100.0 | ok | K=402h · 56.800 view · CTR tổng 6,7% · CTR 24h 6,5% · 3.100 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:26:56 <tiffanyhenrietta3> [Lane-P] dong 3: DA GHI SHEET
+11:26:56 <tiffanyhenrietta3>     · chuyen video: nghi 48.1s
+11:27:44 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/Y7TiikwCrtU/analytics/tab-r, menu=co) -> chuyen lai
+11:28:01 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:28:06 <tiffanyhenrietta3>     · bam video yGb_Dd97NjE @(710,819)
+11:28:12 <tiffanyhenrietta3>     · mo duoc video: 中国「ファスナーなんてたった3角で作れる！日本はもう終わりだ！ハハハ！」→中国の高級ファ
+11:28:16 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:28:21 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:28:27 <tiffanyhenrietta3>     · doc so xong: nghi 4.0s
+11:28:33 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:28:39 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:28:42 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:28:49 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:28:54 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:29:01 <tiffanyhenrietta3>     · doc so xong: nghi 2.0s
+11:29:03 <tiffanyhenrietta3> [Lane-P] dong 5 yGb_Dd97NjE: N=15 O=1500 P=4,1% Q=1,6% imp24h=64.0 | VANG | K=CTR 24h=1,6%, YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+11:29:03 <tiffanyhenrietta3> [Lane-P] dong 5: DA GHI SHEET
+11:29:04 <tiffanyhenrietta3>     · chuyen video: nghi 52.9s
+11:29:57 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/yGb_Dd97NjE/analytics/tab-r, menu=co) -> chuyen lai
+11:30:15 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:30:19 <tiffanyhenrietta3>     · bam video P8MvoMgUa74 @(710,735)
+11:30:24 <tiffanyhenrietta3>     · mo duoc video: 中国「日本のドーナツなんて食えたもんじゃないｗ 客に見捨てられて潰れて当然だ、ハハハ！」
+11:30:27 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:30:33 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:30:38 <tiffanyhenrietta3>     · doc so xong: nghi 4.0s
+11:30:45 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:30:50 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:30:54 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:30:59 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:31:03 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:31:11 <tiffanyhenrietta3>     · doc so xong: nghi 2.0s
+11:31:13 <tiffanyhenrietta3> [Lane-P] dong 6 P8MvoMgUa74: N=13 O=333 P=5,1% Q=5,5% imp24h=145.0 | ok | K=331h · 333 view · CTR tổng 5,1% · CTR 24h 5,5% · 145 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:31:13 <tiffanyhenrietta3> [Lane-P] dong 6: DA GHI SHEET
+11:31:13 <tiffanyhenrietta3>     · chuyen video: nghi 35.3s
+11:31:49 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/P8MvoMgUa74/analytics/tab-r, menu=co) -> chuyen lai
+11:32:10 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:32:16 <tiffanyhenrietta3>     · bam video NULQOgz-W0U @(710,567)
+11:32:21 <tiffanyhenrietta3>     · mo duoc video: 中国「日本がチップを作るだと？笑わせるな！」→結果、味の素がABFを独占、中国のニューフ
+11:32:24 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:32:31 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:32:58 <tiffanyhenrietta3>     · doc so xong: nghi 2.4s
+11:33:03 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:33:08 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:33:11 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:33:17 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:33:21 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:33:27 <tiffanyhenrietta3>     · doc so xong: nghi 2.8s
+11:33:30 <tiffanyhenrietta3> [Lane-P] dong 7 NULQOgz-W0U: N=11 O=1100 P=3,7% Q=7,7% imp24h=13.0 | ok | K=283h · 1.100 view · CTR tổng 3,7% · CTR 24h 7,7% · 13 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:33:30 <tiffanyhenrietta3> [Lane-P] dong 7: DA GHI SHEET
+11:33:31 <tiffanyhenrietta3>     · chuyen video: nghi 22.0s
+11:33:53 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/NULQOgz-W0U/analytics/tab-r, menu=co) -> chuyen lai
+11:34:09 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:34:14 <tiffanyhenrietta3>     · bam video dlD3KB_hNys @(710,483)
+11:34:19 <tiffanyhenrietta3>     · mo duoc video: 中国「日本は古臭い！今どき丸型ハンドルか？半幅こそ未来だ！ｗ」→3年後、結果は…ｗ
+11:34:21 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:34:26 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:34:31 <tiffanyhenrietta3>     · doc so xong: nghi 2.6s
+11:34:37 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:34:42 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:34:44 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:34:51 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:34:54 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:35:01 <tiffanyhenrietta3>     · doc so xong: nghi 2.8s
+11:35:04 <tiffanyhenrietta3> [Lane-P] dong 10 dlD3KB_hNys: N=10 O=143 P=5,7% Q=9,1% imp24h=44.0 | ok | K=258h · 143 view · CTR tổng 5,7% · CTR 24h 9,1% · 44 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:35:04 <tiffanyhenrietta3> [Lane-P] dong 10: DA GHI SHEET
+11:35:05 <tiffanyhenrietta3>     · chuyen video: nghi 44.1s
+11:35:49 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/dlD3KB_hNys/analytics/tab-r, menu=co) -> chuyen lai
+11:36:06 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:36:13 <tiffanyhenrietta3>     · bam video 78RVMNnFKFA @(710,399)
+11:36:17 <tiffanyhenrietta3>     · mo duoc video: 中国「自動運転は世界一ｗ 日本なんぞ時代遅れの国だ、ハハハ！」→結果、わずか2週間後、1
+11:36:19 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:36:24 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:36:31 <tiffanyhenrietta3>     · doc so xong: nghi 4.1s
+11:36:38 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:36:44 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:36:47 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:36:53 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:36:58 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:37:04 <tiffanyhenrietta3>     · doc so xong: nghi 2.3s
+11:37:07 <tiffanyhenrietta3> [Lane-P] dong 11 78RVMNnFKFA: N=8 O=1700 P=3,0% Q=— imp24h=26.0 | VANG | K=CTR 24h=— (26 hiển thị), YÊU CẦU THAY THUMB VÀ TIÊU ĐỀ
+11:37:07 <tiffanyhenrietta3> [Lane-P] dong 11: DA GHI SHEET
+11:37:08 <tiffanyhenrietta3>     · chuyen video: nghi 44.6s
+11:37:52 <tiffanyhenrietta3>     · chua san sang (url=https://studio.youtube.com/video/78RVMNnFKFA/analytics/tab-r, menu=co) -> chuyen lai
+11:38:08 <tiffanyhenrietta3>     · bam Content @(97,332)
+11:38:15 <tiffanyhenrietta3>     · bam video PR47t1uEG2c @(710,315)
+11:38:21 <tiffanyhenrietta3>     · mo duoc video: 中国「2026年に全固体電池を載せるｗ トヨタごとき追いつけん！」→結果、2年後…自国最
+11:38:24 <tiffanyhenrietta3>     · bam tab Analytics @(101,380)
+11:38:30 <tiffanyhenrietta3>     · bam tab Reach @(410,178)
+11:38:36 <tiffanyhenrietta3>     · doc so xong: nghi 2.2s
+11:38:42 <tiffanyhenrietta3>     · bam nhan khoang ngay @(1328,155)
+11:38:48 <tiffanyhenrietta3>     · bam Custom @(1326,598)
+11:38:50 <tiffanyhenrietta3>     · bam o ngay bat dau -> 2026-10-29 @(1304,161)
+11:38:55 <tiffanyhenrietta3>     · bam Apply @(1454,505)
+11:39:00 <tiffanyhenrietta3>     · khoang ngay = 1 ngay 2026-10-29 (URL xac nhan)
+11:39:06 <tiffanyhenrietta3>     · doc so xong: nghi 2.1s
+11:39:08 <tiffanyhenrietta3> [Lane-P] dong 12 PR47t1uEG2c: N=4 O=161 P=2,2% Q=6,5% imp24h=92.0 | ok | K=115h · 161 view · CTR tổng 2,2% · CTR 24h 6,5% · 92 lượt hiển thị/24h. ĐỂ NGUYÊN (CTR 24h đạt, đang được phân phối).
+11:39:11 <tiffanyhenrietta3> [Lane-P] dong 12: DA GHI SHEET
+11:39:11 <tiffanyhenrietta3> [Lane-P] xong lane: 7 dong da ghi sheet (ghi tung tap ngay khi doc xong)
+11:39:11 <tiffanyhenrietta3>     · chuyen tab: nghi 18.2s
+11:39:29 <tiffanyhenrietta3> ===== XONG: 7 video · 2 dòng vàng · lỗi 0 video · lỗi ghi sheet 0 · lane bỏ qua: không · 14 phút
+11:39:29   luong 1: tiffanyhenrietta3@gmail.com xong (exit 0)
+11:39:31   luong 1: dong profile tiffanyhenrietta3@gmail.com
+11:39:31     · mo profile tiep theo: nghi 14.8s
+11:39:46 ===== XONG DA LUONG: 16 phut (1 profile cung luc)
+11:39:46 [may1] daily_parallel exit 0
+11:39:48 [may1] da viet bao cao: E:\CLAUDE\YOUTUBE\YOUTUBE_INTELLIGENCE_ENGINE\inbox\may1\2026-10-31.md

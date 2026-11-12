@@ -30,8 +30,12 @@ import human_pace as hp
 import studio_human as sh
 
 TODAY = datetime.date.today().isoformat()
-OUT = os.path.join(ROOT, "reports", "daily_0500", TODAY)
-LOGF = os.path.join(ROOT, "reports", "daily_0500", f"{TODAY}.log")
+# May 1 (2026-10-31): DAILY_LANES_FILE / DAILY_REPORT_SUBDIR do tools/may1_logon_run.py dat -> lane + log rieng.
+# Khong dat env thi y nhu cu (may 2: daily_lanes.json + reports/daily_0500).
+LANES_FILE = os.environ.get("DAILY_LANES_FILE") or os.path.join(HERE, "daily_lanes.json")
+SUBDIR = os.environ.get("DAILY_REPORT_SUBDIR") or "daily_0500"
+OUT = os.path.join(ROOT, "reports", SUBDIR, TODAY)
+LOGF = os.path.join(ROOT, "reports", SUBDIR, f"{TODAY}.log")
 SESSION_BREAK_EVERY = 12   # cu 12 video nghi dai 90-240s (nhip nguoi that)
 MAX_CONSEC_FAIL = 3        # 3 video lien tiep khong doc duoc -> dung lane (dung dot thoi gian vo ich)
 
@@ -205,7 +209,7 @@ def main():
     if a.fast:
         hp.set_on(False)
         log("--fast: TAT nhip nguoi that (chi dung de test)")
-    cfg = json.load(open(os.path.join(HERE, "daily_lanes.json"), encoding="utf-8"))
+    cfg = json.load(open(LANES_FILE, encoding="utf-8"))
     only = {t.strip() for t in a.tab.split(",") if t.strip()}
     log(f"===== BAT DAU {'(DRY-RUN) ' if a.dry_run else ''}{'scheduled' if a.scheduled else 'tay'} =====")
     if not a.no_lock and not lock_take():

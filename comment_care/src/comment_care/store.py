@@ -49,7 +49,14 @@ class Store:
         self.db.executescript(SCHEMA)
         # cột thêm sau (bản dịch tiếng Việt để anh chấm) — ALTER an toàn với DB cũ
         for sql in ("ALTER TABLE comments ADD COLUMN text_vi TEXT", "ALTER TABLE drafts ADD COLUMN reply_vi TEXT",
-                    "ALTER TABLE drafts ADD COLUMN judge_vi TEXT"):
+                    "ALTER TABLE drafts ADD COLUMN judge_vi TEXT",
+                    # máy 1 (2026-10-31): DB máy 1 có bảng reactions kiểu cũ (liked/hearted/...) → thêm cột mới,
+                    # chép trạng thái cũ sang (cột cũ giữ nguyên, không xoá gì)
+                    "ALTER TABLE reactions ADD COLUMN like_status TEXT", "ALTER TABLE reactions ADD COLUMN heart_status TEXT",
+                    "ALTER TABLE reactions ADD COLUMN at TEXT",
+                    "UPDATE reactions SET like_status='DONE' WHERE like_status IS NULL AND liked=1",
+                    "UPDATE reactions SET heart_status='DONE' WHERE heart_status IS NULL AND hearted=1",
+                    "UPDATE reactions SET at=reacted_at WHERE at IS NULL AND reacted_at IS NOT NULL"):
             try:
                 self.db.execute(sql)
             except sqlite3.OperationalError:

@@ -1,0 +1,26 @@
+{
+ "BV5I5UNUOdU": {
+  "days": 1,
+  "views": 4500.0,
+  "ctr_total": 4.1,
+  "ctr_24h": 4.1,
+  "imp_24h": 28500.0,
+  "ok": true
+ },
+ "ugjhBQ6fupU": {
+  "days": 3,
+  "views": 5700.0,
+  "ctr_total": 3.9,
+  "ctr_24h": 3.7,
+  "imp_24h": 7500.0,
+  "ok": true
+ },
+ "30egJcn3Q8o": {
+  "days": 2,
+  "views": 1200.0,
+  "ctr_total": 2.6,
+  "ctr_24h": 2.7,
+  "imp_24h": 8600.0,
+  "ok": true
+ }
+}

@@ -26,7 +26,8 @@ import daily_profiles as dp
 import human_pace as hp
 
 TODAY = time.strftime("%Y-%m-%d")
-LOGF = os.path.join(ROOT, "reports", "daily_0500", f"{TODAY}.log")
+LANES_FILE = os.environ.get("DAILY_LANES_FILE") or os.path.join(HERE, "daily_lanes.json")   # may 1: env rieng
+LOGF = os.path.join(ROOT, "reports", os.environ.get("DAILY_REPORT_SUBDIR") or "daily_0500", f"{TODAY}.log")
 
 
 def log(*a):
@@ -80,7 +81,7 @@ def main():
         hp.set_on(False)
         log("--fast: TAT nhip nguoi that (chi de test)")
 
-    cfg = json.load(open(os.path.join(HERE, "daily_lanes.json"), encoding="utf-8"))
+    cfg = json.load(open(LANES_FILE, encoding="utf-8"))
     only = {t.strip() for t in a.tab.split(",") if t.strip()}
     groups = []
     for g in cfg["groups"]:

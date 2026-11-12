@@ -1,0 +1,8 @@
+{
+ "_ghi_chu": "MAY 1 (anh chot 2026-10-31): chi 3 lane X, GEO, P. Chay 5 phut sau khi anh dang nhap may (task May1DailyMetricsLogon -> tools/may1_logon_run.py), KHONG chay 03:00. May 2 van dung daily_lanes.json. Lane-GEO dung chung mail voi lane E (normaneileenpm218, kenh @ai-kaimei-lab) -> tool tu chuyen kenh theo channelId cua video.",
+ "groups": [
+  {"engine": "gpm", "mail": "theeuxanh1@gmail.com", "tabs": ["X"]},
+  {"engine": "gpm", "mail": "normaneileenpm218@gmail.com", "tabs": ["Lane-GEO"]},
+  {"engine": "gpm", "mail": "tiffanyhenrietta3@gmail.com", "tabs": ["Lane-P"]}
+ ]
+}

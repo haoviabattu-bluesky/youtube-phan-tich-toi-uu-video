@@ -14,7 +14,7 @@ from contextlib import contextmanager
 import requests
 
 GPM = "http://127.0.0.1:9495/api/v1"
-GPM_EXE = r"C:\Users\xxx\AppData\Local\Programs\GPMLoginGlobal\GPMLoginGlobal.exe"
+GPM_EXE = os.path.expandvars(r"%LOCALAPPDATA%\Programs\GPMLoginGlobal\GPMLoginGlobal.exe")   # may 1 user admin, may 2 user xxx
 ADS = "http://127.0.0.1:50325"
 ADS_EXE = r"C:\Program Files\AdsPower Global\AdsPower Global.exe"
 ADS_ENV = r"D:\CLAUDE\UK_LOGIN\.env"

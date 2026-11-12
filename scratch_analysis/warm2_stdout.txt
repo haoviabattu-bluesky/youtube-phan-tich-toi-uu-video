@@ -1,0 +1,21 @@
+15:55:29 
+15:55:29 === WARMUP TIEP (buoc 2+3) — 15:55:29 ===
+15:55:30 [2] mo lai video 1 de lay panel de xuat, tim: 明智光秀は本当に死んだのか
+15:56:05   ! panel khong con video do -> TIM KIEM tu khoa
+15:56:17   8 ket qua
+15:56:17   chon: t_7hE3EJhvM | 【440年の謎】明智光秀は本当に死んだのか？天海説まで5つの説をAIに1582年の記録で採点させたら、意外な結果に
+15:56:26   > bat dau xem 1011s (dai 1475s = 24:35) buoc2
+15:57:01   . da xem 35s / 1011s
+16:01:51   . da xem 325s / 1011s
+16:06:41   . da xem 615s / 1011s
+16:11:49   . da xem 924s / 1011s
+16:13:25   LIKE -> aria-pressed=true | cùng 746 người khác thích video này
+16:13:50   go xong: '素晴らしい！本当に最高です！'
+16:13:52   da bam gui
+16:14:30   VERIFY (AIHistoryJP): {"n": 22, "mine": [{"a": "@AIHistoryJP", "t": "素晴らしい！本当に最高です！"}], "hit": true}
+16:14:30   => buoc 2: xem 1015s | like=True | comment=True
+16:14:35 [3] loc goi y lane X -> xem tiep (toi da 4 video)
+16:14:36   ung vien: 【本要約】本能寺の変はなぜ起きた？お金の流れで見る戦国時代(8) | うわ…これなら映画館でもお金を払って観たい。宇宙の恐怖と謎に引き込ま(2) | 【スカッとする話】150人が集まる同窓会で頭取の娘と再会した俺。同級(1) | 【日本航空350便墜落事故】「キャプテン、やめてください！」片桐機長(1) | 【3DCG】日本海海戦 全記録|丁字戦法・夜戦・降伏まで58分(1)
+16:14:36   chon: thETMkoP0lk | 34:44 | 【本要約】本能寺の変はなぜ起きた？お金の流れで見る戦国時代 | 金融プロの本棚-お金持ちになる本要約
+16:14:51   > bat dau xem 1117s (dai 2083s = 34:43) buoc3-1
+16:15:14   . da xem 23s / 1117s

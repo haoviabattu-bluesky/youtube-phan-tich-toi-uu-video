@@ -137,6 +137,18 @@ channels:
     enabled: true
     note: Bật 2026-10-22 theo HUONG_DAN_HERMES. Như P.
 
+  - lane: X                                   # máy 1 thêm lại 2026-10-31 (bản máy 2 thiếu lane X, máy 1 đang chạy comment care X)
+    channel_id: UC8BO9Ni37bUDbJrHez1zA7w      # tra 2026-10-22 từ MG_STUDIO\assets\kenh\x\KENH.json + Data API (AI謎解き研究所)
+    channel_name: AI謎解き研究所
+    handle: "@AINazotokiLab"
+    audience: 30〜70代の日本人（日本史・戦国時代・歴史ミステリーが好きな人）。一次史料をもとにAIが推理するドキュメンタリーのチャンネル。
+    sheet_tab: X
+    mail: theeuxanh1@gmail.com
+    h2dev_profile: null
+    h2dev_assets_dir: E:\CLAUDE\YOUTUBE\MG_STUDIO\episodes\x
+    enabled: true
+    note: Bật 2026-10-22 theo yêu cầu anh. Video làm ở MG_STUDIO. Comment hay tranh luận sử học → được phản biện nhẹ bằng kiến thức phổ thông.
+
   - lane: Satori
     channel_id: UC9huXCiBIXBfUh11D7ZsFSA
     channel_name: 人生の夕暮れ

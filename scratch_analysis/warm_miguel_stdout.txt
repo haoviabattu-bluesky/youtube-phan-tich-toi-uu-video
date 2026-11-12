@@ -1,0 +1,27 @@
+15:33:54 === WARMUP miguelcarolineo0071023@gmail.com (kenh 歴史の謎をAIで解く) ===
+15:33:55 [1/3] TIM KIEM: 【440年の謎】信長の遺体はどこへ消えたのか？一次史料だけでAIに推理させたら、意外な場所が浮かび上がった
+15:34:08   8 ket qua
+15:34:08   chon video DAU TIEN: CR9KU_5djOg | 【440年の謎】信長の遺体はどこへ消えたのか？一次史料だけでAIに推理させたら、意外な場所が浮かび上がった | AI謎解き研究所
+15:34:17   > bat dau xem 1069s (dai 1446s = 24:06) buoc1
+15:34:44   . da xem 27s / 1069s
+15:39:35   . da xem 318s / 1069s
+15:44:43   . da xem 626s / 1069s
+15:49:28   . da xem 911s / 1069s
+15:49:58   . da xem 940s / 1069s
+15:52:11   LIKE -> aria-pressed=true | cùng 9.802 người khác thích video này
+15:52:36   go xong binh luan: '素晴らしい！本当に最高です！'
+15:52:38   da bam gui binh luan
+15:52:44   VERIFY comment: o nhap con '' | thay ten kenh=False
+15:52:44   => buoc 1 xong: xem 1069s | like=True | comment=False
+15:52:49 [2/3] TIM TRONG PANEL DE XUAT: 明智光秀は本当に死んだのか
+15:52:49   doc duoc 25 goi y
+15:52:53   doc duoc 25 goi y
+15:52:57   doc duoc 25 goi y
+15:53:01   doc duoc 25 goi y
+15:53:05 !! LOI: khong thay video 明智光秀 trong panel de xuat
+15:53:05 Traceback (most recent call last):
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\warm_miguel.py", line 623, in main
+    raise RuntimeError("khong thay video 明智光秀 trong panel de xuat")
+RuntimeError: khong thay video 明智光秀 trong panel de xuat
+
+15:53:05 === KET THUC: ERROR | 19.2 phut | 1 video ===

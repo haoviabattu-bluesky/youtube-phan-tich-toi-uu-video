@@ -1,0 +1,262 @@
+09:35:50 === BAT DAU warm profile GEO (alexusmickey94@gmail.com) ===
+09:35:51 [1/28] TU KHOA: 四国と九州になぜ橋がない？海を抜いて見てみた (target)
+09:36:03   chon: 3xdIwOjzUL8 | 1,7 Tr | 四国と九州になぜ橋がない？海を抜いて見てみた
+09:36:18   > bat dau xem 683s (dai video 1129s) 四国と九州になぜ橋がない？海を抜いて
+09:37:25   . da xem 66s
+09:38:46   . da xem 142s
+09:39:19   . da xem 181s
+09:40:35   . da xem 256s
+09:42:24   . da xem 365s
+09:43:43   . da xem 444s
+09:44:36   . da xem 496s
+09:45:26   . da xem 542s
+09:46:22   . da xem 604s
+09:46:47   . da xem 628s
+09:47:45   . da xem 683s
+09:47:47   like: {'already': True, 'label': 'cùng 4.511 người khác thích video này'} | aria-pressed={'pressed': 'true', 'label': 'cùng 4.511 người khác thích video này'}
+09:47:49 [2/28] TU KHOA: 太平洋の真ん中になぜハワイ？海を抜いて見てみた (target)
+09:48:01   chon: 3eQoiqrHR8I | 1 Tr | 【地図でわかる】なぜ何もない太平洋のド真ん中に、ハワイだけ存在するのか？
+09:48:15   > bat dau xem 1129s (dai video 1006s) 太平洋の真ん中になぜハワイ？海を抜い
+09:48:39   . da xem 23s
+09:49:24   . da xem 68s
+09:50:32   . da xem 135s
+09:51:36   . da xem 200s
+09:52:24   . da xem 248s
+09:54:24   . da xem 368s
+09:56:16   . da xem 480s
+09:57:25   . da xem 546s
+09:58:41   . da xem 625s
+10:00:22   . da xem 720s
+10:01:31   . da xem 795s
+10:02:44   . da xem 864s
+10:03:40   . da xem 925s
+10:04:33   . da xem 972s
+10:05:32   . da xem 1036s
+10:06:43   . da xem 1101s
+10:07:06   like: {'clicked': True, 'label': 'cùng 1.617 người khác thích video này'} | aria-pressed={'pressed': 'true', 'label': 'cùng 1.617 người khác thích video này'}
+10:07:10 [3/28] TU KHOA: 地理 (warm)
+10:07:16   !! LOI: Sample larger than population or is negative
+10:07:16 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:07:23 [4/28] TU KHOA: 地形 (warm)
+10:07:28   !! LOI: Sample larger than population or is negative
+10:07:28 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:07:34 [5/28] TU KHOA: 地図 (warm)
+10:07:39   !! LOI: Sample larger than population or is negative
+10:07:39 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:07:46 [6/28] TU KHOA: 日本地理 (warm)
+10:07:59   chon: e0zYH051UIQ | 1,5 Tr | 日本：最西端台灣肉眼直接能看到，最東端卻距離東京1800公里，日本領土極限究竟有多遠？地域究竟如何劃分？解析日本版圖下的
+10:08:13   > bat dau xem 98s (dai video 1825s) 日本地理
+10:08:41   . da xem 27s
+10:09:26   . da xem 72s
+10:09:54 [7/28] TU KHOA: 地理解説 (warm)
+10:10:07   chon: 3D_kr6bWyZ0 | 169 N | 【中学　地理】　身近な地域の調査２　地形図　（１９分）
+10:10:20   > bat dau xem 128s (dai video 1138s) 地理解説
+10:11:44   . da xem 83s
+10:12:28   . da xem 128s
+10:12:31 [8/28] TU KHOA: 地形解説 (warm)
+10:12:43   chon: l78awcSb3d0 | 141 N | 【高校地理】2-2. 大地形と内的営力（プレートテクトニクス） | 2.世界の地形
+10:12:52   > bat dau xem 109s (dai video 664s) 地形解説
+10:13:21   . da xem 28s
+10:14:44 [9/28] TU KHOA: 地理の謎 (warm)
+10:14:55   chon: CvV6B5p5p4w | 908 N | なぜ太平洋に大陸が存在しないのか？【ゆっくり解説】
+10:15:10   > bat dau xem 168s (dai video 1344s) 地理の謎
+10:16:14   . da xem 63s
+10:17:35   . da xem 144s
+10:18:04 [10/28] TU KHOA: 地形の謎 (warm)
+10:18:18   chon: PLAJ_f5MB0s | 10 | 日本を壊滅させた巨大噴火…なぜ歴史書は「完全沈黙」したのか？
+10:18:32   > bat dau xem 172s (dai video 810s) 地形の謎
+10:18:58   . da xem 25s
+10:19:40   . da xem 66s
+10:21:01   . da xem 143s
+10:21:29 [11/28] TU KHOA: 地球の謎 (warm)
+10:21:41   chon: E-Tfp8k26SM | 234 N | 9割の人が知らない地球の謎５選
+10:21:55   > bat dau xem 128s (dai video 1880s) 地球の謎
+10:23:11   . da xem 75s
+10:24:04   . da xem 128s
+10:24:07 [12/28] TU KHOA: 海底地形 (warm)
+10:24:19   chon: LEO_ZCEw-Do | 365 | 海底不是平的！海床地形到底長什麼樣？
+10:24:34   > bat dau xem 155s (dai video 210s) 海底地形
+10:25:47   . da xem 72s
+10:26:56   . da xem 134s
+10:27:13 [13/28] TU KHOA: 海底トンネル (warm)
+10:27:26   chon: F8hKqkocpBU | 379 N | 【全長9,600m】世界最長の『海底トンネル』がスゴすぎる！！
+10:27:36   > bat dau xem 186s (dai video 1037s) 海底トンネル
+10:28:06   . da xem 29s
+10:28:47   . da xem 69s
+10:29:53   . da xem 136s
+10:30:43   . da xem 186s
+10:30:45 [14/28] TU KHOA: 地下空間 (warm)
+10:30:57   chon: TpOgWeRztwU | 1,4 N | 街中の巨大地下空間
+10:31:06   > bat dau xem 194s (dai video 70s) 地下空間
+10:31:35   . da xem 28s
+10:32:20   ~ video ket thuc/dung o 73s -> doi autoplay video ke tiep
+10:32:26   ~ autoplay chay video moi (dai 49s)
+10:32:26   . da xem 73s
+10:33:22   . da xem 135s
+10:34:11   ~ video ket thuc/dung o 184s -> doi autoplay video ke tiep
+10:34:51   . da xem 184s
+10:34:54 [15/28] TU KHOA: 巨大建造物 (warm)
+10:35:05   chon: BkACCx-Pwxo | 83 N | こんな建物あったの!?世界の驚くべき建造物・12個
+10:35:21   > bat dau xem 170s (dai video 398s) 巨大建造物
+10:35:46   . da xem 24s
+10:36:38   . da xem 76s
+10:38:14 [16/28] TU KHOA: 土木 (warm)
+10:38:21   !! LOI: Sample larger than population or is negative
+10:38:21 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:38:27 [17/28] TU KHOA: インフラ (warm)
+10:38:40   chon: FGpUF_Ptz9I | 327 | 【適性チェック】インフラエンジニアに向いてる人・向いてない人の特徴
+10:38:49   > bat dau xem 183s (dai video 637s) インフラ
+10:39:12   . da xem 22s
+10:40:10   . da xem 80s
+10:41:08   . da xem 133s
+10:41:53   . da xem 183s
+10:41:56 [18/28] TU KHOA: 地質学 (warm)
+10:42:08   chon: 1wHusxfCeA4 | 205 N | 深畑幸俊「日本列島とプレートテクトニクス」京都大学防災研究所公開講座20230909
+10:42:18   > bat dau xem 160s (dai video 3003s) 地質学
+10:42:42   . da xem 23s
+10:43:38   . da xem 79s
+10:44:48   . da xem 143s
+10:45:00 [19/28] TU KHOA: 日本の地形 (warm)
+10:45:13   chon: UBoRryVEkR0 | 43 N | 知らなきゃヤバい日本の地形ミステリー4選【ゆっくり解説】
+10:45:27   > bat dau xem 158s (dai video 4974s) 日本の地形
+10:46:46   . da xem 77s
+10:47:30   . da xem 121s
+10:48:12 [20/28] TU KHOA: 河川 (warm)
+10:48:18   !! LOI: Sample larger than population or is negative
+10:48:18 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:48:25 [21/28] TU KHOA: 湖 (warm)
+10:48:30   !! LOI: Sample larger than population or is negative
+10:48:30 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:48:37 [22/28] TU KHOA: 海峡 (warm)
+10:48:43   !! LOI: Sample larger than population or is negative
+10:48:43 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:48:50 [23/28] TU KHOA: 防災 (warm)
+10:48:56   !! LOI: Sample larger than population or is negative
+10:48:56 ile "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 293, in main
+    search(page, kw)
+    ~~~~~~^^^^^^^^^^
+  File "E:\CLAUDE\YOUTUBE\PHAN_TICH_TOI_UU_VIDEO\scratch_analysis\geo_warm.py", line 70, in search
+    cuts = sorted(random.sample(range(2, n), min(3, max(1, n // 4))))
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python313\Lib\random.py", line 434, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+
+10:49:03 [24/28] TU KHOA: 地図で解説 (warm)
+10:49:14   chon: 1PeERalgSFc | 699 N | 世界地図クイズ　地図で世界187ヶ国の国と地域の名前を覚えよう！
+10:49:29   > bat dau xem 171s (dai video 1467s) 地図で解説
+10:49:56   . da xem 26s
+10:50:30   . da xem 60s
+10:51:54   . da xem 139s
+10:52:22 [25/28] TU KHOA: 3D地形 (warm)
+10:52:33   chon: r71oYRUSu9o | 20 N | 【3D地形圖系列-上集】太行八陘，為什麼是千年兵家之生死要道？ - 有點意思研究所
+10:52:42   > bat dau xem 167s (dai video 685s) 3D地形
+10:53:05   . da xem 22s
+10:53:46   . da xem 63s
+10:54:56   . da xem 132s
+10:55:37 [26/28] TU KHOA: AI映像 (warm)
+10:55:49   chon: k_aEk1xBJ_0 | 201 N | 【不気味の谷を超えた】生成AI時代の映像制作現場のリアル／Gemini×Veo3を使った新しい制作フローの中身とは／クリ
+10:56:05   > bat dau xem 113s (dai video 1437s) AI映像
+10:56:34   . da xem 28s
+10:58:02 [27/28] TU KHOA: 科学解説 (warm)
+10:58:13   chon: Hh7T5Zqm8Bs | 2,9 Tr | 不思議すぎる宇宙の長いお話【日本科学情報】【宇宙】
+10:58:29   > bat dau xem 176s (dai video 6174s) 科学解説
+10:59:34   . da xem 64s
+11:00:45   . da xem 130s
+11:01:29 [28/28] TU KHOA: ジオの謎解き (warm)
+11:01:41   chon: fIkhxx1yUFk | 128 N | ノー勉でもヒラメキだけでジオゲッサークリア出来る説【GeoGuessr】
+11:01:53   > bat dau xem 194s (dai video 1275s) ジオの謎解き
+11:03:11   . da xem 77s
+11:04:13   . da xem 133s
+11:05:08   . da xem 194s
+11:05:10 === XONG ===
+11:07:32   > bat dau xem 111s (dai video 2229s) 地理
+11:08:44   . da xem 72s
+11:09:44   > bat dau xem 141s (dai video 789s) 地形
+11:10:20   ~ video ket thuc/dung o 36s -> doi autoplay video ke tiep
+11:12:07   . da xem 138s
+11:12:35   > bat dau xem 137s (dai video 1277s) 地図
+11:13:03   . da xem 27s
+11:13:56   . da xem 80s
+11:14:43   . da xem 121s
+11:14:52   . da xem 137s
+11:15:14   > bat dau xem 126s (dai video 441s) 土木
+11:15:39   . da xem 25s
+11:16:22   . da xem 66s
+11:17:21   . da xem 126s
+11:17:55   > bat dau xem 113s (dai video 309s) 河川
+11:19:19   . da xem 83s
+11:20:18   > bat dau xem 148s (dai video 210s) 湖
+11:21:21   . da xem 61s
+11:21:42   . da xem 83s
+11:22:30   . da xem 124s
+11:22:46   . da xem 148s
+11:23:16   > bat dau xem 111s (dai video 1493s) 海峡
+11:24:40   . da xem 83s
+11:25:35   > bat dau xem 145s (dai video 120s) 防災
+11:25:56   . da xem 21s
+11:27:54   ~ video ket thuc/dung o 135s -> doi autoplay video ke tiep
+11:28:35   . da xem 134s

@@ -1,0 +1,37 @@
+16:16:33 
+16:16:33 === BUOC 3: LOC GOI Y LANE X -> xem tiep — 16:16:33 ===
+16:16:33 mo lai video 明智光秀 de lay panel goi y
+16:16:56   ung vien panel (20 doc duoc): 明智光秀、最後の11日間｜本能寺から山崎まで、天下はなぜ崩れたの(5) | 【幕末の英雄たちの子孫】の現在｜教科書に載らない驚きの末裔の物語(3) | 【本能寺の夜】なぜ明智軍の足軽は、信長を討つと知らなかったのか(2) | 学校では教えない歴史 200年前の日本人の姿 シーボルトや外国(2)
+16:17:05   ~ click panel khong an -> goto truc tiep
+16:17:13   chon: 1XQLcmWO24o | 21:24 | 明智光秀、最後の11日間｜本能寺から山崎まで、天下はなぜ崩れたのか【本能寺の変その後】 | 日めくり戦国
+16:17:13   > bat dau xem 1015s (dai 1283s = 21:23) buoc3-1
+16:17:37   . da xem 23s / 1015s
+16:22:26   . da xem 311s / 1015s
+16:27:18   . da xem 605s / 1015s
+16:27:46   . da xem 632s / 1015s
+16:32:45   . da xem 926s / 1015s
+16:34:14   LIKE -> aria-pressed=true | cùng 36 người khác thích video này
+16:34:14   => buoc 3.1: xem 1016s | like=True
+16:34:32   ung vien panel (20 doc duoc): 明智光秀、本能寺までの半月｜なぜ軍は西ではなく京へ向かったのか【(5) | 本能寺への13日間——光秀は、なぜ裏切ったのか【全説検証】(3) | 【若一調査隊】豪華絢爛！織田信長が最後に築いた「安土城」　幻の城(2) | 【若一調査隊】秀吉没後の暮らしは？ねねの深い愛情と祈りが息づく「(2) | 千利休｜なぜ豊臣秀吉に切腹させられたのか？！天下一の茶人の残酷す(2)
+16:34:40   ~ click panel khong an -> goto truc tiep
+16:34:48   chon: rmcVOCDNqkI | 21:46 | 明智光秀、本能寺までの半月｜なぜ軍は西ではなく京へ向かったのか【本能寺の変】 | 日めくり戦国
+16:34:48   > bat dau xem 965s (dai 1305s = 21:45) buoc3-2
+16:35:20   . da xem 31s / 965s
+16:40:19   . da xem 330s / 965s
+16:45:10   . da xem 619s / 965s
+16:49:51   . da xem 903s / 965s
+16:50:19   . da xem 930s / 965s
+16:50:58   LIKE -> aria-pressed=true | cùng 6 người khác thích video này
+16:50:58   => buoc 3.2: xem 965s | like=True
+16:51:18   ung vien panel (20 doc duoc): 本能寺の変の真実！明智光秀はなぜ織田信長を討ったのか？【豊臣兄弟(6) | 本能寺への13日間——光秀は、なぜ裏切ったのか【全説検証】(3) | 中国大返し、伝説を作ったのは秀吉本人だった｜当時の手紙でたどる1(2) | 【本能寺の夜】なぜ明智軍の足軽は、信長を討つと知らなかったのか(2) | 豊臣家がわずか2代で滅亡した『本当の理由』。秀吉が犯した最大の失(1)
+16:51:25   ~ click panel khong an -> goto truc tiep
+16:51:33   chon: NcZuouCXZyU | 35:14 | 本能寺の変の真実！明智光秀はなぜ織田信長を討ったのか？【豊臣兄弟！】 | 豊臣クロニクル
+16:51:33   > bat dau xem 1084s (dai 2114s = 35:13) buoc3-3
+16:51:58   . da xem 26s / 1084s
+16:56:45   . da xem 311s / 1084s
+16:57:10   . da xem 337s / 1084s
+17:01:50   . da xem 617s / 1084s
+17:07:01   . da xem 928s / 1084s
+17:09:41   LIKE -> aria-pressed=true | cùng 1.278 người khác thích video này
+17:09:41   => buoc 3.3: xem 1084s | like=True
+17:09:45 === KET THUC buoc 3: DONE | 53.2 phut | 3 video ===
